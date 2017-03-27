@@ -1,5 +1,7 @@
 # Markdown Plus
 
+<div class="alert alert-danger"><strong>Nota:</strong> Si por ejemplo la fuente de alimentación de la unidad de disco duro externo esta apagada, al iniciarse el OS Raspbian, no podrá montar la unidad, lo que provocará un error y que automáticamente entre en modo ROOT y que algunos de los servicios queden sin funcionar.</div>
+<div class="alert alert-info"><strong>Workaround:</strong> Para mitigar el problema anterior, se puede inhabilitar con `#` los comandos del fichero **`fstab`** que montan las unidades de disco, así OS Raspbian arrancará sin problemas los servicios, posteriormente se pueden volver a habilitar los comandos de **`fstab`** y luego ejecutar el comando `mount` para montar la unidad de disco deseada</div>
 Markdown Plus ("M+" or "mdp" for short) is a markdown editor with extra features.
 
 
