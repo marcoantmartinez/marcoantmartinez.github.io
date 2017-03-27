@@ -1,16 +1,16 @@
 <p style="text-align:center;">
 <img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" height="300"/></p>
 
-# Sesión 1 : CONTROLANDO 
+# Sesión 1 : BLOQUES DE CONTROL 
 <br>En esta lección los estudiantes aprenderán como funcionan los bloques de control principales del editor Bitbloq, cómo programar algoritmos en Arduino, cómo mostrar datos y qué son los sensores y actuadores. </br> 
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 ## <i class="icon ion-wrench"/>   Recursos necesarios
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 
 ## <i class="icon ion-android-locate"/>   Objetivos de aprendizaje
-- Entender como es un algoritmo y partes principales.
+- Entender que es un algoritmo y sus partes principales.
 - Ser capaces de inicializar, preparar y ejecutar un algoritmo básico.
-- Entender como funciona la salida serie de Arduino.
+- Entender cómo funciona la salida serie de Arduino.
 - Ser capaz de escribir y leer en el puerto serie de Arduino.
 - Entender el bloque de espera.
 - Ser capa de utilizar el bloque de espera.
