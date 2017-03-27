@@ -7,6 +7,12 @@
 <strong>Nota:</strong> Si por ejemplo la fuente de alimentación de la unidad de disco duro externo esta apagada, al iniciarse el OS Raspbian, no podrá montar la unidad, lo que provocará un error y que automáticamente entre en modo ROOT y que algunos de los servicios queden sin funcionar.
 </p></div>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=PmsSagoIIaw
+" target="_blank"><img src="http://img.youtube.com/vi/PmsSagoIIaw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/PmsSagoIIaw/0.jpg)](http://www.youtube.com/watch?v=PmsSagoIIaw)
+
 
 ## Apps
 
