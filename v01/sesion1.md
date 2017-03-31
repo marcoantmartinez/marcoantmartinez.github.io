@@ -6,12 +6,14 @@
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
 
-<div style="width:75%;border-radius: 15px;padding:4px;background-color:#96c93e ;line-height:1.4;font-size:175%; font-weight:bold">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-  <i class="fa fa-wrench fa-stack-1x" style="color:#96c93e" ></i>
-</span> Recursos necesarios
-</div>
+<h2>
+    <div style="width:75%;border-radius: 15px;padding:4px;background-color:#96c93e ;line-height:1.4">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x" style="color:#96c93e" ></i>
+        </span> Recursos necesarios
+    </div>
+</h2>
 
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 - Placa Arduino con alimentación y conector USB (por alumno o grupo)
