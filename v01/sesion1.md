@@ -7,10 +7,10 @@
 
 
 <h2>
-    <div style="width:75%;border-radius: 15px;padding:4px;background-color:#96c93e ;line-height:1.4">
+    <div style="width:75%;border-radius: 15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-wrench fa-stack-1x" style="color:#96c93e" ></i>
+            <i class="fa fa-wrench fa-stack-1x" style="color:#729f28" ></i>
         </span> Recursos necesarios
     </div>
 </h2>
@@ -21,7 +21,15 @@
 - Componente LED.
 - Pizarra y proyector.
 
-## <i class="icon ion-clipboard"/>  Resumen de Lección
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28" ></i>
+        </span> Resumen de lección
+    </div>
+</h2>
+
 - ¿Que es un algoritmo?
 - ¿Qué es el puerto serie de Arduino?
 - ¿Qué es una variable?
@@ -43,7 +51,15 @@
 - Ser capaz de utilizar las variables.
 - Entender como funciona el bloque de temporizador de Arduino.
 
-## :fa-random:   Aplicaciones Transversales
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-random fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Aplicaciones Transversales
+    </div>
+</h2>
+
 - Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.
 - Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
 - Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
