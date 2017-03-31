@@ -1,49 +1,27 @@
 
-<img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" vidth="100%"/>
+<a href="https://github.com/tylingsoft/markdown-plus" target="_blank">
+    <img 
+        style="position:absolute; align:center; top: 0;  right:0; border: 0; width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="Fork me on GitHub"
+    >
+</a>
 
-<section class="row">
-  <div class="grid">
-
-    
-    <section class="teaser col-1-3">
-      ...
-    </section><
-    
-    Schedule
-  
-    <section class="teaser col-1-3">
-      ...
-    </section>
-    
-    Venue
-    
-    <section class="teaser col-1-3">
-      ...
-    </section>
-
-  </div>
-</section>
-
-
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <h1>
-    <div style="width:100%; border-radius: 15px;padding:0px;background: -webkit-linear-gradient(#5e8421, #42444e);line-height:0;color:#ffffff">
+    <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#000000">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421" ></i>
-        </span> BLOQUES DE CONTROL
+        </span> 
+        Bloques de control
     </div>
 </h1>
 
-<h1>
-    <div style="width:100%; border-radius: 15px;padding:0px;background-color:#5e8421;line-height:0;color:#ffffff">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421" ></i>
-        </span> BLOQUES DE CONTROL
-    </div>
-</h1>
 
-<br>En esta lección los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores. </br>
+
+<p style="color:#c1f37b; text-align:right">Actividades de las sesiones 1 y 2</p>
+
+
+<br>En estas sesiones los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores.</br>
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
 <h2>

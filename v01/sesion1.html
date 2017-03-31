@@ -1,0 +1,157 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Markdown Plus exported HTML</title><link rel="stylesheet" href="https://unpkg.com/markdown-core@0.9.4/dist/index.bundle.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/mermaid/6.0.0/mermaid.css"></head><body><article class="markdown-body"><section class="row">
+  <div class="grid">
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" vidth="100%">
+  </div>
+</section>
+<h1>
+    <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421"></i>
+        </span> BLOQUES DE CONTROL
+    </div>
+</h1>
+<p data-source-line="21"><br>En esta lección los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores. <br>
+<br>Finalmente serán capaces de desarrollar el juego <strong>Quién pulsa el botón más rápido</strong>.<br></p>
+<h2>
+    <div style="width:75%;border-radius: 15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-wrench fa-stack-1x" style="color:#729f28"></i>
+        </span> Recursos necesarios
+    </div>
+</h2>
+<ul data-source-line="33">
+<li>Cuentas de Bitbloq activadas para los alumnos - grupos</li>
+<li>Placa Arduino con alimentación y conector USB (por alumno o grupo)</li>
+<li>Componente pulsador.</li>
+<li>Componente LED.</li>
+<li>Pizarra y proyector.</li>
+</ul>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28"></i>
+        </span> Resumen de lección
+    </div>
+</h2>
+<ul data-source-line="48">
+<li>¿Que es un algoritmo?</li>
+<li>¿Qué es el puerto serie de Arduino?</li>
+<li>¿Qué es una variable?</li>
+<li>¿Que es un pulsador y un diodo?</li>
+<li>¿Qué son los bloques de control?</li>
+<li>¿Cómo medimos tiempos con Arduino?</li>
+</ul>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28"></i>
+        </span> Objetivos de aprendizaje
+    </div>
+</h2>
+<ul data-source-line="66">
+<li>Entender que es un algoritmo y sus partes principales.</li>
+<li>Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino.</li>
+<li>Entender cómo funciona la salida serie de Arduino.</li>
+<li>Ser capaz de escribir y leer en el puerto serie de Arduino.</li>
+<li>Entender el bloque de espera.</li>
+<li>Ser capa de utilizar el bloque de espera.</li>
+<li>Entender como funcionan los bloques de control.</li>
+<li>Ser capaces de utilizar los bloques de control de forma autónoma.</li>
+<li>Entender como funciona una variable.</li>
+<li>Ser capaz de utilizar las variables.</li>
+<li>Entender como funciona el bloque de temporizador de Arduino.</li>
+</ul>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-random fa-stack-1x" style="color:#729f28"></i>
+        </span>  Aplicaciones Transversales
+    </div>
+</h2>
+<ul data-source-line="87">
+<li>Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.</li>
+<li>Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.</li>
+<li>Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.</li>
+</ul>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-power-off fa-stack-1x" style="color:#729f28"></i>
+        </span>  Inicio
+    </div>
+</h2>
+<ul data-source-line="101">
+<li>Pedir a los alumnos que piensen en algoritmos, darles un ejemplo, hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.</li>
+<li>Tomar dos algoritmos uno muy sencillo y otro complicado, dividir la clase en dos grupos, hacerles salir a la pizarra y pedirles que desarrollen los pasos en 5 minutos máximo.</li>
+<li>Revisión del trabajo, profundizar en el concepto de complejidad del algoritmo y su división en varios pasos para hacerlo más simple.</li>
+</ul>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-film fa-stack-1x" style="color:#729f28"></i>
+        </span>  Desarrollo
+    </div>
+</h2>
+<ol data-source-line="115">
+<li>Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq</li>
+<li>Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.</li>
+<li>Resolver las dudas de los alumnos según vayan apareciendo.</li>
+</ol>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-users fa-stack-1x" style="color:#729f28"></i>
+        </span>  Puesta en Común
+    </div>
+</h2>
+<p data-source-line="131">Pedimos a los alumnos reflexionar sobre:</p>
+<ul data-source-line="132">
+<li>Imaginar que otras cosas se podrían hacer con un botón.</li>
+<li>Imaginar que otros sensores se podrían utilizar.</li>
+<li>Imaginar que otras cosas se podrían hacer con un Led.</li>
+<li>Imaginar que otros actuadores se podrían utilizar.</li>
+<li>Es sencillo o complicado hacer lo que imaginan.</li>
+</ul>
+<p data-source-line="138"><strong>Conclusión</strong>:</p>
+<blockquote data-source-line="139">
+<ul>
+<li>Los algoritmos son sencillos si los dividimos en partes pequeñas.</li>
+<li>Se pueden utilizar muchos sensores.</li>
+<li>Se pueden utilizar muchos actuadores.</li>
+</ul>
+</blockquote>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-trophy fa-stack-1x" style="color:#729f28"></i>
+        </span>  Reto
+    </div>
+</h2>
+<ul data-source-line="153">
+<li>Desarrollo del juego <strong>Quién pulsa el botón más rápido</strong></li>
+</ul>
+<blockquote data-source-line="154">
+<ul>
+<li>¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego <strong>"Quién pulsa el botón más rápido"</strong> es aleatorio entre 1 y 5 segundos ?</li>
+<li>¿ Qué otros usos se pueden dar a este circuito ?</li>
+</ul>
+</blockquote>
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28"></i>
+        </span>  Evaluación
+    </div>
+</h2>
+<p data-source-line="168">Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.</p>
+</article><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script><script>$(function() { $('canvas.chartjs').each(function() { new Chart($(this), JSON.parse($(this).text())); }); });</script></body></html>
