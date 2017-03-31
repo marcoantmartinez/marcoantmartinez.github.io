@@ -4,7 +4,15 @@
 # Sesión 1 : BLOQUES DE CONTROL 
 <br>En esta lección los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores. </br>
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
-## <i class="icon ion-wrench"/>   Recursos necesarios
+
+
+<div style="width:75%;border-radius: 15px;padding:4px;background-color:#96c93e ;line-height:1.4;font-size:175%; font-weight:bold">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+  <i class="fa fa-wrench fa-stack-1x" style="color:#96c93e" ></i>
+</span> Recursos necesarios
+</div>
+
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 - Placa Arduino con alimentación y conector USB (por alumno o grupo)
 - Componente pulsador.
@@ -19,6 +27,7 @@
 - ¿Qué son los bloques de control?
 - ¿Cómo medimos tiempos con Arduino?
 
+
 ## <i class="icon ion-android-locate"/>   Objetivos de aprendizaje
 - Entender que es un algoritmo y sus partes principales.
 - Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino.
@@ -32,7 +41,7 @@
 - Ser capaz de utilizar las variables.
 - Entender como funciona el bloque de temporizador de Arduino.
 
-## <i class="icon ion-shuffle"/>    Aplicaciones Transversales
+## :fa-random:   Aplicaciones Transversales
 - Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.
 - Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
 - Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
