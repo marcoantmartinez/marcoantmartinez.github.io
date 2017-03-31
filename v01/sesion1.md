@@ -38,7 +38,16 @@
 - ¿Cómo medimos tiempos con Arduino?
 
 
-## <i class="icon ion-android-locate"/>   Objetivos de aprendizaje
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28" ></i>
+        </span> Objetivos de aprendizaje
+    </div>
+</h2>
+
+
 - Entender que es un algoritmo y sus partes principales.
 - Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino.
 - Entender cómo funciona la salida serie de Arduino.
@@ -64,17 +73,46 @@
 - Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
 - Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
 
-## <i class="icon ion-power"/>  Inicio
+
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-power-off fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Inicio
+    </div>
+</h2>
+
 - Pedir a los alumnos que piensen en algoritmos, darles un ejemplo, hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.
 - Tomar dos algoritmos uno muy sencillo y otro complicado, dividir la clase en dos grupos, hacerles salir a la pizarra y pedirles que desarrollen los pasos en 5 minutos máximo.
 - Revisión del trabajo, profundizar en el concepto de complejidad del algoritmo y su división en varios pasos para hacerlo más simple.
 
-## <i class="icon ion-ios-film"/>   Desarrollo
+
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-film fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Desarrollo
+    </div>
+</h2>
+
 1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
 2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
 3. Resolver las dudas de los alumnos según vayan apareciendo.
 
-## <i class="icon ion-android-hand"/>   Puesta en Común
+
+
+
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-users fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Puesta en Común
+    </div>
+</h2>
+
 Pedimos a los alumnos reflexionar sobre:
 - Imaginar que otras cosas se podrían hacer con un botón.
 - Imaginar que otros sensores se podrían utilizar.
@@ -88,11 +126,28 @@ Pedimos a los alumnos reflexionar sobre:
 >- Se pueden utilizar muchos actuadores.
 
 
-## <i class="icon ion-trophy"/>     Reto
-- Desarrollo del juego *Quién pulsa el botón más rápido**
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-trophy fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Reto
+    </div>
+</h2>
+
+- Desarrollo del juego **Quién pulsa el botón más rápido**
 >- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido" es aleatorio entre 1 y 5 segundos ?
 >- ¿ Qué otros usos se pueden dar a este circuito ?
 
-## :ion-android-checkbox:    Evaluación
+
+
+<h2>
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
+        </span>  Evaluación
+    </div>
+</h2>
 
 Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
