@@ -1,7 +1,15 @@
 <p style="text-align:center;">
-<img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" height="300"/></p>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" vidth="100%"/></p>
 
-# Sesión 1 : BLOQUES DE CONTROL 
+<h1>
+    <div style="width:100%; border-radius: 15px;padding:0px;background-color:#5e8421;line-height:0;color:#ffffff">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421" ></i>
+        </span> BLOQUES DE CONTROL
+    </div>
+</h1>
+
 <br>En esta lección los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores. </br>
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
@@ -136,7 +144,7 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 - Desarrollo del juego **Quién pulsa el botón más rápido**
->- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido" es aleatorio entre 1 y 5 segundos ?
+>- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
 >- ¿ Qué otros usos se pueden dar a este circuito ?
 
 
