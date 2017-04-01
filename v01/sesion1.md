@@ -26,6 +26,34 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 
+<a href="#evaluacion">
+<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:5px;background-color:#ffcc66;line-height:0;color:#ffffff">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
+    </span>Evaluación
+</div>
+</a>
+
+<a href="#evaluacion">
+<div style="display: inline-block; margin-right: auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
+    </span>Evaluación
+</div>
+</a>
+
+<button type="button" style="border-radius:5px; background-color:#96c93e; border:0px solid #0a3c59; color:#ffffff; font-size: 12px">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
+    </span>Evaluación
+</button> 
+<button type="button" style="border-radius:5px; background-color:#96c93e; border:0px solid #0a3c59; color:#ffffff; font-size: 12px">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
+    </span>Evaluación
+</button> 
+
+<br><br>
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
     <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x fa-inverse" ></i>
@@ -37,8 +65,9 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 <br>En estas sesiones los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores.</br>
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
+
 <h2>
-    <div style="width:75%;border-radius: 15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="recursos-necesarios" style="width:75%;border-radius: 15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x" style="color:#729f28" ></i>
@@ -53,7 +82,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 - Pizarra y proyector.
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="resumen-de-leccion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28" ></i>
@@ -70,7 +99,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="objetivos-de-aprendizaje" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28" ></i>
@@ -92,7 +121,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 - Entender como funciona el bloque de temporizador de Arduino.
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="aplicaciones-transversales" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-random fa-stack-1x" style="color:#729f28" ></i>
@@ -106,7 +135,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="inicio" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-power-off fa-stack-1x" style="color:#729f28" ></i>
@@ -120,7 +149,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="desarrollo" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-film fa-stack-1x" style="color:#729f28" ></i>
@@ -136,7 +165,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="puesta-en-comun"style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-users fa-stack-1x" style="color:#729f28" ></i>
@@ -158,7 +187,7 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="reto" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-trophy fa-stack-1x" style="color:#729f28" ></i>
@@ -173,7 +202,7 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="evaluacion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
@@ -183,6 +212,7 @@ Pedimos a los alumnos reflexionar sobre:
 
 Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
 </div>
+
 
 
 </div>
