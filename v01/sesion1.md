@@ -12,7 +12,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     >
 </a>
 
-<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;background-image: url(https://s-media-cache-ak0.pinimg.com/originals/8b/72/7e/8b727e928f345c705482bf2ca5593130.png) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size:100% 50%">
+<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png); background-repeat: no-repeat ;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size:100% 40%; background-position: bottom">
 
 <h1>
     <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
@@ -193,6 +193,15 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+
+<br>
+<br>
+
+***
+
+<p style="text-align:center; color:#729e29">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This learning resource is provided for free by <a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</p>
 </div>
 
 
