@@ -12,7 +12,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     >
 </a>
 
-<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; align:left; top:0;  left:0; border: 2;">
+<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;">
 
 <h1>
     <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
@@ -24,8 +24,34 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
-[:fa-check-square-o: Evaluación](#evaluacion)  ...  [:fa-check-square-o: Evaluación](#evaluacion)
-  ...  [:fa-check-square-o: Evaluación](#evaluacion)
+<a href="#evaluacion">
+<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
+    </span>Evaluación
+</div>
+</a> | 
+
+<a href="#evaluacion">
+<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
+    </span>Evaluación
+</div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+[<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion)
 
 
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
