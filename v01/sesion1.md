@@ -24,36 +24,10 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
-<p>
-<a href="#evaluacion">
-<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:5px;background-color:#ffcc66;line-height:0;color:#ffffff">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
-    </span>Evaluación
-</div>
-</a>
+[:fa-check-square-o: Evaluación](#evaluacion)  ...  [:fa-check-square-o: Evaluación](#evaluacion)
+  ...  [:fa-check-square-o: Evaluación](#evaluacion)
 
-<a href="#evaluacion">
-<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
-    </span>Evaluación
-</div>
-</a>
-</p>
 
-<button type="button" style="border-radius:5px; background-color:#96c93e; border:0px solid #0a3c59; color:#ffffff; font-size: 12px">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
-    </span>Evaluación
-</button> 
-<button type="button" style="border-radius:5px; background-color:#96c93e; border:0px solid #0a3c59; color:#ffffff; font-size: 12px">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x fa-inverse"  ></i>
-    </span>Evaluación
-</button> 
-
-<br><br>
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
     <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x fa-inverse" ></i>
