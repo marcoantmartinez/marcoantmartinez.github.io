@@ -8,11 +8,15 @@ license : CC BY-SA
 <div style="float:left; width:100%;background:#FFFFFF;border:10px solid #FFFFFF;border-color: #96c93e #96c93e;text-align:left;
 position:absolute; align:left; top:0;  left:0; border:2;">
 <a href="a" target="_blank">
-    <img style="width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt=""
-    >
+    <img style="width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
 </a>
+<p style="text-align:right; color:#729e29; font-size:12px; position:absolute; align:left; top:0; left:0">
+<a href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+</p>
 
 <div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png); background-repeat: no-repeat ;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size:100% 40%; background-position: bottom">
+
+
 
 <h1>
     <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
@@ -202,6 +206,11 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 <p style="text-align:center; color:#729e29">
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This learning resource is provided for free by <a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </p>
+
+<p style="text-align:center; color:#729e29">
+<a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub"><i class="fa fa-github fa-2x"></i> View and edit this resource on GitHub</a>
+</p>
+
 </div>
 
 
