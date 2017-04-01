@@ -24,14 +24,10 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
-<div style="float:center; width:100%; text-align:center; color:#ffffff">
-    <div style="float:center;display: inline-block; padding:10px; color:#000000">
-        <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
-    </div>
-    <div style="float:center;display: inline-block; padding:10px; color:#000000">
-        <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
-    </div>
-</div>
+<p style="text-align:center">
+<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a> -
+<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+</p>
 
 <br><br>
 
