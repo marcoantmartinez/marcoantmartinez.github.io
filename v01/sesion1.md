@@ -24,24 +24,16 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
-<div>
-<a href="#evaluacion">
-<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
-    </span>Evaluación
-</div>
-</a> | 
-
-<a href="#evaluacion">
-<div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
-    </span>Evaluación
-</div>
-</a>
+<div style="float:center; width:100%; text-align:center; color:#ffffff">
+    <div style="float:center;display: inline-block; padding:10px; color:#000000">
+        <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+    </div>
+    <div style="float:center;display: inline-block; padding:10px; color:#000000">
+        <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+    </div>
 </div>
 
+<br><br>
 
 
 
@@ -50,9 +42,6 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 
 
 
-
-
-[<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion) | [<i class="fa fa-check-square-o"></i> Evaluación](#evaluacion)
 
 
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
