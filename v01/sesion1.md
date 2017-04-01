@@ -24,21 +24,19 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
-<p style="text-align:center">
-<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a> -
+<p style="text-align:center; color:#729e29">
+<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
+<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
+<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
+<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
+<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
+<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
+<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
 <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </p>
 
-<br><br>
-
-
-
-
-
-
-
-
-
+<br>
 
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
     <span class="fa-stack fa-lg">
