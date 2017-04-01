@@ -1,13 +1,21 @@
-
-<a href="https://github.com/tylingsoft/markdown-plus" target="_blank">
-    <img 
-        style="position:absolute; align:center; top: 0;  right:0; border: 0; width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="Fork me on GitHub"
+[//]: <> ( 
+edited  : Marco Antonio Martínez Ramos
+email   : marcoantmartinez@gmail.com
+release : 2017.04.01
+review  : na
+license : CC BY-SA
+)
+<div style="float:left; width:100%;background:#FFFFFF;border:10px solid #FFFFFF;border-color: #96c93e #96c93e;text-align:left;
+position:absolute; align:left; top:0;  left:0; border:2;">
+<a href="a" target="_blank">
+    <img style="width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt=""
     >
 </a>
 
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; align:left; top:0;  left:0; border: 2;">
+
 <h1>
-    <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#000000">
+    <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421" ></i>
@@ -18,14 +26,19 @@
 
 
 
-<p style="color:#c1f37b; text-align:right">Actividades de las sesiones 1 y 2</p>
+<div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-exclamation-triangle fa-stack-1x" style="color:#ff8000" ></i>
+    </span> Actividades de las sesiones 1 y 2
+</div>
 
 
 <br>En estas sesiones los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores.</br>
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
 <h2>
-    <div style="width:75%;border-radius: 15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius: 15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x" style="color:#729f28" ></i>
@@ -40,7 +53,7 @@
 - Pizarra y proyector.
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28" ></i>
@@ -57,7 +70,7 @@
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28" ></i>
@@ -79,7 +92,7 @@
 - Entender como funciona el bloque de temporizador de Arduino.
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-random fa-stack-1x" style="color:#729f28" ></i>
@@ -93,7 +106,7 @@
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-power-off fa-stack-1x" style="color:#729f28" ></i>
@@ -107,7 +120,7 @@
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-film fa-stack-1x" style="color:#729f28" ></i>
@@ -123,7 +136,7 @@
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-users fa-stack-1x" style="color:#729f28" ></i>
@@ -145,7 +158,7 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-trophy fa-stack-1x" style="color:#729f28" ></i>
@@ -160,7 +173,7 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div style="width:75%;border-radius:15px;padding:0px;background-color:#729f28;line-height:0;color:#ffffff">
+    <div style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
@@ -169,3 +182,8 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+</div>
+
+
+</div>
+
