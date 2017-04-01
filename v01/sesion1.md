@@ -12,7 +12,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     >
 </a>
 
-<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;">
+<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;background-image: url(https://s-media-cache-ak0.pinimg.com/originals/8b/72/7e/8b727e928f345c705482bf2ca5593130.png) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size:100% 50%">
 
 <h1>
     <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
@@ -35,8 +35,6 @@ position:absolute; align:left; top:0;  left:0; border:2;">
 <a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
 <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </p>
-
-<br>
 
 <div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
     <span class="fa-stack fa-lg">
