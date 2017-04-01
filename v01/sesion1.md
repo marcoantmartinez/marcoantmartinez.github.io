@@ -24,6 +24,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </div>
 </h1>
 
+<div>
 <a href="#evaluacion">
 <div style="display: inline-block; margin-right:auto; width:auto;border-radius:5px;padding:10px;background-color:#96c93e;line-height:0;color:#ffffff">
     <span class="fa-stack fa-lg">
@@ -39,7 +40,7 @@ position:absolute; align:left; top:0;  left:0; border:2;">
     </span>Evaluación
 </div>
 </a>
-
+</div>
 
 
 
