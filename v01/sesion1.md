@@ -12,17 +12,8 @@ HelveticaNeue-Thin
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 
-<style>
+<style> .bannerheader{width:100%; margin: 0 auto; display: table; min-width: 800px; max-width: 900px; background-color:#ffffff; border:10px solid #96c93e;} </style>
 
-.bannerheader{
-width:100%; 
-margin: 0 auto;
-display: table; 
-min-width: 800px; 
-max-width: 900px; 
-background-color:#ffffff; 
-	border:10px solid #96c93e;
-}
 <!---
 .bannerfooter{
 width:100%;
@@ -128,7 +119,7 @@ color:#5e8421;
 color:#ff8000;
 }
 -->
-</style>
+
 
 
 <div id="div_exterior" class="fontbody" > 
