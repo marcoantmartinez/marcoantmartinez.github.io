@@ -30,7 +30,7 @@ HelveticaNeue-Thin
 		top:0;  
 		left:0; 
 		border: 2;
-		background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png); 
+		background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png"); 
 		background-repeat: no-repeat ;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -125,7 +125,6 @@ HelveticaNeue-Thin
 	.colornotes{
 		color:#ff8000;
 	}
-
 </style>
 
 
