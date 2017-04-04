@@ -1,4 +1,4 @@
-[//]: <> ( 
+<!---
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
 release : 2017.04.01
@@ -6,49 +6,169 @@ review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
-)
 
-<div style="width:100%; overflow:auto; background-color:#ffffff; position:absolute; top:0px; left:0px; " > 
+HelveticaNeue-Thin
+-->
 
-<div style="width:90%; display:table; min-width:800px; max-width: 900px; background-color:#FFFFFF; margin: 0 auto; border:10px solid #96c93e;">
-<a href="a" target="_blank">
-    <img style="width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
-</a>
-<p style="color:#729e29; font-family:verdana, serif;font-style:italic;font-size:10pt; position:absolute; top:0; right:40%">
-<a href="http://bitbloq.bq.com" style="color:#476419" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
-</p>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 
-<div style="float:left; width:100%;background:#FFFFFF; border:10px solid #FFFFFF;text-align:left;position:relative; text-align:left; top:0;  left:0; border: 2;background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png); background-repeat: no-repeat ;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size:100% 40%; background-position: bottom">
+<style>
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display:table; 
+		min-width:800px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+ 		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		border:10px solid #ffffff;
+		position:relative; 
+		top:0;  
+		left:0; 
+		border: 2;
+		background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+		background-size:100% 40%; 
+		background-position: bottom
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+	.fontnotes{
+		width:33%;
+		margin-left:auto; 
+		margin-right:0;
+		border-radius: 15px;
+		padding:2px;
+		text-align:center;
+		background-color:#ff8000;
+		padding: 0px;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 18px; 
+		font-family: 'Roboto-Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 26px; 
+	}
+	.fonth1tittle{
+		top:0%;
+		width:100%; 
+		border-radius: 15px;
+		padding:0px;
+		background: linear-gradient(to right, #5e8421, #c1f37b 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+	}
+	.fonth2tittle{
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+    	left: 25%; 
+		top:0px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+		}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+
+</style>
+
+
+<div id="div_exterior" class="fontbody" > 
+
+<div class="fontheader" >
+	<a  style="color:#476419;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+</div>
+
+<div class="bannerheader">
+	<a href="a" target="_blank">
+	    <img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
+	</a>
+
+<div class="bannerfooter">
 
 <h1>
-    <div style="width:100%; border-radius: 15px;padding:0px;background: linear-gradient(to right, #5e8421, #c1f37b 100%);line-height:0;color:#ffffff">
+    <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x" style="color:#5e8421" ></i>
+            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
         </span> 
         Bloques de control
     </div>
 </h1>
 
-<p style="text-align:center; font-size:14px; color:#729e29">
-<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
-<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
-<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
-<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
-<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
-<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
-<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
-</p>
+<div class="linksheader">
+	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
+	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
+	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
+	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
+	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
+	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+</div>
 
-<div style="margin-left:auto; margin-right:0;width:33%;border-radius: 15px;padding:0px;background-color:#ff8000;line-height:0;color:#ffffff">
-<p style="text-align:center; font-size:14px; color:#ffffff">
+<div class="fontnotes">
     <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x fa-inverse" ></i>
-        <i class="fa fa-exclamation-triangle fa-stack-1x" style="color:#ff8000" ></i>
+        <i class="fa fa-exclamation-triangle fa-stack-1x colornotes" ></i>
     </span> Actividades de las sesiones 1 y 2
-</p>
 </div>
 
 
@@ -57,10 +177,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 <h2>
-    <div id="recursos-necesarios" style="width:75%;border-radius: 15px;padding:0px; background-color:#96c93e;line-height:0;color:#ffffff; font-family:'Prelo Slab Bold';font-size:23px;">
+    <div id="recursos-necesarios" class="fonth2tittle">
         <span class="fa-stack fa-lg" >
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-wrench fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
         </span> Recursos necesarios
     </div>
 </h2>
@@ -72,10 +192,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Pizarra y proyector.
 
 <h2>
-    <div id="resumen-de-leccion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="resumen-de-leccion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
         </span> Resumen de lección
     </div>
 </h2>
@@ -89,10 +209,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 <h2>
-    <div id="objetivos-de-aprendizaje" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="objetivos-de-aprendizaje" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
         </span> Objetivos de aprendizaje
     </div>
 </h2>
@@ -111,10 +231,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Entender como funciona el bloque de temporizador de Arduino.
 
 <h2>
-    <div id="aplicaciones-transversales" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="aplicaciones-transversales" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-random fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-random fa-stack-1x colortools" ></i>
         </span>  Aplicaciones Transversales
     </div>
 </h2>
@@ -125,10 +245,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 <h2>
-    <div id="inicio" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="inicio" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-power-off fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-power-off fa-stack-1x colortools" ></i>
         </span>  Inicio
     </div>
 </h2>
@@ -139,10 +259,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 <h2>
-    <div id="desarrollo" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="desarrollo" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-film fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-film fa-stack-1x colortools" ></i>
         </span>  Desarrollo
     </div>
 </h2>
@@ -155,10 +275,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 <h2>
-    <div id="puesta-en-comun"style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="puesta-en-comun" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-users fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-users fa-stack-1x colortools" ></i>
         </span>  Puesta en Común
     </div>
 </h2>
@@ -177,10 +297,10 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div id="reto" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="reto" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-trophy fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-trophy fa-stack-1x colortools" ></i>
         </span>  Reto
     </div>
 </h2>
@@ -192,10 +312,10 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 <h2>
-    <div id="evaluacion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
+    <div id="evaluacion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
+            <i class="fa fa-check-square-o fa-stack-1x colortools" ></i>
         </span>  Evaluación
     </div>
 </h2>
@@ -206,20 +326,19 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 <br>
 
 ***
-
-<p style="text-align:center; color:#729e29">
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This learning resource is provided for free by <a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-</p>
-
-<p style="text-align:center; color:#729e29">
+<div class="fontfooter">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+	<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a></br>This learning resource is provided for free by 
+<a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</br>
 <a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub">
-    <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
- View and edit this resource on GitHub</a>
-</p>
+	<img style="width: 36px" src="https://s-media-cache-ak0.pinimg.com/originals/cc/19/c9/cc19c961beb4192c9faee7345b0dbe6f.png" alt=""><br>View and edit this resource on GitHub
+</a>
 
 </div>
 
-
-
+</div>
 </div>
 </div>
