@@ -8,13 +8,13 @@ license : CC BY-SA This learning resource is provided for free by marcoantmartin
 others  : Bitbloq is a project provided for free by BQ (c)
 )
 
-<div style="float:center; width:100%; background-color:#000000; position:absolute; top:0px;"> 
+<div style="width:100%; overflow:auto; background-color:#ffffff; position:absolute; top:0px; left:0px; " > 
 
-<div style="float:center; width:1000px;background:#FFFFFF;border:8px solid #FFFFFF;border-color: #96c93e #96c93e;text-align:left;position:absolute; text-align:left; top:0;  left:0;">
+<div style="width:90%; display:table; min-width:800px; max-width: 900px; background-color:#FFFFFF; margin: 0 auto; border:10px solid #96c93e;">
 <a href="a" target="_blank">
     <img style="width:100%" src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
 </a>
-<p style="color:#729e29; font-size:12px; position:absolute; top:0; right:38%">
+<p style="color:#729e29; font-family:verdana, serif;font-style:italic;font-size:10pt; position:absolute; top:0; right:40%">
 <a href="http://bitbloq.bq.com" style="color:#476419" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </p>
 
@@ -30,7 +30,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
-<p style="text-align:center; color:#729e29">
+<p style="text-align:center; font-size:14px; color:#729e29">
 <a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 <a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
 <a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
@@ -54,14 +54,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
 
 
-<h2>
+<h4>
     <div id="recursos-necesarios" style="width:75%;border-radius: 15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x" style="color:#729f28" ></i>
         </span> Recursos necesarios
     </div>
-</h2>
+</h4>
 
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 - Placa Arduino con alimentación y conector USB (por alumno o grupo)
@@ -69,14 +69,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Componente LED.
 - Pizarra y proyector.
 
-<h2>
+<h4>
     <div id="resumen-de-leccion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x" style="color:#729f28" ></i>
         </span> Resumen de lección
     </div>
-</h2>
+</h4>
 
 - ¿Que es un algoritmo?
 - ¿Qué es el puerto serie de Arduino?
@@ -86,14 +86,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - ¿Cómo medimos tiempos con Arduino?
 
 
-<h2>
+<h4>
     <div id="objetivos-de-aprendizaje" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x" style="color:#729f28" ></i>
         </span> Objetivos de aprendizaje
     </div>
-</h2>
+</h4>
 
 
 - Entender que es un algoritmo y sus partes principales.
@@ -108,42 +108,42 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Ser capaz de utilizar las variables.
 - Entender como funciona el bloque de temporizador de Arduino.
 
-<h2>
+<h4>
     <div id="aplicaciones-transversales" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-random fa-stack-1x" style="color:#729f28" ></i>
         </span>  Aplicaciones Transversales
     </div>
-</h2>
+</h4>
 
 - Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.
 - Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
 - Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
 
 
-<h2>
+<h4>
     <div id="inicio" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-power-off fa-stack-1x" style="color:#729f28" ></i>
         </span>  Inicio
     </div>
-</h2>
+</h4>
 
 - Pedir a los alumnos que piensen en algoritmos, darles un ejemplo, hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.
 - Tomar dos algoritmos uno muy sencillo y otro complicado, dividir la clase en dos grupos, hacerles salir a la pizarra y pedirles que desarrollen los pasos en 5 minutos máximo.
 - Revisión del trabajo, profundizar en el concepto de complejidad del algoritmo y su división en varios pasos para hacerlo más simple.
 
 
-<h2>
+<h4>
     <div id="desarrollo" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-film fa-stack-1x" style="color:#729f28" ></i>
         </span>  Desarrollo
     </div>
-</h2>
+</h4>
 
 1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
 2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
@@ -152,14 +152,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 
-<h2>
+<h4>
     <div id="puesta-en-comun"style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-users fa-stack-1x" style="color:#729f28" ></i>
         </span>  Puesta en Común
     </div>
-</h2>
+</h4>
 
 Pedimos a los alumnos reflexionar sobre:
 - Imaginar que otras cosas se podrían hacer con un botón.
@@ -174,14 +174,14 @@ Pedimos a los alumnos reflexionar sobre:
 >- Se pueden utilizar muchos actuadores.
 
 
-<h2>
+<h4>
     <div id="reto" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-trophy fa-stack-1x" style="color:#729f28" ></i>
         </span>  Reto
     </div>
-</h2>
+</h4>
 
 - Desarrollo del juego **Quién pulsa el botón más rápido**
 >- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
@@ -189,14 +189,14 @@ Pedimos a los alumnos reflexionar sobre:
 
 
 
-<h2>
+<h4>
     <div id="evaluacion" style="width:75%;border-radius:15px;padding:0px;background-color:#96c93e;line-height:0;color:#ffffff">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-check-square-o fa-stack-1x" style="color:#729f28" ></i>
         </span>  Evaluación
     </div>
-</h2>
+</h4>
 
 Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
 
