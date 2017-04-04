@@ -128,7 +128,7 @@ type="text/css" media="screen"
 	.colornotes{
 		color:#ff8000;
 	}
-<details>
+</details>
 
 
 <div id="div_exterior" class="fontbody" > 
