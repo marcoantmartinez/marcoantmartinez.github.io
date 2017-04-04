@@ -14,8 +14,8 @@ HelveticaNeue-Thin
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <link href="mystyles.css" rel="stylesheet" type="text/css" media="screen"/>
-
-[//]: <> (
+<div>
+<style type="text/css" media="screen">
 	.bannerheader{
 		width:100%; 
 		margin: 0 auto;
@@ -128,6 +128,8 @@ HelveticaNeue-Thin
 		color:#ff8000;
 	}
 )
+</style>
+</div>
 
 <div id="div_exterior" class="fontbody" > 
 
