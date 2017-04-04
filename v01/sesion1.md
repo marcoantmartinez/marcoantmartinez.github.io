@@ -3,7 +3,7 @@
 <!---
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
-release : 2017.04.01
+release : 2017.04.01 v01
 review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
