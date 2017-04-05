@@ -1,5 +1,3 @@
-
-
 <!---
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
@@ -8,9 +6,6 @@ review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
-
-HelveticaNeue-Thin
-type="text/css" media="screen"
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
@@ -221,9 +216,8 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </br>
 <a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub">
-	<img style="width: 36px" src="https://s-media-cache-ak0.pinimg.com/originals/cc/19/c9/cc19c961beb4192c9faee7345b0dbe6f.png" alt=""><br>View and edit this resource on GitHub
+	<img  src="https://gp3.googleusercontent.com/wtHpmmmue7Q9JT9JYxJ1AUgPKhzA0kZlSIiiYGFjJvvzqqrBaefU01uKg-CGJsUZk8Mxk1tQsiuY6DSHMhcrsZuP6z55YHWwvKECmG3BTzsyoHO03l-AMYwHiZ3Lyd_YZ9cUjA=s32-p-k" alt=""><br>View and edit this resource on GitHub 
 </a>
-
 </div>
 
 </div>
@@ -232,7 +226,6 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 <details>
 	<style>
 		.bannerheader{
-			width:100%; 
 			width:100%; 
 			margin: 0 auto;
 			display: table; 
