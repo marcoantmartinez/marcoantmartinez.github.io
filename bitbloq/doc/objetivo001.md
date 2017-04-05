@@ -1,4 +1,5 @@
 <!---
+
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
 release : 2017.04.01 v01
@@ -6,6 +7,7 @@ review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
+
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
