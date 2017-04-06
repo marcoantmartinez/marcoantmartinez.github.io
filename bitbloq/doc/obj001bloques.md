@@ -239,18 +239,18 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 		.bannerfooter{
 			width:100%;
 			background:#ffffff; 
-			border:10px solid #ffffff;
+			padding: 5%;
 			position:relative; 
 			top:0;  
 			left:0; 
-			border: 2;
 			background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png"); 
 			background-repeat: no-repeat ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover; 
 			background-size:100% 40%; 
-			background-position: bottom
+			background-position: bottom;
+			border:0px solid red;
 		}
 		.linksheader{
 			padding:10px;
@@ -286,18 +286,24 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 			line-height: 26px; 
 		}
 		.fonth1tittle{
-			top:0%;
+			position:absolute;
+			left:0%;
+			top:0px;
 			width:100%; 
-			border-radius: 15px;
+			border-radius: 0px;
 			padding:0px;
-			background: linear-gradient(to right, #5e8421, #c1f37b 100%);
+			background: linear-gradient(to right, #96c93e, #96c93e 100%);
 			line-height:0px;
 			color:#ffffff;
 			font-family:'Roboto Slab', serif;
 			font-size:36px; 
 			font-weight:700;
+			text-align: center;
+			border:0px solid blue;
 		}
 		.fonth2tittle{
+			position:relative;
+			left:-5%;
 			width: 75%;
 			border-radius: 15px;
 			padding:0px; 
