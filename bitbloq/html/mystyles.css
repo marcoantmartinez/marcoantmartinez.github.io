@@ -10,7 +10,6 @@
 .bannerfooter{
 	width:100%;
 	background:#ffffff; 
-	border:0px solid #ffffff;
 	padding: 5%;
 	position:relative; 
 	top:0;  
@@ -21,7 +20,8 @@
 	-moz-background-size: cover;
 	-o-background-size: cover; 
 	background-size:100% 40%; 
-	background-position: bottom
+	background-position: bottom;
+	border:3px solid blue;
 }
 .linksheader{
 	padding:10px;
