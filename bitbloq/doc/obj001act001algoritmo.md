@@ -10,7 +10,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
-<link href="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/3d0b8dd9/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
+<link href="https://rawgit.com/marcoantmartinez/marcoantmartinez.github.io/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
 
 
 <div id="div_exterior" class="fontbody" > 
