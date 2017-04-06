@@ -31,7 +31,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-sitemap fa-stack-1x colortools"></i>
         </span> 
-        Bloques de control - Algoritmos
+        Bloques de control - Algoritmos.
     </div>
 </h1>
 
