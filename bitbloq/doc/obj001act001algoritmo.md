@@ -7,11 +7,10 @@ review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
-
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
-<link href="mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
+<link href="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/3d0b8dd9/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
 
 
 <div id="div_exterior" class="fontbody" > 
@@ -48,12 +47,6 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
 
-<div class="fontnotes">
-    <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x fa-inverse" ></i>
-        <i class="fa fa-exclamation-triangle fa-stack-1x colornotes" ></i>
-    </span> Actividades de las sesiones 1 y 2
-</div>
 
 
 En esta lección tú ...

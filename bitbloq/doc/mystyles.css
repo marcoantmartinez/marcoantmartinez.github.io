@@ -6,6 +6,7 @@
 	max-width: 900px; 
 	background-color:#ffffff; 
 	border:10px solid #96c93e;
+	border:1px solid green;
 }
 .bannerfooter{
 	width:100%;
@@ -21,7 +22,8 @@
 	-moz-background-size: cover;
 	-o-background-size: cover; 
 	background-size:100% 40%; 
-	background-position: bottom
+	background-position: bottom;
+	border:1px solid blue;
 }
 .linksheader{
 	padding:10px;
