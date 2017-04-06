@@ -1,4 +1,4 @@
-<!---
+<!--
 
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
@@ -11,7 +11,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
-<link href="mystyles.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
+
 
 <div id="div_exterior" class="fontbody" > 
 
@@ -21,9 +22,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div class="bannerheader">
 	<a href="a" target="_blank">
-	    <img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
+	    <img src="http://i.imgur.com/srtYM4W.png" alt="">
 	</a>
-
 <div class="bannerfooter">
 
 <h1>
@@ -32,7 +32,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-sitemap fa-stack-1x colortools"></i>
         </span> 
-        Bloques de control
+        Bloques de control - Algoritmos
     </div>
 </h1>
 
@@ -56,8 +56,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </div>
 
 
-<br>En estas sesiones los estudiantes aprenderán como funcionan los bloques de control principales de Arduino, cómo programar algoritmos, cómo mostrar datos y qué son los sensores y actuadores.</br>
-<br>Finalmente serán capaces de desarrollar el juego **Quién pulsa el botón más rápido**.</br>
+En esta lección tú ...
+- Entenderás que es un algoritmo.
+- Comprenderás cuáles son sus partes principales
+- Serás capaz de inicializar, preparar y ejecutar un algoritmo básico de Arduino.
 
 
 <h2>
@@ -225,118 +227,3 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 </div>
 </div>
 </div>
-<details>
-	<style>
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 800px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			border:10px solid #ffffff;
-			position:relative; 
-			top:0;  
-			left:0; 
-			border: 2;
-			background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-			background-size:100% 40%; 
-			background-position: bottom
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:33%;
-			margin-left:auto; 
-			margin-right:0;
-			border-radius: 15px;
-			padding:2px;
-			text-align:center;
-			background-color:#ff8000;
-			padding: 0px;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 18px; 
-			font-family: 'Roboto-Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 26px; 
-		}
-		.fonth1tittle{
-			top:0%;
-			width:100%; 
-			border-radius: 15px;
-			padding:0px;
-			background: linear-gradient(to right, #5e8421, #c1f37b 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-		}
-		.fonth2tittle{
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:0px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-	</style>
-</details>
