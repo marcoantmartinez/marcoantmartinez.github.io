@@ -88,25 +88,34 @@ Ahora imagina a dos niños **Juan** y **Clara** que van al mismo colegio, Juan v
 
 Habrás llegado a la conclusión de que el algoritmo se puede adaptar a cada niño y hacerlo más preciso, por ejemplo:
 
- **Cosas que hace Juan antes de ir al colegio** 
+::: success
+ Cosas que hace **Juan** antes de ir al colegio : 
 - Suena el despertador a las 8:00 de la mañana
 - Se levanta en menos de 10 minutos
 - Desayuna en 20 minutos
 - Se asea en 10 minutos
 - Se viste en 10 minutos
 - Prepara la cartera en 5 minutos
-- Anda hasta el colegio en 5 minutos
+- Su madre le acompaña hasta el colegio andando en 5 minutos
+:::
 
- **Cosas que hace Clara antes de ir al colegio** 
+::: success
+ Cosas que hace **Clara** antes de ir al colegio
 - Suena el despertador a las 8:00 de la mañana
 - Se levanta en menos de 5 minutos
 - Desayuna en 15 minutos
 - Se asea en 15 minutos
-- Se viste en 15 minutos
+- Se viste en 10 minutos
 - Prepara la cartera en 5 minutos
-- Su padre la lleva en coche hasta el colegio en 5 minutos
+- Su padre la lleva en coche hasta el colegio en 10 minutos
+:::
 
+Los dos han tardado lo mismo pero el tiempo que han empleado para hacer las cosas es distinto.
+
+::: info
 Es decir un algoritmo necesita ser **Preciso** para cumplir bien su función
+:::
+
 
 **Pregunta 1**
 - ¿ Los algoritmos sólo los utilizan las máquinas ?
@@ -128,127 +137,7 @@ Es decir un algoritmo necesita ser **Preciso** para cumplir bien su función
     </div>
 </h2>
 
-- ¿Que es un algoritmo?
-- ¿Qué es el puerto serie de Arduino?
-- ¿Qué es una variable?
-- ¿Que es un pulsador y un diodo?
-- ¿Qué son los bloques de control?
-- ¿Cómo medimos tiempos con Arduino?
 
-
-<h2>
-    <div id="objetivos-de-aprendizaje" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
-    </div>
-</h2>
-
-
-- Entender que es un algoritmo y sus partes principales.
-- Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino.
-- Entender cómo funciona la salida serie de Arduino.
-- Ser capaz de escribir y leer en el puerto serie de Arduino.
-- Entender el bloque de espera.
-- Ser capa de utilizar el bloque de espera.
-- Entender como funcionan los bloques de control.
-- Ser capaces de utilizar los bloques de control de forma autónoma.
-- Entender como funciona una variable.
-- Ser capaz de utilizar las variables.
-- Entender como funciona el bloque de temporizador de Arduino.
-
-<h2>
-    <div id="aplicaciones-transversales" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-random fa-stack-1x colortools" ></i>
-        </span>  Aplicaciones Transversales
-    </div>
-</h2>
-
-- Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.
-- Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
-- Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
-
-
-<h2>
-    <div id="inicio" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-power-off fa-stack-1x colortools" ></i>
-        </span>  Inicio
-    </div>
-</h2>
-
-- Pedir a los alumnos que piensen en algoritmos, darles un ejemplo, hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.
-- Tomar dos algoritmos uno muy sencillo y otro complicado, dividir la clase en dos grupos, hacerles salir a la pizarra y pedirles que desarrollen los pasos en 5 minutos máximo.
-- Revisión del trabajo, profundizar en el concepto de complejidad del algoritmo y su división en varios pasos para hacerlo más simple.
-
-
-<h2>
-    <div id="desarrollo" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-film fa-stack-1x colortools" ></i>
-        </span>  Desarrollo
-    </div>
-</h2>
-
-1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
-2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
-3. Resolver las dudas de los alumnos según vayan apareciendo.
-
-
-
-
-<h2>
-    <div id="puesta-en-comun" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-users fa-stack-1x colortools" ></i>
-        </span>  Puesta en Común
-    </div>
-</h2>
-
-Pedimos a los alumnos reflexionar sobre:
-- Imaginar que otras cosas se podrían hacer con un botón.
-- Imaginar que otros sensores se podrían utilizar.
-- Imaginar que otras cosas se podrían hacer con un Led.
-- Imaginar que otros actuadores se podrían utilizar.
-- Es sencillo o complicado hacer lo que imaginan.
-
-**Conclusión**:
->- Los algoritmos son sencillos si los dividimos en partes pequeñas.
->- Se pueden utilizar muchos sensores.
->- Se pueden utilizar muchos actuadores.
-
-
-<h2>
-    <div id="reto" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-trophy fa-stack-1x colortools" ></i>
-        </span>  Reto
-    </div>
-</h2>
-
-- Desarrollo del juego **Quién pulsa el botón más rápido**
->- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
->- ¿ Qué otros usos se pueden dar a este circuito ?
-
-
-
-<h2>
-    <div id="evaluacion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-check-square-o fa-stack-1x colortools" ></i>
-        </span>  Evaluación
-    </div>
-</h2>
-
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
 
 <br>
 <br>
@@ -326,7 +215,8 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 			font-family: 'Europa', sans-serif ; 
 			font-weight: lighter; 
 			letter-spacing: 0px;
-			line-height: 30px; 
+			line-height: 30px;
+margin: 0 0; 
 		}
 		.fonth1tittle{
 			position:absolute;
