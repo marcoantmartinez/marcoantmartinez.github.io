@@ -68,20 +68,60 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
 
-> La programación por bloques es un método sencillo de adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
-
-> Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
+::: success
+> - La programación por bloques es un método sencillo para comenzar a adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
+> - Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
+:::
 
 La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables. Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) que promueve la autonomía en el aprendizaje, el ingenio personal y las oportunidades de emprendimiento.
 
 También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que **los errores son parte normal del proceso de innovación y creación** y que lo importante es seguir adelante, intentando nuevas soluciones.
 
-En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que individualmente desarrollan, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
+En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
 
+<h2>
+    <div id="que-es" class="fonth2tittle">
+        <span class="fa-stack fa-lg" >
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
+        </span> Requisitos 
+    </div>
+</h2>
 
+<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del alumno :</div></h3>
 
-Está propuesta didáctica está orientada a alumnos que tengan conocimientos de 2º ESO preferiblemente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO ampliando el alcance de los proyectos).
+Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
+Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :
 
+- Matemáticas : 
+	- Algoritmos. 
+	- Cálculo de Tiempo de reacción. 
+	- Números aleatorios.
+	- Proporcionalidad (Regla de 3), Algoritmo (Mapeo)
+	- Resolución (precisión y exactitud)
+	- Cálculo de área, área media, 
+	- Suma de Gráficas (suma de señales).
+- Física : 
+	- Tiempo de reacción y medida (mili segundos)
+	- Sensores y Actuadores
+	- Electrónica de diodo y pulsador
+	- Ley de Ohm, Resistencia, Voltaje e Intensidad.
+	- Analógico, Digital
+	- Espectro de Luz (Luz visible, Luz infrarroja)
+	- Corriente alterna, continua y conmutación. 
+	- Sonido.
+- Biología : 
+	- Oído y Ojo Humano.
+- Dibujo Técnico : 
+	- Diagramas de flujo.
+	- Simbología técnica de circuitos.
+- Tecnologías de Información: 
+	- Programación algorítmica 
+	- Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto
+	- Control de eventos
+	- Actuadores PWM
+
+Durante el curso se utilizarán estos conocimientos, para introducir al alumno los conceptos relacionados con la computación y para que alcancen el objetivo final de realización de los proyectos.
 
 <h2>
     <div id="que-es" class="fonth2tittle">
