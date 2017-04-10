@@ -30,7 +30,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-sitemap fa-stack-1x colortools"></i>
         </span> 
-        Bloques de control
+        Propuesta Didáctica
     </div>
 </h1>
 
@@ -48,94 +48,32 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
 
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></p>
+
 <h1>
     <div class="fonth1subtittle">
-    <span> Algoritmos</span> 
+    <span> Programación con Arduino </span> 
     </div>
 </h1>
 
-En esta lección tú ...
-- Entenderás que es un algoritmo.
-- Comprenderás cuáles son sus partes principales
-- Serás capaz de inicializar, preparar y ejecutar un algoritmo básico de Arduino.
-
+Esta propuesta tiene como objeto introducir en el aula la programación del **Internet de las Cosas (IoT)**, mediante proyectos basados en la plataforma hardware de prototipado rápido **Arduino**, y componentes electrónicos compatibles con esta.
 
 <h2>
     <div id="que-es" class="fonth2tittle">
         <span class="fa-stack fa-lg" >
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> ¿ Qué es un algoritmo ?
+        </span> Justificación
     </div>
 </h2>
 
-Diariamente todos utilizamos algoritmos sin saberlo, forman parte de todas nuestras actividades cotidianas, por ejemplo todos los días al levantarnos hacemos una serie de cosas rutinarias antes de llegar al colegio:
-- Suena el despertador
-- Nos levantamos
-- Desayunamos
-- Nos aseamos
-- Nos vestimos
-- Preparamos la cartera
-- Nos desplazamos al colegio
+<h3>
+    <div id="que-es" class="fonth3tittle">
+		Conocimiento Previo :
+    </div>
+</h3>
 
-Esa listas de cosas que hacemos sería un ejemplo de **algoritmo sencillo** que podríamos llamar **Cosas que hacer antes de ir al colegio**.
-
-Ahora imagina a dos niños **Juan** y **Clara** que van al mismo colegio, Juan vive a **1 km** de la escuela y el Clara a **6 km**, el algoritmo **Cosas que hacer antes de ir al colegio** ¿serviría para los dos? o se podría mejorar adaptándolo a las necesidades de **Juan** y **Clara**.
-
-> Preguntate si Juan y Clara se tendrán que levantar a la misma hora ?
-
-> Preguntate si utilizan los mismos medios para ir al colegio ?
-
-Habrás llegado a la conclusión de que el algoritmo se puede adaptar a cada niño y hacerlo más preciso, por ejemplo:
-
-::: success
- Cosas que hace **Juan** antes de ir al colegio : 
-- Suena el despertador a las 8:00 de la mañana
-- Se levanta en menos de 10 minutos
-- Desayuna en 20 minutos
-- Se asea en 10 minutos
-- Se viste en 10 minutos
-- Prepara la cartera en 5 minutos
-- Su madre le acompaña hasta el colegio andando en 5 minutos
-:::
-
-::: success
- Cosas que hace **Clara** antes de ir al colegio
-- Suena el despertador a las 8:00 de la mañana
-- Se levanta en menos de 5 minutos
-- Desayuna en 15 minutos
-- Se asea en 15 minutos
-- Se viste en 10 minutos
-- Prepara la cartera en 5 minutos
-- Su padre la lleva en coche hasta el colegio en 10 minutos
-:::
-
-```mermaid
-gantt
-    dateFormat  HH
-    title Adding GANTT diagram to mermaid
-
-    section A section
-    Despertador            :done,    des1, 08,08:00
-```
-
-
-Los dos han tardado lo mismo pero el tiempo que han empleado para hacer las cosas es distinto.
-
-::: info
-Es decir un algoritmo necesita ser **Preciso** para cumplir bien su función
-:::
-
-
-**Pregunta 1**
-- ¿ Los algoritmos sólo los utilizan las máquinas ?
-- ¿ Crees que Leonado da Vincy utilizaba algoritmos ?
-
-
-Definición formal de **Algoritmo**:
-> Es un conjunto prescrito de instrucciones o reglas bien definidas, ordenadas y finitas que permite llevar a cabo una actividad mediante pasos sucesivos que no generen dudas a quien deba hacer dicha actividad.
-
-> Dados un estado inicial y una entrada, siguiendo los pasos sucesivos se llega a un estado final y se obtiene una solución.
 
 
 <h2>
@@ -271,6 +209,19 @@ margin: 0 0;
 			color:#ffffff; 
 			font-family:'Roboto Slab', serif;
 			font-size:23px; 
+			font-weight:700;
+		}
+		.fonth3tittle{
+			position:relative;
+			left:0%;
+			width: 75%;
+			border-radius: 15px;
+			padding:0px; 
+			background-color: #96c93e;
+			line-height:0;
+			color:#5e8421; 
+			font-family:'Roboto Slab', serif;
+			font-size:20px; 
 			font-weight:700;
 		}
 		.fontheader{
