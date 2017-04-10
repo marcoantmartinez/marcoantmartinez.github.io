@@ -73,7 +73,9 @@ Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Comput
 > - Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
 :::
 
-La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables. Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) que promueve la autonomía en el aprendizaje, el ingenio personal y las oportunidades de emprendimiento.
+La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables.
+
+Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) o **MAKER**, que promueve la autonomía en el aprendizaje, el conocimiento colaborativa, el ingenio personal y las oportunidades de emprendimiento.
 
 También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que **los errores son parte normal del proceso de innovación y creación** y que lo importante es seguir adelante, intentando nuevas soluciones.
 
@@ -121,7 +123,54 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 	- Control de eventos
 	- Actuadores PWM
 
-Durante el curso se utilizarán estos conocimientos, para introducir al alumno los conceptos relacionados con la computación y para que alcancen el objetivo final de realización de los proyectos.
+Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
+
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino :</div></h3>
+
+**¿ Por qué Arduino UNO y no otra plataforma ?** Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos **MAKER**, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento **MAKER** al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.
+
+Además muchas de las alternativas que hay a Arduino se basan en el estándar Arduino.
+
+Normalmente suele ser el complemento ideal para placas como **Raspberry Pi** cuyo punto fuerte está en el sistema operativo, la capacidad de computo y la versatilidad de integración con otras plataformas con OS UNIX, Windows o MacOS.
+
+Por otro lado la comunidad **MAKER** de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros **Maker** y donde compartir nuestros proyectos personales. [Instructables](http://www.instructables.com), [Make](http://makezine.com), [Circuits IO](https://circuits.io), [Arduino Create](https://create.arduino.cc), [BitBloq](http://bitbloq.bq.com) son algunos ejemplos de la gran difusión que tiene Arduino.
+
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
+
+Como ya se adelantaba en la introducción, la programación por bloques es un método sencillo para comenzar a adquirir la competencia de **pensamiento computacional**, se trata de que cada instrucción del programa, se monta visualmente una detrás de otra, de forma intuitiva, como montando un **Puzle**.
+
+El proceso cognitivo que favorece la creación de un algoritmo en la mente del alumno, se refuerza automáticamente al representarlo en bloques. Para ilustrarlo vamos a poner un sencillo ejemplo de un programa de suma realizado con bloques:
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/ycDNEh4.png"/></a></p>
+
+La secuencia de instrucciones de arriba abajo es:
+1. A vale 10
+2. B vale 5 
+3. C vale A + B
+4. Envío el valor C por puerto serie.
+
+Si este programa lo quisiéramos desarrollar en la **sintaxis tradicional escrita** sería así:
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/ZeRrOb4.png"/></a></p>
+
+Aunque los dos programas hacen la misma suma, interpretar el código tradicional requiere más conocimientos que la programación por bloques, también las posibilidades de cometer errores al escribir mal la sintaxis, o declarar mal el tipo de una variable, o inicializar mal la librería de comunicación serie, u olvidarse de cerrar una instrucción con punto y coma, ... etc se incrementan.
+
+La curva de aprendizaje se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.
+
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
+
+Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (Entorno de Desarrollo Integrado) una aplicación sobre la que plasmar el código y luego pasarla a Arduino a través del puerto USB. La página web de Arduino facilita la [descarga](http://www.arduino.org/downloads) de un IDE para el desarrollo tradicional de código. 
+
+El IDE aquí propuesto es [BitBloq](http://bitbloq.bq.com) es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo [BQ](https://www.bq.com/en/maker-world) y que permite tanto el **desarrollo por bloques** como el **desarrollo tradicional**.
+
+Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:
+- Se puede programar la placa **Arduino UNO** estándar
+- Las librerías circuitos sensores y actuadores ya están integradas y listos para usar como bloques
+- El IDE incluye el monitor/editor de puerto serie
+- El alumno puede documentar sus creaciones directamente
+- El alumno podrá compartir sus creaciones con el resto del aula en la nube Bitbloq o en redes sociales.
+- Es multiplataforma MacOS, Windows o Linux. Funciona sobre el cliente Google Chrome.
+- Se puede acceder a proyectos de la comunidad de usuarios de la nube Bitbloq
 
 <h2>
     <div id="que-es" class="fonth2tittle">
@@ -321,7 +370,7 @@ Actividades de asimilación y aplicación del conocimiento.
 			font-weight: lighter; 
 			letter-spacing: 0px;
 			line-height: 24px;
-margin: 0 0; 
+			margin: 0 0; 
 		}
 		.fonth1tittle{
 			position:absolute;
@@ -370,16 +419,17 @@ margin: 0 0;
 		}
 		.fonth3tittle{
 			position:relative;
-			left:0%;
+			left:5%;
 			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
+			border-radius: 0px;
+			padding:20px; 
+			background-color: #ffffff;
 			line-height:0;
 			color:#5e8421; 
 			font-family:'Roboto Slab', serif;
-			font-size:20px; 
+			font-size:23px; 
 			font-weight:700;
+			border-bottom:1.5px solid #96c93e;
 		}
 		.fontheader{
 			width:50%;
