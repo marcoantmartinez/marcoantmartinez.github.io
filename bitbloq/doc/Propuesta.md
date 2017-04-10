@@ -57,7 +57,22 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
-Esta propuesta tiene como objeto introducir en el aula la programación del **Internet de las Cosas (IoT)**, mediante proyectos basados en la plataforma hardware de prototipado rápido **Arduino**, y componentes electrónicos compatibles con esta.
+Esta propuesta tiene como objeto introducir al alumno en la **programación por bloques** mediante la realización de proyectos sencillos basados en la plataforma hardware de prototipado rápido **Arduino**, y componentes electrónicos que compatibles con esta, que interactúan con el medio físico real.
+
+</br>
+
+La propuesta didáctica tiene como fin primordial, fomentar la **creatividad** del alumno y que sienta cercana y sencilla la tecnología que le rodea, haciéndole ver que todas la ideas que tengan son realizables en proyectos reales, y que sólo es cuestión de analizar las necesidades del proyecto y de dividir los problemas y sus soluciones en **partes más sencillas**. 
+
+También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas.
+
+En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que individualmente desarrollan, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
+
+La programación por bloques es un método sencillo de adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
+
+Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
+
+Está propuesta didáctica está orientada a alumnos que tengan conocimientos de 2º ESO preferiblemente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO ampliando el alcance de los proyectos).
+
 
 <h2>
     <div id="que-es" class="fonth2tittle">
