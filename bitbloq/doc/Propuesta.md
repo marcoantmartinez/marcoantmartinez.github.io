@@ -57,19 +57,28 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
-Esta propuesta tiene como objeto introducir al alumno en la **programación por bloques** mediante la realización de proyectos sencillos basados en la plataforma hardware de prototipado rápido **Arduino**, y componentes electrónicos que compatibles con esta, que interactúan con el medio físico real.
+<h2>
+    <div id="que-es" class="fonth2tittle">
+        <span class="fa-stack fa-lg" >
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
+        </span> Introducción
+    </div>
+</h2>
 
-</br>
+Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
 
-La propuesta didáctica tiene como fin primordial, fomentar la **creatividad** del alumno y que sienta cercana y sencilla la tecnología que le rodea, haciéndole ver que todas la ideas que tengan son realizables en proyectos reales, y que sólo es cuestión de analizar las necesidades del proyecto y de dividir los problemas y sus soluciones en **partes más sencillas**. 
+> La programación por bloques es un método sencillo de adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
 
-También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas.
+> Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
+
+La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables. Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) que promueve la autonomía en el aprendizaje, el ingenio personal y las oportunidades de emprendimiento.
+
+También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que **los errores son parte normal del proceso de innovación y creación** y que lo importante es seguir adelante, intentando nuevas soluciones.
 
 En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que individualmente desarrollan, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
 
-La programación por bloques es un método sencillo de adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
 
-Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
 
 Está propuesta didáctica está orientada a alumnos que tengan conocimientos de 2º ESO preferiblemente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO ampliando el alcance de los proyectos).
 
@@ -83,24 +92,117 @@ Está propuesta didáctica está orientada a alumnos que tengan conocimientos de
     </div>
 </h2>
 
-<h3>
-    <div id="que-es" class="fonth3tittle">
-		Conocimiento Previo :
-    </div>
-</h3>
+<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Intereses y Motivaciones :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Desarrollo de competencias y estrategias de aprendizaje :</div></h3>
 
-
-
+---
 <h2>
     <div id="resumen-de-leccion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Resumen de lección
+        </span> Contextualización
     </div>
 </h2>
 
+<h3><div id="que-es" class="fonth3tittle">Características de los Alumnos :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Características del grupo :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Espacio y tiempo disponibles :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Materiales y recursos disponibles :</div></h3>
 
+---
+<h2>
+    <div id="resumen-de-leccion" class="fonth2tittle">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
+        </span> Definición de Objetivos de Aprendizaje
+    </div>
+</h2>
+
+::: danger
+>qué queremos conseguir
+>Cada objetivo general está compuesto por varios objetivos más específicos
+>matching objetivo específico - indicador evaluación
+:::
+
+---
+<h2>
+	<div id="resumen-de-leccion" class="fonth2tittle">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
+        </span> Contenidos
+    </div>
+</h2>
+<h3><div id="que-es" class="fonth3tittle">Contenidos :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Temporalización :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Actividades :</div></h3>
+Actividades de asimilación y aplicación del conocimiento.
+<h3><div id="que-es" class="fonth3tittle">Recursos Disponibles :</div></h3>
+
+---
+<h2>
+	<div id="resumen-de-leccion" class="fonth2tittle">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
+        </span> Evaluación
+    </div>
+</h2>
+<h3><div id="que-es" class="fonth3tittle">Evaluación orientada al aprendizaje :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">¿Para qué evaluar? :</div></h3>
+
+- Diagnóstica (ó inicial)
+- Formativa (ó brecha conocimientos)
+- Sumativa (ó puntuación final)
+
+<h3><div id="que-es" class="fonth3tittle">¿Cómo Evaluar? :</div></h3>
+
+- Rubricas de Evaluación (complemento a otros instrumentos de evaluación). correspondencia con los objetivos específicos de aprendizaje. sirven como guías de aprendizaje.
+
+<h3><div id="que-es" class="fonth3tittle">Agentes de Evaluación :</div></h3>
+
+- Heteroevaluación = profesor
+- Coevaluación = compañeros
+- Autoevaluación = alumno
+
+<h3><div id="que-es" class="fonth3tittle">Evaluación del Programa Educativo :</div></h3>
+
+- D.A.F.O : Debilidades. Amenazas. Fortalezas. Oportunidades
+
+---
+<h2>
+	<div id="resumen-de-leccion" class="fonth2tittle">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
+        </span> Pensamiento computacional
+    </div>
+</h2>
+<h3><div id="que-es" class="fonth3tittle">Resolución de Problemas :</div></h3>
+
+- Abstracción
+- Recopilación
+- Análisis y Representación de datos.
+- Secuenciación o creación de algoritmos
+- Descomposición del problema
+- Automatización
+- Paralelismo
+- Simulación
+
+<h3><div id="que-es" class="fonth3tittle">Competencias a desarrollar :</div></h3>
+
+- Inteligencia emocional (autoconfianza)
+- Pensamiento lógico - Matemático
+- Competencia digital
+- Resolución de problemas y pensamiento computacional
+- Pensamiento crítico
+- Creatividad e innovación
+- Autonomía y emprendimiento
+- Colaboración y comunicación
+- Aprendizaje cooperativo
 
 <br>
 <br>
@@ -178,7 +280,7 @@ Está propuesta didáctica está orientada a alumnos que tengan conocimientos de
 			font-family: 'Europa', sans-serif ; 
 			font-weight: lighter; 
 			letter-spacing: 0px;
-			line-height: 30px;
+			line-height: 24px;
 margin: 0 0; 
 		}
 		.fonth1tittle{
