@@ -1,5 +1,4 @@
 <!---
-
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
 release : 2017.04.01 v01
@@ -7,7 +6,6 @@ review  : na
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
-
 -->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
@@ -16,13 +14,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div id="div_exterior" class="fontbody" > 
 
 <div class="fontheader" >
-	<a  style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+	<a  style="color:#476419;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </div>
 
 <div class="bannerheader">
 	<a href="a" target="_blank">
-	    <img src="http://i.imgur.com/dbqOvJ3.jpg" alt="">
+	    <img src="https://s-media-cache-ak0.pinimg.com/originals/02/be/06/02be068cf3467a0e5665fc6e8dcd7eb7.jpg" alt="">
 	</a>
+
 <div class="bannerfooter">
 
 <h1>
@@ -217,7 +216,7 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </br>
 <a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub">
-	<img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub  
+	<img  src="https://gp3.googleusercontent.com/wtHpmmmue7Q9JT9JYxJ1AUgPKhzA0kZlSIiiYGFjJvvzqqrBaefU01uKg-CGJsUZk8Mxk1tQsiuY6DSHMhcrsZuP6z55YHWwvKECmG3BTzsyoHO03l-AMYwHiZ3Lyd_YZ9cUjA=s32-p-k" alt=""><br>View and edit this resource on GitHub 
 </a>
 </div>
 
@@ -230,7 +229,7 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 			width:100%; 
 			margin: 0 auto;
 			display: table; 
-			min-width: 900px; 
+			min-width: 800px; 
 			max-width: 900px; 
 			background-color:#ffffff; 
 			border:10px solid #96c93e;
@@ -238,17 +237,18 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 		.bannerfooter{
 			width:100%;
 			background:#ffffff; 
-			padding: 5%;
+			border:10px solid #ffffff;
 			position:relative; 
 			top:0;  
 			left:0; 
+			border: 2;
 			background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png"); 
 			background-repeat: no-repeat ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover; 
 			background-size:100% 40%; 
-			background-position: bottom;
+			background-position: bottom
 		}
 		.linksheader{
 			padding:10px;
@@ -277,48 +277,25 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 			position: absolute; 
 			top: 0px; 
 			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
+			font-size: 18px; 
+			font-family: 'Roboto-Light', sans-serif ; 
 			font-weight: lighter; 
 			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
+			line-height: 26px; 
 		}
 		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
+			top:0%;
 			width:100%; 
-			border-radius: 0px;
+			border-radius: 15px;
 			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
+			background: linear-gradient(to right, #5e8421, #c1f37b 100%);
 			line-height:0px;
 			color:#ffffff;
 			font-family:'Roboto Slab', serif;
 			font-size:36px; 
 			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
 		}
 		.fonth2tittle{
-			position:relative;
-			left:-5%;
 			width: 75%;
 			border-radius: 15px;
 			padding:0px; 
@@ -329,26 +306,12 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 			font-size:23px; 
 			font-weight:700;
 		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
 		.fontheader{
 			width:50%;
 			margin: 0 auto;
 			position: absolute;
 			left: 25%; 
-			top:5px; 
+			top:0px; 
 			border:0px solid #000000;
 			text-align: center; 
 			color:#476419;
@@ -372,9 +335,6 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 		}
 		.colornotes{
 			color:#ff8000;
-		}
-		.center-image{
-		    text-align: center;
 		}
 	</style>
 </details>

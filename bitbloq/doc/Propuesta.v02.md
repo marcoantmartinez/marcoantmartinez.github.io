@@ -15,13 +15,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div id="div_exterior" class="fontbody" > 
 
 <div class="fontheader" >
-	<a  style="color:#476419;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+	<a  style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </div>
 
 <div class="bannerheader">
 	<a href="a" target="_blank">
-	    <img src="http://i.imgur.com/srtYM4W.png" alt="">
+	    <img src="http://i.imgur.com/dbqOvJ3.jpg" alt="">
 	</a>
+	
 <div class="bannerfooter">
 
 <h1>
@@ -210,33 +211,6 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios
 - Facilita al alumno la transición al desarrollo tradicional de código, para aumentar la complejidad de los proyectos
 
-<h2>
-    <div id="que-es" class="fonth2tittle">
-        <span class="fa-stack fa-lg" >
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> Justificación
-    </div>
-</h2>
-
-<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">Intereses y Motivaciones :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">Desarrollo de competencias y estrategias de aprendizaje :</div></h3>
-
----
-<h2>
-    <div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Contextualización
-    </div>
-</h2>
-
-<h3><div id="que-es" class="fonth3tittle">Características de los Alumnos :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">Características del grupo :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">Espacio y tiempo disponibles :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">Materiales y recursos disponibles :</div></h3>
 
 ---
 <h2>
@@ -247,6 +221,38 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
         </span> Definición de Objetivos de Aprendizaje
     </div>
 </h2>
+
+<h3><div id="que-es" class="fonth3tittle">Objetivos Técnicos</div></h3>
+
+- Comprender y saber programar con bloques :
+    - Que es un algoritmo
+    - Qué es el puerto serie de Arduino
+    - Qué es una variable
+    - Que es un pulsador y un diodo
+    - Qué son los bloques de control
+    - Cómo medimos tiempos con Arduino
+- Comprender y saber programar sensores :
+    - Que es un sensor
+    - Qué es analógico y que digital
+    - Diferencias entre pin digital y analógico
+    - Qué es la Precisión (Resolución)
+    - Componentes digitales y analógicos
+    - Componentes analógicos potenciómetro y LDR
+    - Componentes digitales botón y sensor infrarrojo
+- Comprender y saber programar actuadores :
+    - Qué se un actuador
+    - Que es la corriente eléctrica y cómo se presenta
+    - Cómo se usa la señal PWM para controlar actuadores
+    - Diferencias entre pin digital y analógico
+    - Qué es la Precisión (Resolución)
+    - Componentes digitales y analógicos
+    - Componentes analógicos potenciómetro y LDR
+    - Componentes digitales botón y sensor infrarrojo
+
+<h3><div id="que-es" class="fonth3tittle">Objetivos Competenciales</div></h3>
+
+- Adquirir la habilidad de aplicar el pensamiento computacional a la resolución de problemas.
+- Mejorar la creatividad 
 
 ::: danger
 >qué queremos conseguir
@@ -260,76 +266,22 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Contenidos
+        </span> Contenidos y Planificación
     </div>
 </h2>
+
+En base a los objetivos de aprendizaje citados anteriormente se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo de 6 sesiones de 2 horas cada una (12 horas en total). C
+
 <h3><div id="que-es" class="fonth3tittle">Contenidos :</div></h3>
+
 <h3><div id="que-es" class="fonth3tittle">Temporalización :</div></h3>
+
 <h3><div id="que-es" class="fonth3tittle">Actividades :</div></h3>
+
 Actividades de asimilación y aplicación del conocimiento.
 <h3><div id="que-es" class="fonth3tittle">Recursos Disponibles :</div></h3>
 
----
-<h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Evaluación
-    </div>
-</h2>
-<h3><div id="que-es" class="fonth3tittle">Evaluación orientada al aprendizaje :</div></h3>
-<h3><div id="que-es" class="fonth3tittle">¿Para qué evaluar? :</div></h3>
 
-- Diagnóstica (ó inicial)
-- Formativa (ó brecha conocimientos)
-- Sumativa (ó puntuación final)
-
-<h3><div id="que-es" class="fonth3tittle">¿Cómo Evaluar? :</div></h3>
-
-- Rubricas de Evaluación (complemento a otros instrumentos de evaluación). correspondencia con los objetivos específicos de aprendizaje. sirven como guías de aprendizaje.
-
-<h3><div id="que-es" class="fonth3tittle">Agentes de Evaluación :</div></h3>
-
-- Heteroevaluación = profesor
-- Coevaluación = compañeros
-- Autoevaluación = alumno
-
-<h3><div id="que-es" class="fonth3tittle">Evaluación del Programa Educativo :</div></h3>
-
-- D.A.F.O : Debilidades. Amenazas. Fortalezas. Oportunidades
-
----
-<h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Pensamiento computacional
-    </div>
-</h2>
-<h3><div id="que-es" class="fonth3tittle">Resolución de Problemas :</div></h3>
-
-- Abstracción
-- Recopilación
-- Análisis y Representación de datos.
-- Secuenciación o creación de algoritmos
-- Descomposición del problema
-- Automatización
-- Paralelismo
-- Simulación
-
-<h3><div id="que-es" class="fonth3tittle">Competencias a desarrollar :</div></h3>
-
-- Inteligencia emocional (autoconfianza)
-- Pensamiento lógico - Matemático
-- Competencia digital
-- Resolución de problemas y pensamiento computacional
-- Pensamiento crítico
-- Creatividad e innovación
-- Autonomía y emprendimiento
-- Colaboración y comunicación
-- Aprendizaje cooperativo
 
 <br>
 <br>
@@ -356,7 +308,7 @@ Actividades de asimilación y aplicación del conocimiento.
 			width:100%; 
 			margin: 0 auto;
 			display: table; 
-			min-width: 800px; 
+			min-width: 900px; 
 			max-width: 900px; 
 			background-color:#ffffff; 
 			border:10px solid #96c93e;
@@ -413,7 +365,7 @@ Actividades de asimilación y aplicación del conocimiento.
 		.fonth1tittle{
 			position:absolute;
 			left:0%;
-			top:0px;
+			top:-6px;
 			width:100%; 
 			border-radius: 0px;
 			padding:0px;
@@ -474,7 +426,7 @@ Actividades de asimilación y aplicación del conocimiento.
 			margin: 0 auto;
 			position: absolute;
 			left: 25%; 
-			top:0px; 
+			top:5px; 
 			border:0px solid #000000;
 			text-align: center; 
 			color:#476419;
@@ -498,6 +450,9 @@ Actividades de asimilación y aplicación del conocimiento.
 		}
 		.colornotes{
 			color:#ff8000;
+		}
+		.center-image{
+		    text-align: center;
 		}
 	</style>
 </details>
