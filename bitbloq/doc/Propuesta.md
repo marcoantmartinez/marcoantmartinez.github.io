@@ -34,8 +34,6 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
-
-
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
@@ -68,10 +66,13 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
 
-::: success
+<div class="success">
+
 > - La programación por bloques es un método sencillo para comenzar a adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
+
 > - Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
-:::
+
+</div>
 
 La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables.
 
@@ -86,7 +87,7 @@ En los proyectos finales aquí propuestos, será hará indispensable que el alum
         <span class="fa-stack fa-lg" >
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> Requisitos 
+        </span> Contextualización 
     </div>
 </h2>
 
@@ -164,13 +165,14 @@ Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (
 El IDE aquí propuesto es [BitBloq](http://bitbloq.bq.com) es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo [BQ](https://www.bq.com/en/maker-world) y que permite tanto el **desarrollo por bloques** como el **desarrollo tradicional**.
 
 Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:
-- Se puede programar la placa **Arduino UNO** estándar
-- Las librerías circuitos sensores y actuadores ya están integradas y listos para usar como bloques
+- Se puede programar la placa **Arduino UNO** estándar (además de productos BQ)
+- Las librerías de circuitos sensores y actuadores ya están integradas y listos para usar como bloques
 - El IDE incluye el monitor/editor de puerto serie
-- El alumno puede documentar sus creaciones directamente
-- El alumno podrá compartir sus creaciones con el resto del aula en la nube Bitbloq o en redes sociales.
-- Es multiplataforma MacOS, Windows o Linux. Funciona sobre el cliente Google Chrome.
-- Se puede acceder a proyectos de la comunidad de usuarios de la nube Bitbloq
+- El alumno documentará sus creaciones directamente
+- El alumno compartirá sus creaciones con el resto del aula en la nube Bitbloq o en redes sociales.
+- El seguimiento de los proyectos del aula por parte del profesorado es más sencillo
+- Es multiplataforma (Linux, MacOS, Windows). Funciona sobre el cliente Google Chrome
+- El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios
 
 <h2>
     <div id="que-es" class="fonth2tittle">
@@ -365,11 +367,11 @@ Actividades de asimilación y aplicación del conocimiento.
 			position: absolute; 
 			top: 0px; 
 			left: 0px; 
-			font-size: 22px; 
-			font-family: 'Europa', sans-serif ; 
+			font-size: 20px; 
+			font-family: 'Roboto Light', sans-serif ; 
 			font-weight: lighter; 
 			letter-spacing: 0px;
-			line-height: 24px;
+			line-height: 25px;
 			margin: 0 0; 
 		}
 		.fonth1tittle{
