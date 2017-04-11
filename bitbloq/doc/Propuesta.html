@@ -1,0 +1,1480 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>Propuesta</title></head><body><article class="markdown-body"><!--
+edited  : Marco Antonio Martínez Ramos
+email   : marcoantmartinez@gmail.com
+release : 2017.04.01 v01
+review  : na
+github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
+license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
+others  : Bitbloq is a project provided for free by BQ (c)
+-->
+
+<p><link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'><br />
+<!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
+ --></p>
+<div id="div_exterior" class="fontbody" >
+
+<div class="fontheader" >
+    <a  style="color:#476419;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+</div>
+
+<div class="bannerheader">
+    <a href="a" target="_blank">
+        <img src="http://i.imgur.com/srtYM4W.png" alt="">
+    </a>
+<div class="bannerfooter">
+
+<h1>
+    <div class="fonth1tittle">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+        </span> 
+        Propuesta Didáctica
+    </div>
+</h1>
+
+<div class="linksheader">
+    <a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
+    <a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
+    <a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
+    <a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+    <a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
+    <a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
+    <a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
+    <a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
+    <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+</div>
+
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></p>
+
+<h1>
+    <div class="fonth1subtittle">
+    <span> Programación con Arduino </span> 
+    </div>
+</h1>
+
+<h2>
+    <div id="que-es" class="fonth2tittle">
+        <span class="fa-stack fa-lg" >
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
+        </span> Introducción
+    </div>
+</h2>
+
+Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
+
+<div class="success">
+
+> - La programación por bloques es un método sencillo para comenzar a adquirir la competencia de **pensamiento computacional**, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online **BitBloq** por ser la más cercana a este método de aprendizaje.
+
+> - Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.
+
+</div>
+
+<p>La propuesta didáctica tiene como fin primordial fomentar la <strong>creatividad</strong> del alumno y que <strong>sienta muy cercana y sencilla la tecnología</strong> que le rodea, haciéndole ver que <strong>todas la ideas que tenga el alumno</strong>, son realizables en proyectos reales, y que la clave para lograrlo, es <strong>analizar las necesidades</strong> del proyecto y de <strong>dividir los problemas</strong> y sus soluciones en <strong>partes más sencillas</strong> y manejables.</p>
+<p>Cómo fin secundario el alumno tomará conciencia del movimiento global <strong>D.I.Y</strong> (hazlo tú mismo) o <strong>MAKER</strong>, que promueve la autonomía en el aprendizaje, el conocimiento colaborativa, el ingenio personal y las oportunidades de emprendimiento.</p>
+<p>También se alimentará el <strong>espíritu crítico</strong> haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que <strong>los errores son parte normal del proceso de innovación y creación</strong> y que lo importante es seguir adelante, intentando nuevas soluciones.</p>
+<p>En los proyectos finales aquí propuestos, será hará indispensable que el alumno <strong>coopere y trabaje en equipo</strong>, requiriéndose que esas <strong>partes más sencillas</strong> que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.</p>
+<h2>
+    <div id="que-es" class="fonth2tittle">
+        <span class="fa-stack fa-lg" >
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
+        </span> Contextualización 
+    </div>
+</h2>
+
+<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del alumno :</div></h3>
+
+<p>Está propuesta didáctica está orientada a alumnos que tengan conocimientos de <strong>2º ESO</strong> idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). <br />
+Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :</p>
+<ul>
+<li>Matemáticas : <ul>
+<li>Algoritmos. </li>
+<li>Cálculo de Tiempo de reacción. </li>
+<li>Números aleatorios.</li>
+<li>Proporcionalidad (Regla de 3), Algoritmo (Mapeo)</li>
+<li>Resolución (precisión y exactitud)</li>
+<li>Cálculo de área, área media, </li>
+<li>Suma de Gráficas (suma de señales).</li>
+</ul>
+</li>
+<li>Física : <ul>
+<li>Tiempo de reacción y medida (mili segundos)</li>
+<li>Sensores y Actuadores</li>
+<li>Electrónica de diodo y pulsador</li>
+<li>Ley de Ohm, Resistencia, Voltaje e Intensidad.</li>
+<li>Analógico, Digital</li>
+<li>Espectro de Luz (Luz visible, Luz infrarroja)</li>
+<li>Corriente alterna, continua y conmutación. </li>
+<li>Sonido.</li>
+</ul>
+</li>
+<li>Biología : <ul>
+<li>Oído y Ojo Humano.</li>
+</ul>
+</li>
+<li>Dibujo Técnico : <ul>
+<li>Diagramas de flujo.</li>
+<li>Simbología técnica de circuitos.</li>
+</ul>
+</li>
+<li>Tecnologías de Información: <ul>
+<li>Programación algorítmica </li>
+<li>Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto</li>
+<li>Control de eventos</li>
+<li>Actuadores PWM</li>
+</ul>
+</li>
+</ul>
+<p>Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.</p>
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino :</div></h3>
+
+<p><strong>¿ Por qué Arduino UNO y no otra plataforma ?</strong> Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos <strong>MAKER</strong>, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento <strong>MAKER</strong> al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos &hellip; etc.</p>
+<p>Además muchas de las alternativas que hay a Arduino se basan en el estándar Arduino.</p>
+<p>Normalmente suele ser el complemento ideal para placas como <strong>Raspberry Pi</strong> cuyo punto fuerte está en el sistema operativo, la capacidad de computo y la versatilidad de integración con otras plataformas con OS UNIX, Windows o MacOS.</p>
+<p>Por otro lado la comunidad <strong>MAKER</strong> de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros <strong>Maker</strong> y donde compartir nuestros proyectos personales. <a href="http://www.instructables.com">Instructables</a>, <a href="http://makezine.com">Make</a>, <a href="https://circuits.io">Circuits IO</a>, <a href="https://create.arduino.cc">Arduino Create</a>, <a href="http://bitbloq.bq.com">BitBloq</a> son algunos ejemplos de la gran difusión que tiene Arduino.</p>
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
+
+<p><a href="http://i.imgur.com/VU9Zx9n.png">http://i.imgur.com/VU9Zx9n.png</a></p>
+<p>Como ya se adelantaba en la introducción, la programación por bloques es un método sencillo para comenzar a adquirir la competencia de <strong>pensamiento computacional</strong>, se trata de que cada instrucción del programa, se monta visualmente una detrás de otra, de forma intuitiva, como montando un <strong>Puzle</strong>.</p>
+<p>El proceso cognitivo que favorece la creación de un algoritmo en la mente del alumno, se refuerza automáticamente al representarlo en bloques. Para ilustrarlo vamos a poner un sencillo ejemplo de un programa de suma realizado con bloques:</p>
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/ycDNEh4.png"/></a></p>
+
+<p>La secuencia de instrucciones de arriba abajo es:<br />
+1. A vale 10<br />
+2. B vale 5 <br />
+3. C vale A + B<br />
+4. Envío el valor C por puerto serie.</p>
+<p>Si este programa lo quisiéramos desarrollar en la <strong>sintaxis tradicional escrita</strong> sería así:</p>
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/ZeRrOb4.png"/></a></p>
+
+<p>Aunque los dos programas hacen la misma suma, interpretar el código tradicional requiere más conocimientos que la programación por bloques, también las posibilidades de cometer errores al escribir mal la sintaxis, o declarar mal el tipo de una variable, o inicializar mal la librería de comunicación serie, u olvidarse de cerrar una instrucción con punto y coma, &hellip; etc se incrementan.</p>
+<p>La curva de aprendizaje se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.</p>
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
+
+<p>Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (Entorno de Desarrollo Integrado) una aplicación sobre la que plasmar el código y luego pasarla a Arduino a través del puerto USB. La página web de Arduino facilita la <a href="http://www.arduino.org/downloads">descarga</a> de un IDE para el desarrollo tradicional de código. </p>
+<p>El IDE aquí propuesto es <a href="http://bitbloq.bq.com">BitBloq</a> es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo <a href="https://www.bq.com/en/maker-world">BQ</a> y que permite tanto el <strong>desarrollo por bloques</strong> como el <strong>desarrollo tradicional</strong>.</p>
+<p>Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:<br />
+- Se puede programar la placa <strong>Arduino UNO</strong> estándar (además de productos BQ)<br />
+- Las librerías de circuitos sensores y actuadores ya están integradas y listos para usar como bloques<br />
+- El IDE incluye el monitor/editor de puerto serie<br />
+- El alumno documentará sus creaciones directamente<br />
+- El alumno compartirá sus creaciones con el resto del aula en la nube Bitbloq o en redes sociales.<br />
+- El seguimiento de los proyectos del aula por parte del profesorado es más sencillo<br />
+- Es multiplataforma (Linux, MacOS, Windows). Funciona sobre el cliente Google Chrome<br />
+- El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios</p>
+<h2>
+    <div id="que-es" class="fonth2tittle">
+        <span class="fa-stack fa-lg" >
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
+        </span> Justificación
+    </div>
+</h2>
+
+<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo :</div></h3>
+
+<h3><div id="que-es" class="fonth3tittle">Intereses y Motivaciones :</div></h3>
+
+<h3><div id="que-es" class="fonth3tittle">Desarrollo de competencias y estrategias de aprendizaje :</div></h3>
+
+<hr />
+<p><h2><br />
+    <div id="resumen-de-leccion" class="fonth2tittle"><br />
+        <span class="fa-stack fa-lg"><br />
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i><br />
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i><br />
+        </span> Contextualización<br />
+    </div><br />
+</h2></p>
+<h3><div id="que-es" class="fonth3tittle">Características de los Alumnos :</div></h3>
+
+<h3><div id="que-es" class="fonth3tittle">Características del grupo :</div></h3>
+
+<h3><div id="que-es" class="fonth3tittle">Espacio y tiempo disponibles :</div></h3>
+
+<h3><div id="que-es" class="fonth3tittle">Materiales y recursos disponibles :</div></h3>
+
+<hr />
+<p><h2><br />
+    <div id="resumen-de-leccion" class="fonth2tittle"><br />
+        <span class="fa-stack fa-lg"><br />
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i><br />
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i><br />
+        </span> Definición de Objetivos de Aprendizaje<br />
+    </div><br />
+</h2></p>
+<p>::: danger</p>
+<blockquote>
+<p>qué queremos conseguir<br />
+Cada objetivo general está compuesto por varios objetivos más específicos<br />
+matching objetivo específico - indicador evaluación<br />
+:::</p>
+</blockquote>
+<hr />
+<p><h2><br />
+    <div id="resumen-de-leccion" class="fonth2tittle"><br />
+        <span class="fa-stack fa-lg"><br />
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i><br />
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i><br />
+        </span> Contenidos<br />
+    </div><br />
+</h2><br />
+<h3><div id="que-es" class="fonth3tittle">Contenidos :</div></h3><br />
+<h3><div id="que-es" class="fonth3tittle">Temporalización :</div></h3><br />
+<h3><div id="que-es" class="fonth3tittle">Actividades :</div></h3><br />
+Actividades de asimilación y aplicación del conocimiento.<br />
+<h3><div id="que-es" class="fonth3tittle">Recursos Disponibles :</div></h3></p>
+<hr />
+<p><h2><br />
+    <div id="resumen-de-leccion" class="fonth2tittle"><br />
+        <span class="fa-stack fa-lg"><br />
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i><br />
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i><br />
+        </span> Evaluación<br />
+    </div><br />
+</h2><br />
+<h3><div id="que-es" class="fonth3tittle">Evaluación orientada al aprendizaje :</div></h3><br />
+<h3><div id="que-es" class="fonth3tittle">¿Para qué evaluar? :</div></h3></p>
+<ul>
+<li>Diagnóstica (ó inicial)</li>
+<li>Formativa (ó brecha conocimientos)</li>
+<li>Sumativa (ó puntuación final)</li>
+</ul>
+<h3><div id="que-es" class="fonth3tittle">¿Cómo Evaluar? :</div></h3>
+
+<ul>
+<li>Rubricas de Evaluación (complemento a otros instrumentos de evaluación). correspondencia con los objetivos específicos de aprendizaje. sirven como guías de aprendizaje.</li>
+</ul>
+<h3><div id="que-es" class="fonth3tittle">Agentes de Evaluación :</div></h3>
+
+<ul>
+<li>Heteroevaluación = profesor</li>
+<li>Coevaluación = compañeros</li>
+<li>Autoevaluación = alumno</li>
+</ul>
+<h3><div id="que-es" class="fonth3tittle">Evaluación del Programa Educativo :</div></h3>
+
+<ul>
+<li>D.A.F.O : Debilidades. Amenazas. Fortalezas. Oportunidades</li>
+</ul>
+<hr />
+<p><h2><br />
+    <div id="resumen-de-leccion" class="fonth2tittle"><br />
+        <span class="fa-stack fa-lg"><br />
+            <i class="fa fa-square fa-stack-2x fa-inverse" ></i><br />
+            <i class="fa fa-list-ol fa-stack-1x colortools" ></i><br />
+        </span> Pensamiento computacional<br />
+    </div><br />
+</h2><br />
+<h3><div id="que-es" class="fonth3tittle">Resolución de Problemas :</div></h3></p>
+<ul>
+<li>Abstracción</li>
+<li>Recopilación</li>
+<li>Análisis y Representación de datos.</li>
+<li>Secuenciación o creación de algoritmos</li>
+<li>Descomposición del problema</li>
+<li>Automatización</li>
+<li>Paralelismo</li>
+<li>Simulación</li>
+</ul>
+<h3><div id="que-es" class="fonth3tittle">Competencias a desarrollar :</div></h3>
+
+<ul>
+<li>Inteligencia emocional (autoconfianza)</li>
+<li>Pensamiento lógico - Matemático</li>
+<li>Competencia digital</li>
+<li>Resolución de problemas y pensamiento computacional</li>
+<li>Pensamiento crítico</li>
+<li>Creatividad e innovación</li>
+<li>Autonomía y emprendimiento</li>
+<li>Colaboración y comunicación</li>
+<li>Aprendizaje cooperativo</li>
+</ul>
+<p><br><br />
+<br></p>
+<hr />
+<p><div class="fontfooter"><br />
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><br />
+    <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /><br />
+</a></br>This learning resource is provided for free by <br />
+<a rel="email" href="marcoantmartinez@gmail.com"><a href="mailto:marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a></a> under a <br />
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
+</br><br />
+<a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub"><br />
+    <img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub<br />
+</a><br />
+</div></p>
+<p></div><br />
+</div><br />
+</div><br />
+<details><br />
+    <style><br />
+        .bannerheader{<br />
+            width:100%; <br />
+            margin: 0 auto;<br />
+            display: table; <br />
+            min-width: 800px; <br />
+            max-width: 900px; <br />
+            background-color:#ffffff; <br />
+            border:10px solid #96c93e;<br />
+        }<br />
+        .bannerfooter{<br />
+            width:100%;<br />
+            background:#ffffff; <br />
+            padding: 5%;<br />
+            position:relative; <br />
+            top:0;<br />
+            left:0; <br />
+            background-image: url(&ldquo;<a href="https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png">https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png</a>&rdquo;); <br />
+            background-repeat: no-repeat ;<br />
+            -webkit-background-size: cover;<br />
+            -moz-background-size: cover;<br />
+            -o-background-size: cover; <br />
+            background-size:100% 40%; <br />
+            background-position: bottom;<br />
+        }<br />
+        .linksheader{<br />
+            padding:10px;<br />
+            text-align:center; <br />
+            font-size:14px; <br />
+            color:#729e29<br />
+        }<br />
+        .fontnotes{<br />
+            width:33%;<br />
+            margin-left:auto; <br />
+            margin-right:0;<br />
+            border-radius: 15px;<br />
+            padding:2px;<br />
+            text-align:center;<br />
+            background-color:#ff8000;<br />
+            padding: 0px;<br />
+            font-family: Roboto, serif; <br />
+            font-size: 13px; <br />
+            font-weight: 300; <br />
+            letter-spacing: 0px<br />
+        }<br />
+        .fontbody{<br />
+            width: 100%; <br />
+            overflow: auto; <br />
+            background-color: #ffffff; <br />
+            position: absolute; <br />
+            top: 0px; <br />
+            left: 0px; <br />
+            font-size: 20px; <br />
+            font-family: &lsquo;Roboto Light&rsquo;, sans-serif ; <br />
+            font-weight: lighter; <br />
+            letter-spacing: 0px;<br />
+            line-height: 25px;<br />
+            margin: 0 0; <br />
+        }<br />
+        .fonth1tittle{<br />
+            position:absolute;<br />
+            left:0%;<br />
+            top:0px;<br />
+            width:100%; <br />
+            border-radius: 0px;<br />
+            padding:0px;<br />
+            background: linear-gradient(to right, #96c93e, #96c93e 100%);<br />
+            line-height:0px;<br />
+            color:#ffffff;<br />
+            font-family:&rsquo;Roboto Slab&rsquo;, serif;<br />
+            font-size:36px; <br />
+            font-weight:700;<br />
+            text-align: center;<br />
+            border:0px solid blue;<br />
+        }<br />
+        .fonth1subtittle{<br />
+            position:relative;<br />
+            left:0px;<br />
+            top:0px;<br />
+            width:100%; <br />
+            border-radius: 0px;<br />
+            padding:0px;<br />
+            background: linear-gradient(to right, white, white 100%);<br />
+            line-height:0px;<br />
+            color: #5e8421;<br />
+            font-family:&rsquo;Roboto Slab&rsquo;, serif;<br />
+            font-size:36px; <br />
+            font-weight:700;<br />
+            text-align: center;<br />
+            border:30px solid white;<br />
+        }<br />
+        .fonth2tittle{<br />
+            position:relative;<br />
+            left:-5%;<br />
+            width: 75%;<br />
+            border-radius: 15px;<br />
+            padding:0px; <br />
+            background-color: #96c93e;<br />
+            line-height:0;<br />
+            color:#ffffff; <br />
+            font-family:&rsquo;Roboto Slab&rsquo;, serif;<br />
+            font-size:23px; <br />
+            font-weight:700;<br />
+        }<br />
+        .fonth3tittle{<br />
+            position:relative;<br />
+            left:5%;<br />
+            width: 75%;<br />
+            border-radius: 0px;<br />
+            padding:20px; <br />
+            background-color: #ffffff;<br />
+            line-height:0;<br />
+            color:#5e8421; <br />
+            font-family:&rsquo;Roboto Slab&rsquo;, serif;<br />
+            font-size:23px; <br />
+            font-weight:700;<br />
+            border-bottom:1.5px solid #96c93e;<br />
+        }<br />
+        .fontheader{<br />
+            width:50%;<br />
+            margin: 0 auto;<br />
+            position: absolute;<br />
+            left: 25%; <br />
+            top:0px; <br />
+            border:0px solid #000000;<br />
+            text-align: center; <br />
+            color:#476419;<br />
+            font-family: Roboto, serif; <br />
+            font-size: 13px; <br />
+            font-weight: 300; <br />
+            letter-spacing: 0px<br />
+        }<br />
+        .fontfooter{<br />
+            width:52%;<br />
+            margin: 0 auto;<br />
+            text-align: center; <br />
+            color: #729e29; <br />
+            font-family: Roboto, serif; <br />
+            font-size: 13px; <br />
+            font-weight: 300; <br />
+            letter-spacing: 0px<br />
+        }<br />
+        .colortools{<br />
+            color:#5e8421;<br />
+        }<br />
+        .colornotes{<br />
+            color:#ff8000;<br />
+        }<br />
+    </style><br />
+</details></p></article></body></html>

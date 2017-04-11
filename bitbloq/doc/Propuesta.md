@@ -47,11 +47,11 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </div>
 
 
-<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></p>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></div>
 
 <h1>
     <div class="fonth1subtittle">
-    <span> Programación con Arduino </span> 
+    <span> Programación y Robótica con Arduino </span> 
     </div>
 </h1>
 
@@ -91,7 +91,20 @@ En los proyectos finales aquí propuestos, será hará indispensable que el alum
     </div>
 </h2>
 
-<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del alumno :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Organización del Aula</div></h3>
+
+Para la realización de los ejercicios propuestos en las actividades, se utilizará la **Programación por Pares**; dos alumnos por puesto de trabajo, esto favorece varios aspectos en el aprendizaje del alumno:
+
+>- Se potencia el trabajo en equipo, alternando **Roles** de Análisis, Diseño, Desarrollo, Implementación y Prueba.
+>- Se incentiva el aprendizaje colaborativo, los conocimientos de uno se suman al par.
+>- Mejora la concentración y el enfoque en el ejercicio, disminuyendo los errores.
+>- Se mejoran las competencias de razonamiento, dialogo y aceptación de ideas del par.
+
+Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos electrónicos de sensores y actuadores que se requieran en cada ejercicio.
+
+En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.
+
+<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
 
 Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
 Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :
@@ -126,7 +139,18 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 
 Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
 
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino :</div></h3>
+<h3><div id="que-es" class="fonth3tittle">Recursos necesarios</div></h3>
+
+Los recursos listados a continuación serán revisados con los responsables del programa educativo del centro, a fin de adaptarlos a sus necesidades.
+
+- 10 Ordenadores Portátiles para los alumnos (con OS Linux, MacOS ó Windows) y Google Chrome instalado.
+- 1 proyector y 1 pizarra digital
+- Mesas configurables que permitan trabajar por pares o en grupo
+- Wifi configurado en los portátiles con conexión a Internet
+- Cuentas de acceso por alumno pre-configuradas en Bitbloq
+- 20 Kits de robótica Arduino. Se recomienda [BQ Zum Box](https://www.bq.com/en/zum-kit) o similar.
+
+<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino</div></h3>
 
 **¿ Por qué Arduino UNO y no otra plataforma ?** Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos **MAKER**, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento **MAKER** al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.
 
@@ -138,7 +162,14 @@ Por otro lado la comunidad **MAKER** de Arduino es muy grande, y existe un eleva
 
 <h3><div id="que-es" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
 
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/VU9Zx9n.png"/></a></p>
+
 Como ya se adelantaba en la introducción, la programación por bloques es un método sencillo para comenzar a adquirir la competencia de **pensamiento computacional**, se trata de que cada instrucción del programa, se monta visualmente una detrás de otra, de forma intuitiva, como montando un **Puzle**.
+
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/kDve3Ci.png"/></a></p>
+
+Son muchas las aplicaciones ( [Scratch](https://scratch.mit.edu), [Code Studio](https://studio.code.org)...etc ) que usan la programación por bloques para acercar la computación a niños o personas sin conocimientos de Tecnología de Información, haciéndolo un juego.
 
 El proceso cognitivo que favorece la creación de un algoritmo en la mente del alumno, se refuerza automáticamente al representarlo en bloques. Para ilustrarlo vamos a poner un sencillo ejemplo de un programa de suma realizado con bloques:
 
@@ -156,13 +187,17 @@ Si este programa lo quisiéramos desarrollar en la **sintaxis tradicional escrit
 
 Aunque los dos programas hacen la misma suma, interpretar el código tradicional requiere más conocimientos que la programación por bloques, también las posibilidades de cometer errores al escribir mal la sintaxis, o declarar mal el tipo de una variable, o inicializar mal la librería de comunicación serie, u olvidarse de cerrar una instrucción con punto y coma, ... etc se incrementan.
 
-La curva de aprendizaje se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.
+La **curva de aprendizaje** se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.
 
 <h3><div id="que-es" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
 
+<p style="text-align: center" ><a href=""><img src="http://i.imgur.com/nRb5ufI.png"/></a></p>
+
 Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (Entorno de Desarrollo Integrado) una aplicación sobre la que plasmar el código y luego pasarla a Arduino a través del puerto USB. La página web de Arduino facilita la [descarga](http://www.arduino.org/downloads) de un IDE para el desarrollo tradicional de código. 
 
-El IDE aquí propuesto es [BitBloq](http://bitbloq.bq.com) es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo [BQ](https://www.bq.com/en/maker-world) y que permite tanto el **desarrollo por bloques** como el **desarrollo tradicional**.
+Aunque existen muchos otros IDE para el desarrollo por bloques con Arduino, estos presentan ciertas complejidades de instalación o configuración; desde el punto de vista de mantenimiento de las aplicaciones del aula, otros simplemente restricciones de propiedad intelectual. **BQ** con **Bitbloq** ha sabido sumar la facilidad de instalación, configuración y seguimiento en un Aula, con la potencia de una librería de bloques de sensores y actuadores, permitiendo un mayor rendimiento y asimilación de contenidos del alumno.
+
+Estos son los motivos que nos han llevado a escoger [BitBloq](http://bitbloq.bq.com) como IDE, es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo [BQ](https://www.bq.com/en/maker-world) y que permite tanto el **desarrollo por bloques** como el **desarrollo tradicional**.
 
 Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:
 - Se puede programar la placa **Arduino UNO** estándar (además de productos BQ)
@@ -173,6 +208,7 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - El seguimiento de los proyectos del aula por parte del profesorado es más sencillo
 - Es multiplataforma (Linux, MacOS, Windows). Funciona sobre el cliente Google Chrome
 - El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios
+- Facilita al alumno la transición al desarrollo tradicional de código, para aumentar la complejidad de los proyectos
 
 <h2>
     <div id="que-es" class="fonth2tittle">
