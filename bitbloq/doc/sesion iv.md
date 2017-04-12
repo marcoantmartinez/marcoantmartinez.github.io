@@ -56,7 +56,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 En está sesión de proyecto se aplicará el **Proceso de Pensamiento Computacional** promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.
 
-El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso al teoría sobre los **bloques de control** de Bitbloq para realizar aplicaciones en Arduino.
+El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso al teoría sobre los **Sensores Analógicos y Digitales** y cómo usar las librerías de Bitbloq para realizar aplicaciones en Arduino.
 
 Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
@@ -139,7 +139,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás"
+- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de activar la detección de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido.
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -154,15 +154,15 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden hacer.
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/1eea74e5/bitbloq/doc/impossible_mission.svg" alt=""></div>
 
 - Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dEYDec9.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/AMGULBe.png"/></a></div>
 
 - Se realizan las conexiones del prototipo y se realizan las pruebas.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dVzlMiO.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/L0aVnyz.png"/></a></div>
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
@@ -180,16 +180,17 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 </h2>
 
 Pedimos a los alumnos reflexionar sobre:
-- Imaginar que otras cosas se podrían hacer con un botón.
+- Imaginar que cosas se podrían hacer con un potenciómetro.
+- Imaginar que cosas se podrían hacer con una LDR.
+- Imaginar que cosas se pueden hacer con un botón.
+- Imaginar que cosas se pueden hacer con un sensor infrarrojo.
 - Imaginar que otros sensores se podrían utilizar.
-- Imaginar que otras cosas se podrían hacer con un Led.
-- Imaginar que otros actuadores se podrían utilizar.
-- Es sencillo o complicado hacer lo que imaginan.
+- ¿Es sencillo o complicado hacer lo que imaginan?
 
 **Conclusión**:
->- Los algoritmos son sencillos si los dividimos en partes pequeñas.
->- Se pueden utilizar muchos sensores.
->- Se pueden utilizar muchos actuadores.
+>- Las computadoras necesitan traducir los valores analógicos de la naturaleza a digital.
+>- Se pueden utilizar muchos sensores digitales y analógicos.
+>- Arduino puede leer sensores digitales y analógicos.
 
 
 <h2>
@@ -201,10 +202,12 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-- Desarrollo del juego **Quién pulsa el botón más rápido**
->- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
->- ¿ Sería posible organizar una carrera de relevos en el Aula ?
->- ¿ Qué otros usos se pueden dar a este prototipo ?
+<br>Desarrollo del juego **Misión Imposible**</br>
+>¿ Qué criterio debemos emplear para incrementar el contador de alarma ?
+>¿ Qué información podemos añadir al contador de alarmas ?
+>¿ Qué pasa si ponemos varios espejos para hacer rebotar la luz del láser ?</br>
+>¿ Qué otros usos se pueden dar a este circuito ?
+><br></br>
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">
