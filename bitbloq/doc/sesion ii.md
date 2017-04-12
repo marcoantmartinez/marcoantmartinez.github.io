@@ -60,8 +60,6 @@ El alumno demostrará su autonomía para analizar, diseñar, construir y probar 
 
 Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
-<img src="reaction_time.svg" alt="">
-
 <h2>
     <div id="recursos-necesarios" class="fonth2tittle">
         <span class="fa-stack fa-lg" >
@@ -153,8 +151,18 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden mejorar.
 
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
+
 - Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
 
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dEYDec9.png"/></a></div>
+
+- Se realizan las conexiones del prototipo y se realizan las pruebas.
+
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dVzlMiO.png"/></a></div>
+
+- Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
+- Se comparte públicamente el proyecto con la comunidad del usuarios de BitBloq. 
 
 <h2>
     <div id="puesta-en-comun" class="fonth2tittle">
@@ -189,9 +197,8 @@ Pedimos a los alumnos reflexionar sobre:
 
 - Desarrollo del juego **Quién pulsa el botón más rápido**
 >- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
+>- ¿ Sería posible organizar una carrera de relevos en el Aula ?
 >- ¿ Qué otros usos se pueden dar a este prototipo ?
-
-
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">
