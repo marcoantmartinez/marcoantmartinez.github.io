@@ -1,16 +1,14 @@
 <!--
 edited  : Marco Antonio Martínez Ramos
 email   : marcoantmartinez@gmail.com
-release : 2017.04.11 v01
+release : 2017.04.12 v02
 review  : 
 github  : https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq
 license : CC BY-SA This learning resource is provided for free by marcoantmartinez@gmail.com under a Creative Commons Attribution-ShareAlike 4.0 International License.
 others  : Bitbloq is a project provided for free by BQ (c)
 -->
 
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
-<!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
- -->
+
 
 <div id="div_exterior" class="fontbody" > 
 
@@ -20,7 +18,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div class="bannerheader">
 	<a href="a" target="_blank">
-	    <img src="http://i.imgur.com/dbqOvJ3.jpg" alt="">
+	    <img src="http://i.imgur.com/vSK3EZk.jpg" alt="">
 	</a>
 	
 <div class="bannerfooter">
@@ -251,8 +249,10 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 
 <h3><div id="que-es" class="fonth3tittle">Objetivos Competenciales</div></h3>
 
-- Adquirir la habilidad de aplicar el pensamiento computacional a la resolución de problemas.
-- Mejorar la creatividad 
+- Promover en el alumno la habilidad de aplicar el pensamiento computacional a la resolución de problemas.
+- Mejorar en el alumno la creatividad, motivación al logro y autonomía para gestar soluciones a problemas comunes.
+- Promover el aprendizaje colaborativo y el trabajo en equipo.
+
 
 ::: danger
 >qué queremos conseguir
@@ -270,18 +270,64 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
     </div>
 </h2>
 
-En base a los objetivos de aprendizaje citados anteriormente se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo de 6 sesiones de 2 horas cada una (12 horas en total). C
+En base a los objetivos de aprendizaje citados anteriormente, se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo, dividiéndolo en **6 sesiones** de **2 horas** cada una (12 horas en total).
 
-<h3><div id="que-es" class="fonth3tittle">Contenidos :</div></h3>
+Al comienzo de la Sesión I se realizará una presentación de los objetivo y alcance de los contenidos del curso a los alumnos.
 
-<h3><div id="que-es" class="fonth3tittle">Temporalización :</div></h3>
+Se alternará una sesión de **Teoría y Asimilación** de contenidos que incluye la "Prácticas y Aplicación" de los mismos, con otra de **Realización de un Proyecto Práctico**, en el que el alumno demostrará que ha asimilado los conceptos teóricos y su autonomía al saber aplicarlos a un contexto real.
 
-<h3><div id="que-es" class="fonth3tittle">Actividades :</div></h3>
+En las sesiones de proyecto se aplicará el **Proceso de Pensamiento Computacional** promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.
 
-Actividades de asimilación y aplicación del conocimiento.
-<h3><div id="que-es" class="fonth3tittle">Recursos Disponibles :</div></h3>
+Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
+Cada sesión incluye también el apartado **"Puesta en Común"** que persigue el desarrollo de los objetivos competenciales, promoviendo la creatividad y la innovación, ante todo se estimulará al alumno para que busque **retos** y soluciones a problemas cotidianos, mediante la **generación de ideas**
 
+Al termino de la sesión VI se reservará tiempo para la **Mejora Continua** pidiendo a los alumnos que valoren su satisfacción con el curso y sugerencias de mejora.
+
+<h3><div id="que-es" class="fonth3tittle">Planificación:</div></h3>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión I (2 horas): Teoría , Bloques de Control :</a>
+</div>
+Presentación del curso Programación y Robótica Arduino. Entender que es un algoritmo y sus partes principales. Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino. Entender cómo funciona la salida serie de Arduino. Ser capaz de escribir y leer en el puerto serie de Arduino. Entender el bloque de espera. Ser capa de utilizar el bloque de espera. Entender como funcionan los bloques de control. Ser capaces de utilizar los bloques de control de forma autónoma. Entender como funciona una variable. Ser capaz de utilizar las variables. Entender como funciona el bloque de temporizador de Arduino. Puesta en común.
+</div>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión II (2 horas): Proyecto , ¿ Quién Pulsa Botón Más Rápido ? :</a>
+</div>
+Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común
+</div>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión III (2 horas): Teoría , Sensores Analógicos y Digitales :</a>
+</div>
+Entender la diferencia entre analógico y digital. Ser capaz de distinguir los componentes analógicos de los digitales. Entender el funcionamiento de un pin analógico y digital en Arduino. Entender la resolución y la operación matemática de mapeo. Entender el funcionamiento del componente potenciómetro. Ser capaz de programar con el componente potenciómetro. Entender el funcionamiento del componente LDR. Ser capaz de programar con el componente LDR. Entender el funcionamiento del componente Pulsador. Ser capaz de programar when_press y when_release con el Pulsador. Entender el funcionamiento del componente Sensor IR. Ser capaz de programar el componente Sensor IR.
+Puesta en común.
+</div>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión IV (2 horas): Proyecto , Misión Imposible :</a>
+</div>
+Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común
+</div>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión V (2 horas): Teoría , Actuadores :</a>
+</div>
+Entender que es un actuador. Ser capaz de distinguir los distintos actuadores. Entender la corriente alterna, continua y conmutada. Entender la señal PWM y sus aplicaciones. Entender el modelo de color RGB y cómo lo percibe el ojo. Entender el sonido y cómo se reproduce digitalmente. Entender el funcionamiento del componente RELÉ. Ser capaz de programar aplicaciones para un RELÉ. Entender el funcionamiento del componente servo continuo. Entender el funcionamiento del componente servomotor. Ser capaz de programar el posicionamiento de un servomotor. Entender el funcionamiento del componente LED RGB. Ser capaz de programar colores diferentes con el LED RGB. Entender el funcionamiento del componente Buzzer. Ser capaz de programar melodías con el componente Buzzer. Puesta en Común
+</div>
+
+<div class="success fontlittle">
+<div class="fontnotes">
+<a href=""> * Sesión VI (2 horas): Proyecto , Comprobador de Pilas :</a>
+</div>
+Análisis del Problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común.
+</div>
 
 <br>
 <br>
@@ -320,12 +366,12 @@ Actividades de asimilación y aplicación del conocimiento.
 			position:relative; 
 			top:0;  
 			left:0; 
-			background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/6c/91/7f6c917473453d67602d42f38dfb94f2.png"); 
+			background-image: url("http://i.imgur.com/EnY10RD.png"); 
 			background-repeat: no-repeat ;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover; 
-			background-size:100% 40%; 
+        /*background-size:100% auto; */
 			background-position: bottom;
 		}
 		.linksheader{
@@ -335,17 +381,17 @@ Actividades de asimilación y aplicación del conocimiento.
 			color:#729e29
 		}
 		.fontnotes{
-			width:33%;
-			margin-left:auto; 
-			margin-right:0;
-			border-radius: 15px;
-			padding:2px;
-			text-align:center;
-			background-color:#ff8000;
-			padding: 0px;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
+			width:80%;
+            border-radius: 15px;
+			margin-left:5%; 
+			margin-right:auto;
+			border-radius: auto;
+			text-align:left;
+			background-color:#ffffff;
+			padding: 5px;
+			font-family: 'Roboto Slab', serif; 
+			font-size: 18px; 
+			font-weight: 700; 
 			letter-spacing: 0px
 		}
 		.fontbody{
@@ -451,8 +497,15 @@ Actividades de asimilación y aplicación del conocimiento.
 		.colornotes{
 			color:#ff8000;
 		}
-		.center-image{
-		    text-align: center;
+		.fontlittle{
+            font-family:'Roboto Slab', sans-serif;
+            font-size:18px; 
+            font-weight:300;
+            letter-spacing: 0px;
+            line-height: 20px;
 		}
 	</style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
+<!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
+ -->
 </details>
