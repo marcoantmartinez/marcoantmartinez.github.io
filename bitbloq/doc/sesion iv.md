@@ -45,18 +45,18 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <h1>
     <div class="fonth1subtittle">
-    <span> Sesión II - Proyecto</span> 
+    <span> Sesión IV - Proyecto</span> 
     </div>
     <div class="fonth1subtittle">
-    <span> ¿ Quién Pulsa el Botón Más Rápido ?</span> 
+    <span> Misión Imposible </span> 
     </div>
 </h1>
 
-<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/BYPytVLm.jpg"/></a></div>
+<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/3brNg5um.jpg"/></a></div>
 
 En está sesión de proyecto se aplicará el **Proceso de Pensamiento Computacional** promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.
 
-El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa.
+El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso al teoría sobre los **bloques de control** de Bitbloq para realizar aplicaciones en Arduino.
 
 Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
@@ -70,9 +70,12 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 </h2>
 
 - Cuentas de Bitbloq activadas para los alumnos - grupos
-- Placa Arduino con alimentación y conector USB (por alumno o grupo)
-- Componente pulsador.
-- Componente LED.
+- Placa Arduino UNO (o superior) con alimentación y conector USB (por alumno o grupo)
+- Componente Potenciómetro.
+- Componente LDR.
+- Componente Pulsador.
+- Componente Sensor IR.
+- Puntero Láser (2 ó 4).
 - Pizarra y proyector.
 
 <h2>
@@ -122,9 +125,9 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.
-- Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.
-- Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números aleatorios.
+- Tecnologías de Información - Programación, control por eventos.
+- Física - Analógico, Digital, Luz visible, Luz infrarroja,  Resistencia eléctrica, Precisión.
+- Matemáticas - Regla de 3 (operación mapeo), Resolución.
 
 
 <h2>
@@ -149,7 +152,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se promueve el análisis de necesidades : se les pide que elaboren una lista de problemas a resolver. Tras un tiempo de reflexión se pone en común en la pizarra.
 
-- Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden mejorar.
+- Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden hacer.
 
 <div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
 
