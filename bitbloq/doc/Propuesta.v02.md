@@ -48,6 +48,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></div>
 
+
 <h1>
     <div class="fonth1subtittle">
     <span> Programación y Robótica con Arduino </span> 
@@ -254,11 +255,6 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - Promover el aprendizaje colaborativo y el trabajo en equipo.
 
 
-::: danger
->qué queremos conseguir
->Cada objetivo general está compuesto por varios objetivos más específicos
->matching objetivo específico - indicador evaluación
-:::
 
 ---
 <h2>
@@ -506,7 +502,7 @@ Análisis del Problema y Diseño. Desarrollo de Bloques. Implementación. Prueba
             line-height: 20px;
 		}
 	</style>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
+</details>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
  -->
-</details>
