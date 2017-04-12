@@ -291,14 +291,15 @@ Al termino de la sesión VI se reservará tiempo para la **Mejora Continua** pid
 <a href=""> * Sesión I (2 horas): Teoría , Bloques de Control :</a>
 </div>
 Presentación del curso Programación y Robótica Arduino. Entender que es un algoritmo y sus partes principales. Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino. Entender cómo funciona la salida serie de Arduino. Ser capaz de escribir y leer en el puerto serie de Arduino. Entender el bloque de espera. Ser capa de utilizar el bloque de espera. Entender como funcionan los bloques de control. Ser capaces de utilizar los bloques de control de forma autónoma. Entender como funciona una variable. Ser capaz de utilizar las variables. Entender como funciona el bloque de temporizador de Arduino. Puesta en común.
-</div>
+</div><br>
+
 
 <div class="success fontlittle">
 <div class="fontnotes">
 <a href=""> * Sesión II (2 horas): Proyecto , ¿ Quién Pulsa Botón Más Rápido ? :</a>
 </div>
 Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común
-</div>
+</div><br>
 
 <div class="success fontlittle">
 <div class="fontnotes">
@@ -306,21 +307,21 @@ Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba
 </div>
 Entender la diferencia entre analógico y digital. Ser capaz de distinguir los componentes analógicos de los digitales. Entender el funcionamiento de un pin analógico y digital en Arduino. Entender la resolución y la operación matemática de mapeo. Entender el funcionamiento del componente potenciómetro. Ser capaz de programar con el componente potenciómetro. Entender el funcionamiento del componente LDR. Ser capaz de programar con el componente LDR. Entender el funcionamiento del componente Pulsador. Ser capaz de programar when_press y when_release con el Pulsador. Entender el funcionamiento del componente Sensor IR. Ser capaz de programar el componente Sensor IR.
 Puesta en común.
-</div>
+</div><br>
 
 <div class="success fontlittle">
 <div class="fontnotes">
 <a href=""> * Sesión IV (2 horas): Proyecto , Misión Imposible :</a>
 </div>
 Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común
-</div>
+</div><br>
 
 <div class="success fontlittle">
 <div class="fontnotes">
 <a href=""> * Sesión V (2 horas): Teoría , Actuadores :</a>
 </div>
 Entender que es un actuador. Ser capaz de distinguir los distintos actuadores. Entender la corriente alterna, continua y conmutada. Entender la señal PWM y sus aplicaciones. Entender el modelo de color RGB y cómo lo percibe el ojo. Entender el sonido y cómo se reproduce digitalmente. Entender el funcionamiento del componente RELÉ. Ser capaz de programar aplicaciones para un RELÉ. Entender el funcionamiento del componente servo continuo. Entender el funcionamiento del componente servomotor. Ser capaz de programar el posicionamiento de un servomotor. Entender el funcionamiento del componente LED RGB. Ser capaz de programar colores diferentes con el LED RGB. Entender el funcionamiento del componente Buzzer. Ser capaz de programar melodías con el componente Buzzer. Puesta en Común
-</div>
+</div><br>
 
 <div class="success fontlittle">
 <div class="fontnotes">
