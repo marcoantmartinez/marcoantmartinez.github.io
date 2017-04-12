@@ -136,7 +136,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Se exponen el enunciado de forma simple: "Queremos un prototipo que se capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás"
+- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás"
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
