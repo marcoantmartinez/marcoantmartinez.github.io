@@ -166,7 +166,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 <!-- <div style="text-align: center" ><a href=""><img style="width:100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/a9ef93f3/bitbloq/doc/image2.pdf" alt="some text"></a></div> -->
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/f7238cb0/bitbloq/doc/gauge.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/0c974e74/bitbloq/doc/gauge.svg" alt=""></div>
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
