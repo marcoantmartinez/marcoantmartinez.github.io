@@ -45,18 +45,18 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <h1>
     <div class="fonth1subtittle">
-    <span> Sesión IV - Proyecto</span> 
+    <span> Sesión VI - Proyecto</span> 
     </div>
     <div class="fonth1subtittle">
-    <span> Misión Imposible </span> 
+    <span> Comprobador pilas AA - AAA </span> 
     </div>
 </h1>
 
-<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/3brNg5um.jpg"/></a></div>
+<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/ZHL0Pod.png"/></a></div>
 
 En está sesión de proyecto se aplicará el **Proceso de Pensamiento Computacional** promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.
 
-El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso al teoría sobre los **Sensores Analógicos y Digitales** y cómo usar las librerías de Bitbloq para realizar aplicaciones en Arduino.
+El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso al teoría sobre los **Actuadores** y cómo usar las librerías de Bitbloq para realizar aplicaciones en Arduino.
 
 Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
@@ -71,11 +71,14 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 - Placa Arduino UNO (o superior) con alimentación y conector USB (por alumno o grupo)
-- Componente Potenciómetro.
-- Componente LDR.
-- Componente Pulsador.
-- Componente Sensor IR.
-- Puntero Láser (2 ó 4).
+- Componente Relé
+- Componente Servomotor.
+- Componente Servomotor continuo.
+- Componente LED RGB.
+- Componente Buzzer.
+- Video Señal PWM de Arduino.
+- Vídeo Señal Media de PWM.
+- Video Ruleta de colores.
 - Pizarra y proyector.
 
 <h2>
@@ -125,9 +128,10 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Tecnologías de Información - Programación, control por eventos.
-- Física - Analógico, Digital, Luz visible, Luz infrarroja,  Resistencia eléctrica, Precisión.
-- Matemáticas - Regla de 3 (operación mapeo), Resolución.
+- Tecnologías de Información - Programación, actuadores PWM, mapeo de valores.
+- Física - Corriente alterna, continua, conmutada, Ley de Ohm, Ruido eléctrico.
+- Matemáticas - Proporcionalidad, Ecuación de la recta, Escalas.
+- Dibujo Técnico - Simbología técnica de los circuitos implicados.
 
 
 <h2>
@@ -139,7 +143,9 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de activar la detección de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido.
+<div style="text-align: center" ><img width="100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/4ab6af1c/bitbloq/doc/gauge.svg" alt=""></div>
+
+- Se expone el enunciado de forma simple: "Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA".
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -158,7 +164,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/AMGULBe.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/fCQQwpi.png"/></a></div>
 
 - Se realizan las conexiones del prototipo y se realizan las pruebas.
 
@@ -166,7 +172,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 <!-- <div style="text-align: center" ><a href=""><img style="width:100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/a9ef93f3/bitbloq/doc/image2.pdf" alt="some text"></a></div> -->
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/672c6f10/bitbloq/doc/gauge.svg" alt=""></div>
+
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
@@ -184,11 +190,10 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 </h2>
 
 Pedimos a los alumnos reflexionar sobre:
-- Imaginar que cosas se podrían hacer con un potenciómetro.
-- Imaginar que cosas se podrían hacer con una LDR.
-- Imaginar que cosas se pueden hacer con un botón.
-- Imaginar que cosas se pueden hacer con un sensor infrarrojo.
-- Imaginar que otros sensores se podrían utilizar.
+- ¿Qué complicaciones han surgido ? ¿ Cómo se han resuelto ?
+- Imaginar que otras cosas se podrían hacer con este circuito.
+- Imaginar que cosas se podrían hacer con el servomotor.
+- Imaginar que otros actuadores se podrían utilizar.
 - ¿Es sencillo o complicado hacer lo que imaginan?
 
 **Conclusión**:
@@ -207,10 +212,9 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 <br>Desarrollo del juego **Misión Imposible**</br>
->¿ Qué criterio debemos emplear para incrementar el contador de alarma ?
->¿ Qué información podemos añadir al contador de alarmas ?
->¿ Qué pasa si ponemos varios espejos para hacer rebotar la luz del láser ?</br>
->¿ Qué otros usos se pueden dar a este circuito ?
+>¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ?
+>¿ Qué tendríamos que hacer para medir corriente alterna del enchufe ?
+
 ><br></br>
 
 <h2>
