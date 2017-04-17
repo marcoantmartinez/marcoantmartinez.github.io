@@ -139,7 +139,22 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de activar la detección de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido.
+<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/q4sutpe.jpg"/></a></div>
+
+
+- Se expone el enunciado de forma simple: "**Queremos un prototipo que sea capaz de activar la detección de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido**".
+
+<div class="success">
+En este proyecto el alumno previsiblemente encontrará varias dificultades de orden técnico: 
+
+- Relativa a la acumular el dato de las alarmas producidas para posteriormente presentarlo.
+- Relativa al momento en el que se detecta la pulsación del botón, si se hace when_press dará más problemas que si se hace when_release, por ejemplo al desactivar la alarma, si usan el método when_press la alarma podría volver a activarse si la pulsación no es rápida.
+- Relativa a conseguir la entonación, cadencia y repetición para producir un sonido de alarma con el buzzer.
+- Relativa a la correcta incidencia del laser en la LDR.
+- Relativa al ajuste del umbral de señal de Luz que debe medir el circuito LDR, pues debe tener en cuenta las condiciones de Luz ambiental máxima.
+- Relativa al funcionamiento del LDR, más intensidad luz, menos resistencia = menos voltaje.
+
+</div>
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -180,6 +195,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 </h2>
 
 Pedimos a los alumnos reflexionar sobre:
+- ¿ Qué complicaciones han surgido ? ¿ Cómo las han resuelto ?
 - Imaginar que cosas se podrían hacer con un potenciómetro.
 - Imaginar que cosas se podrían hacer con una LDR.
 - Imaginar que cosas se pueden hacer con un botón.
@@ -203,11 +219,13 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 <br>Desarrollo del juego **Misión Imposible**</br>
->¿ Qué criterio debemos emplear para incrementar el contador de alarma ?
->¿ Qué información podemos añadir al contador de alarmas ?
->¿ Qué pasa si ponemos varios espejos para hacer rebotar la luz del láser ?</br>
->¿ Qué otros usos se pueden dar a este circuito ?
-><br></br>
+
+>- ¿ Qué criterio debemos emplear para incrementar el contador de alarma ?
+>- ¿ Qué información podemos añadir al contador de alarmas ?
+>- ¿ Qué pasa si ponemos varios espejos para hacer rebotar la luz del láser ?</br>
+>- ¿ Qué otros usos se pueden dar a este circuito ?
+
+<br></br>
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">

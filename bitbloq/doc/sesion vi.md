@@ -48,7 +48,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <span> Sesión VI - Proyecto</span> 
     </div>
     <div class="fonth1subtittle">
-    <span> Comprobador pilas AA - AAA </span> 
+    <span> Comprobador Baterías AA - AAA </span> 
     </div>
 </h1>
 
@@ -71,14 +71,8 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Cuentas de Bitbloq activadas para los alumnos - grupos
 - Placa Arduino UNO (o superior) con alimentación y conector USB (por alumno o grupo)
-- Componente Relé
 - Componente Servomotor.
-- Componente Servomotor continuo.
-- Componente LED RGB.
-- Componente Buzzer.
-- Video Señal PWM de Arduino.
-- Vídeo Señal Media de PWM.
-- Video Ruleta de colores.
+- Componente Potenciómetro.
 - Pizarra y proyector.
 
 <h2>
@@ -145,7 +139,18 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 <div style="text-align: center" ><img width="100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/4ab6af1c/bitbloq/doc/gauge.svg" alt=""></div>
 
-- Se expone el enunciado de forma simple: "Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA".
+- Se expone el enunciado de forma simple: "**Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA**".
+
+<div class="warning">
+
+En este proyecto el alumno previsiblemente encontrará varias dificultades de orden técnico: 
+- Relativo a comenzar el prototipo con un potenciómetro para simular una pila, que utilizará en la prueba final.
+- Relativa a adecuar el valor de entrada analógico máximo a medir a 2 voltios.
+- Relativa a mapear el servo, añadiendo además el giro en sentido contrario a las agujas del reloj.
+- Relativa a aparición de corriente estática que se propaga a la entrada analógica separando la aguja de 0 v en reposo, este hecho le hará consciente de que las simulaciones son aproximaciones a la solución real, y por eso siempre al final es importante probar en real.
+- La cuarta el ensamblado de la aguja indicadora en 0, debido a que engranaje del servo no es ajustable en 0.
+
+</div>
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -160,7 +165,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden hacer.
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/1eea74e5/bitbloq/doc/impossible_mission.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/01f64756/bitbloq/doc/battery_text.svg" alt=""></div>
 
 - Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
 
@@ -168,11 +173,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 - Se realizan las conexiones del prototipo y se realizan las pruebas.
 
-<div style="text-align: center; width:100%" ><a href=""><img src="http://i.imgur.com/L0aVnyz.png"/></a></div>
-
-<!-- <div style="text-align: center" ><a href=""><img style="width:100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/a9ef93f3/bitbloq/doc/image2.pdf" alt="some text"></a></div> -->
-
-
+<div style="text-align: center; width:100%" ><a href=""><img src="http://i.imgur.com/ycmSdSC.png"/></a></div>
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
@@ -197,9 +198,9 @@ Pedimos a los alumnos reflexionar sobre:
 - ¿Es sencillo o complicado hacer lo que imaginan?
 
 **Conclusión**:
->- Las computadoras necesitan traducir los valores analógicos de la naturaleza a digital.
->- Se pueden utilizar muchos sensores digitales y analógicos.
->- Arduino puede leer sensores digitales y analógicos.
+>- Las señales eléctricas se convierten en luz, sonido, movimiento ... (otros tipos de energía) mediante los actuadores.
+>- Se pueden utilizar muchos actuadores.
+>- Arduino de serie sólo puede utilizar actuadores en los pines digitales.
 
 
 <h2>
@@ -211,11 +212,11 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-<br>Desarrollo del juego **Misión Imposible**</br>
->¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ?
->¿ Qué tendríamos que hacer para medir corriente alterna del enchufe ?
+<br>Ampliando funcionalidad del prototipo **Comprobador Baterías AAA y AA**</br>
 
-><br></br>
+>- ¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ?
+>- ¿ Qué tendríamos que hacer para medir corriente alterna del enchufe ?
+<br></br>
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">

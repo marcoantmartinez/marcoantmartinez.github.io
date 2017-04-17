@@ -136,7 +136,18 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-- Se expone el enunciado de forma simple: "Queremos un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás"
+<div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/TOnC0ed.png"/></a></div>
+
+- Se expone el enunciado de forma simple: "**Queremos un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás**"
+
+<div class="success">
+En este proyecto el alumno previsiblemente encontrará varias dificultades de orden técnico:
+
+- Relativas al uso de la detección de pulsación when_press ó when_release
+- Relativas a la interrupción de la conexión con el puerto serie y su restablecimiento
+- Relativas el uso de bloques para concatenar texto y datos (que hay que convertir a texto) 
+
+</div>
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -202,7 +213,9 @@ Pedimos a los alumnos reflexionar sobre:
 >- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
 >- ¿ Sería posible organizar una carrera de relevos en el Aula ?
 >- ¿ Qué otros usos se pueden dar a este prototipo ?
-
+>- Se podría incluir un tres led rojo, amarillo y verde para simular un semáforo que de la señal de salida
+>- Se podría añadir un segundo botón y competir con un compañero
+>- Se podrían añadir un led por botón y tres botones, y que el led ilumine el botón que debemos pulsar, y con el que se medirá el tiempo de reacción
 <h2>
     <div id="evaluacion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
