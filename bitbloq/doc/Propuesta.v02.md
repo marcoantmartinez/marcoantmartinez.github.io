@@ -241,12 +241,11 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - Comprender y saber programar actuadores :
     - Qué se un actuador
     - Que es la corriente eléctrica y cómo se presenta
+    - Cómo se utiliza el electromagnetismo para conseguir movimiento
     - Cómo se usa la señal PWM para controlar actuadores
-    - Diferencias entre pin digital y analógico
-    - Qué es la Precisión (Resolución)
-    - Componentes digitales y analógicos
-    - Componentes analógicos potenciómetro y LDR
-    - Componentes digitales botón y sensor infrarrojo
+    - Cómo se compone el color con un dispositivo RGB
+    - Cómo se reproduce el sonido digitalmente
+    - Circuitos de componentes actuadores digitales
 
 <h3><div id="que-es" class="fonth3tittle">Objetivos Competenciales</div></h3>
 

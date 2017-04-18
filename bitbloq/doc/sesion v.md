@@ -86,14 +86,13 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h2>
 
-- ¿Qué se un actuador?
-- ¿Que es la corriente eléctrica y cómo se presenta?
-- ¿Cómo se usa la señal PWM para controlar actuadores?
-- Diferencias entre pin digital y analógico.
-- Qué es la Precisión (Resolución).
-- Componentes digitales y analógicos
-- Componentes analógicos potenciómetro y LDR.
-- Componentes digitales botón y sensor infrarrojo.
+- Qué se un actuador
+- Que es la corriente eléctrica y cómo se presenta
+- Cómo se utiliza el electromagnetismo para conseguir movimiento
+- Cómo se usa la señal PWM para controlar actuadores
+- Cómo se compone el color con un dispositivo RGB
+- Cómo se reproduce el sonido digitalmente
+- Circuitos de componentes actuadores digitales
 
 
 <h2>
