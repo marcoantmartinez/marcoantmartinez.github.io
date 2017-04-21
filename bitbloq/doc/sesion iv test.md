@@ -45,7 +45,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <h1>
     <div class="fonth1subtittle">
-<span> Sesión IV - Evaluación</span> 
+<span> Sesiones III y IV - Test de Comprensión</span> 
     </div>
     <div class="fonth1subtittle">
     <span> Sensores Analógicos y Digitales </span> 
@@ -116,15 +116,15 @@ El componente electrónico detector de Infrarrojos (IR) tiene por misión detect
 
 <div style="text-align: center" ><img style="width:30%" src="http://i.imgur.com/1U5a2lC.png"/><img style="width:30%" src="http://i.imgur.com/G10FvKx.png"/><img style="height: 200px" src="http://i.imgur.com/XDPBPTp.png"/></div>
 <div style="font-weight:300;">
-Aunque existen mucho modelos comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un detector de IR:
+Aunque existen mucho modelos comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un detector de IR: (multiselección)
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
 		<input type="checkbox" name="vehicle" value="Bike"> a.- Disponen de un potenciómetro para ajustar la sensibilidad a la obscuridad o la claridad.<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- Disponen de un emisor de luz IR que al reflejarse en un objeto próximo se detecta por un detector IR que también lleva incorporado.<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- Su salida es analógica y puede ofrecer valores de 0 a 1023 según ajustemos el potenciómetro que lleva incorporado<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- Su salida es digital y será 0 (false) si no recibe luz IR reflejada en un objeto próximo y 1 (true) en caso recibir la luz reflejada en un objeto próximo<br>
+		<input type="checkbox" name="vehicle" value="Bike"> b.- Disponen de un emisor de luz IR que al reflejarse en un objeto próximo se detecta por un detector IR que también lleva incorporado.<br>
+		<input type="checkbox" name="vehicle" value="Bike"> c.- Su salida es analógica y puede ofrecer valores de 0 a 1023 según ajustemos el potenciómetro que lleva incorporado<br>
+		<input type="checkbox" name="vehicle" value="Bike"> d.- Su salida es digital y será 0 (false) si no recibe luz IR reflejada en un objeto próximo y 1 (true) en caso recibir la luz reflejada en un objeto próximo<br>
 	</form>
 </div>
 
@@ -139,15 +139,15 @@ El componente electrónico Potenciómetro es un sensor que percibe el grado de g
 
 <div style="text-align: center" ><img style="width:30%" src="http://i.imgur.com/2VQM0ZF.png"/><img style="width:30%" src="http://i.imgur.com/T1Iyojn.png"/><img style="width:30%" src="http://i.imgur.com/MwVRqQs.png"/></div>
 <div style="font-weight:300;">
-Aunque existen mucho modelos y formas, comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un potenciómetro: 
+Aunque existen mucho modelos y formas, comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un potenciómetro: (multiselección)
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
 		<input type="checkbox" name="vehicle" value="Bike"> a.- Puede variar la resistencia al paso de la corriente eléctrica.<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- Es un componente que se puede conectar tanto a los pines digitales como al pines analógicos de Arduino para obtener su funcionalidad.<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- Necesita un accionamiento mecánico para conseguir la variación de resistencia y de voltaje de salida<br>
-		<input type="checkbox" name="vehicle" value="Bike"> a.- El potenciómetro aumenta la potencia y por tanto la corriente que pueden entregar Arduino a los pines digitales ( de 40mA hasta 1 Amperio máximo )<br>
+		<input type="checkbox" name="vehicle" value="Bike"> b.- Es un componente que se puede conectar tanto a los pines digitales como al pines analógicos de Arduino para obtener su funcionalidad.<br>
+		<input type="checkbox" name="vehicle" value="Bike"> c.- Necesita un accionamiento mecánico para conseguir la variación de resistencia y de voltaje de salida<br>
+		<input type="checkbox" name="vehicle" value="Bike"> d.- El potenciómetro aumenta la potencia y por tanto la corriente que pueden entregar Arduino a los pines digitales ( de 40mA hasta 1 Amperio máximo )<br>
 	</form>
 </div>
 
@@ -253,7 +253,7 @@ Clasifica los siguientes dispositivos como Sensores Digitales o Analógicos.
 ## **Pregunta 6**
 Un alumno ha realizado un programa para que la primera vez que se completen 4 pulsaciones del componente pulsador, el led se encienda indefinidamente. Observa el código que ha realizado :
 
-<div style="text-align: center" ><img  src="http://i.imgur.com/EJ3OfRt.png"/></div>
+<div style="text-align: center" ><img  src="http://i.imgur.com/UCporD3.png"/></div>
 
 <div style="font-weight:300;">
 Ahora el alumno se dispone a acabar el código, y la duda que tiene es con que valor inicializar la variable "cuenta"; ayudale a buscar la solución, elige una de la siguientes respuestas:
@@ -368,7 +368,7 @@ Viendo el cableado del circuito y la descripción del la placa se pueden deducir
 		<input type="checkbox" name="gender" value="female"> d. - Tiene potenciómetros para realizar los ajustes necesarios<br>		
 		<input type="checkbox" name="gender" value="female"> e. - La semiesfera blanca parece el sensor, que  percibirá el calor del cuerpo humano (se llama lente Fresnell)<br>
 		<input type="checkbox" name="gender" value="female"> f. - El dispositivo muestra cuatro condensadores Fluzo, son negros para acumular los Takiones que emite el cuerpo humano<br>
-		<input type="checkbox" name="gender" value="female"> f. - Si el intruso levanta una jarra con hielo sobre su cabeza y pasea delante del sensor, nunca será detectado, debido al aire frío que bajará y anulará el calor emitido por el cuerpo humano<br>			
+		<input type="checkbox" name="gender" value="female"> f. - Si el intruso levanta una jarra con hielo sobre su cabeza y pasea delante del sensor, nunca será detectado, debido a que bajará suficiente aire frío para anular el calor emitido por el cuerpo humano<br>			
 	</form>
 </div>
 
