@@ -457,15 +457,57 @@ Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del c
 
 <h3><div id="que-es" class="fonth3tittle">TestS de Comprensión</div></h3>
 
+<div style="left:8%; position: relative; width:90%;">
+
+Los **TestS de Comprensión** además de servir para evaluar el conocimiento del alumno, incorpora una componente de repaso de la lección, incluyendo introducciones simples al contenidos que se han impartido.<br><br>
+
+Una copia del test se entregará a cada alumno, impresos en color y buena calidad, junto con hoja que tiene la tabla de respuestas, donde el alumno se identificará con nombres, apellidos, curso, grupo, ... etc y emitirá sus respuestas. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br>
+
+A continuación se exponen los enlaces que llevan cada uno de los test de los tres bloques.
+</div><br>
+
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="">Test sesiones I y II</a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="">Test sesiones III y IV</a>
+</div>
+<br><br><br><br>
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="">Test sesiones V y VI</a>
+</div>
+<br><br><br><br>
+
+
+
 
 <h3><div id="que-es" class="fonth3tittle">Rubrica de Evaluación</div></h3>
+
+<div style="left:8%; position: relative; width:90%;">
+
+La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los **objetivos competenciales**, como parte de la **Presentación del Curso**, el alumno recibirá esta información para que sepa con claridad lo que se espera de él.<br><br>
+Al termino de cada proyecto el profesor evaluará a cada alumno en las competencias descritas, registrando la nota.<br><br>
+</div>
 
 <div style="left:8%; position: relative; width:90%;">
 	<img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
 </div><br><br>
 
-<br>
-<br>
+
+
+<h3><div id="que-es" class="fonth3tittle">Mejora Continua</div></h3>
+
+<div style="left:8%; position: relative; width:90%;">
+
+Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de calidad del curso, que aspectos creen que faltan, cuales sobran, que se podría mejorar ... etc.<br><br>
+
+Este **feedback** además de ser un requisito necesario para mejorar el curso, servirá para mejorar y adaptar los contenidos y métodos, para futuras sesiones de participación de esta propuesta educativa.<br><br>
+
+</div>
+
 
 ***
 <div class="fontfooter">
@@ -485,6 +527,34 @@ Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del c
 </div>
 <details>
 	<style>
+        .fontexternallink2{
+            float:left;
+            width: 300px;
+            border-radius: 0px;
+            border-style: solid;
+            padding:30px; 
+            background-color: #5e8421;
+            text-align: center;
+            line-height:0;
+            color:#ffffff; 
+            font-family:'Roboto Slab', serif;
+            font-size:23px; 
+            font-weight:700;
+        }
+        .fontseparator{
+            float:left;
+            width: 25px;
+            border-radius: 0px;
+            border-style: solid;
+            padding:30px; 
+            background-color: #ffffff;
+            text-align: center;
+            line-height:0;
+            color:#ffffff; 
+            font-family:'Roboto Slab', serif;
+            font-size:23px; 
+            font-weight:700;
+        }
 		.bannerheader{
 			width:100%; 
 			margin: 0 auto;
