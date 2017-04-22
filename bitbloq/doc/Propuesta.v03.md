@@ -10,6 +10,12 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 
+
+
+
+
+
+
 <div id="div_exterior" class="fontbody" > 
 
 <div class="fontheader" >
@@ -45,9 +51,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
 
-
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></div>
-
 
 <h1>
     <div class="fonth1subtittle">
@@ -55,14 +59,35 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
+
+
+
+
+
+
+
+
 <h2>
     <div id="que-es" class="fonth2tittle">
         <span class="fa-stack fa-lg" >
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> Introducción
+        </span> Proyecto Educativo "Programación y Robótica"
     </div>
 </h2>
+
+<h3><div id="que-es" class="fonth3tittle">Justificación</div></h3>
+
+En el día a día el uso de tecnología nos pasa desapercibido, debido a la inmersión de esta en todos las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo. 
+<br><br>
+Si miramos con más detalle la última década, la progresión de esta inmersión tecnológica se ha visto acelerada por nuevas herramientas (Tecnologías de Información) que hacen que pasar de una **idea** a el desarrollo de un **prototipo funcional** sea algo al alcance de cualquier persona.
+<br><br>
+En los últimos años, el colectivo que forma este movimiento **creativo** se está mirando desde todos los sectores, como una apuesta clara para crear **futuro** en todas la facetas de la actividad humana.
+<br><br>
+Con todo esto es fácil imaginar que esta aceleración de la inmersión tecnológica, seguirá adelante, y que el dominio de la **programación** y la **robótica** será de gran ayuda para los profesionales del futuro.
+<br><br>
+
+<h3><div id="que-es" class="fonth3tittle">Finalidad</div></h3>
 
 Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
 
@@ -74,13 +99,24 @@ Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Comput
 
 </div>
 
-La propuesta didáctica tiene como fin primordial fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables.
+Los capacidades que el alumno desarrollará durante son:
 
-Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) o **MAKER**, que promueve la autonomía en el aprendizaje, el conocimiento colaborativa, el ingenio personal y las oportunidades de emprendimiento.
+- Como fin primordial, fomentar la **creatividad** del alumno y que **sienta muy cercana y sencilla la tecnología** que le rodea, haciéndole ver que **todas la ideas que tenga el alumno**, son realizables en proyectos reales, y que la clave para lograrlo, es **analizar las necesidades** del proyecto y de **dividir los problemas** y sus soluciones en **partes más sencillas** y manejables.
 
-También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que **los errores son parte normal del proceso de innovación y creación** y que lo importante es seguir adelante, intentando nuevas soluciones.
+- Cómo fin secundario el alumno tomará conciencia del movimiento global **D.I.Y** (hazlo tú mismo) o **MAKER**, que promueve la autonomía en el aprendizaje, el conocimiento colaborativa, el ingenio personal y las oportunidades de emprendimiento.
 
-En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
+- También se alimentará el **espíritu crítico** haciendo que el alumno elija una solución, de entre las muchas posibles y que valore los pros y contras de estas, antes de hacer su elección final. Otra parte importante será que el alumno aprenda que **los errores son parte normal del proceso de innovación y creación** y que lo importante es seguir adelante, intentando nuevas soluciones.
+
+- En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
+
+
+
+
+
+
+
+
+
 
 <h2>
     <div id="que-es" class="fonth2tittle">
@@ -210,8 +246,16 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios
 - Facilita al alumno la transición al desarrollo tradicional de código, para aumentar la complejidad de los proyectos
 
-
 ---
+
+
+
+
+
+
+
+
+
 <h2>
     <div id="resumen-de-leccion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
@@ -399,12 +443,26 @@ Planificación **Sesiones V y VI** </div></h4>
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Rubrica de Evaluación
+        </span> Evaluación
     </div>
 </h2>
 
+La evaluación de aprovechamiento del curso por parte del alumno se reflejará con una **puntuación final**. Esta nota estará compuesta por **dos puntuaciones que tendrán el 50%** de peso respectivamente, en la puntuación final.
+
+**La primera nota** será la resultante de la media que resulte de los **tres "Test de Compresión"** que se harán al finalizar cada uno de los tres bloques. Cada uno de los "test de comprensión" estará compuesto por 10 preguntas tipo test que versarán sobre los temas y los proyectos impartidos.
+
+**La segunda nota** será la resultante de la media de evaluación del profesor en base a la **Rubrica de evaluación** orientada a valorar los objetivos **técnicos y competenciales** que el alumno ha alcanzado durante el curso.
+
+Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del curso, ponderado de 0 a 10 puntos.
+
+<h3><div id="que-es" class="fonth3tittle">TestS de Comprensión</div></h3>
 
 
+<h3><div id="que-es" class="fonth3tittle">Rubrica de Evaluación</div></h3>
+
+<div style="left:8%; position: relative; width:90%;">
+	<img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
+</div><br><br>
 
 <br>
 <br>
