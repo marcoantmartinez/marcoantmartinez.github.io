@@ -78,7 +78,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <h3><div id="que-es" class="fonth3tittle">Justificación</div></h3>
 
-En el día a día el uso de tecnología nos pasa desapercibido, debido a la inmersión de esta en todos las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo. 
+En el día a día el uso de la tecnología nos pasa desapercibido, debido a la inmersión de esta en todas las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo. 
 <br><br>
 Si miramos con más detalle la última década, la progresión de esta inmersión tecnológica se ha visto acelerada por nuevas herramientas (Tecnologías de Información) que hacen que pasar de una **idea** a el desarrollo de un **prototipo funcional** sea algo al alcance de cualquier persona.
 <br><br>
@@ -476,21 +476,21 @@ Los **TestS de Comprensión** además de servir para evaluar el conocimiento del
 
 Una copia del test se entregará a cada alumno, impresos en color y buena calidad, junto con hoja que tiene la tabla de respuestas, donde el alumno se identificará con nombres, apellidos, curso, grupo, ... etc y emitirá sus respuestas. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br>
 
-A continuación se exponen los enlaces que llevan cada uno de los test de los tres bloques.
+A continuación se exponen los enlaces que llevan cada uno de los **test** de los tres bloques.
 </div><br>
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="">Test sesiones I y II</a>
+    <a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="">Test sesiones III y IV</a>
+    <a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
 </div>
 <br><br><br><br>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="">Test sesiones V y VI</a>
+    <a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
 </div>
 <br><br><br><br>
 
@@ -515,7 +515,7 @@ Al termino de cada proyecto el profesor evaluará a cada alumno en las competenc
 
 <div style="left:8%; position: relative; width:90%;">
 
-Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de calidad del curso, que aspectos creen que faltan, cuales sobran, que se podría mejorar ... etc.<br><br>
+Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de calidad del curso, que aspectos les han gustado más y cuales menos, cuales creen que faltan, cuales creen que se podría mejorar ... etc.<br><br>
 
 Este **feedback** además de ser un requisito necesario para mejorar el curso, servirá para mejorar y adaptar los contenidos y métodos, para futuras sesiones de participación de esta propuesta educativa.<br><br>
 
