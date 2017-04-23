@@ -436,11 +436,107 @@ Planificación **Sesiones V y VI** </div></h4>
 
 
 
-<h3><div id="que-es" class="fonth3tittle">Sesiones :</div></h3>
+
+
+
+
+
+
+
+<h3><div id="que-es" class="fonth3tittle">Sesiones</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
+Los enlaces presentados a continuación mostrarán el programa de actividades a seguir para cada una de las 6 sesiones, la estructura de programa en cada sesión es similar y consta de las siguientes partes:
+
+- **Introducción :** Expone el objetivo general de la sesión.
+- **Recursos necesarios :** Medios y/o recursos que se necesitan para impartir el contenido.
+- **Resumen de lección :** Son los puntos prioritarios que deberán tratarse.
+- **Objetivos de aprendizaje :** Son contenidos y objetivos técnicos específicos que posteriormente se evaluarán en el test del bloque.
+- **Aplicaciones transversales :** Son las materias y sus áreas de aplicación en otras asignaturas, que serán tratadas durante la sesión.
+- **Inicio :** Expone los puntos que se tratarán como introducción a los contenidos de la sesión.
+- **Desarrollo :** Expone los pasos que se seguirán para el desarrollo de la/s actividad/es de la sesión.
+- **Puesta en común :** Expone como conducir el espacio reservado al final de la sesión para que los alumnos compartan sus experiencias de aprendizaje durante la sesión, posibles aplicaciones de lo aprendido, y un apartado de conclusión donde se resaltará los conceptos importantes.
+- **Reto :** Este apartado en la sesión teórica, hará una introducción a la sesión de proyecto siguiente. Este apartado en la sesión de proyecto planteará cuestiones para mejorar o ampliar la aplicación del prototipo construido.
+- **Evaluación :** En el formato propuesto, la evaluación de objetivos técnicos (tests) y competenciales (rubrica evaluación) se realizará al concluir el bloque.
+
+A continuación se exponen los enlaces que llevan cada una de las sesiones que componen esta propuesta didáctica de "Programación y Robótica" con Arduino.
 </div>
+<br>
+
+<div style="left:8%; position: relative; width:90%;">
+
+**Bloque I**
+</div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_i.html">Sesión I - teoría</a>
+</div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
+</div>
+
+<div style="left:15%; position: relative; width:90%;">
+Bloques de Control
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+¿Quien pulsa el botón más rápido?
+</div>
+<br>
+
+
+
+
+
+
+<div style="left:8%; position: relative; width:90%;">
+
+**Bloque II**
+</div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
+</div>
+
+<div style="left:10%; position: relative; width:90%;">
+Sensores Analógicos y Digitales
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Misión Imposible
+</div>
+<br>
+
+
+
+
+<div style="left:8%; position: relative; width:90%;">
+
+**Bloque III**
+</div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallink2">
+    <a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
+</div>
+<div style="left:20%; position: relative; width:90%;">
+Actuadores
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Comprobador de baterías AA / AAA
+</div>
+<br>
+
+---
+<br><br>
 
 
 
@@ -543,10 +639,12 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
         .fontexternallink2{
             float:left;
             width: 300px;
-            border-radius: 0px;
+            border-radius: 1px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
             border-style: solid;
             padding:30px; 
-            background-color: #5e8421;
+            background-color: #d66c00;
             text-align: center;
             line-height:0;
             color:#ffffff; 

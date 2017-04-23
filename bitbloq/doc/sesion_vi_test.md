@@ -231,9 +231,9 @@ Indica cual será el ángulo que alcanzará el servo cuando lo observemos funcio
 <div class="fonttest">
 
 ## **Pregunta 8**
-Hemos utilizado bloques para que los servos actúen, ahora observa con cuidado el siguiente comando:
+Hemos utilizado bloques para que los servos giren, ahora observa con cuidado el siguiente comando:
 
-<div style="text-align: center" ><img style="height:60px" src="http://i.imgur.com/rzOw71K.png"/></div>
+<div style="text-align: center" ><img style="" src="http://i.imgur.com/j5ioBb9.png"/></div>
 
 <div style="font-weight:300;">
 En el se lee :<br>
