@@ -462,7 +462,8 @@ Los enlaces presentados a continuación mostrarán el programa de actividades a 
 
 A continuación se exponen los enlaces que llevan cada una de las sesiones que componen esta propuesta didáctica de "Programación y Robótica" con Arduino.
 </div>
-<br>
+<br><br>
+
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -470,21 +471,25 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 </div>
 
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_i.html">Sesión I - teoría</a>
-</div>
 
+<div class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_i.html">Sesion I  teoria</a>
+</div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
     <a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
 </div>
 
-<div style="left:15%; position: relative; width:90%;">
-Bloques de Control
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-¿Quien pulsa el botón más rápido?
+<br><br>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_v.html">Bloques de Control</a>
 </div>
-<br>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html">¿Quién Pulsa Más Rápìdo?</a>
+</div>
+<br><br><br>
 
 
 
@@ -505,13 +510,16 @@ Bloques de Control
     <a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
 </div>
 
-<div style="left:10%; position: relative; width:90%;">
-Sensores Analógicos y Digitales
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Misión Imposible
+<br><br>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_v.html">Sensores Analógicos y Digitales</a>
 </div>
-<br>
-
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html">Misión Imposible</a>
+</div>
+<br><br><br>
 
 
 
@@ -528,16 +536,23 @@ Misión Imposible
 <div class="fontexternallink2">
     <a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
 </div>
-<div style="left:20%; position: relative; width:90%;">
-Actuadores
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Comprobador de baterías AA / AAA
-</div>
-<br>
 
----
 <br><br>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_v.html">Actuadores</a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html">Comprobador Baterías AAA/AA</a>
+</div>
 
+
+
+
+<br>
+---
+<br>
 
 
 
@@ -573,7 +588,9 @@ Los **TestS de Comprensión** además de servir para evaluar el conocimiento del
 Una copia del test se entregará a cada alumno, impresos en color y buena calidad, junto con hoja que tiene la tabla de respuestas, donde el alumno se identificará con nombres, apellidos, curso, grupo, ... etc y emitirá sus respuestas. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br>
 
 A continuación se exponen los enlaces que llevan cada uno de los **test** de los tres bloques.
-</div><br>
+</div>
+<br>
+
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
@@ -583,12 +600,43 @@ A continuación se exponen los enlaces que llevan cada uno de los **test** de lo
 <div class="fontexternallink2">
     <a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
 </div>
-<br><br><br><br>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_v.html">Bloques de Control</a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html">Sensores Analógicos y Digitales</a>
+</div>
+
+<div style="float:left; width:100%;"></div>
+
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
     <a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
 </div>
-<br><br><br><br>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html"></a>
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_v.html">Actuadores</a>
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+    <a style="color:#000000" href="sesion_vi.html"></a>
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -636,6 +684,19 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
 </div>
 <details>
 	<style>
+        .fontexternallinkcomment{
+            float:left;
+            width: 300px;
+            border-radius: 1px;
+            padding:10px; 
+            background-color: rgba(255, 255, 255, .5);
+            text-align: center;
+            line-height:0;
+            color:#000000; 
+            font-family:'Roboto Slab', serif;
+            font-size:18px; 
+            font-weight:300;
+        }
         .fontexternallink2{
             float:left;
             width: 300px;
