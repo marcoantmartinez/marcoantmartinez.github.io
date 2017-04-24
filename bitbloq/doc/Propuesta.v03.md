@@ -19,44 +19,74 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div id="div_exterior" class="fontbody" > 
 
 <div class="fontheader" >
-	<a  style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+<a  style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </div>
 
 <div class="bannerheader">
-	<a href="a" target="_blank">
-	    <img src="http://i.imgur.com/vSK3EZk.jpg" alt="">
-	</a>
-	
+<a href="a" target="_blank">
+    <img src="http://i.imgur.com/vSK3EZk.jpg" alt="">
+</a>
+
 <div class="bannerfooter">
 
-<h1>
-    <div class="fonth1tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
-        </span> 
-        Propuesta Didáctica
-    </div>
+<h1 id="propuesta">
+<div class="fonth1tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-graduation-cap fa-stack-1x colortools"></i>
+    </span> 
+    Propuesta Didáctica
+</div>
 </h1>
 
 <div class="linksheader">
-	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
-	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
-	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
-	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
-	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
-	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
-	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+<a href="#proyecto"><i class="fa fa-check-square-o"></i> Proyecto</a> |
+<a href="#contexto"><i class="fa fa-check-square-o"></i> Contexto</a> |
+<a href="#objetivos"><i class="fa fa-check-square-o"></i> Objetivos</a> |
+<a href="#contenidos-plan"><i class="fa fa-check-square-o"></i> Contenidos y Planificación</a> |
+<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
+
+<details class="linksTOC">
+
+- [Proyecto](#proyecto)
+  * [Justificación](#justificacion)
+- [CLI](#cli)
+- [Highights](#highights)
+- [Usage](#usage)
+- [API](#api)
+  * [toc.plugin](#tocplugin)
+  * [toc.json](#tocjson)
+  * [toc.insert](#tocinsert)
+  * [Utility functions](#utility-functions)
+- [Options](#options)
+  * [options.append](#optionsappend)
+  * [options.filter](#optionsfilter)
+  * [options.slugify](#optionsslugify)
+  * [options.bullets](#optionsbullets)
+  * [options.maxdepth](#optionsmaxdepth)
+  * [options.firsth1](#optionsfirsth1)
+  * [options.stripHeadingTags](#optionsstripheadingtags)
+- [About](#about)
+</details>
+
+<!-- MarkdownTOC depth=3-->
+
+
+<!-- /MarkdownTOC -->
+
+
 
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></div>
 
-<h1>
-    <div class="fonth1subtittle">
-    <span> Programación y Robótica con Arduino </span> 
-    </div>
+
+
+
+<h1 id="programacion">
+
+<div class="fonth1subtittle">
+<span> Programación y Robótica con Arduino </span> 
+</div>
 </h1>
 
 
@@ -67,16 +97,16 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 
 
-<h2>
-    <div id="que-es" class="fonth2tittle">
-        <span class="fa-stack fa-lg" >
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> Proyecto Educativo "Programación y Robótica"
-    </div>
+<h2 id="proyecto">
+<div id="que-es" class="fonth2tittle">
+    <span class="fa-stack fa-lg" >
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-graduation-cap fa-stack-1x colortools"  ></i>
+    </span> Proyecto Educativo "Programación y Robótica"
+</div>
 </h2>
 
-<h3><div id="que-es" class="fonth3tittle">Justificación</div></h3>
+<h3 id="justificacion"><div class="fonth3tittle">Justificación</div></h3>
 
 En el día a día el uso de la tecnología nos pasa desapercibido, debido a la inmersión de esta en todas las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo. 
 <br><br>
@@ -87,7 +117,7 @@ En los últimos años, el colectivo que forma este movimiento **creativo** se es
 Con todo esto es fácil imaginar que esta aceleración de la inmersión tecnológica, seguirá adelante, y que el dominio de la **programación** y la **robótica** será de gran ayuda para los profesionales del futuro.
 <br><br>
 
-<h3><div id="que-es" class="fonth3tittle">Finalidad</div></h3>
+<h3><div id="finalidad" class="fonth3tittle">Finalidad</div></h3>
 
 Esta propuesta tiene como objeto introducir al alumno en el **Pensamiento Computacional** mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido **Arduino** y componentes electrónicos (sensores y actuadores) compatibles con esta.
 
@@ -119,15 +149,15 @@ Los capacidades que el alumno desarrollará durante son:
 
 
 <h2>
-    <div id="que-es" class="fonth2tittle">
-        <span class="fa-stack fa-lg" >
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-wrench fa-stack-1x colortools"  ></i>
-        </span> Contextualización 
-    </div>
+<div id="contexto" class="fonth2tittle">
+    <span class="fa-stack fa-lg" >
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-key fa-stack-1x colortools"  ></i>
+    </span> Contextualización 
+</div>
 </h2>
 
-<h3><div id="que-es" class="fonth3tittle">Organización del Aula</div></h3>
+<h3><div id="organizacion" class="fonth3tittle">Organización del Aula</div></h3>
 
 Para la realización de los ejercicios propuestos en las actividades, se utilizará la **Programación por Pares**; dos alumnos por puesto de trabajo, esto favorece varios aspectos en el aprendizaje del alumno:
 
@@ -140,42 +170,42 @@ Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos elec
 
 En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.
 
-<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
+<h3><div id="conocimiento" class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
 
 Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
 Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :
 
 - Matemáticas : 
-	- Algoritmos. 
-	- Cálculo de Tiempo de reacción. 
-	- Números aleatorios.
-	- Proporcionalidad (Regla de 3), Algoritmo (Mapeo)
-	- Resolución (precisión y exactitud)
-	- Cálculo de área, área media, 
-	- Suma de Gráficas (suma de señales).
+- Algoritmos. 
+- Cálculo de Tiempo de reacción. 
+- Números aleatorios.
+- Proporcionalidad (Regla de 3), Algoritmo (Mapeo)
+- Resolución (precisión y exactitud)
+- Cálculo de área, área media, 
+- Suma de Gráficas (suma de señales).
 - Física : 
-	- Tiempo de reacción y medida (mili segundos)
-	- Sensores y Actuadores
-	- Electrónica de diodo y pulsador
-	- Ley de Ohm, Resistencia, Voltaje e Intensidad.
-	- Analógico, Digital
-	- Espectro de Luz (Luz visible, Luz infrarroja)
-	- Corriente alterna, continua y conmutación. 
-	- Sonido.
+- Tiempo de reacción y medida (mili segundos)
+- Sensores y Actuadores
+- Electrónica de diodo y pulsador
+- Ley de Ohm, Resistencia, Voltaje e Intensidad.
+- Analógico, Digital
+- Espectro de Luz (Luz visible, Luz infrarroja)
+- Corriente alterna, continua y conmutación. 
+- Sonido.
 - Biología : 
-	- Oído y Ojo Humano.
+- Oído y Ojo Humano.
 - Dibujo Técnico : 
-	- Diagramas de flujo.
-	- Simbología técnica de circuitos.
+- Diagramas de flujo.
+- Simbología técnica de circuitos.
 - Tecnologías de Información: 
-	- Programación algorítmica 
-	- Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto
-	- Control de eventos
-	- Actuadores PWM
+- Programación algorítmica 
+- Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto
+- Control de eventos
+- Actuadores PWM
 
 Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
 
-<h3><div id="que-es" class="fonth3tittle">Recursos necesarios</div></h3>
+<h3><div id="recursos" class="fonth3tittle">Recursos necesarios</div></h3>
 
 Los recursos listados a continuación serán revisados con los responsables del programa educativo del centro, a fin de adaptarlos a sus necesidades.
 
@@ -186,7 +216,7 @@ Los recursos listados a continuación serán revisados con los responsables del 
 - Cuentas de acceso por alumno pre-configuradas en Bitbloq
 - 20 Kits de robótica Arduino. Se recomienda [BQ Zum Box](https://www.bq.com/en/zum-kit) o similar.
 
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino</div></h3>
+<h3><div id="eleccion-arduino" class="fonth3tittle">Sobre la elección de Arduino</div></h3>
 
 **¿ Por qué Arduino UNO y no otra plataforma ?** Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos **MAKER**, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento **MAKER** al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.
 
@@ -196,7 +226,7 @@ Normalmente suele ser el complemento ideal para placas como **Raspberry Pi** cuy
 
 Por otro lado la comunidad **MAKER** de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros **Maker** y donde compartir nuestros proyectos personales. [Instructables](http://www.instructables.com), [Make](http://makezine.com), [Circuits IO](https://circuits.io), [Arduino Create](https://create.arduino.cc), [BitBloq](http://bitbloq.bq.com) son algunos ejemplos de la gran difusión que tiene Arduino.
 
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
+<h3><div id="eleccion-bloques" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
 
 
 <p style="text-align: center" ><a href=""><img src="http://i.imgur.com/VU9Zx9n.png"/></a></p>
@@ -225,7 +255,7 @@ Aunque los dos programas hacen la misma suma, interpretar el código tradicional
 
 La **curva de aprendizaje** se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.
 
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
+<h3><div id="eleccion-bitbloq" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
 
 <p style="text-align: center" ><a href=""><img src="http://i.imgur.com/nRb5ufI.png"/></a></p>
 
@@ -257,41 +287,41 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 
 
 <h2>
-    <div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Definición de Objetivos de Aprendizaje
-    </div>
+<div id="resumen" class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
+    </span> Definición de Objetivos de Aprendizaje
+</div>
 </h2>
 
-<h3><div id="que-es" class="fonth3tittle">Objetivos Técnicos</div></h3>
+<h3><div id="objetivos-tecnicos" class="fonth3tittle">Objetivos Técnicos</div></h3>
 
 - Comprender y saber programar con bloques :
-    - Que es un algoritmo
-    - Qué es el puerto serie de Arduino
-    - Qué es una variable
-    - Que es un pulsador y un diodo
-    - Qué son los bloques de control
-    - Cómo medimos tiempos con Arduino
+- Que es un algoritmo
+- Qué es el puerto serie de Arduino
+- Qué es una variable
+- Que es un pulsador y un diodo
+- Qué son los bloques de control
+- Cómo medimos tiempos con Arduino
 - Comprender y saber programar sensores :
-    - Que es un sensor
-    - Qué es analógico y que digital
-    - Diferencias entre pin digital y analógico
-    - Qué es la Precisión (Resolución)
-    - Componentes digitales y analógicos
-    - Componentes analógicos potenciómetro y LDR
-    - Componentes digitales botón y sensor infrarrojo
+- Que es un sensor
+- Qué es analógico y que digital
+- Diferencias entre pin digital y analógico
+- Qué es la Precisión (Resolución)
+- Componentes digitales y analógicos
+- Componentes analógicos potenciómetro y LDR
+- Componentes digitales botón y sensor infrarrojo
 - Comprender y saber programar actuadores :
-    - Qué se un actuador
-    - Que es la corriente eléctrica y cómo se presenta
-    - Cómo se utiliza el electromagnetismo para conseguir movimiento
-    - Cómo se usa la señal PWM para controlar actuadores
-    - Cómo se compone el color con un dispositivo RGB
-    - Cómo se reproduce el sonido digitalmente
-    - Circuitos de componentes actuadores digitales
+- Qué se un actuador
+- Que es la corriente eléctrica y cómo se presenta
+- Cómo se utiliza el electromagnetismo para conseguir movimiento
+- Cómo se usa la señal PWM para controlar actuadores
+- Cómo se compone el color con un dispositivo RGB
+- Cómo se reproduce el sonido digitalmente
+- Circuitos de componentes actuadores digitales
 
-<h3><div id="que-es" class="fonth3tittle">Objetivos Competenciales</div></h3>
+<h3><div id="objetivos-competenciales" class="fonth3tittle">Objetivos Competenciales</div></h3>
 
 - Promover en el alumno la habilidad de aplicar el pensamiento computacional a la resolución de problemas.
 - Mejorar en el alumno la creatividad, motivación al logro y autonomía para gestar soluciones a problemas comunes.
@@ -307,12 +337,12 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 
 
 <h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Contenidos y Planificación
-    </div>
+<div id="contenidos-plan" class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-binoculars fa-stack-1x colortools" ></i>
+    </span> Contenidos y Planificación
+</div>
 </h2>
 
 En base a los objetivos de aprendizaje citados anteriormente, se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo, dividiéndolo en **6 sesiones** de **2 horas** cada una (12 horas en total).
@@ -329,7 +359,7 @@ Cada sesión incluye también el apartado **"Puesta en Común"** que persigue el
 
 Al termino de la sesión VI se reservará tiempo para la **Mejora Continua** pidiendo a los alumnos que valoren su satisfacción con el curso y sugerencias de mejora.
 
-<h3><div id="que-es" class="fonth3tittle">Contenidos:</div></h3>
+<h3><div id="contenidos" class="fonth3tittle">Contenidos:</div></h3>
 
 
 <h4><div class="fonth4tittle">
@@ -410,7 +440,7 @@ A continuación se exponen los diagramas de Gantt que ilustran los tiempos estim
 
 Planificación **Sesiones I y II** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/a8lo4mr.png"/>
+<img style="" src="http://i.imgur.com/a8lo4mr.png"/>
 </div><br><br>
 
 
@@ -418,7 +448,7 @@ Planificación **Sesiones I y II** </div></h4>
 
 Planificación **Sesiones III y IV** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/6YkfJTC.png"/>
+<img style="" src="http://i.imgur.com/6YkfJTC.png"/>
 </div><br><br>
 
 
@@ -426,7 +456,7 @@ Planificación **Sesiones III y IV** </div></h4>
 
 Planificación **Sesiones V y VI** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/q6fjcBK.png"/>
+<img style="" src="http://i.imgur.com/q6fjcBK.png"/>
 </div>
 
 ---
@@ -477,17 +507,17 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
+<a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
 </div>
 
 <br><br>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_v.html">Bloques de Control</a>
+Bloques de Control
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html">¿Quién Pulsa Más Rápìdo?</a>
+¿Quién Pulsa Más Rápìdo?
 </div>
 <br><br><br>
 
@@ -503,21 +533,21 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
+<a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
+<a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
 </div>
 
 <br><br>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_v.html">Sensores Analógicos y Digitales</a>
+Sensores Analógicos y Digitales
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html">Misión Imposible</a>
+Misión Imposible
 </div>
 <br><br><br>
 
@@ -530,21 +560,21 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
+<a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
+<a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
 </div>
 
 <br><br>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_v.html">Actuadores</a>
+Actuadores
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html">Comprobador Baterías AAA/AA</a>
+Comprobador Baterías AAA/AA
 </div>
 
 
@@ -563,12 +593,12 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 
 
 <h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools" ></i>
-        </span> Evaluación
-    </div>
+<div id="resumen-de-leccion" class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
+        <i class="fa fa-check-square-o fa-stack-1x colortools" ></i>
+    </span> Evaluación
+</div>
 </h2>
 
 La evaluación de aprovechamiento del curso por parte del alumno se reflejará con una **puntuación final**. Esta nota estará compuesta por **dos puntuaciones que tendrán el 50%** de peso respectivamente, en la puntuación final.
@@ -594,44 +624,42 @@ A continuación se exponen los enlaces que llevan cada uno de los **test** de lo
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
+<a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
+<a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
 </div>
 
 <div style="float:left; width:100%;"></div>
 
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_v.html">Bloques de Control</a>
+Bloques de Control
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html">Sensores Analógicos y Digitales</a>
+Sensores Analógicos y Digitales
 </div>
 
 <div style="float:left; width:100%;"></div>
 
 <div class="fontseparator"></div>
 <div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
+<a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html"></a>
 </div>
 
 <div style="float:left; width:100%;"></div>
 
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_v.html">Actuadores</a>
+Actuadores
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-    <a style="color:#000000" href="sesion_vi.html"></a>
 </div>
 
 <div style="float:left; width:100%;"></div>
@@ -650,7 +678,7 @@ Al termino de cada proyecto el profesor evaluará a cada alumno en las competenc
 </div>
 
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
+<img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
 </div><br><br>
 
 
@@ -669,13 +697,13 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
 ***
 <div class="fontfooter">
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-	<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 </a></br>This learning resource is provided for free by 
 <a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </br>
 <a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub">
-	<img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub  
+<img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub  
 </a>
 </div>
 
@@ -683,258 +711,262 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
 </div>
 </div>
 <details>
-	<style>
-        .fontexternallinkcomment{
-            float:left;
-            width: 300px;
-            border-radius: 1px;
-            padding:10px; 
-            background-color: rgba(255, 255, 255, .5);
-            text-align: center;
-            line-height:0;
-            color:#000000; 
-            font-family:'Roboto Slab', serif;
-            font-size:18px; 
-            font-weight:300;
-        }
-        .fontexternallink2{
-            float:left;
-            width: 300px;
-            border-radius: 1px;
-            border-bottom-left-radius: 50px;
-            border-top-right-radius: 50px;
-            border-style: solid;
-            padding:30px; 
-            background-color: #d66c00;
-            text-align: center;
-            line-height:0;
-            color:#ffffff; 
-            font-family:'Roboto Slab', serif;
-            font-size:23px; 
-            font-weight:700;
-        }
-        .fontseparator{
-            float:left;
-            width: 25px;
-            border-radius: 0px;
-            border-style: solid;
-            padding:30px; 
-            background-color: #ffffff;
-            text-align: center;
-            line-height:0;
-            color:#ffffff; 
-            font-family:'Roboto Slab', serif;
-            font-size:23px; 
-            font-weight:700;
-        }
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-            padding-left: 25px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fonth4tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			padding:20px; 
-			line-height:0;
-			color:#000000; 
-			font-family:'Roboto Slab', serif;
-			font-size:20px; 
-			font-weight:500;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-        .fonttest{
-            border-radius: 23px;
-            padding:20px;
-            background-color: rgba(225, 225, 225, .5);
-            font-family:'Roboto Slab', sans-serif;
-            font-size:23px; 
-            font-weight:700;
-            letter-spacing: 0px;
-            line-height: 30px;
-        }
-        .fontdefinition{
-            border-radius: 23px;
-            padding:20px;
-            background-color: #ffffff;
-            color: green;
-            font-family:'Roboto Slab', sans-serif;
-            font-style: italic;
-            font-size:23px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 30px;
-        }
-        .fontexternallink{
-            width:25%;
-            margin-right:1%;
-            margin-left:auto;
-            border-radius: 50px;
-            border-bottom-left-radius: 0px;
-            border-top-left-radius: 0px;
-            padding:20px;
-            background-color: #00f900;
-            color: red;
-            text-align: center;
-            font-family:'Roboto Slab', sans-serif;
-            font-style: italic;
-            font-size:20px; 
-            font-weight:700;
-            letter-spacing: 0px;
-            line-height: 0px;
-        }                
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        color:#729e29
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
- -->
+-->

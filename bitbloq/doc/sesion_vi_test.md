@@ -45,7 +45,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <h1>
     <div class="fonth1subtittle">
-<span> Sesión VI - Evaluación</span> 
+<span> Sesión VI - Test de Comprensión</span> 
     </div>
     <div class="fonth1subtittle">
     <span> Actuadores </span> 
