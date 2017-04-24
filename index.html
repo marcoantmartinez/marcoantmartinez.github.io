@@ -8,50 +8,122 @@ license : CC BY-SA This learning resource is provided for free by marcoantmartin
 others  : Bitbloq is a project provided for free by BQ (c)
 -->
 <div id="div_exterior" class="fontbody"> 
-<div class="fontheader">
-	<a style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
+<div id="cabecera" class="fontheader">
+<a style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </div>
 <div class="bannerheader">
-	<a href="a" target="_blank">
-	    <img src="http://i.imgur.com/vSK3EZk.jpg" alt="">
-	</a>
+<a href="a" target="_blank">
+    <img src="http://i.imgur.com/vSK3EZk.jpg" alt="">
+</a>
 <div class="bannerfooter">
-<h1>
-    <div class="fonth1tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
-        </span> 
-        Propuesta Didáctica
-    </div>
+<h1 id="propuesta">
+<div class="fonth1tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-graduation-cap fa-stack-1x colortools"></i>
+    </span> 
+    Propuesta Didáctica
+</div>
 </h1>
 <div class="linksheader">
-	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
-	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
-	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
-	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
-	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
-	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
-	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+<a href="#proyecto"><i class="fa fa-check-square-o"></i> Proyecto</a> |
+<a href="#contexto"><i class="fa fa-check-square-o"></i> Contexto</a> |
+<a href="#objetivos"><i class="fa fa-check-square-o"></i> Objetivos</a> |
+<a href="#contenidos-plan"><i class="fa fa-check-square-o"></i> Contenidos y Planificación</a> |
+<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
+</div>
+<div style="float:right" class="linksTOC"> &nbsp;TOC</div>
+<div style="float:right;"> 
+<details class="linksTOC">
+<ul data-source-line="54">
+<li><strong><a href="#propuesta">Propuesta Didáctica</a></strong></li>
+<li><strong><a href="#programacion">Programación y Robótica</a></strong></li>
+<li><strong><a href="#proyecto">Proyecto Educativo</a></strong>
+<ul>
+<li><a href="#justificacion">Justificación</a></li>
+<li><a href="#finalidad">Finalidad</a></li>
+</ul>
+</li>
+<li><strong><a href="#contexto">Contextualización</a></strong>
+<ul>
+<li><a href="#organizacion">Organización del Aula</a></li>
+<li><a href="#conocimiento">Conocimiento Previo del Alumno</a></li>
+<li><a href="#recursos">Recursos Necesarios</a></li>
+<li><a href="#eleccion-arduino">Sobre la elección de Arduino</a></li>
+<li><a href="#eleccion-bloques">Sobre la elección de la programación con bloques</a></li>
+<li><a href="#eleccion-bitbloq">Sobre la elección del IDE: Bitbloq</a></li>
+</ul>
+</li>
+<li><strong><a href="#justificacion">Definición de Objetivos de Aprendizaje</a></strong>
+<ul>
+<li><a href="#objetivos-tecnicos">Objetivos Técnicos</a></li>
+<li><a href="#objetivos-competenciales">Objetivos Competenciales</a></li>
+</ul>
+</li>
+<li><strong><a href="#contenidos-planificacion">Contenidos y Planificación</a></strong>
+<ul>
+<li><a href="#contenidos">Contenidos</a>
+<ul>
+<li><a href="#sesion_i">Contenidos Sesión I - Teoría : Bloques de Control</a></li>
+<li><a href="#sesion_ii">Contenidos Sesión II - Proyecto : ¿Quien Pulsa el Botón Más Rápido?</a></li>
+<li><a href="#sesion_iii">Contenidos Sesión III - Teoría : Sensores Analógicos y Digitales</a></li>
+<li><a href="#sesion_iv">Contenidos Sesión IV - Proyecto : Misión Imposible</a></li>
+<li><a href="#sesion_v">Contenidos Sesión V - Teoría : Actuadores</a></li>
+<li><a href="#sesion_vi">Contenidos Sesión VI - Proyecto : Comprobador Baterías AAA/AA</a></li>
+</ul>
+</li>
+<li><a href="#planificacion">Planificación</a>
+<ul>
+<li><a href="#plan_sesion_i_ii">Planificación sesiones I y II</a></li>
+<li><a href="#plan_sesion_iii_iv">Planificación sesiones III y IV</a></li>
+<li><a href="#plan_sesion_v_vi">Planificación sesiones V y VI</a></li>
+</ul>
+</li>
+<li><a href="#actividad-sesiones">Actividad de Sesiones</a>
+<ul>
+<li><a href="#actividad_sesion_i">Actividad Sesión I - Teoría : Bloques de Control</a></li>
+<li><a href="#actividad_sesion_ii">Actividad Sesión II - Proyecto : ¿Quien Pulsa el Botón Más Rápido?</a></li>
+<li><a href="#actividad_sesion_iii">Actividad Sesión III - Teoría : Sensores Analógicos y Digitales</a></li>
+<li><a href="#actividad_sesion_iv">Actividad Sesión IV - Proyecto : Misión Imposible</a></li>
+<li><a href="#actividad_sesion_v">Actividad Sesión V - Teoría : Actuadores</a></li>
+<li><a href="#actividad_sesion_vi">Actividad Sesión VI - Proyecto : Comprobador Baterías AAA/AA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><a href="#evaluacion">Evaluación</a></strong>
+<ul>
+<li><a href="#tests">TestS de Comprensión</a>
+<ul>
+<li><a href="#test_sesion_i_ii">Test comprensión sesiones I y II</a></li>
+<li><a href="#test_sesion_iii_iv">Test comprensión sesiones III y IV</a></li>
+<li><a href="#test_sesion_v_vi">Test comprensión sesiones V y VI</a></li>
+</ul>
+</li>
+<li><a href="#rubrica">Rubrica de Evaluación</a></li>
+<li><a href="#mejora">Mejora Continua</a></li>
+</ul>
+</li>
+<li><a href="#creditos">Créditos</a></li>
+</ul>
+</details>
 </div>
 <div style="text-align: center"><a href=""><img src="http://i.imgur.com/3SsE7lB.png"></a></div>
-<h1>
-    <div class="fonth1subtittle">
-    <span> Programación y Robótica con Arduino </span> 
-    </div>
+<h1 id="programacion">
+<div class="fonth1subtittle">
+<span> Programación y Robótica con Arduino </span> 
+</div>
 </h1>
-<h2>
-    <div id="que-es" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-wrench fa-stack-1x colortools"></i>
-        </span> Proyecto Educativo "Programación y Robótica"
-    </div>
+<h2 id="proyecto">
+<div id="que-es" class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-graduation-cap fa-stack-1x colortools"></i>
+    </span> Proyecto Educativo "Programación y Robótica"
+</div>
 </h2>
-<h3><div id="que-es" class="fonth3tittle">Justificación</div></h3>
-<p data-source-line="81">En el día a día el uso de la tecnología nos pasa desapercibido, debido a la inmersión de esta en todas las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo.
+<h3 id="justificacion"><div class="fonth3tittle">Justificación</div></h3>
+<p data-source-line="135">En el día a día el uso de la tecnología nos pasa desapercibido, debido a la inmersión de esta en todas las facetas de nuestra vida, en poco menos de tres décadas ha pasado de ser una herramienta de expertos, a ser algo de uso general y sencillo.
 <br><br>
 Si miramos con más detalle la última década, la progresión de esta inmersión tecnológica se ha visto acelerada por nuevas herramientas (Tecnologías de Información) que hacen que pasar de una <strong>idea</strong> a el desarrollo de un <strong>prototipo funcional</strong> sea algo al alcance de cualquier persona.
 <br><br>
@@ -59,22 +131,22 @@ En los últimos años, el colectivo que forma este movimiento <strong>creativo</
 <br><br>
 Con todo esto es fácil imaginar que esta aceleración de la inmersión tecnológica, seguirá adelante, y que el dominio de la <strong>programación</strong> y la <strong>robótica</strong> será de gran ayuda para los profesionales del futuro.
 <br><br></p>
-<h3><div id="que-es" class="fonth3tittle">Finalidad</div></h3>
-<p data-source-line="92">Esta propuesta tiene como objeto introducir al alumno en el <strong>Pensamiento Computacional</strong> mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido <strong>Arduino</strong> y componentes electrónicos (sensores y actuadores) compatibles con esta.</p>
+<h3><div id="finalidad" class="fonth3tittle">Finalidad</div></h3>
+<p data-source-line="146">Esta propuesta tiene como objeto introducir al alumno en el <strong>Pensamiento Computacional</strong> mediante la programación de aplicaciones informáticas, orientadas a realizar proyectos sencillos, que interactuarán con el mundo real (luz, sonido, movimiento, ... etc), utilizando la plataforma hardware de prototipado rápido <strong>Arduino</strong> y componentes electrónicos (sensores y actuadores) compatibles con esta.</p>
 <div class="success">
-<blockquote data-source-line="96">
+<blockquote data-source-line="150">
 <ul>
 <li>La programación por bloques es un método sencillo para comenzar a adquirir la competencia de <strong>pensamiento computacional</strong>, y anima a los alumnos a descubrir el mundo de la programación. A tal fin se ha seleccionado la aplicación online <strong>BitBloq</strong> por ser la más cercana a este método de aprendizaje.</li>
 </ul>
 </blockquote>
-<blockquote data-source-line="98">
+<blockquote data-source-line="152">
 <ul>
 <li>Los componentes electrónicos serán circuitos electrónicos Sensores y Actuadores adaptados para ser compatibles con Arduino, estos facilitarán al alumno la comprensión e interacción con el mundo físico real, mediante los proyectos que van a desarrollar.</li>
 </ul>
 </blockquote>
 </div>
-<p data-source-line="102">Los capacidades que el alumno desarrollará durante son:</p>
-<ul data-source-line="104">
+<p data-source-line="156">Los capacidades que el alumno desarrollará durante son:</p>
+<ul data-source-line="158">
 <li>
 <p>Como fin primordial, fomentar la <strong>creatividad</strong> del alumno y que <strong>sienta muy cercana y sencilla la tecnología</strong> que le rodea, haciéndole ver que <strong>todas la ideas que tenga el alumno</strong>, son realizables en proyectos reales, y que la clave para lograrlo, es <strong>analizar las necesidades</strong> del proyecto y de <strong>dividir los problemas</strong> y sus soluciones en <strong>partes más sencillas</strong> y manejables.</p>
 </li>
@@ -88,17 +160,19 @@ Con todo esto es fácil imaginar que esta aceleración de la inmersión tecnoló
 <p>En los proyectos finales aquí propuestos, será hará indispensable que el alumno <strong>coopere y trabaje en equipo</strong>, requiriéndose que esas <strong>partes más sencillas</strong> que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.</p>
 </li>
 </ul>
-<h2>
-    <div id="que-es" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-wrench fa-stack-1x colortools"></i>
-        </span> Contextualización 
-    </div>
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i></a><a></a></div><a>
+<hr>
+<h2 id="contexto">
+<div class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-key fa-stack-1x colortools"></i>
+    </span> Contextualización 
+</div>
 </h2>
-<h3><div id="que-es" class="fonth3tittle">Organización del Aula</div></h3>
-<p data-source-line="132">Para la realización de los ejercicios propuestos en las actividades, se utilizará la <strong>Programación por Pares</strong>; dos alumnos por puesto de trabajo, esto favorece varios aspectos en el aprendizaje del alumno:</p>
-<blockquote data-source-line="134">
+<h3 id="organizacion"><div class="fonth3tittle">Organización del Aula</div></h3>
+<p data-source-line="186">Para la realización de los ejercicios propuestos en las actividades, se utilizará la <strong>Programación por Pares</strong>; dos alumnos por puesto de trabajo, esto favorece varios aspectos en el aprendizaje del alumno:</p>
+<blockquote data-source-line="188">
 <ul>
 <li>Se potencia el trabajo en equipo, alternando <strong>Roles</strong> de Análisis, Diseño, Desarrollo, Implementación y Prueba.</li>
 <li>Se incentiva el aprendizaje colaborativo, los conocimientos de uno se suman al par.</li>
@@ -106,14 +180,13 @@ Con todo esto es fácil imaginar que esta aceleración de la inmersión tecnoló
 <li>Se mejoran las competencias de razonamiento, dialogo y aceptación de ideas del par.</li>
 </ul>
 </blockquote>
-<p data-source-line="139">Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos electrónicos de sensores y actuadores que se requieran en cada ejercicio.</p>
-<p data-source-line="141">En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.</p>
-<h3><div id="que-es" class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
-<p data-source-line="145">Está propuesta didáctica está orientada a alumnos que tengan conocimientos de <strong>2º ESO</strong> idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos).
+<p data-source-line="193">Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos electrónicos de sensores y actuadores que se requieran en cada ejercicio.</p>
+<p data-source-line="195">En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.</p>
+<h3 id="conocimiento"><div class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
+<p data-source-line="199">Está propuesta didáctica está orientada a alumnos que tengan conocimientos de <strong>2º ESO</strong> idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos).
 Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :</p>
-<ul data-source-line="148">
-<li>Matemáticas :
-<ul>
+<ul data-source-line="202">
+<li>Matemáticas :</li>
 <li>Algoritmos.</li>
 <li>Cálculo de Tiempo de reacción.</li>
 <li>Números aleatorios.</li>
@@ -121,10 +194,7 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 <li>Resolución (precisión y exactitud)</li>
 <li>Cálculo de área, área media,</li>
 <li>Suma de Gráficas (suma de señales).</li>
-</ul>
-</li>
-<li>Física :
-<ul>
+<li>Física :</li>
 <li>Tiempo de reacción y medida (mili segundos)</li>
 <li>Sensores y Actuadores</li>
 <li>Electrónica de diodo y pulsador</li>
@@ -133,69 +203,58 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 <li>Espectro de Luz (Luz visible, Luz infrarroja)</li>
 <li>Corriente alterna, continua y conmutación.</li>
 <li>Sonido.</li>
-</ul>
-</li>
-<li>Biología :
-<ul>
+<li>Biología :</li>
 <li>Oído y Ojo Humano.</li>
-</ul>
-</li>
-<li>Dibujo Técnico :
-<ul>
+<li>Dibujo Técnico :</li>
 <li>Diagramas de flujo.</li>
 <li>Simbología técnica de circuitos.</li>
-</ul>
-</li>
-<li>Tecnologías de Información:
-<ul>
+<li>Tecnologías de Información:</li>
 <li>Programación algorítmica</li>
 <li>Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto</li>
 <li>Control de eventos</li>
 <li>Actuadores PWM</li>
 </ul>
-</li>
-</ul>
-<p data-source-line="176">Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.</p>
-<h3><div id="que-es" class="fonth3tittle">Recursos necesarios</div></h3>
-<p data-source-line="180">Los recursos listados a continuación serán revisados con los responsables del programa educativo del centro, a fin de adaptarlos a sus necesidades.</p>
-<ul data-source-line="182">
+<p data-source-line="230">Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.</p>
+<h3 id="recursos"><div class="fonth3tittle">Recursos necesarios</div></h3>
+<p data-source-line="234">Los recursos listados a continuación serán revisados con los responsables del programa educativo del centro, a fin de adaptarlos a sus necesidades.</p>
+</a><ul data-source-line="236"><a>
 <li>10 Ordenadores Portátiles para los alumnos (con OS Linux, MacOS ó Windows) y Google Chrome instalado.</li>
 <li>1 proyector y 1 pizarra digital</li>
 <li>Mesas configurables que permitan trabajar por pares o en grupo</li>
 <li>Wifi configurado en los portátiles con conexión a Internet</li>
 <li>Cuentas de acceso por alumno pre-configuradas en Bitbloq</li>
-<li>20 Kits de robótica Arduino. Se recomienda <a href="https://www.bq.com/en/zum-kit">BQ Zum Box</a> o similar.</li>
+</a><li><a>20 Kits de robótica Arduino. Se recomienda </a><a href="https://www.bq.com/en/zum-kit">BQ Zum Box</a> o similar.</li>
 </ul>
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección de Arduino</div></h3>
-<p data-source-line="191"><strong>¿ Por qué Arduino UNO y no otra plataforma ?</strong> Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos <strong>MAKER</strong>, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento <strong>MAKER</strong> al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.</p>
-<p data-source-line="193">Además muchas de las alternativas que hay a Arduino se basan en el estándar Arduino.</p>
-<p data-source-line="195">Normalmente suele ser el complemento ideal para placas como <strong>Raspberry Pi</strong> cuyo punto fuerte está en el sistema operativo, la capacidad de computo y la versatilidad de integración con otras plataformas con OS UNIX, Windows o MacOS.</p>
-<p data-source-line="197">Por otro lado la comunidad <strong>MAKER</strong> de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros <strong>Maker</strong> y donde compartir nuestros proyectos personales. <a href="http://www.instructables.com">Instructables</a>, <a href="http://makezine.com">Make</a>, <a href="https://circuits.io">Circuits IO</a>, <a href="https://create.arduino.cc">Arduino Create</a>, <a href="http://bitbloq.bq.com">BitBloq</a> son algunos ejemplos de la gran difusión que tiene Arduino.</p>
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
+<h3 id="eleccion-arduino"><div class="fonth3tittle">Sobre la elección de Arduino</div></h3>
+<p data-source-line="245"><strong>¿ Por qué Arduino UNO y no otra plataforma ?</strong> Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos <strong>MAKER</strong>, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento <strong>MAKER</strong> al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.</p>
+<p data-source-line="247">Además muchas de las alternativas que hay a Arduino se basan en el estándar Arduino.</p>
+<p data-source-line="249">Normalmente suele ser el complemento ideal para placas como <strong>Raspberry Pi</strong> cuyo punto fuerte está en el sistema operativo, la capacidad de computo y la versatilidad de integración con otras plataformas con OS UNIX, Windows o MacOS.</p>
+<p data-source-line="251">Por otro lado la comunidad <strong>MAKER</strong> de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros <strong>Maker</strong> y donde compartir nuestros proyectos personales. <a href="http://www.instructables.com">Instructables</a>, <a href="http://makezine.com">Make</a>, <a href="https://circuits.io">Circuits IO</a>, <a href="https://create.arduino.cc">Arduino Create</a>, <a href="http://bitbloq.bq.com">BitBloq</a> son algunos ejemplos de la gran difusión que tiene Arduino.</p>
+<h3 id="eleccion-bloques"><div class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
 <p style="text-align: center"><a href=""><img src="http://i.imgur.com/VU9Zx9n.png"></a></p>
-<p data-source-line="204">Como ya se adelantaba en la introducción, la programación por bloques es un método sencillo para comenzar a adquirir la competencia de <strong>pensamiento computacional</strong>, se trata de que cada instrucción del programa, se monta visualmente una detrás de otra, de forma intuitiva, como montando un <strong>Puzle</strong>.</p>
+<p data-source-line="258">Como ya se adelantaba en la introducción, la programación por bloques es un método sencillo para comenzar a adquirir la competencia de <strong>pensamiento computacional</strong>, se trata de que cada instrucción del programa, se monta visualmente una detrás de otra, de forma intuitiva, como montando un <strong>Puzle</strong>.</p>
 <p style="text-align: center"><a href=""><img src="http://i.imgur.com/kDve3Ci.png"></a></p>
-<p data-source-line="208">Son muchas las aplicaciones ( <a href="https://scratch.mit.edu">Scratch</a>, <a href="https://studio.code.org">Code Studio</a>...etc ) que usan la programación por bloques para acercar la computación a niños o personas sin conocimientos de Tecnología de Información, haciéndolo un juego.</p>
-<p data-source-line="210">El proceso cognitivo que favorece la creación de un algoritmo en la mente del alumno, se refuerza automáticamente al representarlo en bloques. Para ilustrarlo vamos a poner un sencillo ejemplo de un programa de suma realizado con bloques:</p>
+<p data-source-line="262">Son muchas las aplicaciones ( <a href="https://scratch.mit.edu">Scratch</a>, <a href="https://studio.code.org">Code Studio</a>...etc ) que usan la programación por bloques para acercar la computación a niños o personas sin conocimientos de Tecnología de Información, haciéndolo un juego.</p>
+<p data-source-line="264">El proceso cognitivo que favorece la creación de un algoritmo en la mente del alumno, se refuerza automáticamente al representarlo en bloques. Para ilustrarlo vamos a poner un sencillo ejemplo de un programa de suma realizado con bloques:</p>
 <p style="text-align: center"><a href=""><img src="http://i.imgur.com/ycDNEh4.png"></a></p>
-<p data-source-line="214">La secuencia de instrucciones de arriba abajo es:</p>
-<ol data-source-line="215">
+<p data-source-line="268">La secuencia de instrucciones de arriba abajo es:</p>
+<ol data-source-line="269">
 <li>A vale 10</li>
 <li>B vale 5</li>
 <li>C vale A + B</li>
 <li>Envío el valor C por puerto serie.</li>
 </ol>
-<p data-source-line="220">Si este programa lo quisiéramos desarrollar en la <strong>sintaxis tradicional escrita</strong> sería así:</p>
+<p data-source-line="274">Si este programa lo quisiéramos desarrollar en la <strong>sintaxis tradicional escrita</strong> sería así:</p>
 <p style="text-align: center"><a href=""><img src="http://i.imgur.com/ZeRrOb4.png"></a></p>
-<p data-source-line="224">Aunque los dos programas hacen la misma suma, interpretar el código tradicional requiere más conocimientos que la programación por bloques, también las posibilidades de cometer errores al escribir mal la sintaxis, o declarar mal el tipo de una variable, o inicializar mal la librería de comunicación serie, u olvidarse de cerrar una instrucción con punto y coma, ... etc se incrementan.</p>
-<p data-source-line="226">La <strong>curva de aprendizaje</strong> se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.</p>
-<h3><div id="que-es" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
+<p data-source-line="278">Aunque los dos programas hacen la misma suma, interpretar el código tradicional requiere más conocimientos que la programación por bloques, también las posibilidades de cometer errores al escribir mal la sintaxis, o declarar mal el tipo de una variable, o inicializar mal la librería de comunicación serie, u olvidarse de cerrar una instrucción con punto y coma, ... etc se incrementan.</p>
+<p data-source-line="280">La <strong>curva de aprendizaje</strong> se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.</p>
+<h3 id="eleccion-bitbloq"><div class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
 <p style="text-align: center"><a href=""><img src="http://i.imgur.com/nRb5ufI.png"></a></p>
-<p data-source-line="232">Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (Entorno de Desarrollo Integrado) una aplicación sobre la que plasmar el código y luego pasarla a Arduino a través del puerto USB. La página web de Arduino facilita la <a href="http://www.arduino.org/downloads">descarga</a> de un IDE para el desarrollo tradicional de código.</p>
-<p data-source-line="234">Aunque existen muchos otros IDE para el desarrollo por bloques con Arduino, estos presentan ciertas complejidades de instalación o configuración; desde el punto de vista de mantenimiento de las aplicaciones del aula, otros simplemente restricciones de propiedad intelectual. <strong>BQ</strong> con <strong>Bitbloq</strong> ha sabido sumar la facilidad de instalación, configuración y seguimiento en un Aula, con la potencia de una librería de bloques de sensores y actuadores, permitiendo un mayor rendimiento y asimilación de contenidos del alumno.</p>
-<p data-source-line="236">Estos son los motivos que nos han llevado a escoger <a href="http://bitbloq.bq.com">BitBloq</a> como IDE, es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo <a href="https://www.bq.com/en/maker-world">BQ</a> y que permite tanto el <strong>desarrollo por bloques</strong> como el <strong>desarrollo tradicional</strong>.</p>
-<p data-source-line="238">Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:</p>
-<ul data-source-line="239">
+<p data-source-line="286">Para programar Arduino (por bloques o de forma tradicional) necesitamos un IDE (Entorno de Desarrollo Integrado) una aplicación sobre la que plasmar el código y luego pasarla a Arduino a través del puerto USB. La página web de Arduino facilita la <a href="http://www.arduino.org/downloads">descarga</a> de un IDE para el desarrollo tradicional de código.</p>
+<p data-source-line="288">Aunque existen muchos otros IDE para el desarrollo por bloques con Arduino, estos presentan ciertas complejidades de instalación o configuración; desde el punto de vista de mantenimiento de las aplicaciones del aula, otros simplemente restricciones de propiedad intelectual. <strong>BQ</strong> con <strong>Bitbloq</strong> ha sabido sumar la facilidad de instalación, configuración y seguimiento en un Aula, con la potencia de una librería de bloques de sensores y actuadores, permitiendo un mayor rendimiento y asimilación de contenidos del alumno.</p>
+<p data-source-line="290">Estos son los motivos que nos han llevado a escoger <a href="http://bitbloq.bq.com">BitBloq</a> como IDE, es una aplicación On-Line que provee de forma gratuita el fabricante de electrónica de consumo <a href="https://www.bq.com/en/maker-world">BQ</a> y que permite tanto el <strong>desarrollo por bloques</strong> como el <strong>desarrollo tradicional</strong>.</p>
+<p data-source-line="292">Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del aula:</p>
+<ul data-source-line="293">
 <li>Se puede programar la placa <strong>Arduino UNO</strong> estándar (además de productos BQ)</li>
 <li>Las librerías de circuitos sensores y actuadores ya están integradas y listos para usar como bloques</li>
 <li>El IDE incluye el monitor/editor de puerto serie</li>
@@ -206,29 +265,26 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 <li>El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios</li>
 <li>Facilita al alumno la transición al desarrollo tradicional de código, para aumentar la complejidad de los proyectos</li>
 </ul>
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i></a><a></a></div><a>
 <hr>
-<h2>
-    <div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools"></i>
-        </span> Definición de Objetivos de Aprendizaje
-    </div>
+<h2 id="objetivos">
+<div class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-crosshairs fa-stack-1x colortools"></i>
+    </span> Definición de Objetivos de Aprendizaje
+</div>
 </h2>
-<h3><div id="que-es" class="fonth3tittle">Objetivos Técnicos</div></h3>
-<ul data-source-line="270">
-<li>Comprender y saber programar con bloques :
-<ul>
+<h3 id="objetivos-tecnicos"><div class="fonth3tittle">Objetivos Técnicos</div></h3>
+<ul data-source-line="326">
+<li>Comprender y saber programar con bloques :</li>
 <li>Que es un algoritmo</li>
 <li>Qué es el puerto serie de Arduino</li>
 <li>Qué es una variable</li>
 <li>Que es un pulsador y un diodo</li>
 <li>Qué son los bloques de control</li>
 <li>Cómo medimos tiempos con Arduino</li>
-</ul>
-</li>
-<li>Comprender y saber programar sensores :
-<ul>
+<li>Comprender y saber programar sensores :</li>
 <li>Que es un sensor</li>
 <li>Qué es analógico y que digital</li>
 <li>Diferencias entre pin digital y analógico</li>
@@ -236,10 +292,7 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 <li>Componentes digitales y analógicos</li>
 <li>Componentes analógicos potenciómetro y LDR</li>
 <li>Componentes digitales botón y sensor infrarrojo</li>
-</ul>
-</li>
-<li>Comprender y saber programar actuadores :
-<ul>
+<li>Comprender y saber programar actuadores :</li>
 <li>Qué se un actuador</li>
 <li>Que es la corriente eléctrica y cómo se presenta</li>
 <li>Cómo se utiliza el electromagnetismo para conseguir movimiento</li>
@@ -248,67 +301,65 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 <li>Cómo se reproduce el sonido digitalmente</li>
 <li>Circuitos de componentes actuadores digitales</li>
 </ul>
-</li>
-</ul>
-<h3><div id="que-es" class="fonth3tittle">Objetivos Competenciales</div></h3>
-<ul data-source-line="296">
+<h3 id="objetivos-competenciales"><div class="fonth3tittle">Objetivos Competenciales</div></h3>
+<ul data-source-line="352">
 <li>Promover en el alumno la habilidad de aplicar el pensamiento computacional a la resolución de problemas.</li>
 <li>Mejorar en el alumno la creatividad, motivación al logro y autonomía para gestar soluciones a problemas comunes.</li>
 <li>Promover el aprendizaje colaborativo y el trabajo en equipo.</li>
 </ul>
+</a><div id="return" style="width: 100% ;text-align:right"><a></a><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i></a><a></a></div><a>
 <hr>
-<p data-source-line="301"><br><br></p>
-<h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools"></i>
-        </span> Contenidos y Planificación
-    </div>
+<h2 id="contenidos-plan">
+<div class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-binoculars fa-stack-1x colortools"></i>
+    </span> Contenidos y Planificación
+</div>
 </h2>
-<p data-source-line="318">En base a los objetivos de aprendizaje citados anteriormente, se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo, dividiéndolo en <strong>6 sesiones</strong> de <strong>2 horas</strong> cada una (12 horas en total).</p>
-<p data-source-line="320">Al comienzo de la Sesión I se realizará una presentación de los objetivo y alcance de los contenidos del curso a los alumnos.</p>
-<p data-source-line="322">Se alternará una sesión de <strong>Teoría y Asimilación</strong> de contenidos que incluye las "Prácticas y Aplicación" de los mismos, con otra de <strong>Realización de un Proyecto Práctico</strong>, en el que el alumno demostrará que ha asimilado los conceptos teóricos y su autonomía al saber aplicarlos a un contexto real.</p>
-<p data-source-line="324">En las sesiones de proyecto se aplicará el <strong>Proceso de Pensamiento Computacional</strong> promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.</p>
-<p data-source-line="326">Al termino del proyecto el alumno <strong>documentará y compartirá</strong> su trabajo en la nube con el aula. También se realizará una <strong>evaluación</strong> de conocimientos con un <strong>examen tipo test</strong>.</p>
-<p data-source-line="328">Cada sesión incluye también el apartado <strong>"Puesta en Común"</strong> que persigue el desarrollo de los objetivos competenciales, promoviendo la creatividad y la innovación, ante todo se estimulará al alumno para que busque <strong>retos</strong> y soluciones a problemas cotidianos, mediante la <strong>generación de ideas</strong></p>
-<p data-source-line="330">Al termino de la sesión VI se reservará tiempo para la <strong>Mejora Continua</strong> pidiendo a los alumnos que valoren su satisfacción con el curso y sugerencias de mejora.</p>
-<h3><div id="que-es" class="fonth3tittle">Contenidos:</div></h3>
-<h4><div class="fonth4tittle">
-<p data-source-line="337">Sesión I - <strong>Bloques de Control</strong> :</p></div></h4><p></p>
+<p data-source-line="374">En base a los objetivos de aprendizaje citados anteriormente, se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo, dividiéndolo en <strong>6 sesiones</strong> de <strong>2 horas</strong> cada una (12 horas en total).</p>
+<p data-source-line="376">Al comienzo de la Sesión I se realizará una presentación de los objetivo y alcance de los contenidos del curso a los alumnos.</p>
+<p data-source-line="378">Se alternará una sesión de <strong>Teoría y Asimilación</strong> de contenidos que incluye las "Prácticas y Aplicación" de los mismos, con otra de <strong>Realización de un Proyecto Práctico</strong>, en el que el alumno demostrará que ha asimilado los conceptos teóricos y su autonomía al saber aplicarlos a un contexto real.</p>
+<p data-source-line="380">En las sesiones de proyecto se aplicará el <strong>Proceso de Pensamiento Computacional</strong> promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.</p>
+<p data-source-line="382">Al termino del proyecto el alumno <strong>documentará y compartirá</strong> su trabajo en la nube con el aula. También se realizará una <strong>evaluación</strong> de conocimientos con un <strong>examen tipo test</strong>.</p>
+<p data-source-line="384">Cada sesión incluye también el apartado <strong>"Puesta en Común"</strong> que persigue el desarrollo de los objetivos competenciales, promoviendo la creatividad y la innovación, ante todo se estimulará al alumno para que busque <strong>retos</strong> y soluciones a problemas cotidianos, mediante la <strong>generación de ideas</strong></p>
+<p data-source-line="386">Al termino de la sesión VI se reservará tiempo para la <strong>Mejora Continua</strong> pidiendo a los alumnos que valoren su satisfacción con el curso y sugerencias de mejora.</p>
+<h3 id="contenidos"><div class="fonth3tittle">Contenidos:</div></h3>
+<h4 id="sesion_i"><div class="fonth4tittle">
+<p data-source-line="393">Sesión I - <strong>Bloques de Control</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="340"><strong>Sesión de teoría y asimilación sobre cómo se programan los comandos de control en Arduino.</strong>
+<p data-source-line="396"><strong>Sesión de teoría y asimilación sobre cómo se programan los comandos de control en Arduino.</strong>
 Presentación del curso Programación y Robótica Arduino. Los contenidos serán : Entender que es un algoritmo y sus partes principales. Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino. Entender cómo funciona la salida serie de Arduino. Ser capaz de escribir y leer en el puerto serie de Arduino. Entender el bloque de espera. Ser capa de utilizar el bloque de espera. Entender como funcionan los bloques de control. Ser capaces de utilizar los bloques de control de forma autónoma. Entender como funciona una variable. Ser capaz de utilizar las variables. Entender como funciona el bloque de temporizador de Arduino.</p>
 </div><br>
-<h4><div class="fonth4tittle">
-<p data-source-line="347">Sesión II - <strong>Proyecto ¿ Quién Pulsa Botón Más Rápido ?</strong> :</p></div></h4><p></p>
+<h4 id="sesion_ii"><div class="fonth4tittle">
+<p data-source-line="403">Sesión II - <strong>Proyecto ¿ Quién Pulsa Botón Más Rápido ?</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="350"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás.</strong> Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso de los bloques de control en Arduino.</p>
+<p data-source-line="406"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás.</strong> Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso de los bloques de control en Arduino.</p>
 </div><br>
-<h4><div class="fonth4tittle">
-<p data-source-line="356">Sesión III - <strong>Sensores Analógicos y Digitales</strong> :</p></div></h4><p></p>
+<h4 id="sesion_iii"><div class="fonth4tittle">
+<p data-source-line="412">Sesión III - <strong>Sensores Analógicos y Digitales</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="359"><strong>Sesión de teoría y asimilación sobre cómo se programan los Sensores Analógicos y Digitales en Arduino</strong>. Los contenidos serán : Entender la diferencia entre analógico y digital. Ser capaz de distinguir los componentes analógicos de los digitales. Entender el funcionamiento de un pin analógico y digital en Arduino. Entender la resolución y la operación matemática de mapeo. Entender el funcionamiento del componente potenciómetro. Ser capaz de programar con el componente potenciómetro. Entender el funcionamiento del componente LDR. Ser capaz de programar con el componente LDR. Entender el funcionamiento del componente Pulsador. Ser capaz de programar when_press y when_release con el Pulsador. Entender el funcionamiento del componente Sensor IR. Ser capaz de programar el componente Sensor IR.
+<p data-source-line="415"><strong>Sesión de teoría y asimilación sobre cómo se programan los Sensores Analógicos y Digitales en Arduino</strong>. Los contenidos serán : Entender la diferencia entre analógico y digital. Ser capaz de distinguir los componentes analógicos de los digitales. Entender el funcionamiento de un pin analógico y digital en Arduino. Entender la resolución y la operación matemática de mapeo. Entender el funcionamiento del componente potenciómetro. Ser capaz de programar con el componente potenciómetro. Entender el funcionamiento del componente LDR. Ser capaz de programar con el componente LDR. Entender el funcionamiento del componente Pulsador. Ser capaz de programar when_press y when_release con el Pulsador. Entender el funcionamiento del componente Sensor IR. Ser capaz de programar el componente Sensor IR.
 Puesta en común.</p>
 </div><br>
-<h4><div class="fonth4tittle">
-<p data-source-line="366">Sesión IV - <strong>Proyecto , Misión Imposible</strong> :</p></div></h4><p></p>
+<h4 id="sesion_iv"><div class="fonth4tittle">
+<p data-source-line="422">Sesión IV - <strong>Proyecto , Misión Imposible</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="369"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de hacer saltar una alarma visual y sonora cuando se interrumpa el haz láser de una barrera perimetral</strong>. Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso de Sensores Analógicos y Digitales en Arduino.</p>
+<p data-source-line="425"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de hacer saltar una alarma visual y sonora cuando se interrumpa el haz láser de una barrera perimetral</strong>. Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso de Sensores Analógicos y Digitales en Arduino.</p>
 </div><br>
-<h4><div class="fonth4tittle">
-<p data-source-line="375">Sesión V - <strong>Actuadores</strong> :</p></div></h4><p></p>
+<h4 id="sesion_v"> <div class="fonth4tittle">
+<p data-source-line="431">Sesión V - <strong>Actuadores</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="378"><strong>Sesión de teoría y asimilación sobre cómo se programan los Actuadores en Arduino</strong>. Los contenidos serán : Entender que es un actuador. Ser capaz de distinguir los distintos actuadores. Entender la corriente alterna, continua y conmutada. Entender la señal PWM y sus aplicaciones. Entender el modelo de color RGB y cómo lo percibe el ojo. Entender el sonido y cómo se reproduce digitalmente. Entender el funcionamiento del componente RELÉ. Ser capaz de programar aplicaciones para un RELÉ. Entender el funcionamiento del componente servo continuo. Entender el funcionamiento del componente servomotor. Ser capaz de programar el posicionamiento de un servomotor. Entender el funcionamiento del componente LED RGB. Ser capaz de programar colores diferentes con el LED RGB. Entender el funcionamiento del componente Buzzer. Ser capaz de programar melodías con el componente Buzzer. Puesta en Común</p>
+<p data-source-line="434"><strong>Sesión de teoría y asimilación sobre cómo se programan los Actuadores en Arduino</strong>. Los contenidos serán : Entender que es un actuador. Ser capaz de distinguir los distintos actuadores. Entender la corriente alterna, continua y conmutada. Entender la señal PWM y sus aplicaciones. Entender el modelo de color RGB y cómo lo percibe el ojo. Entender el sonido y cómo se reproduce digitalmente. Entender el funcionamiento del componente RELÉ. Ser capaz de programar aplicaciones para un RELÉ. Entender el funcionamiento del componente servo continuo. Entender el funcionamiento del componente servomotor. Ser capaz de programar el posicionamiento de un servomotor. Entender el funcionamiento del componente LED RGB. Ser capaz de programar colores diferentes con el LED RGB. Entender el funcionamiento del componente Buzzer. Ser capaz de programar melodías con el componente Buzzer. Puesta en Común</p>
 </div><br>
-<h4><div class="fonth4tittle">
-<p data-source-line="384">Sesión VI - <strong>Proyecto , Comprobador de Baterias AA / AAA</strong> :</p></div></h4><p></p>
+<h4 id="sesion_vi"><div class="fonth4tittle">
+<p data-source-line="440">Sesión VI - <strong>Proyecto , Comprobador de Baterias AA / AAA</strong> :</p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="387"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de mostrar el nivel de capacidad que tiene una batería AA / AAA mostrándolo en forma analógica sobre una escala semicircular</strong>. Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del Problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso Actuadores con Arduino.</p>
+<p data-source-line="443"><strong>Sesión práctica en al que el alumno realizará un prototipo que sea capaz de mostrar el nivel de capacidad que tiene una batería AA / AAA mostrándolo en forma analógica sobre una escala semicircular</strong>. Para llevarlo a cabo utilizará el proceso de pensamiento computacional con las siguiente fases: Análisis del Problema y Diseño. Desarrollo de Bloques. Implementación. Prueba y Documentación. Puesta en común. Al final de esta sesión se realizará un examen tipo test para comprobar la asimilación de conocimientos sobre el uso Actuadores con Arduino.</p>
 </div><br>
-<h3><div id="que-es" class="fonth3tittle">Planificación:</div></h3>
+<h3 id="planificacion"><div class="fonth3tittle">Planificación:</div></h3>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="398">Las planificación se ha dividido en tres bloques, que constan de dos sesiones cada uno, debido a que dichas sesiones comparten íntimamente los contenidos y el test de evaluación de conocimientos.
+<p data-source-line="454">Las planificación se ha dividido en tres bloques, que constan de dos sesiones cada uno, debido a que dichas sesiones comparten íntimamente los contenidos y el test de evaluación de conocimientos.
 <br><br>
 Las actividades en verde son de tipo teórico y/o de introducción, las actividades marcadas en rojo son de comprobación de asimilación y/o prácticas.
 <br><br>
@@ -316,27 +367,27 @@ Así mismo, los bloques han de impartirse en el orden establecido, ya que para a
 <br><br>
 A continuación se exponen los diagramas de Gantt que ilustran los tiempos estimados para el desarrollo de los contenidos/actividades de cada bloque y sesión :</p>
 </div>
-<h4><div class="fonth4tittle">	
-<p data-source-line="411">Planificación <strong>Sesiones I y II</strong> </p></div></h4><p></p>
+<h4 id="plan_sesion_i_ii"><div class="fonth4tittle">	
+<p data-source-line="467">Planificación <strong>Sesiones I y II</strong> </p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/a8lo4mr.png">
+<img style="" src="http://i.imgur.com/a8lo4mr.png">
 </div><br><br>
-<h4><div class="fonth4tittle">	
-<p data-source-line="419">Planificación <strong>Sesiones III y IV</strong> </p></div></h4><p></p>
+<h4 id="plan_sesion_iii_iv"><div class="fonth4tittle">	
+<p data-source-line="475">Planificación <strong>Sesiones III y IV</strong> </p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/6YkfJTC.png">
+<img style="" src="http://i.imgur.com/6YkfJTC.png">
 </div><br><br>
-<h4><div class="fonth4tittle">	
-<p data-source-line="427">Planificación <strong>Sesiones V y VI</strong> </p></div></h4><p></p>
+<h4 id="plan_sesion_v_vi"><div class="fonth4tittle">	
+<p data-source-line="483">Planificación <strong>Sesiones V y VI</strong> </p></div></h4><p></p>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/q6fjcBK.png">
+<img style="" src="http://i.imgur.com/q6fjcBK.png">
 </div>
 <hr>
-<p data-source-line="433"><br><br></p>
-<h3><div id="que-es" class="fonth3tittle">Sesiones</div></h3>
+<p data-source-line="489"><br><br></p>
+<h3 id="actividad-sesiones"><div class="fonth3tittle">Actividad de Sesiones</div></h3>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="450">Los enlaces presentados a continuación mostrarán el programa de actividades a seguir para cada una de las 6 sesiones, la estructura de programa en cada sesión es similar y consta de las siguientes partes:</p>
-<ul data-source-line="452">
+<p data-source-line="506">Los enlaces presentados a continuación mostrarán el programa de actividades a seguir para cada una de las 6 sesiones, la estructura de programa en cada sesión es similar y consta de las siguientes partes:</p>
+<ul data-source-line="508">
 <li><strong>Introducción :</strong> Expone el objetivo general de la sesión.</li>
 <li><strong>Recursos necesarios :</strong> Medios y/o recursos que se necesitan para impartir el contenido.</li>
 <li><strong>Resumen de lección :</strong> Son los puntos prioritarios que deberán tratarse.</li>
@@ -348,21 +399,21 @@ A continuación se exponen los diagramas de Gantt que ilustran los tiempos estim
 <li><strong>Reto :</strong> Este apartado en la sesión teórica, hará una introducción a la sesión de proyecto siguiente. Este apartado en la sesión de proyecto planteará cuestiones para mejorar o ampliar la aplicación del prototipo construido.</li>
 <li><strong>Evaluación :</strong> En el formato propuesto, la evaluación de objetivos técnicos (tests) y competenciales (rubrica evaluación) se realizará al concluir el bloque.</li>
 </ul>
-<p data-source-line="463">A continuación se exponen los enlaces que llevan cada una de las sesiones que componen esta propuesta didáctica de "Programación y Robótica" con Arduino.</p>
+<p data-source-line="519">A continuación se exponen los enlaces que llevan cada una de las sesiones que componen esta propuesta didáctica de "Programación y Robótica" con Arduino.</p>
 </div>
 <br><br>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="470"><strong>Bloque I</strong></p>
+<p data-source-line="526"><strong>Bloque I</strong></p>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-<a style="color:#ffffff" href="sesion_i.html">Sesion I  teoria</a>
+</a><div id="actividad_sesion_i" class="fontexternallink2"><a>
+</a><a style="color:#ffffff" href="sesion_i.html">Sesion I  teoria</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
+<div id="actividad_sesion_ii" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
 </div>
-<p data-source-line="483"><br><br></p>
+<p data-source-line="539"><br><br></p>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
 Bloques de Control
@@ -373,17 +424,17 @@ Bloques de Control
 </div>
 <br><br><br>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="501"><strong>Bloque II</strong></p>
+<p data-source-line="557"><strong>Bloque II</strong></p>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
+<div id="actividad_sesion_iii" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
+<div id="actividad_sesion_iv" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
 </div>
-<p data-source-line="513"><br><br></p>
+<p data-source-line="569"><br><br></p>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
 Sensores Analógicos y Digitales
@@ -394,17 +445,17 @@ Misión Imposible
 </div>
 <br><br><br>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="528"><strong>Bloque III</strong></p>
+<p data-source-line="584"><strong>Bloque III</strong></p>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
+<div id="actividad_sesion_v" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
+<div id="actividad_sesion_vi" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
 </div>
-<p data-source-line="540"><br><br></p>
+<p data-source-line="596"><br><br></p>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
 Actuadores
@@ -413,34 +464,35 @@ Actuadores
 <div class="fontexternallinkcomment">
 Comprobador Baterías AAA/AA
 </div>
-<h2 id="br" data-source-line="553"><a class="anchor" href="#br"><span class="octicon octicon-link"></span></a><br></h2>
-<br>
-<h2>
-	<div id="resumen-de-leccion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-list-ol fa-stack-1x colortools"></i>
-        </span> Evaluación
-    </div>
+<p data-source-line="607"><br><br></p>
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i></a><a></a></div><a>
+<hr>
+<h2 id="evaluacion">
+<div class="fonth2tittle">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-check-square-o fa-stack-1x colortools"></i>
+    </span> Evaluación
+</div>
 </h2>
-<p data-source-line="574">La evaluación de aprovechamiento del curso por parte del alumno se reflejará con una <strong>puntuación final</strong>. Esta nota estará compuesta por <strong>dos puntuaciones que tendrán el 50%</strong> de peso respectivamente, en la puntuación final.</p>
-<p data-source-line="576"><strong>La primera nota</strong> será la resultante de la media que resulte de los <strong>tres "Test de Compresión"</strong> que se harán al finalizar cada uno de los tres bloques. Cada uno de los "test de comprensión" estará compuesto por 10 preguntas tipo test que versarán sobre los temas y los proyectos impartidos.</p>
-<p data-source-line="578"><strong>La segunda nota</strong> será la resultante de la media de evaluación del profesor en base a la <strong>Rubrica de evaluación</strong> orientada a valorar los objetivos <strong>técnicos y competenciales</strong> que el alumno ha alcanzado durante el curso.</p>
-<p data-source-line="580">Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del curso, ponderado de 0 a 10 puntos.</p>
-<h3><div id="que-es" class="fonth3tittle">TestS de Comprensión</div></h3>
+<p data-source-line="630">La evaluación de aprovechamiento del curso por parte del alumno se reflejará con una <strong>puntuación final</strong>. Esta nota estará compuesta por <strong>dos puntuaciones que tendrán el 50%</strong> de peso respectivamente, en la puntuación final.</p>
+<p data-source-line="632"><strong>La primera nota</strong> será la resultante de la media que resulte de los <strong>tres "Test de Compresión"</strong> que se harán al finalizar cada uno de los tres bloques. Cada uno de los "test de comprensión" estará compuesto por 10 preguntas tipo test que versarán sobre los temas y los proyectos impartidos.</p>
+<p data-source-line="634"><strong>La segunda nota</strong> será la resultante de la media de evaluación del profesor en base a la <strong>Rubrica de evaluación</strong> orientada a valorar los objetivos <strong>técnicos y competenciales</strong> que el alumno ha alcanzado durante el curso.</p>
+<p data-source-line="636">Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del curso, ponderado de 0 a 10 puntos.</p>
+<h3 id="tests"><div class="fonth3tittle">TestS de Comprensión</div></h3>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="586">Los <strong>TestS de Comprensión</strong> además de servir para evaluar el conocimiento del alumno, incorpora una componente de repaso de la lección, incluyendo introducciones simples al contenidos que se han impartido.<br><br></p>
-<p data-source-line="588">Una copia del test se entregará a cada alumno, impresos en color y buena calidad, junto con hoja que tiene la tabla de respuestas, donde el alumno se identificará con nombres, apellidos, curso, grupo, ... etc y emitirá sus respuestas. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br></p>
-<p data-source-line="590">A continuación se exponen los enlaces que llevan cada uno de los <strong>test</strong> de los tres bloques.</p>
+<p data-source-line="642">Los <strong>TestS de Comprensión</strong> además de servir para evaluar el conocimiento del alumno, incorpora una componente de repaso de la lección, incluyendo introducciones simples al contenidos que se han impartido.<br><br></p>
+<p data-source-line="644">Una copia del test se entregará a cada alumno, impresos en color y buena calidad, junto con hoja que tiene la tabla de respuestas, donde el alumno se identificará con nombres, apellidos, curso, grupo, ... etc y emitirá sus respuestas. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br></p>
+<p data-source-line="646">A continuación se exponen los enlaces que llevan cada uno de los <strong>test</strong> de los tres bloques.</p>
 </div>
 <br>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
+</a><div id="test_sesion_i_ii" class="fontexternallink2"><a>
+</a><a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
+<div id="test_sesion_iii_iv" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
 </div>
 <div style="float:left; width:100%;"></div>
 <div class="fontseparator"></div>
@@ -453,8 +505,8 @@ Sensores Analógicos y Digitales
 </div>
 <div style="float:left; width:100%;"></div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
-    <a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
+<div id="test_sesion_v_vi" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
@@ -468,288 +520,294 @@ Actuadores
 <div class="fontexternallinkcomment">
 </div>
 <div style="float:left; width:100%;"></div>
-<p data-source-line="637"><br><br><br><br><br><br><br><br><br><br></p>
-<h3><div id="que-es" class="fonth3tittle">Rubrica de Evaluación</div></h3>
+<p data-source-line="693"><br><br><br><br><br><br><br><br><br><br></p>
+<h3 id="rubrica"><div class="fonth3tittle">Rubrica de Evaluación</div></h3>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="646">La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los <strong>objetivos competenciales</strong>, como parte de la <strong>Presentación del Curso</strong>, el alumno recibirá esta información para que sepa con claridad lo que se espera de él.<br><br>
+<p data-source-line="702">La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los <strong>objetivos competenciales</strong>, como parte de la <strong>Presentación del Curso</strong>, el alumno recibirá esta información para que sepa con claridad lo que se espera de él.<br><br>
 Al termino de cada proyecto el profesor evaluará a cada alumno en las competencias descritas, registrando la nota.<br><br></p>
 </div>
 <div style="left:8%; position: relative; width:90%;">
-	<img style="" src="http://i.imgur.com/kLE7j8Q.png">
+<img style="" src="http://i.imgur.com/kLE7j8Q.png">
 </div><br><br>
-<h3><div id="que-es" class="fonth3tittle">Mejora Continua</div></h3>
+<h3 id="mejora"><div class="fonth3tittle">Mejora Continua</div></h3>
 <div style="left:8%; position: relative; width:90%;">
-<p data-source-line="660">Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de calidad del curso, que aspectos les han gustado más y cuales menos, cuales creen que faltan, cuales creen que se podría mejorar ... etc.<br><br></p>
-<p data-source-line="662">Este <strong>feedback</strong> además de ser un requisito necesario para mejorar el curso, servirá para mejorar y adaptar los contenidos y métodos, para futuras sesiones de participación de esta propuesta educativa.<br><br></p>
+<p data-source-line="716">Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de calidad del curso, que aspectos les han gustado más y cuales menos, cuales creen que faltan, cuales creen que se podría mejorar ... etc.<br><br></p>
+<p data-source-line="718">Este <strong>feedback</strong> además de ser un requisito necesario para mejorar el curso, servirá para mejorar y adaptar los contenidos y métodos, para futuras sesiones de participación de esta propuesta educativa.<br><br></p>
 </div>
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i></a><a></a></div><a>
 <hr>
-<div class="fontfooter">
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-	<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+</a><div id="creditos" class="fontfooter"><a>
+</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
 </a><br>This learning resource is provided for free by 
 <a rel="email" href="marcoantmartinez@gmail.com">marcoantmartinez@gmail.com</a> under a 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 <br>
 <a href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/tree/master/bitbloq" title="View and edit this resource on GitHub">
-	<img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub  
+<img src="http://i.imgur.com/MijfOYX.png" alt=""><br>View and edit this resource on GitHub  
 </a>
 </div>
 </div>
 </div>
 </div>
 <details>
-	<style>
-        .fontexternallinkcomment{
-            float:left;
-            width: 300px;
-            border-radius: 1px;
-            padding:10px; 
-            background-color: rgba(255, 255, 255, .5);
-            text-align: center;
-            line-height:0;
-            color:#000000; 
-            font-family:'Roboto Slab', serif;
-            font-size:18px; 
-            font-weight:300;
-        }
-        .fontexternallink2{
-            float:left;
-            width: 300px;
-            border-radius: 1px;
-            border-bottom-left-radius: 50px;
-            border-top-right-radius: 50px;
-            border-style: solid;
-            padding:30px; 
-            background-color: #d66c00;
-            text-align: center;
-            line-height:0;
-            color:#ffffff; 
-            font-family:'Roboto Slab', serif;
-            font-size:23px; 
-            font-weight:700;
-        }
-        .fontseparator{
-            float:left;
-            width: 25px;
-            border-radius: 0px;
-            border-style: solid;
-            padding:30px; 
-            background-color: #ffffff;
-            text-align: center;
-            line-height:0;
-            color:#ffffff; 
-            font-family:'Roboto Slab', serif;
-            font-size:23px; 
-            font-weight:700;
-        }
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-            padding-left: 25px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fonth4tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			padding:20px; 
-			line-height:0;
-			color:#000000; 
-			font-family:'Roboto Slab', serif;
-			font-size:20px; 
-			font-weight:500;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-        .fonttest{
-            border-radius: 23px;
-            padding:20px;
-            background-color: rgba(225, 225, 225, .5);
-            font-family:'Roboto Slab', sans-serif;
-            font-size:23px; 
-            font-weight:700;
-            letter-spacing: 0px;
-            line-height: 30px;
-        }
-        .fontdefinition{
-            border-radius: 23px;
-            padding:20px;
-            background-color: #ffffff;
-            color: green;
-            font-family:'Roboto Slab', sans-serif;
-            font-style: italic;
-            font-size:23px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 30px;
-        }
-        .fontexternallink{
-            width:25%;
-            margin-right:1%;
-            margin-left:auto;
-            border-radius: 50px;
-            border-bottom-left-radius: 0px;
-            border-top-left-radius: 0px;
-            padding:20px;
-            background-color: #00f900;
-            color: red;
-            text-align: center;
-            font-family:'Roboto Slab', sans-serif;
-            font-style: italic;
-            font-size:20px; 
-            font-weight:700;
-            letter-spacing: 0px;
-            line-height: 0px;
-        }                
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        line-height: 15px;
+        color:#729e29;
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 
- --></article><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script><script>$(function() { $('canvas.chartjs').each(function() { new Chart($(this), JSON.parse($(this).text())); }); });</script></body></html>
+--></article><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script><script>$(function() { $('canvas.chartjs').each(function() { new Chart($(this), JSON.parse($(this).text())); }); });</script></body></html>

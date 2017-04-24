@@ -18,7 +18,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div id="div_exterior" class="fontbody" > 
 
-<div class="fontheader" >
+<div id="cabecera" class="fontheader" >
 <a  style="color:#ffffff;" href="http://bitbloq.bq.com" title="View this resource on Bitbloq site">Bitbloq is a project provided for free by BQ (c)</a>
 </div>
 
@@ -47,37 +47,61 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
 
-<details class="linksTOC">
+<div style="float:right" class="linksTOC"> &nbsp;TOC</div>
+<div style="float:right;"> 
+<details class="linksTOC" >
 
-- [Proyecto](#proyecto)
+- **[Propuesta Didáctica](#propuesta)**
+- **[Programación y Robótica](#programacion)**
+- **[Proyecto Educativo](#proyecto)**
   * [Justificación](#justificacion)
-- [CLI](#cli)
-- [Highights](#highights)
-- [Usage](#usage)
-- [API](#api)
-  * [toc.plugin](#tocplugin)
-  * [toc.json](#tocjson)
-  * [toc.insert](#tocinsert)
-  * [Utility functions](#utility-functions)
-- [Options](#options)
-  * [options.append](#optionsappend)
-  * [options.filter](#optionsfilter)
-  * [options.slugify](#optionsslugify)
-  * [options.bullets](#optionsbullets)
-  * [options.maxdepth](#optionsmaxdepth)
-  * [options.firsth1](#optionsfirsth1)
-  * [options.stripHeadingTags](#optionsstripheadingtags)
-- [About](#about)
+  * [Finalidad](#finalidad)
+- **[Contextualización](#contexto)**
+  * [Organización del Aula](#organizacion)
+  * [Conocimiento Previo del Alumno](#conocimiento)
+  * [Recursos Necesarios](#recursos)
+  * [Sobre la elección de Arduino](#eleccion-arduino)
+  * [Sobre la elección de la programación con bloques](#eleccion-bloques)
+  * [Sobre la elección del IDE: Bitbloq](#eleccion-bitbloq)
+- **[Definición de Objetivos de Aprendizaje](#justificacion)**
+  * [Objetivos Técnicos](#objetivos-tecnicos)
+  * [Objetivos Competenciales](#objetivos-competenciales)
+- **[Contenidos y Planificación](#contenidos-planificacion)**
+  * [Contenidos](#contenidos)
+    * [Contenidos Sesión I - Teoría : Bloques de Control](#sesion_i)
+    * [Contenidos Sesión II - Proyecto : ¿Quien Pulsa el Botón Más Rápido?](#sesion_ii)
+    * [Contenidos Sesión III - Teoría : Sensores Analógicos y Digitales](#sesion_iii)
+    * [Contenidos Sesión IV - Proyecto : Misión Imposible](#sesion_iv)
+    * [Contenidos Sesión V - Teoría : Actuadores](#sesion_v)
+    * [Contenidos Sesión VI - Proyecto : Comprobador Baterías AAA/AA](#sesion_vi)
+  * [Planificación](#planificacion)
+    * [Planificación sesiones I y II](#plan_sesion_i_ii)
+    * [Planificación sesiones III y IV](#plan_sesion_iii_iv)
+    * [Planificación sesiones V y VI](#plan_sesion_v_vi)
+  * [Actividad de Sesiones](#actividad-sesiones)
+    * [Actividad Sesión I - Teoría : Bloques de Control](#actividad_sesion_i)
+    * [Actividad Sesión II - Proyecto : ¿Quien Pulsa el Botón Más Rápido?](#actividad_sesion_ii)
+    * [Actividad Sesión III - Teoría : Sensores Analógicos y Digitales](#actividad_sesion_iii)
+    * [Actividad Sesión IV - Proyecto : Misión Imposible](#actividad_sesion_iv)
+    * [Actividad Sesión V - Teoría : Actuadores](#actividad_sesion_v)
+    * [Actividad Sesión VI - Proyecto : Comprobador Baterías AAA/AA](#actividad_sesion_vi)
+- **[Evaluación](#evaluacion)**
+  * [TestS de Comprensión](#tests)
+    * [Test comprensión sesiones I y II](#test_sesion_i_ii)
+    * [Test comprensión sesiones III y IV](#test_sesion_iii_iv)
+    * [Test comprensión sesiones V y VI](#test_sesion_v_vi)
+  * [Rubrica de Evaluación](#rubrica)
+  * [Mejora Continua](#mejora)
+- [Créditos](#creditos)
+
 </details>
-
-<!-- MarkdownTOC depth=3-->
-
-
-<!-- /MarkdownTOC -->
-
+</div>
 
 
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/3SsE7lB.png"/></a></div>
+
+
+
 
 
 
@@ -140,16 +164,16 @@ Los capacidades que el alumno desarrollará durante son:
 - En los proyectos finales aquí propuestos, será hará indispensable que el alumno **coopere y trabaje en equipo**, requiriéndose que esas **partes más sencillas** que han desarrollado individualmente, encajen perfectamente para dar forma a la funcionalidad final del proyecto.
 
 
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i><a></div>
+
+---
 
 
 
 
 
-
-
-
-<h2>
-<div id="contexto" class="fonth2tittle">
+<h2 id="contexto">
+<div class="fonth2tittle">
     <span class="fa-stack fa-lg" >
         <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
         <i class="fa fa-key fa-stack-1x colortools"  ></i>
@@ -157,7 +181,7 @@ Los capacidades que el alumno desarrollará durante son:
 </div>
 </h2>
 
-<h3><div id="organizacion" class="fonth3tittle">Organización del Aula</div></h3>
+<h3 id="organizacion"><div class="fonth3tittle">Organización del Aula</div></h3>
 
 Para la realización de los ejercicios propuestos en las actividades, se utilizará la **Programación por Pares**; dos alumnos por puesto de trabajo, esto favorece varios aspectos en el aprendizaje del alumno:
 
@@ -170,7 +194,7 @@ Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos elec
 
 En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.
 
-<h3><div id="conocimiento" class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
+<h3 id="conocimiento" ><div class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
 
 Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
 Algunos de los conocimientos que servirán de apoyo para el desarrollo de los proyectos son :
@@ -205,7 +229,7 @@ Algunos de los conocimientos que servirán de apoyo para el desarrollo de los pr
 
 Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
 
-<h3><div id="recursos" class="fonth3tittle">Recursos necesarios</div></h3>
+<h3 id="recursos" ><div class="fonth3tittle">Recursos necesarios</div></h3>
 
 Los recursos listados a continuación serán revisados con los responsables del programa educativo del centro, a fin de adaptarlos a sus necesidades.
 
@@ -216,7 +240,7 @@ Los recursos listados a continuación serán revisados con los responsables del 
 - Cuentas de acceso por alumno pre-configuradas en Bitbloq
 - 20 Kits de robótica Arduino. Se recomienda [BQ Zum Box](https://www.bq.com/en/zum-kit) o similar.
 
-<h3><div id="eleccion-arduino" class="fonth3tittle">Sobre la elección de Arduino</div></h3>
+<h3 id="eleccion-arduino"><div class="fonth3tittle">Sobre la elección de Arduino</div></h3>
 
 **¿ Por qué Arduino UNO y no otra plataforma ?** Afortunadamente, hoy existen muchas plataformas económicas de prototipado rápido que elegir, para desarrollar nuestros proyectos **MAKER**, pero Arduino se ha alzado entre todas ellas, cómo la opción favorita del movimiento **MAKER** al ofrecer sencillez de conexión y uso de la  electrónica de sensores y actuadores, dispone de pines entrada/salida digital(x14), de entradas analógicas (x6) con una resolución de 10bit, salidas PWM (x4 útiles; entre otros para servos), comunicación entrada/salida por puerto serie (UART), capacidad de desarrollo a alto y bajo nivel, gran número de kits de sensores y actuadores económicos ... etc.
 
@@ -226,7 +250,7 @@ Normalmente suele ser el complemento ideal para placas como **Raspberry Pi** cuy
 
 Por otro lado la comunidad **MAKER** de Arduino es muy grande, y existe un elevado número de plataformas OnLine gratuitas donde aprender de otros **Maker** y donde compartir nuestros proyectos personales. [Instructables](http://www.instructables.com), [Make](http://makezine.com), [Circuits IO](https://circuits.io), [Arduino Create](https://create.arduino.cc), [BitBloq](http://bitbloq.bq.com) son algunos ejemplos de la gran difusión que tiene Arduino.
 
-<h3><div id="eleccion-bloques" class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
+<h3 id="eleccion-bloques" ><div class="fonth3tittle">Sobre la elección de la programación con bloques:</div></h3>
 
 
 <p style="text-align: center" ><a href=""><img src="http://i.imgur.com/VU9Zx9n.png"/></a></p>
@@ -255,7 +279,7 @@ Aunque los dos programas hacen la misma suma, interpretar el código tradicional
 
 La **curva de aprendizaje** se reduce drásticamente al programar con bloques, el alumno puede enfocarse más en la creación del algoritmo y su secuencia de control.
 
-<h3><div id="eleccion-bitbloq" class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
+<h3 id="eleccion-bitbloq"><div class="fonth3tittle">Sobre la elección del IDE: BitBloq</div></h3>
 
 <p style="text-align: center" ><a href=""><img src="http://i.imgur.com/nRb5ufI.png"/></a></p>
 
@@ -276,6 +300,8 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - El alumno descubrirá proyectos en la comunidad Bitbloq realizados por otros usuarios
 - Facilita al alumno la transición al desarrollo tradicional de código, para aumentar la complejidad de los proyectos
 
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i><a></div>
+
 ---
 
 
@@ -286,8 +312,8 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 
 
 
-<h2>
-<div id="resumen" class="fonth2tittle">
+<h2 id="objetivos" >
+<div class="fonth2tittle">
     <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
         <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
@@ -295,7 +321,7 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 </div>
 </h2>
 
-<h3><div id="objetivos-tecnicos" class="fonth3tittle">Objetivos Técnicos</div></h3>
+<h3 id="objetivos-tecnicos" ><div class="fonth3tittle">Objetivos Técnicos</div></h3>
 
 - Comprender y saber programar con bloques :
 - Que es un algoritmo
@@ -321,23 +347,23 @@ Además ofrece más ventajas que facilitan el aprendizaje y el seguimiento del a
 - Cómo se reproduce el sonido digitalmente
 - Circuitos de componentes actuadores digitales
 
-<h3><div id="objetivos-competenciales" class="fonth3tittle">Objetivos Competenciales</div></h3>
+<h3 id="objetivos-competenciales" ><div class="fonth3tittle">Objetivos Competenciales</div></h3>
 
 - Promover en el alumno la habilidad de aplicar el pensamiento computacional a la resolución de problemas.
 - Mejorar en el alumno la creatividad, motivación al logro y autonomía para gestar soluciones a problemas comunes.
 - Promover el aprendizaje colaborativo y el trabajo en equipo.
 
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i><a></div>
+
 ---
-<br><br>
 
 
 
 
 
 
-
-<h2>
-<div id="contenidos-plan" class="fonth2tittle">
+<h2 id="contenidos-plan" >
+<div class="fonth2tittle">
     <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
         <i class="fa fa-binoculars fa-stack-1x colortools" ></i>
@@ -359,10 +385,10 @@ Cada sesión incluye también el apartado **"Puesta en Común"** que persigue el
 
 Al termino de la sesión VI se reservará tiempo para la **Mejora Continua** pidiendo a los alumnos que valoren su satisfacción con el curso y sugerencias de mejora.
 
-<h3><div id="contenidos" class="fonth3tittle">Contenidos:</div></h3>
+<h3 id="contenidos"><div class="fonth3tittle">Contenidos:</div></h3>
 
 
-<h4><div class="fonth4tittle">
+<h4 id="sesion_i"><div class="fonth4tittle">
 
 Sesión I - **Bloques de Control** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -372,7 +398,7 @@ Presentación del curso Programación y Robótica Arduino. Los contenidos serán
 </div><br>
 
 
-<h4><div class="fonth4tittle">
+<h4 id="sesion_ii"><div class="fonth4tittle">
 
 Sesión II - **Proyecto ¿ Quién Pulsa Botón Más Rápido ?** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -381,7 +407,7 @@ Sesión II - **Proyecto ¿ Quién Pulsa Botón Más Rápido ?** :</div></h4>
 </div><br>
 
 
-<h4><div class="fonth4tittle">
+<h4  id="sesion_iii"><div class="fonth4tittle">
 
 Sesión III - **Sensores Analógicos y Digitales** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -391,7 +417,7 @@ Puesta en común.
 </div><br>
 
 
-<h4><div class="fonth4tittle">
+<h4  id="sesion_iv"><div class="fonth4tittle">
 
 Sesión IV - **Proyecto , Misión Imposible** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -400,7 +426,7 @@ Sesión IV - **Proyecto , Misión Imposible** :</div></h4>
 </div><br>
 
 
-<h4><div class="fonth4tittle">
+<h4  id="sesion_v"> <div class="fonth4tittle">
 
 Sesión V - **Actuadores** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -409,7 +435,7 @@ Sesión V - **Actuadores** :</div></h4>
 </div><br>
 
 
-<h4><div class="fonth4tittle">
+<h4  id="sesion_vi"><div class="fonth4tittle">
 
 Sesión VI - **Proyecto , Comprobador de Baterias AA / AAA** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -421,7 +447,7 @@ Sesión VI - **Proyecto , Comprobador de Baterias AA / AAA** :</div></h4>
 
 
 
-<h3><div id="que-es" class="fonth3tittle">Planificación:</div></h3>
+<h3  id="planificacion"><div class="fonth3tittle">Planificación:</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -436,7 +462,7 @@ A continuación se exponen los diagramas de Gantt que ilustran los tiempos estim
 </div>
 
 
-<h4><div class="fonth4tittle" >	
+<h4  id="plan_sesion_i_ii"><div class="fonth4tittle" >	
 
 Planificación **Sesiones I y II** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -444,7 +470,7 @@ Planificación **Sesiones I y II** </div></h4>
 </div><br><br>
 
 
-<h4><div class="fonth4tittle" >	
+<h4  id="plan_sesion_iii_iv"><div class="fonth4tittle" >	
 
 Planificación **Sesiones III y IV** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -452,7 +478,7 @@ Planificación **Sesiones III y IV** </div></h4>
 </div><br><br>
 
 
-<h4><div class="fonth4tittle" >	
+<h4  id="plan_sesion_v_vi"><div class="fonth4tittle" >	
 
 Planificación **Sesiones V y VI** </div></h4>
 <div style="left:8%; position: relative; width:90%;">
@@ -473,7 +499,7 @@ Planificación **Sesiones V y VI** </div></h4>
 
 
 
-<h3><div id="que-es" class="fonth3tittle">Sesiones</div></h3>
+<h3   id="actividad-sesiones"><div class="fonth3tittle">Actividad de Sesiones</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -502,11 +528,11 @@ A continuación se exponen los enlaces que llevan cada una de las sesiones que c
 
 <div class="fontseparator"></div>
 
-<div class="fontexternallink2">
+<div id="actividad_sesion_i" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_i.html">Sesion I  teoria</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="actividad_sesion_ii" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_ii.html">Sesión II - proyecto</a>
 </div>
 
@@ -532,11 +558,11 @@ Bloques de Control
 </div>
 
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="actividad_sesion_iii" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_iii.html">Sesión III - teoría</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="actividad_sesion_iv" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_iv.html">Sesión IV - proyecto</a>
 </div>
 
@@ -559,11 +585,11 @@ Misión Imposible
 </div>
 
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="actividad_sesion_v" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_v.html">Sesión V - teoría </a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="actividad_sesion_vi" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_vi.html">Sesión VI - proyecto</a>
 </div>
 
@@ -578,11 +604,11 @@ Comprobador Baterías AAA/AA
 </div>
 
 
+<br><br>
 
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i><a></div>
 
-<br>
 ---
-<br>
 
 
 
@@ -592,8 +618,8 @@ Comprobador Baterías AAA/AA
 
 
 
-<h2>
-<div id="resumen-de-leccion" class="fonth2tittle">
+<h2   id="evaluacion">
+<div class="fonth2tittle">
     <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
         <i class="fa fa-check-square-o fa-stack-1x colortools" ></i>
@@ -609,7 +635,7 @@ La evaluación de aprovechamiento del curso por parte del alumno se reflejará c
 
 Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del curso, ponderado de 0 a 10 puntos.
 
-<h3><div id="que-es" class="fonth3tittle">TestS de Comprensión</div></h3>
+<h3   id="tests"><div class="fonth3tittle">TestS de Comprensión</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -623,11 +649,11 @@ A continuación se exponen los enlaces que llevan cada uno de los **test** de lo
 
 
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="test_sesion_i_ii" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
 </div>
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div id="test_sesion_iii_iv"  class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_iv_test.html">Test sesiones III y IV</a>
 </div>
 
@@ -645,7 +671,7 @@ Sensores Analógicos y Digitales
 <div style="float:left; width:100%;"></div>
 
 <div class="fontseparator"></div>
-<div class="fontexternallink2">
+<div  id="test_sesion_v_vi" class="fontexternallink2">
 <a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y VI</a>
 </div>
 <div class="fontseparator"></div>
@@ -669,7 +695,7 @@ Actuadores
 
 
 
-<h3><div id="que-es" class="fonth3tittle">Rubrica de Evaluación</div></h3>
+<h3   id="rubrica"><div class="fonth3tittle">Rubrica de Evaluación</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -683,7 +709,7 @@ Al termino de cada proyecto el profesor evaluará a cada alumno en las competenc
 
 
 
-<h3><div id="que-es" class="fonth3tittle">Mejora Continua</div></h3>
+<h3   id="mejora"><div class="fonth3tittle">Mejora Continua</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
@@ -694,8 +720,12 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
 </div>
 
 
-***
-<div class="fontfooter">
+
+<div id="return" style="width: 100% ;text-align:right"><a href="#div_exterior"><i style="color: #d66c00;" class="fa fa-arrow-circle-up fa-2x"></i><a></div>
+
+---
+
+<div    id="creditos" class="fontfooter">
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 </a></br>This learning resource is provided for free by 
@@ -787,7 +817,8 @@ Este **feedback** además de ser un requisito necesario para mejorar el curso, s
 	}
     .linksTOC{
         font-size:14px; 
-        color:#729e29
+        line-height: 15px;
+        color:#729e29;
     }
 	.fontnotes{
 		width:80%;
