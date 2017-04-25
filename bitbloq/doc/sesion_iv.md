@@ -25,7 +25,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>

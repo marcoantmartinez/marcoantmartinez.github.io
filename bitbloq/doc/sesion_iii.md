@@ -25,7 +25,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
@@ -34,8 +34,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Actividad </a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversal</a> |
 	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
 	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
@@ -69,7 +69,6 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Componente LDR.
 - Componente Pulsador.
 - Componente Sensor IR.
-- Puntero Láser (2 ó 4).
 - Pizarra y proyector.
 
 <h2>
@@ -95,22 +94,59 @@ others  : Bitbloq is a project provided for free by BQ (c)
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
+        </span> Contenidos y Actividades de aprendizaje
     </div>
 </h2>
 
-- Entender la diferencia entre analógico y digital.
-- Ser capaz de distinguir los componentes analógicos de los digitales.
+- Entender la diferencia entre analógico y digital. Incidir en los aspectos de la precisión y la resolución. Qué es un ADC de 10 bit.
+
+<div style="text-align: center" ><img style="width:60%" src="http://i.imgur.com/W7mcydS.jpg"/></div><br>
+
+- Ser capaz de distinguir diferentes componentes analógicos de los digitales.
+
+<div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/iGjIObe.png"/></div><br>
+
 - Entender el funcionamiento de un pin analógico y digital en Arduino.
+
+<div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/zEq4vZm.png"/></div>
+<div style="text-align: center" ><img style="width:55%" src="http://i.imgur.com/VPNCLgO.png"/></div><br>
+
 - Entender la resolución y la operación matemática de mapeo.
+
+<div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/DDCN8Nr.png"/></div><br>
+
 - Entender el funcionamiento del componente potenciómetro.
-- Ser capaz de programar con el componente potenciómetro.
-- Entender el funcionamiento del componente LDR.
-- Ser capaz de programar con el componente LDR.
-- Entender el funcionamiento del componente Pulsador.
-- Ser capaz de programar when_press y when_release con el Pulsador.
-- Entender el funcionamiento del componente Sensor IR.
-- Ser capaz de programar el componente Sensor IR.
+
+<div style="text-align: center" ><img style="width:50%; height: 325px" src="http://i.imgur.com/YVBaGaB.jpg"/><img style="height: 325px" src="http://i.imgur.com/kGVXejO.gif"/></div><br>
+
+- Ser capaz de programar con el componente potenciómetro. Realización de un programa simple que encienda un LED dado un determinado grado de giro del potenciómetro.
+
+<div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/Q7EQ35I.png"/></div>
+
+- Entender el funcionamiento del componente LDR. Que la variación de la resistencia eléctrica de una LDR a la luz depende de la composición química del semiconductor que la forma, dar ejemplos.
+
+<div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/O8tAsqg.png"/></div>
+<div style="text-align: center" ><img style="width: 50%" src="http://i.imgur.com/4tu7z8C.png"/><img style=" width: 50%" src="http://i.imgur.com/dHwZotf.jpg"/></div><br>
+
+- Ser capaz de programar con el componente LDR. Realización de un programa simple que encienda un LED cuando se obscurezca la LDR.
+
+<div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/UBmj3XP.png"/></div><br>
+
+- Entender el funcionamiento del componente Pulsador. Entender la electrónica subyacente Pull-Up y Pull-Down del componente electrónico pulsador. Entender los niveles lógicos 0 y 1. Entender el efecto de Rebote.
+
+<div style="text-align: center" ><img style="height: 325px" src="http://i.imgur.com/3Y6SHSi.png"/><img style=" height: 325px" src="http://i.imgur.com/RaPV8q9.png"/></div><br>
+
+- Ser capaz de programar when_pressed y when_released con el Pulsador. Que es una pulsación completa. Qué puede llegar a pasar si se mantiene pulsador presionado en el bucle principal de proceso (apartado **Loop**).
+
+<div style="text-align: center" ><img style="width:90%" src="http://i.imgur.com/jshkSjk.png"/></div><br>
+
+- Entender el funcionamiento del componente Sensor IR. Emisor IR, receptor IR y ajuste de umbral.
+
+<div style="text-align: center" ><img style="width: 30%" src="http://i.imgur.com/1U5a2lC.png"/><img style=" width: 70%" src="http://i.imgur.com/x2Pm3I0.png"/></div><br>
+
+- Ser capaz de programar el componente Sensor IR. Realización de un programa simple que encienda un LED cuando se le aproxime un objeto blanco y/o cuando se le aproxime un objeto negro.
+
+<div style="text-align: center" ><img style=" width: 80%" src="http://i.imgur.com/sCdroml.png"/></div><br>
 
 
 <h2>
@@ -136,10 +172,15 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h2>
 
-- Pedir a los alumnos que piensen en hechos cotidianos analógicos y digitales, darles un ejemplos, hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.
+- Pedir a los alumnos que piensen en hechos cotidianos analógicos y digitales, darles un ejemplos (p.ej. grifo agua, luz de casa, aire acondicionado, música Tocadiscos vs iPod, auriculares ...etc) , hacerles ver que aunque no pensamos en ellos, están presentes en casi todo.
+
 - Pedir a los alumnos que piensen en que sensores conocen, hacer una lista en la pizarra con sus sugerencias, pedirles la clasificación de la lista en analógicos y digitales.
+
 - Sacar dos voluntarios, darles una hoja con la silueta de un muñeco pintado, uno de los alumnos lo cortará a mano y otro con una tijera, ¿Qué corte es más preciso?, hacerles reflexionar sobre la precisión y exactitud.
-- Exponer fotografías de sensores y preguntar por cual creen que es su uso. Alimentar el debate de que se podría hacer con ellos.
+
+- Exponer fotografías de sensores comunes (Volumétrico, Screen Touch Sensor, Iterruptor frigorífico) y preguntar por cual creen que es su uso (darles tiempo a especular, luego desvelar). Alimentar el debate de que se podría hacer con ellos.
+
+<div style="text-align: center" ><img style="width: 30%" src="http://i.imgur.com/gEhZiFp.png"/><img style=" width: 30%" src="http://i.imgur.com/S5V6Zoo.png"/><img style=" width: 30%" src="http://i.imgur.com/XuDFFHJ.png"/></div><br>
 
 
 <h2>
@@ -152,7 +193,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
-2. Los alumnos - grupos siguen las instrucciones del profesor y las ejecutan en Bitbloq.
+2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
 3. Resolver las dudas de los alumnos según vayan apareciendo.
 
 
@@ -190,10 +231,7 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-<br>Desarrollo del juego **Misión Imposible**</br>
-><br>¿ Qué pasa si ponemos varios espejos para hacer rebotar la luz del láser ?</br>
->¿ Qué otros usos se pueden dar a este circuito ?
-><br></br>
+<br>Avance próxima sesión, desarrollo del prototipo - juego **Misión Imposible**</br><br><br>
 
 
 
@@ -206,7 +244,7 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+El desempeño del alumno en esta jornada, se evaluará al termino de la próxima sesión **(IV)**; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
 
 <br>
 <br>
@@ -228,162 +266,262 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 </div>
 </div>
 <details>
-	<style>
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        line-height: 15px;
+        color:#729e29;
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 

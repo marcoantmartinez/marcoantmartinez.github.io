@@ -247,7 +247,7 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-El desempeño del alumno en esta sesión, se evaluará al termino de la próxima sesión **(II)**; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
+El desempeño del alumno en esta jornada, se evaluará al termino de la próxima sesión **(II)**; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
 
 <br>
 <br>
