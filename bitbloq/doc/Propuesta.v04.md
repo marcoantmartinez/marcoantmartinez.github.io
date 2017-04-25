@@ -708,17 +708,33 @@ Al termino de cada uno de los 3 bloques-proyectos, el profesor evaluará a cada 
 <img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
 </div><br><br> -->
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/c94dc7d6/rubrica_evaluacion.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/158292b2/rubrica_evaluacion.svg" alt=""></div>
 
 <h3   id="mejora"><div class="fonth3tittle">Mejora Continua</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
-Como parte indispensable del curso, al final de este, se entregará un cuestionario a los alumnos para evaluar su percepción de la **calidad del curso**, que aspectos les han gustado más, cuales menos, cuales creen que faltan, cuales creen que se podría mejorar ... etc.<br><br>
+Como parte indispensable del curso, al final de este, se entregará un cuestionario anónimo a los alumnos para evaluar su percepción de la **calidad del curso**, que aspectos les han gustado más, cuales menos, cuales creen que faltan, cuales creen que se podría mejorar ... etc.<br><br>
 
 Este **feedback** además de ser un requisito necesario para mejorar el curso, servirá para mejorar y adaptar los contenidos y métodos, para futuras ampliaciones de contenidos de esta propuesta educativa y otras.<br><br>
-
 </div>
+
+<div class="fontseparator"></div>
+<div id="test_sesion_i_ii" class="fontexternallink2">
+<a style="color:#ffffff" href="encuesta.html">Cuestionario Calidad</a>
+</div>
+<div class="fontseparator"></div>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Encuesta Anónima para Alumno
+</div>
+<div class="fontseparator"></div>
+<div style="float:left; width:100%;"></div>
+
+<br><br><br><br><br>
 
 
 
