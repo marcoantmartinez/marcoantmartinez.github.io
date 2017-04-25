@@ -239,7 +239,7 @@ El desempeño del alumno en esta sesión, se evaluará a su termino (donde se ev
 <br><br>
 <div class="fontseparator"></div>
 <div id="test_sesion_i_ii" class="fontexternallink2">
-<a style="color:#ffffff" href="index.html#evaluacion">Tests y Rubrica</a>
+<a style="color:#ffffff" href="index.html#tests">Tests y Rubrica</a>
 </div>
 <div class="fontseparator"></div>
 
@@ -247,7 +247,7 @@ El desempeño del alumno en esta sesión, se evaluará a su termino (donde se ev
 
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-Tests y Rubrica para Evaluación
+Enlace a los TestS y la Rubrica
 </div>
 <div class="fontseparator"></div>
 <div style="float:left; width:100%;"></div>
