@@ -544,7 +544,7 @@ Bloques de Control
 </div>
 <div class="fontseparator"></div>
 <div class="fontexternallinkcomment">
-¿Quién Pulsa Más Rápìdo?
+¿Quién Pulsa Más Rápido?
 </div>
 <br><br><br>
 
@@ -700,15 +700,15 @@ Actuadores
 
 <div style="left:8%; position: relative; width:90%;">
 
-La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los **objetivos técnico - competenciales**. En la primera sesión y como parte de la **Presentación del Curso**, el alumno recibirá esta información, para que sepa con claridad lo que se espera de él.<br><br>
+La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los **objetivos competenciales**. En la primera sesión y como parte de la **Presentación del Curso**, el alumno recibirá esta información, para que sepa con claridad lo que se espera de él.<br><br>
 Al termino de cada uno de los 3 bloques-proyectos, el profesor evaluará a cada alumno en las competencias descritas, registrando la nota en el expediente del alumno para el curso.<br><br>
 </div>
 
-<div style="left:8%; position: relative; width:90%;">
+<!-- <div style="left:8%; position: relative; width:90%;">
 <img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
-</div><br><br>
+</div><br><br> -->
 
-
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
 
 <h3   id="mejora"><div class="fonth3tittle">Mejora Continua</div></h3>
 
