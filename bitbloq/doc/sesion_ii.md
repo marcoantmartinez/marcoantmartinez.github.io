@@ -25,7 +25,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
@@ -34,8 +34,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Actividad </a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversal</a> |
 	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
 	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
@@ -56,7 +56,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 En está sesión de proyecto se aplicará el **Proceso de Pensamiento Computacional** promoviendo la resolución de problemas mediante el análisis, el diseño de soluciones reales y poniéndolas a prueba.
 
-El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, demostrando los conocimientos técnicos adquiridos en la sesión previa, donde se expuso la teoría sobre los **bloques de control** de BitBloq para realizar aplicaciones con Arduino.
+El alumno demostrará su autonomía para analizar, diseñar, construir y probar el proyecto, haciendo evidentes los conocimientos técnicos adquiridos en la sesión previa, donde se expuso la teoría sobre los **bloques de control** de BitBloq para realizar aplicaciones con Arduino.
 
 Al termino del proyecto el alumno **documentará y compartirá** su trabajo en la nube con el aula. También se realizará una **evaluación** de conocimientos con un **examen tipo test**.
 
@@ -102,7 +102,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
+        </span> Contenidos y Actividades de aprendizaje
     </div>
 </h2>
 
@@ -141,12 +141,19 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 - Se expone el enunciado de forma simple: "**Queremos un prototipo que sea capaz de mostrar el tiempo que tardamos en pulsar un botón, tras recibir el aviso de una cuenta atrás**"
 
 <div class="success">
+
 En este proyecto el alumno previsiblemente encontrará varias dificultades de orden técnico:
 
 - Relativas al uso de la detección de pulsación when_press ó when_release
 - Relativas a la interrupción de la conexión con el puerto serie y su restablecimiento
-- Relativas el uso de bloques para concatenar texto y datos (que hay que convertir a texto) 
+- Relativas el uso de bloques para concatenar texto y datos (que hay que convertir a texto)
+- Relativas a la medición de intervalos de tiempo
+- Relativas a manejar los grafos de un diagrama de flujo.
+</div> <br>
 
+<div class="danger">
+
+En el caso de que exista un alumno - grupo con desempeño excelente, incrementar la complejidad de su prototipo añadiendo alguna de las características expuestas en el apartado **Reto**.
 </div>
 
 <h2>
@@ -164,11 +171,11 @@ En este proyecto el alumno previsiblemente encontrará varias dificultades de or
 
 <div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
 
-- Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
+- Se comienza el desarrollo en bitbloq : modelando el prototipo hardware y programando los bloques.
 
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dEYDec9.png"/></a></div>
 
-- Se realizan las conexiones del prototipo y se realizan las pruebas.
+- Se realizan las conexiones del prototipo real y se realizan las pruebas.
 
 <div style="text-align: center" ><a href=""><img src="http://i.imgur.com/dVzlMiO.png"/></a></div>
 
@@ -213,9 +220,11 @@ Pedimos a los alumnos reflexionar sobre:
 >- ¿ Qué pasa si el tiempo que hay entre el Preparados, Listos, Ya del juego **"Quién pulsa el botón más rápido"** es aleatorio entre 1 y 5 segundos ?
 >- ¿ Sería posible organizar una carrera de relevos en el Aula ?
 >- ¿ Qué otros usos se pueden dar a este prototipo ?
->- Se podría incluir un tres led rojo, amarillo y verde para simular un semáforo que de la señal de salida
+>- Se podrían incluir tres LEDs rojo, amarillo y verde para simular un semáforo que de la señal de aviso para pulsar el botón, combinando tiempos variables para la transición de encendido de los LEDs.
 >- Se podría añadir un segundo botón y competir con un compañero
->- Se podrían añadir un led por botón y tres botones, y que el led ilumine el botón que debemos pulsar, y con el que se medirá el tiempo de reacción
+>- Se podrían añadir dificultad al juego, con un led por botón y tres botones-leds en total, y que el aviso de pulsar, venga dado por el led que se iluminará justo al lado del botón que debemos pulsar, y con el que se medirá el tiempo de reacción
+
+
 <h2>
     <div id="evaluacion" class="fonth2tittle">
         <span class="fa-stack fa-lg">
@@ -225,7 +234,25 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+El desempeño del alumno en esta sesión, se evaluará a su termino (donde se evaluará también la sesión anterior I); por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
+
+<br><br>
+<div class="fontseparator"></div>
+<div id="test_sesion_i_ii" class="fontexternallink2">
+<a style="color:#ffffff" href="index.html#evaluacion">Tests y Rubrica</a>
+</div>
+<div class="fontseparator"></div>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Tests y Rubrica para Evaluación
+</div>
+<div class="fontseparator"></div>
+<div style="float:left; width:100%;"></div>
+
+<br><br><br><br><br>
 
 <br>
 <br>
@@ -247,162 +274,262 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 </div>
 </div>
 <details>
-	<style>
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        line-height: 15px;
+        color:#729e29;
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 

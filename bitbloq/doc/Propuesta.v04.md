@@ -202,7 +202,7 @@ Algunos de los conocimientos que servirán de apoyo son:
 - Matemáticas : 
   - Algoritmos. 
   - Cálculo de Tiempo de reacción. 
-  - Números aleatorios.
+  - Números primos y aleatorios.
   - Proporcionalidad (Regla de 3), Algoritmo (Mapeo)
   - Resolución (precisión y exactitud)
   - Cálculo de área, área media, 
@@ -236,6 +236,7 @@ Los recursos listados a continuación serán revisados con los responsables del 
 - 10 Ordenadores Portátiles para los alumnos (con OS Linux, MacOS ó Windows) y Google Chrome instalado.
 - 1 proyector y 1 pizarra digital
 - Mesas configurables que permitan trabajar por pares o en grupo
+- Grupos de alumnos configurados, con puesto asignado e informados
 - Wifi configurado en los portátiles con conexión a Internet
 - Cuentas de acceso por alumno pre-configuradas en Bitbloq
 - 20 Kits de robótica Arduino. Se recomienda [BQ Zum Box](https://www.bq.com/en/zum-kit) o similar.
@@ -396,7 +397,7 @@ Sesión I - **Bloques de Control** :</div></h4>
 <div style="left:8%; position: relative; width:90%;">
 
 **Sesión de teoría y asimilación sobre cómo se programan los comandos de control en Arduino.**
-Los contenidos serán : Entender que es un algoritmo y sus partes principales. Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino. Entender cómo funciona la salida/entrada de datos serie de Arduino. Ser capaz de escribir y leer en el puerto serie de Arduino. Entender el bloque de espera. Ser capa de utilizar el bloque de espera. Entender como funcionan los bloques de control básicos. Ser capaces de utilizar los bloques de control de forma autónoma en las prácticas sencillas. Entender como funciona una variable. Ser capaz de utilizar las variables. Entender como funciona el bloque de temporizador de Arduino. 
+Los contenidos serán : Qué es Arduino. Entender que es un algoritmo y sus partes principales. Ser capaces de inicializar, preparar y ejecutar un algoritmo básico de Arduino. Entender cómo funciona la salida/entrada de datos serie de Arduino. Ser capaz de escribir y leer en el puerto serie de Arduino. Entender el bloque de espera. Ser capa de utilizar el bloque de espera. Entender como funcionan los bloques de control básicos. Ser capaces de utilizar los bloques de control de forma autónoma en las prácticas sencillas. Entender como funciona una variable. Ser capaz de utilizar las variables. Entender como funciona el bloque de temporizador de Arduino. 
 </div><br>
 
 
@@ -509,7 +510,7 @@ Los enlaces presentados a continuación mostrarán al docente, el programa de ac
 - **Introducción :** Exponer al aula el objetivo general de la sesión.
 - **Recursos necesarios :** Medios y/o recursos que se necesitan para impartir el contenido.
 - **Resumen de lección :** Son los puntos prioritarios que deberán tratarse.
-- **Objetivos de aprendizaje :** Son los contenidos y practicas que forman parte de los objetivos técnicos específicos de la sesión y que posteriormente se evaluarán en el test para evaluación de conocimientos que se desarrollará al final de cada bloque.
+- ** Contenidos y Actividades de aprendizaje :** Son los contenidos y actividades practicas que forman parte de los objetivos técnicos específicos de la sesión y que posteriormente se evaluarán en el test para evaluación de conocimientos que se desarrollará al final de cada bloque.
 - **Aplicaciones transversales :** Son las materias y sus áreas de aplicación en otras asignaturas ESO, que serán tratadas durante la sesión y servirán de apoyo para explicar el funcionamiento de los bloques, los sensores y los actuadores.
 - **Inicio :** Expone los puntos que se tratarán con el aula, como introducción a los contenidos de la sesión, se trata de invitar a la reflexión, e indagar sobre los conocimientos previos que ya tiene el alumno y del aula en general, para sentar las bases y adaptar el lenguaje, así como el ritmo de las actividades.
 - **Desarrollo :** Expone los pasos que se seguirán para el desarrollo de la/s actividad/es de la sesión, normalmente es un proceso que se repite por cada contenido individual a impartir.
