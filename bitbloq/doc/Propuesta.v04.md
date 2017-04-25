@@ -708,7 +708,7 @@ Al termino de cada uno de los 3 bloques-proyectos, el profesor evaluará a cada 
 <img style="" src="http://i.imgur.com/kLE7j8Q.png"/>
 </div><br><br> -->
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/58b0329e/bitbloq/doc/reaction_time.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/c94dc7d6/rubrica_evaluacion.svg" alt=""></div>
 
 <h3   id="mejora"><div class="fonth3tittle">Mejora Continua</div></h3>
 

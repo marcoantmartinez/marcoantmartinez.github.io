@@ -1,1472 +1,584 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 743.75 1052.5"
-   height="1052.5"
-   width="743.75"
-   xml:space="preserve"
-   version="1.1"
-   id="svg2"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath18"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path20"
-         d="m 54.0864,110.3361 484.848,0 0,659.6351 -484.848,0 0,-659.6351 z" /></clipPath><clipPath
-       id="clipPath30"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path32"
-         d="m 54.8928,700.6208 483.6384,0 0,68.54401 -483.6384,0 0,-68.54401 z" /></clipPath><clipPath
-       id="clipPath44"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path46"
-         d="m 125.4528,700.6208 136.8864,0 0,68.54401 -136.8864,0 0,-68.54401 z" /></clipPath><clipPath
-       id="clipPath76"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path78"
-         d="m 263.1456,700.6208 136.8864,0 0,68.54401 -136.8864,0 0,-68.54401 z" /></clipPath><clipPath
-       id="clipPath108"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path110"
-         d="m 400.8384,700.6208 136.8864,0 0,68.54401 -136.8864,0 0,-68.54401 z" /></clipPath><clipPath
-       id="clipPath140"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path142"
-         d="m 54.8928,602.4416 483.6384,0 0,97.3728 -483.6384,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath154"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path156"
-         d="m 125.4528,602.4416 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath192"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path194"
-         d="m 263.1456,602.4416 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath218"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path220"
-         d="m 400.8384,602.4416 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath256"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path258"
-         d="m 54.8928,504.2624 483.6384,0 0,97.37277 -483.6384,0 0,-97.37277 z" /></clipPath><clipPath
-       id="clipPath270"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path272"
-         d="m 125.4528,504.2624 136.8864,0 0,97.37277 -136.8864,0 0,-97.37277 z" /></clipPath><clipPath
-       id="clipPath308"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path310"
-         d="m 263.1456,504.2624 136.8864,0 0,97.37277 -136.8864,0 0,-97.37277 z" /></clipPath><clipPath
-       id="clipPath334"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path336"
-         d="m 400.8384,504.2624 136.8864,0 0,97.37277 -136.8864,0 0,-97.37277 z" /></clipPath><clipPath
-       id="clipPath378"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path380"
-         d="m 54.8928,406.0832 483.6384,0 0,97.3728 -483.6384,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath392"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path394"
-         d="m 125.4528,406.0832 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath412"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path414"
-         d="m 263.1456,406.0832 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath450"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path452"
-         d="m 400.8384,406.0832 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath500"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path502"
-         d="m 54.8928,307.904 483.6384,0 0,97.3728 -483.6384,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath514"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path516"
-         d="m 125.4528,307.904 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath546"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path548"
-         d="m 263.1456,307.904 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath584"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path586"
-         d="m 400.8384,307.904 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath628"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path630"
-         d="m 54.8928,209.7248 483.6384,0 0,97.37279 -483.6384,0 0,-97.37279 z" /></clipPath><clipPath
-       id="clipPath642"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path644"
-         d="m 125.4528,209.7248 136.8864,0 0,97.37279 -136.8864,0 0,-97.37279 z" /></clipPath><clipPath
-       id="clipPath674"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path676"
-         d="m 263.1456,209.7248 136.8864,0 0,97.37279 -136.8864,0 0,-97.37279 z" /></clipPath><clipPath
-       id="clipPath712"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path714"
-         d="m 400.8384,209.7248 136.8864,0 0,97.37279 -136.8864,0 0,-97.37279 z" /></clipPath><clipPath
-       id="clipPath762"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path764"
-         d="m 54.8928,111.5457 483.6384,0 0,97.3728 -483.6384,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath776"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path778"
-         d="m 125.4528,111.5457 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath814"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path816"
-         d="m 263.1456,111.5457 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath852"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path854"
-         d="m 400.8384,111.5457 136.8864,0 0,97.3728 -136.8864,0 0,-97.3728 z" /></clipPath><clipPath
-       id="clipPath902"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path904"
-         d="m 53.28,108.9249 487.0656,0 0,661.8527 -487.0656,0 0,-661.8527 z" /></clipPath><pattern
-       id="pattern946"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g948" /><g
-         id="g950"><path
-           id="path952"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path954"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path956"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern962"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g964" /><g
-         id="g966"><path
-           id="path968"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path970"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path972"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern978"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g980" /><g
-         id="g982"><path
-           id="path984"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path986"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path988"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1000"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1002" /><g
-         id="g1004"><path
-           id="path1006"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1008"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1010"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1016"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1018" /><g
-         id="g1020"><path
-           id="path1022"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1024"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1026"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1032"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1034" /><g
-         id="g1036"><path
-           id="path1038"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1040"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1042"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1048"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1050" /><g
-         id="g1052"><path
-           id="path1054"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1056"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1058"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1064"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1066" /><g
-         id="g1068"><path
-           id="path1070"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1072"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1074"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern><pattern
-       id="pattern1080"
-       height="8"
-       width="8"
-       y="0"
-       x="0"
-       patternUnits="userSpaceOnUse"
-       patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)"><g
-         id="g1082" /><g
-         id="g1084"><path
-           id="path1086"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 8,0 8,8 0,8 0,0 Z" /><path
-           id="path1088"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0"
-           d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /><path
-           id="path1090"
-           style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7"
-           d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0" /></g></pattern></defs><g
-     transform="matrix(1.25,0,0,-1.25,0,1052.5)"
-     id="g10"><g
-       id="g12" /><g
-       id="g14"><g
-         clip-path="url(#clipPath18)"
-         id="g16"><path
-           id="path22"
-           style="fill:#4f6228;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 125.0496,700.016 413.28,0 0,69.55199 -413.28,0 0,-69.55199 z" /><path
-           id="path24"
-           style="fill:#4f6228;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 54.4896,110.9408 70.7616,0 0,589.2767 -70.7616,0 0,-589.2767 z" /></g></g><g
-       id="g26"><g
-         clip-path="url(#clipPath30)"
-         id="g28"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g34"><text
-             id="text36"
-             style="font-variant:normal;font-weight:bold;font-size:75px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,249,3416)"><tspan
-               id="tspan38"
-               y="0"
-               x="0 39.915001 80.129997 120.345 146.31 186.60001">Puntos</tspan></text>
-</g></g></g><g
-       id="g40"><g
-         clip-path="url(#clipPath44)"
-         id="g42"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g48"><text
-             id="text50"
-             style="font-variant:normal;font-weight:bold;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#1fb714;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,578,3565)"><tspan
-               id="tspan52"
-               y="0"
-               x="0 26.610001 51.77 78.580002 98.540001 123.2 163.86 176.12 201.28 228.09 245.39999 272.26001 283.57001 304.48001 331.34 372 398.81 425.62 442.92999 467.59 488.5 500.76001 527.62 554.42999 579.09003">Pensamiento	computacional</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g54"><text
-             id="text56"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,633.0518,3502)"><tspan
-               id="tspan58"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 190.25999 215.14 226.44501 258.72 283.60001 304.745 329.625 349.17999 360.655 386.92499 410.875 437.14499 462.02499">Análisis	de	Necesidades</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g60"><text
-             id="text62"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,682.9229,3439)"><tspan
-               id="tspan64"
-               y="0"
-               x="0 30.76 42.220001 61.779999 86.639999 112.9 139.25999 150.57001 176.83 201.69 213 232.56 258.92001 270.38 296.64001 317.79999 329.26001 355.62">Diseño	de	solución</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g66"><text
-             id="text68"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,630.209,3376)"><tspan
-               id="tspan70"
-               y="0"
-               x="0 30.76 55.639999 75.195 99.144997 116.575 134.005 160.37 171.845 183.32001 209.685 220.99001 247.25999 272.14001 283.61499 294.92001 321.19 338.62 364.98499 381.73499 408.10001 424.85001 436.32501 462.595">Desarrollo	del	prototipo</tspan></text>
-</g></g></g><g
-       id="g72"><g
-         clip-path="url(#clipPath76)"
-         id="g74"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g80"><text
-             id="text82"
-             style="font-variant:normal;font-weight:bold;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#1fb714;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1349,3565)"><tspan
-               id="tspan84"
-               y="0"
-               x="0 43.700001 70.580002 87.915001 100.195 123.85 148.535 169.46001 181.74001 208.62 235.45 246.755 271.44 283.72 295.02499 307.30499 334.185 357.89001 375.66501 402.54501">Motivación	al	logro:</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g86"><text
-             id="text88"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1438.637,3502)"><tspan
-               id="tspan90"
-               y="0"
-               x="0 11.305 40.235001 66.504997 83.254997 109.62 135.89 162.255 202.19501 213.67">	Autonomía</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g92"><text
-             id="text94"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1441.562,3439)"><tspan
-               id="tspan96"
-               y="0"
-               x="0 26.66 44.09 68.970001 92.919998 109.67 121.145 143.73 155.205 181.47501 205.425">Creatividad</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g98"><text
-             id="text100"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1411.556,3376)"><tspan
-               id="tspan102"
-               y="0"
-               x="0 24.415001 43.970001 70.239998 81.714996 99.144997 110.62 127.37 153.64 164.94501 186.09 203.52 214.995 231.745 243.22 264.36499">Espíritu	crítico</tspan></text>
-</g></g></g><g
-       id="g104"><g
-         clip-path="url(#clipPath108)"
-         id="g106"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g112"><text
-             id="text114"
-             style="font-variant:normal;font-weight:bold;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#1fb714;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1973,3565)"><tspan
-               id="tspan116"
-               y="0"
-               x="0 30.299999 57.130001 74.904999 100.075 126.905 153.735 166.015 185.89 210.575 223.345 248.515 259.82001 280.745 307.625 319.905 344.59 371.42001 398.29999 416.07501 440.76001 458.095 470.375 494.03 520.90997">Aprendizaje	colaborativo:</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g118"><text
-             id="text120"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2049.996,3502)"><tspan
-               id="tspan122"
-               y="0"
-               x="0 11.305 35.669998 53.099998 77.050003 103.32 127.27 139.235 165.60001 176.905 201.785 228.05499 239.36 264.23999 290.51001 316.78 328.255 354.52499">	Trabajo	en	equipo</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g124"><text
-             id="text126"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1968.184,3439)"><tspan
-               id="tspan128"
-               y="0"
-               x="0 26.66 53.025002 79.294998 105.66 126.805 138.28 178.22 203.10001 229.37 246.12 272.48499 283.79001 310.45001 336.815 348.29001 372.23999 398.51001 424.875 442.30499 466.255 483.005 494.48001 517.065">Conocimento	Colaborativo</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g130"><text
-             id="text132"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2075.92,3376)"><tspan
-               id="tspan134"
-               y="0"
-               x="0 24.415001 50.685001 76.955002 94.385002 119.265 145.535 171.80499 183.28 223.22 234.69501 259.57501 285.845 302.595">Enprendimiento</tspan></text>
-</g></g></g><g
-       id="g136"><g
-         clip-path="url(#clipPath140)"
-         id="g138"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g144"><text
-             id="text146"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,2921)"><tspan
-               id="tspan148"
-               y="0"
-               x="0">0</tspan></text>
-</g></g></g><g
-       id="g150"><g
-         clip-path="url(#clipPath154)"
-         id="g152"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g158"><text
-             id="text160"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,660,3135)"><tspan
-               id="tspan162"
-               y="0"
-               x="0 30.76 55.639999 70.900002 82.375 103.52 114.995 139.875 166.145 182.895 207.77499 219.08 243.03 269.29999 293.25 304.72501 316.20001 335.755 347.23001 366.785 378.09 404.35999 429.23999">Deficiente	análisis	de	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g164"><text
-             id="text166"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,580.5273,3072)"><tspan
-               id="tspan168"
-               y="0"
-               x="0 26.27 51.150002 72.294998 97.175003 116.73 128.205 154.47501 178.425 204.69501 229.575 249.13 261.60501 272.91 299.17999 325.54501 336.85001 356.405 381.285 392.59 417.47 443.73999 460.48999 471.965 496.845 523.11499 549.38501 574.26501">necesidades,	no	se	entiende.</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g170"><text
-             id="text172"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,602.6963,3009)"><tspan
-               id="tspan174"
-               y="0"
-               x="0 30.76 42.235001 61.790001 86.669998 112.94 139.30499 150.61 176.88 201.75999 213.065 237.015 248.49001 272.02499 298.39001 315.82001 327.29501 344.04501 383.98499 410.35001 422.82501 434.13 460.39999 486.76501 498.07001 517.625 542.505">Diseño	de	algoritmo,	no	se	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g176"><text
-             id="text178"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,776.5049,2946)"><tspan
-               id="tspan180"
-               y="0"
-               x="0 24.879999 51.150002 67.900002 79.375 104.255 130.52499 156.795 181.675">entiende.</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g182"><text
-             id="text184"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,621.0957,2883)"><tspan
-               id="tspan186"
-               y="0"
-               x="0 24.415001 35.889999 47.195 73.464996 90.894997 117.26 134.00999 160.375 177.125 188.60001 214.87 241.235 252.53999 278.81 305.17499 316.48001 331.73999 358.01001 384.28 405.42499 416.89999 443.26501 469.535 493.48499">El	prototipo	no	funciona.</tspan></text>
-</g></g></g><g
-       id="g188"><g
-         clip-path="url(#clipPath192)"
-         id="g190"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g196"><text
-             id="text198"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1247,3072)"><tspan
-               id="tspan200"
-               y="0"
-               x="0 27.195 51.145 63.110001 87.059998 98.364998 138.30499 164.67 181.42 192.895 215.48 239.42999 260.57501 272.04999 298.41501 324.685 335.98999 359.94 371.41501 382.72 394.19501 420.56 444.095 461.52499 487.89001 500.36499 511.67001 537.94 564.30499 575.60999 595.16498 620.04498">Baja	motivación	al	logro,	no	se	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g202"><text
-             id="text204"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1243.348,3009)"><tspan
-               id="tspan206"
-               y="0"
-               x="0 24.879999 44.435001 59.695 85.964996 110.845 128.27499 148.02499 171.97501 184.45 195.755 222.02499 248.39 259.69501 271.17001 297.44 314.19 339.07001 365.34 382.09 406.04001 417.345 436.89999 463.26501 474.73999 501.01001 522.15503 533.63 559.995 586.26501 610.21503 627.64502">esfuerza,	no	intenta	solucionar	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g208"><text
-             id="text210"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1428.288,2946)"><tspan
-               id="tspan212"
-               y="0"
-               x="0 24.879999 36.355 47.66 73.93 91.360001 117.725 143.995 155.47 180.35001 220.28999 244.24001">el	problema.</tspan></text>
-</g></g></g><g
-       id="g214"><g
-         clip-path="url(#clipPath218)"
-         id="g216"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g222"><text
-             id="text224"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1928,3135)"><tspan
-               id="tspan226"
-               y="0"
-               x="0 32.275002 58.639999 69.945 96.214996 122.58 143.72501 169.995 209.935 234.815 261.08499 277.83499 301.785 313.09 324.565 350.92999 370.48499 381.79001 398.54001 415.97 439.92001 466.19 490.14001 502.10501 528.46997 548.02502 560.5 571.80499 598.07501 624.44">No	documenta	los	trabajos,	no	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g228"><text
-             id="text230"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1915.742,3072)"><tspan
-               id="tspan232"
-               y="0"
-               x="0 11.475 37.84 57.395 68.699997 88.254997 114.525 140.795 165.675 176.98 200.92999 212.235 223.71001 247.66 258.965 285.23499 311.505 337.77499 362.655 375.13 386.435 412.70499 439.07001 450.375 471.51999 497.88501 537.82501 564.09497 588.04498 605.47498 622.22498 647.10498">los	sube	a	la	nube,	no	comparte	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g234"><text
-             id="text236"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1998.141,3009)"><tspan
-               id="tspan238"
-               y="0"
-               x="0 21.145 47.509998 73.779999 100.145 121.29 132.765 172.705 184.17999 209.06 235.33 252.08 278.44501 290.92001 302.22501 313.70001 338.57999 349.88501 371.03 397.29999 422.17999 441.73499 458.48499 482.435">conocimiento,	le	cuesta	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g240"><text
-             id="text242"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1959.866,2946)"><tspan
-               id="tspan244"
-               y="0"
-               x="0 21.145 47.509998 58.985001 82.934998 109.205 135.57001 153 176.95 194.38 205.685 226.83 253.19501 279.465 290.76999 310.32501 336.595 347.89999 374.17001 398.12 415.54999 426.85501 449.48499 460.79001 485.67001 511.94 523.245 548.125 559.59998">colaborar	con	su	par	y	en	el	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g246"><text
-             id="text248"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2190.765,2883)"><tspan
-               id="tspan250"
-               y="0"
-               x="0 23.950001 50.220001 61.695 85.644997">aula.</tspan></text>
-</g></g></g><g
-       id="g252"><g
-         clip-path="url(#clipPath256)"
-         id="g254"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g260"><text
-             id="text262"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,2434)"><tspan
-               id="tspan264"
-               y="0"
-               x="0">1</tspan></text>
-</g></g></g><g
-       id="g266"><g
-         clip-path="url(#clipPath270)"
-         id="g268"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g274"><text
-             id="text276"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,636,2648)"><tspan
-               id="tspan278"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 190.25999 215.14 226.44501 252.715 277.595 298.73999 323.62 343.17499 354.64999 380.92001 404.87 431.14001 456.01999 475.57501">Análisis	de	necesidades	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g280"><text
-             id="text282"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,781.8652,2585)"><tspan
-               id="tspan284"
-               y="0"
-               x="0 21.145 47.509998 64.940002 82.370003 107.25 128.395 145.145 171.50999">correcto.</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g286"><text
-             id="text288"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,609.2998,2522)"><tspan
-               id="tspan290"
-               y="0"
-               x="0 30.76 42.235001 61.790001 86.669998 112.94 139.30499 150.61 176.88 201.75999 213.065 237.015 248.49001 272.02499 298.39001 315.82001 327.29501 344.04501 383.98499 410.35001 421.655 447.92499 474.29001 485.595 505.14999 530.03003">Diseño	de	algoritmo	no	se	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g292"><text
-             id="text294"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,776.6328,2459)"><tspan
-               id="tspan296"
-               y="0"
-               x="0 24.879999 51.150002 67.900002 79.375 104.255 130.52499 156.795 181.675">entiende.</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g298"><text
-             id="text300"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,645.2236,2396)"><tspan
-               id="tspan302"
-               y="0"
-               x="0 25.83 43.259998 69.625 86.375 112.74 129.49001 140.965 167.235 193.60001 204.905 231.175 257.54001 268.845 284.10501 310.375 336.64499 357.79001 369.26501 395.63 421.89999 445.85001">Prototipo	no	funciona.</tspan></text>
-</g></g></g><g
-       id="g304"><g
-         clip-path="url(#clipPath308)"
-         id="g306"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g312"><text
-             id="text314"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1250,2585)"><tspan
-               id="tspan316"
-               y="0"
-               x="0 42.75 69.114998 85.864998 97.339996 119.925 143.875 165.02 176.495 202.86 229.13 240.435 264.38501 275.85999 287.16501 298.64001 325.005 348.54001 365.97 392.33499 403.64001 427.59 453.85999 478.73999 499.88501 526.15503 550.10498 576.375 600.32501 612.79999">Motivación	al	logro	adecuada,	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g318"><text
-             id="text320"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1297.097,2522)"><tspan
-               id="tspan322"
-               y="0"
-               x="0 26.27 51.150002 68.580002 94.945 106.25 131.13 150.685 171.83 195.78 215.33501 239.285 250.59 274.54001 300.81 317.56 343.92499 370.19501 396.56 436.5 447.97501 471.92499 483.23001 507.17999 518.65503">pero	escasa	autonomía	al	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g324"><text
-             id="text326"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1342.053,2459)"><tspan
-               id="tspan328"
-               y="0"
-               x="0 26.27 43.689999 70.059998 96.330002 122.7 148.97 173.84 191.25999 202.58 222.14999 248.52 259.98999 286.26001 307.38 318.85001 345.22 371.48999 396.35999 415.92999 428.54999">proponer	soluciones.	</tspan></text>
-</g></g></g><g
-       id="g330"><g
-         clip-path="url(#clipPath334)"
-         id="g332"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g338"><text
-             id="text340"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1914,2680)"><tspan
-               id="tspan342"
-               y="0"
-               x="0 30.76 57.125 78.269997 104.54 144.48 169.36 195.63 212.38 236.33 247.63499 259.10999 285.47501 305.03 316.33499 333.08499 350.51501 374.465 400.73499 424.685 436.64999 463.01501 482.57001 493.875 520.14502 545.02502 562.45502 588.82001 600.125 626.39502 651.27502">Documenta	los	trabajos	pero	de	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g344"><text
-             id="text346"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1940.573,2617)"><tspan
-               id="tspan348"
-               y="0"
-               x="0 15.26 41.625 59.055 98.995003 122.945 134.25 145.72501 171.995 193.14 219.505 259.44501 285.715 297.19 322.07001 338.82001 362.76999 374.07501 400.44 411.745 432.89001 459.255 485.52499 496.82999 523.09998 549.46503 570.60999 596.97498">forma	incompleta	o	con	poco	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g350"><text
-             id="text352"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1914.85,2554)"><tspan
-               id="tspan354"
-               y="0"
-               x="0 26.27 51.150002 67.900002 91.849998 103.325 114.8 139.67999 152.3 163.605 195.88 222.245 233.55 253.105 277.98499 289.29001 315.56 341.82999 366.70999 392.98001 417.85999 429.16501 455.435 472.185 483.66 495.13501 506.60999 526.35999 550.31 567.73999 579.04498 605.315 631.67999 649.10999">detalle.	No	se	puede	utilizar	por	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g356"><text
-             id="text358"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2038.25,2491)"><tspan
-               id="tspan360"
-               y="0"
-               x="0 26.365 43.115002 60.544998 86.910004 98.214996 124.485 148.435 165.86501 189.815 201.12 218.55 243.42999 269.70001 281.17499 292.64999 313.79501 337.745 355.17499 366.48001 391.35999 402.83499">otro	para	replicar	el	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g362"><text
-             id="text364"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1926.386,2428)"><tspan
-               id="tspan366"
-               y="0"
-               x="0 21.145 47.509998 73.779999 100.145 121.29 132.765 172.705 184.17999 209.06 235.33 252.08 278.44501 291.065 302.37 329.03 355.39499 366.87 390.82001 417.09 443.45499 460.88501 484.83499 496.14001 517.28497 543.65002 569.91998 581.22498 600.78003 627.04999">conocimiento.	Colabora	con	su	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g368"><text
-             id="text370"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2073.74,2365)"><tspan
-               id="tspan372"
-               y="0"
-               x="0 26.27 50.220001 67.650002 78.955002 103.835 130.105 141.41 152.88499 179.25 190.55499 216.825 240.77499 260.32999 271.80499 292.95001 319.315">par	en	lo	básico.</tspan></text>
-</g></g></g><g
-       id="g374"><g
-         clip-path="url(#clipPath378)"
-         id="g376"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g382"><text
-             id="text384"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,1947)"><tspan
-               id="tspan386"
-               y="0"
-               x="0">2</tspan></text>
-</g></g></g><g
-       id="g388"><g
-         clip-path="url(#clipPath392)"
-         id="g390"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g396"><text
-             id="text398"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,545,2067)"><tspan
-               id="tspan400"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 186.62 197.925 228.685 240.16 259.715 284.595 310.86499 337.23001 348.535 369.67999 396.04501 413.47501 430.905 455.785 476.92999 493.67999 520.04498 539.59998 552.07501 563.38 589.65002 614.53003 631.96002 658.32501">Análisis	y	Diseño	correctos,	pero	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g402"><text
-             id="text404"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,564.6289,2004)"><tspan
-               id="tspan406"
-               y="0"
-               x="0 26.27 43.700001 70.065002 86.815002 113.18 129.92999 141.405 167.675 194.03999 205.345 231.61501 257.98001 269.285 280.76001 292.23499 317.11499 340.64999 364.60001 375.905 399.85501 411.16 426.42001 452.69 478.95999 500.10501 511.57999 537.94501 564.21503 588.16498 605.59497">prototipo	no	llega	a	funcionar.</tspan></text>
-</g></g></g><g
-       id="g408"><g
-         clip-path="url(#clipPath412)"
-         id="g410"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g416"><text
-             id="text418"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1269,2161)"><tspan
-               id="tspan420"
-               y="0"
-               x="0 27.195 53.465 78.345001 104.615 128.565 139.87 179.81 206.175 222.925 234.39999 256.98499 280.935 302.07999 313.55499 339.92001 366.19 377.495 401.44501 412.92001 424.22501 435.70001 462.065 485.60001 503.03 529.39502 541.87 553.17499 575.80499">Buena	motivación	al	logro,	y	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g422"><text
-             id="text424"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1332.109,2098)"><tspan
-               id="tspan426"
-               y="0"
-               x="0 23.950001 50.220001 66.970001 93.334999 119.605 145.97 185.91 197.38499 221.33501 232.64 256.59 268.065 279.37 305.64001 317.11499 341.065 367.33499 384.08499 408.965 432.91501 450.345">autonomía	al	plantear	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g428"><text
-             id="text430"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1239.755,2035)"><tspan
-               id="tspan432"
-               y="0"
-               x="0 19.555 45.919998 57.395 83.665001 104.81 116.285 142.64999 168.92 193.8 213.355 225.83 237.13499 263.405 288.285 305.715 332.07999 343.38501 368.26501 387.82001 414.09 425.565 442.995 454.47 471.22 497.48999 508.79501 529.94 547.37 558.84497 575.59497 587.07001 608.21503 634.58002">soluciones,	pero	espíritu	crítico	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g434"><text
-             id="text436"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1277.629,1972)"><tspan
-               id="tspan438"
-               y="0"
-               x="0 26.27 51.150002 77.419998 102.3 113.605 153.545 178.425 190.39 216.755 234.185 258.13501 275.565 288.04001 299.345 310.82001 334.76999 346.07501 365.63 391.995 403.47 429.73999 450.88501 462.35999 488.72501 514.995 539.875 559.42999">debe	mejorar,	la	soluciones	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g440"><text
-             id="text442"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1353.356,1909)"><tspan
-               id="tspan444"
-               y="0"
-               x="0 26.27 51.150002 77.419998 102.3 128.57001 139.875 159.42999 184.31 201.74001 213.045 239.315 256.745 280.69501 301.84 318.59 330.065 351.20999 375.16 394.715">deben	ser	prácticas.</tspan></text>
-</g></g></g><g
-       id="g446"><g
-         clip-path="url(#clipPath450)"
-         id="g448"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g454"><text
-             id="text456"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1954,2224)"><tspan
-               id="tspan458"
-               y="0"
-               x="0 30.76 57.125 78.269997 104.54 144.48 169.36 195.63 212.38 236.33 247.63499 259.10999 285.47501 305.03 316.33499 333.08499 350.51501 374.465 400.73499 424.685 436.64999 463.01501 482.57001 493.875 516.505 527.81 547.36499 572.245">Documenta	los	trabajos	y	se	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g460"><text
-             id="text462"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2001.545,2161)"><tspan
-               id="tspan464"
-               y="0"
-               x="0 24.879999 51.150002 67.900002 79.375 104.255 130.52499 156.795 181.675 207.94501 220.42 231.72501 257.995 282.875 300.30499 326.67001 337.97501 349.45001 374.32999 385.63501 400.89499 424.845 436.32001 453.07001 477.01999">entienden,	pero	le	falta	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g466"><text
-             id="text468"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1973.851,2098)"><tspan
-               id="tspan470"
-               y="0"
-               x="0 24.879999 44.435001 61.185001 78.614998 104.885 126.03 142.78 169.05 186.48 210.42999 221.735 248.005 271.95499 289.38501 313.33499 324.64001 364.57999 389.45999 401.42499 427.79001 445.22 469.17001 486.60001 497.905 509.38 533.33002">estructura	para	mejorar	la	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g472"><text
-             id="text474"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1927.479,2035)"><tspan
-               id="tspan476"
-               y="0"
-               x="0 21.145 47.509998 87.449997 113.72 131.14999 156.03 175.58501 187.06 213.425 239.69501 251 277.26999 303.63501 321.065 332.37 358.73499 375.48499 392.91501 419.28 431.89999 443.20499 469.86499 496.23001 507.70499 531.65503 557.92499 584.28998 601.71997 625.66998">compresión	por	otro.	Colabora	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g478"><text
-             id="text480"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1974.467,1972)"><tspan
-               id="tspan482"
-               y="0"
-               x="0 21.145 47.509998 73.779999 85.084999 104.64 130.91 142.215 168.485 192.435 209.86501 222.34 233.645 244.95 271.22 296.10001 313.53 339.89499 351.20001 362.67499 387.55499 398.85999 420.005 446.27499 471.155 490.70999 507.45999 531.40997">con	su	par,		pero	le	cuesta	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g484"><text
-             id="text486"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1908.167,1909)"><tspan
-               id="tspan488"
-               y="0"
-               x="0 23.950001 50.220001 76.584999 94.014999 110.765 134.715 152.145 163.45 188.33 214.60001 225.905 237.38 263.745 283.29999 294.60501 319.48499 339.04001 365.31 389.26001 410.405 421.88 448.245 467.79999 479.10501 500.25 526.61499 566.55499 592.82501 619.09497 643.97498 663.53003">aportar	en	los	espacios	comunes	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g490"><text
-             id="text492"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2028.996,1846)"><tspan
-               id="tspan494"
-               y="0"
-               x="0 21.145 47.509998 73.779999 85.084999 109.965 121.44 132.745 150.175 175.05499 194.61 211.36 237.72501 249.03 275.29999 300.17999 311.655 322.95999 346.91 373.17999 384.655 408.60501">con	el	resto	del	aula.</tspan></text>
-</g></g></g><g
-       id="g496"><g
-         clip-path="url(#clipPath500)"
-         id="g498"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g504"><text
-             id="text506"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,1460)"><tspan
-               id="tspan508"
-               y="0"
-               x="0">3</tspan></text>
-</g></g></g><g
-       id="g510"><g
-         clip-path="url(#clipPath514)"
-         id="g512"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g518"><text
-             id="text520"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,574,1643)"><tspan
-               id="tspan522"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 186.62 197.925 228.685 240.16 259.715 284.595 310.86499 337.23001 348.535 369.67999 396.04501 413.47501 430.905 455.785 476.92999 493.67999 520.04498 539.59998 552.07501 563.38 588.26001 599.73499">Análisis	y	Diseño	correctos,	el	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g524"><text
-             id="text526"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,544.0352,1580)"><tspan
-               id="tspan528"
-               y="0"
-               x="0 26.27 43.700001 70.065002 86.815002 113.18 129.92999 141.405 167.675 194.03999 205.345 216.82001 228.295 253.175 276.70999 300.66 311.965 335.91501 347.22 362.48001 388.75 415.01999 436.16501 447.64001 474.005 500.27499 524.22498 541.65503 554.13 565.435 591.70502 616.58502 634.01501 660.38">prototipo	llega	a	funcionar,	pero	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g530"><text
-             id="text532"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,579.7148,1517)"><tspan
-               id="tspan534"
-               y="0"
-               x="0 15.26 41.529999 67.800003 88.945 100.42 126.785 153.05499 177.005 188.48 199.955 226.22501 250.175 276.44501 287.75 314.01999 340.38501 351.69 376.57001 396.125 407.42999 428.57501 454.94 472.37 489.79999 514.67999 535.82501 552.57501 576.52502 589">funcionalidad	no	es	correcta,	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g536"><text
-             id="text538"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,721.0078,1454)"><tspan
-               id="tspan540"
-               y="0"
-               x="0 15.26 39.209999 50.685001 67.434998 91.385002 117.655 128.96001 155.23 172.66 198.92999 223.81 250.08 274.03 293.58499">faltan	pruebas.</tspan></text>
-</g></g></g><g
-       id="g542"><g
-         clip-path="url(#clipPath546)"
-         id="g544"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g550"><text
-             id="text552"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1286,1674)"><tspan
-               id="tspan554"
-               y="0"
-               x="0 27.195 53.465 78.345001 104.615 128.565 139.87 179.81 206.175 222.925 234.39999 256.98499 280.935 302.07999 313.55499 339.92001 366.19 377.495 401.44501 412.92001 424.22501 435.70001 462.065 485.60001 503.03 529.39502 541.87">Buena	motivación	al	logro,	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g556"><text
-             id="text558"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1331.174,1611)"><tspan
-               id="tspan560"
-               y="0"
-               x="0 23.950001 50.220001 66.970001 93.334999 119.605 145.97 185.91 197.38499 221.33501 232.64 256.59 268.065 279.37 305.64001 317.11499 341.065 367.33499 384.08499 408.965 432.91501 450.345">autonomía	al	plantear	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g562"><text
-             id="text564"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1281.819,1548)"><tspan
-               id="tspan566"
-               y="0"
-               x="0 19.555 45.919998 57.395 83.665001 104.81 116.285 142.64999 168.92 193.8 213.355 224.66 247.28999 258.595 283.47501 303.03 329.29999 340.77499 358.20499 369.67999 386.42999 412.70001 424.005 445.14999 462.57999 474.05499 490.80499 502.28 523.42499 549.78998">soluciones	y	espíritu	crítico	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g568"><text
-             id="text570"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1229.903,1485)"><tspan
-               id="tspan572"
-               y="0"
-               x="0 26.27 43.700001 67.650002 88.794998 105.545 117.02 138.16499 164.53 177.005 188.31 214.58 239.46001 256.89001 283.255 294.56 311.31 322.785 347.66501 373.935 398.815 410.12 436.39001 462.66 487.54001 498.845 522.79498 562.73499 589.005 600.47998 611.95502 635.90503 653.33502">práctico,	pero	tiene	que	ampliar	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g574"><text
-             id="text576"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1246.527,1422)"><tspan
-               id="tspan578"
-               y="0"
-               x="0 11.475 35.424999 46.73 67.875 85.305 110.185 134.13499 150.88499 162.36 184.94501 196.42 222.69 246.64 272.91 284.215 310.48499 335.36499 346.67001 358.14499 382.095 393.39999 412.95499 439.32001 450.79501 477.065 498.20999 509.685 536.04999 562.32001 587.20001 606.755">la	creatividad	de	la	soluciones.</tspan></text>
-</g></g></g><g
-       id="g580"><g
-         clip-path="url(#clipPath584)"
-         id="g582"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g588"><text
-             id="text590"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1909,1706)"><tspan
-               id="tspan592"
-               y="0"
-               x="0 30.76 57.125 78.269997 104.54 144.48 169.36 195.63 212.38 236.33 257.47501 268.95001 295.315 321.58499 332.89001 359.16 384.04001 395.345 412.095 429.52499 453.47501 479.745 503.69501 515.65997 542.02502 561.58002 572.88501 599.15503 610.63 635.51001 661.78003">Documentación	de	trabajos	bien	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g594"><text
-             id="text596"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1971.071,1643)"><tspan
-               id="tspan598"
-               y="0"
-               x="0 24.879999 44.435001 61.185001 78.614998 104.885 126.03 142.78 169.05 186.48 210.42999 236.7 260.64999 271.95499 294.58499 305.89001 330.76999 357.04001 373.79001 398.67001 424.94 451.20999 462.685 488.95499 500.42999 525.31 537.92999">estructurada	y	entendible.	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g600"><text
-             id="text602"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1922.29,1580)"><tspan
-               id="tspan604"
-               y="0"
-               x="0 27.195 53.465 78.345001 104.615 128.565 139.87 161.015 187.38 198.855 222.80499 249.075 275.44 292.87 316.82001 337.965 349.44 375.80499 402.07501 413.38 434.52499 460.89001 487.16 498.465 518.02002 544.28998 555.59497 581.86499 605.815 623.245 635.86499">Buena	colaboración	con	su	par.	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g606"><text
-             id="text608"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1935.458,1517)"><tspan
-               id="tspan610"
-               y="0"
-               x="0 31.15 55.099998 76.245003 101.125 112.43 136.38 147.855 171.39 197.66 223.92999 247.88 259.185 283.13501 309.405 335.76999 353.20001 369.95001 393.89999 415.04501 426.51999 452.88501 479.155 490.45999 515.34003 541.60999 552.91498 564.39001 590.755 610.31">Hace	alguna	aportación	en	los	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g612"><text
-             id="text614"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1931.064,1454)"><tspan
-               id="tspan616"
-               y="0"
-               x="0 24.879999 44.435001 70.705002 94.654999 115.8 127.275 153.64 173.19501 184.5 205.645 232.00999 271.95001 298.22 324.48999 349.37 368.92499 380.23001 401.375 427.73999 454.01001 465.315 490.19501 501.67001 512.97498 530.40503 555.28497 574.84003 591.59003 617.95502">espacios	comunes	con	el	resto	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g618"><text
-             id="text620"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2154.312,1391)"><tspan
-               id="tspan622"
-               y="0"
-               x="0 26.27 51.150002 62.625 73.93 97.879997 124.15 135.625 159.575">del	aula.</tspan></text>
-</g></g></g><g
-       id="g624"><g
-         clip-path="url(#clipPath628)"
-         id="g626"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g632"><text
-             id="text634"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,973)"><tspan
-               id="tspan636"
-               y="0"
-               x="0">4</tspan></text>
-</g></g></g><g
-       id="g638"><g
-         clip-path="url(#clipPath642)"
-         id="g640"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g646"><text
-             id="text648"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,574,1156)"><tspan
-               id="tspan650"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 186.62 197.925 228.685 240.16 259.715 284.595 310.86499 337.23001 348.535 369.67999 396.04501 413.47501 430.905 455.785 476.92999 493.67999 520.04498 539.59998 552.07501 563.38 588.26001 599.73499">Análisis	y	Diseño	correctos,	el	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g652"><text
-             id="text654"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,669.0352,1093)"><tspan
-               id="tspan656"
-               y="0"
-               x="0 26.27 43.700001 70.065002 86.815002 113.18 129.92999 141.405 167.675 194.03999 205.345 230.22501 256.495 273.245 290.67499 315.55499 339.09 363.04001 374.345 385.82001 409.76999 421.07501">prototipo	entrega	la		</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g658"><text
-             id="text660"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,568.4082,1030)"><tspan
-               id="tspan662"
-               y="0"
-               x="0 15.26 41.529999 67.800003 88.945 100.42 126.785 153.05499 177.005 188.48 199.955 226.22501 250.175 276.44501 287.75 314.01999 338.89999 356.32999 382.69501 394 418.88 430.35501 441.66 481.60001 507.965 534.23499 550.98499 574.935 586.90002 611.78003">funcionalidad	pero	el	montaje	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g664"><text
-             id="text666"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,573.4795,967)"><tspan
-               id="tspan668"
-               y="0"
-               x="0 15.26 26.719999 46.279999 57.740002 78.900002 105.26 116.57 142.83 169.09 193.95 220.21001 245.07001 256.38 282.64001 300.04999 326.41 352.67001 378.92999 400.09 411.54999 428.95999 440.26999 465.13 482.54001 499.95001 526.31 543.71997 568.58002 588.14001">físico	puede	producir	errores.</tspan></text>
-</g></g></g><g
-       id="g670"><g
-         clip-path="url(#clipPath674)"
-         id="g672"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g678"><text
-             id="text680"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1228,1187)"><tspan
-               id="tspan682"
-               y="0"
-               x="0 42.75 69.114998 85.864998 97.339996 119.925 143.875 165.02 176.495 202.86 229.13 241.605 252.91 281.84 308.10999 324.85999 351.22501 377.495 403.85999 443.79999 455.27499 479.22501 491.70001 503.005 527.41998 546.97498 573.245 584.71997 602.15002 613.625 630.375 656.64502">Motivación,	Autonomía,	Espíritu	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g684"><text
-             id="text686"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1252.944,1124)"><tspan
-               id="tspan688"
-               y="0"
-               x="0 26.66 44.09 55.564999 72.315002 83.790001 104.935 131.3 142.605 165.235 176.53999 203.2 220.63 245.50999 269.45999 286.20999 297.685 320.26999 331.745 358.01501 381.965 408.23499 419.54001 440.685 467.04999 484.48001 501.91 526.78998 547.935 564.685 588.63501 608.19">Crítico	y	Creatividad	correctas	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g690"><text
-             id="text692"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1297.427,1061)"><tspan
-               id="tspan694"
-               y="0"
-               x="0 26.27 51.150002 68.580002 94.945 107.42 118.725 144.995 169.875 196.145 212.895 230.325 256.69 267.995 294.26501 319.14499 330.45001 341.92499 368.29001 379.595 400.73999 427.10501 467.04501 493.315 519.58502">pero,	dentro	de	lo	común	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g696"><text
-             id="text698"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1268.311,998)"><tspan
-               id="tspan700"
-               y="0"
-               x="0 26.27 43.700001 68.580002 88.135002 113.015 139.285 156.035 179.985 206.255 232.62 243.925 270.19501 296.56 313.98999 325.29501 351.565 376.44501 387.92001 399.22501 416.655 441.535 461.09 477.84 504.20499 515.51001 541.78003 566.65997 578.13501">presentado	por	del	resto	del	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g702"><text
-             id="text704"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1507.739,935)"><tspan
-               id="tspan706"
-               y="0"
-               x="0 23.950001 50.220001 61.695 85.644997">aula.</tspan></text>
-</g></g></g><g
-       id="g708"><g
-         clip-path="url(#clipPath712)"
-         id="g710"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g716"><text
-             id="text718"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1909,1250)"><tspan
-               id="tspan720"
-               y="0"
-               x="0 30.76 57.125 78.269997 104.54 144.48 169.36 195.63 212.38 236.33 257.47501 268.95001 295.315 321.58499 332.89001 359.16 384.04001 395.345 412.095 429.52499 453.47501 479.745 503.69501 515.65997 542.02502 561.58002 572.88501 599.15503 610.63 635.51001 661.78003">Documentación	de	trabajos	bien	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g722"><text
-             id="text724"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1971.071,1187)"><tspan
-               id="tspan726"
-               y="0"
-               x="0 24.879999 44.435001 61.185001 78.614998 104.885 126.03 142.78 169.05 186.48 210.42999 236.7 260.64999 271.95499 294.58499 305.89001 330.76999 357.04001 373.79001 398.67001 424.94 451.20999 462.685 488.95499 500.42999 525.31 537.92999">estructurada	y	entendible.	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g728"><text
-             id="text730"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1922.29,1124)"><tspan
-               id="tspan732"
-               y="0"
-               x="0 27.195 53.465 78.345001 104.615 128.565 139.87 161.015 187.38 198.855 222.80499 249.075 275.44 292.87 316.82001 337.965 349.44 375.80499 402.07501 413.38 434.52499 460.89001 487.16 498.465 518.02002 544.28998 555.59497 581.86499 605.815 623.245 635.86499">Buena	colaboración	con	su	par.	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g734"><text
-             id="text736"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1921.458,1061)"><tspan
-               id="tspan738"
-               y="0"
-               x="0 31.15 55.099998 76.245003 101.125 112.43 136.38 162.64999 189.015 206.44501 223.19501 247.145 268.29001 279.76501 306.13 332.39999 357.28 376.83499 388.14001 399.44501 420.59 446.95499 473.22501 484.53 509.41 520.88501 532.19 549.62 574.5 594.05499 610.80499 637.16998">Hace	aportaciones		con	el	resto	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g740"><text
-             id="text742"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1942.92,998)"><tspan
-               id="tspan744"
-               y="0"
-               x="0 26.27 51.150002 62.625 73.93 97.879997 124.15 135.625 159.575 172.05 183.355 209.625 234.505 251.935 278.29999 289.60501 315.875 340.755 367.02499 391.905 403.20999 443.14999 468.03 479.995 506.35999 523.78998 547.73999 559.04498 570.52002 594.46997">del	aula,	pero	debe	mejora	la	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g746"><text
-             id="text748"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1934.682,935)"><tspan
-               id="tspan750"
-               y="0"
-               x="0 23.950001 46.580002 72.849998 99.120003 123.07 134.375 158.325 169.63 195.995 212.745 230.175 256.54001 276.095 287.39999 312.28 338.54999 364.82001 376.29501 402.565 428.92999 448.48499 459.79001 480.935 507.20499 531.15503 557.42499 583.69501 610.06">ayuda	a	otros	equipos	cuando	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g752"><text
-             id="text754"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2169.044,872)"><tspan
-               id="tspan756"
-               y="0"
-               x="0 26.27 52.540001 77.410004 103.68 128.55">puede.</tspan></text>
-</g></g></g><g
-       id="g758"><g
-         clip-path="url(#clipPath762)"
-         id="g760"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g766"><text
-             id="text768"
-             style="font-variant:normal;font-weight:bold;font-size:300px;font-family:Calibri;-inkscape-font-specification:Calibri-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,281,486)"><tspan
-               id="tspan770"
-               y="0"
-               x="0">5</tspan></text>
-</g></g></g><g
-       id="g772"><g
-         clip-path="url(#clipPath776)"
-         id="g774"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g780"><text
-             id="text782"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,600,700)"><tspan
-               id="tspan784"
-               y="0"
-               x="0 28.93 55.200001 79.150002 90.625 102.1 121.655 133.13 152.685 163.99001 186.62 197.925 224.19501 235.67 255.22501 280.10501 306.375 332.73999 344.04501 365.19 391.55499 408.98499 426.41501 451.29501 472.44 489.19 515.55499 535.10999 547.58502">Análisis	y	diseño	correctos,	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g786"><text
-             id="text788"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,668.8867,637)"><tspan
-               id="tspan790"
-               y="0"
-               x="0 26.27 43.700001 70.065002 86.815002 113.18 129.92999 141.405 167.675 194.03999 205.345 230.22501 256.495 273.245 290.67499 315.55499 339.09 363.04001 374.345 385.82001 409.76999">prototipo	entrega	la	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g792"><text
-             id="text794"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,544.9561,574)"><tspan
-               id="tspan796"
-               y="0"
-               x="0 15.26 41.529999 67.800003 88.945 100.42 126.785 153.05499 177.005 188.48 199.955 226.22501 250.175 276.44501 287.75 310.38 321.685 346.565 358.04001 369.345 409.285 435.64999 461.92001 478.67001 502.62 514.58502 539.46503 550.77002 570.32501 595.20502 606.51001 632.78003 656.72998">funcionalidad	y	el	montaje	se	ha	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g798"><text
-             id="text800"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,555.9736,511)"><tspan
-               id="tspan802"
-               y="0"
-               x="0 26.27 51.150002 72.294998 98.565002 124.93 136.235 157.38 183.745 210.015 221.32001 242.465 266.41501 277.89001 289.36499 315.63501 339.58499 365.85501 377.16 399.79001 411.095 435.04501 451.79501 476.67499 502.94501 524.09003 535.565 561.92999 588.20001 599.505 623.45502 634.92999">hecho	con	calidad	y	atención	al	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g804"><text
-             id="text806"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,797.1895,448)"><tspan
-               id="tspan808"
-               y="0"
-               x="0 26.27 51.150002 67.900002 91.849998 103.325 114.8 139.67999">detalle.</tspan></text>
-</g></g></g><g
-       id="g810"><g
-         clip-path="url(#clipPath814)"
-         id="g812"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g818"><text
-             id="text820"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1228,700)"><tspan
-               id="tspan822"
-               y="0"
-               x="0 42.75 69.114998 85.864998 97.339996 119.925 143.875 165.02 176.495 202.86 229.13 241.605 252.91 281.84 308.10999 324.85999 351.22501 377.495 403.85999 443.79999 455.27499 479.22501 491.70001 503.005 527.88501 547.44 573.71002 585.185 602.61499 614.09003 630.84003 657.10999">Motivación,	Autonomía,	espíritu	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g824"><text
-             id="text826"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1246.408,637)"><tspan
-               id="tspan828"
-               y="0"
-               x="0 26.66 44.09 55.564999 72.315002 83.790001 104.935 131.3 142.605 165.235 176.53999 203.2 220.63 245.50999 269.45999 286.20999 297.685 320.26999 331.745 358.01501 381.965 408.23499 419.54001 440.685 467.04999 484.48001 501.91 526.78998 547.935 564.685 588.63501 608.19 620.66498">Crítico	y	Creatividad	correctas,	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g830"><text
-             id="text832"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1275.366,574)"><tspan
-               id="tspan834"
-               y="0"
-               x="0 23.950001 50.220001 75.099998 115.04 138.99001 158.545 169.85001 189.405 215.77 242.03999 253.345 279.61499 291.09 306.35001 331.23001 348.66 373.54001 399.81 416.56 441.44 460.995 472.29999 496.25 507.55499 519.03003 542.97998 562.53497">además	son	diferentes	a	las	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g836"><text
-             id="text838"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1255.194,511)"><tspan
-               id="tspan840"
-               y="0"
-               x="0 26.27 43.700001 68.580002 88.135002 113.015 139.285 156.035 179.985 206.255 230.205 249.75999 261.065 287.33499 313.70001 331.13 342.435 367.315 378.79001 390.095 407.52499 432.405 451.95999 468.70999 495.07501 506.38 532.65002 557.53003 568.83502 580.31 604.26001">presentadas	por	el	resto	de	la	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g842"><text
-             id="text844"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1293.746,448)"><tspan
-               id="tspan846"
-               y="0"
-               x="0 21.145 32.619999 56.57 76.125 101.005 113.48 124.785 164.72501 190.995 212.14 238.41 262.35999 273.66501 300.03 317.45999 328.935 352.47 363.94501 390.215 414.16501 425.64001 437.11499 463.38501 487.33499 513.60498">clase,	mucha	originalidad.</tspan></text>
-</g></g></g><g
-       id="g848"><g
-         clip-path="url(#clipPath852)"
-         id="g850"><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g856"><text
-             id="text858"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1909,763)"><tspan
-               id="tspan860"
-               y="0"
-               x="0 30.76 57.125 78.269997 104.54 144.48 169.36 195.63 212.38 236.33 257.47501 268.95001 295.315 321.58499 332.89001 359.16 384.04001 395.345 412.095 429.52499 453.47501 479.745 503.69501 515.65997 542.02502 561.58002 572.88501 599.15503 610.63 635.51001 661.78003">Documentación	de	trabajos	bien	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g862"><text
-             id="text864"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1971.071,700)"><tspan
-               id="tspan866"
-               y="0"
-               x="0 24.879999 44.435001 61.185001 78.614998 104.885 126.03 142.78 169.05 186.48 210.42999 236.7 260.64999 271.95499 294.58499 305.89001 330.76999 357.04001 373.79001 398.67001 424.94 451.20999 462.685 488.95499 500.42999 525.31 537.92999">estructurada	y	entendible.	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g868"><text
-             id="text870"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1934.29,637)"><tspan
-               id="tspan872"
-               y="0"
-               x="0 24.415001 46.07 67.214996 92.095001 103.57 128.45 154.72 171.47 196.35001 207.655 228.8 255.16499 266.64001 290.59 316.85999 343.22501 360.655 384.60501 405.75 417.22501 443.59 469.85999 481.16501 502.31 528.67499 554.94501 566.25 585.80499 612.07501">Excelente	colaboración	con	su	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g874"><text
-             id="text876"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1933.654,574)"><tspan
-               id="tspan878"
-               y="0"
-               x="0 26.27 50.220001 67.650002 80.269997 91.574997 122.725 146.675 167.82001 192.7 204.005 227.955 254.22501 280.59 298.01999 314.76999 338.72 359.86499 371.34 397.70499 423.97501 448.85501 468.41 479.715 491.01999 512.16498 538.53003 564.79999 576.10498 600.98499 612.46002">par.	Hace	aportaciones		con	el	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g880"><text
-             id="text882"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1945.409,511)"><tspan
-               id="tspan884"
-               y="0"
-               x="0 17.43 42.310001 61.865002 78.614998 104.98 116.285 142.55499 167.435 178.91 190.215 214.16499 240.435 251.91 275.85999 288.33499 299.64001 320.785 347.05499 371.005 397.27499 423.54501 449.91 461.215 487.48499 513.755 538.63501 564.90503 589.78497">resto	del	aula,	cuando	puede	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g886"><text
-             id="text888"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,1956.483,448)"><tspan
-               id="tspan890"
-               y="0"
-               x="0 26.27 52.540001 72.095001 93.239998 117.19 128.495 152.44501 173.59 190.34 201.815 224.39999 248.35001 288.29001 313.17001 339.44 356.19 381.07001 392.375 416.32501 438.95499 465.22501 491.495 515.44501 532.875 544.17999 568.13">busca	activamente	ayudar	a	</tspan></text>
-</g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g892"><text
-             id="text894"
-             style="font-variant:normal;font-weight:normal;font-size:50px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,2093.902,385)"><tspan
-               id="tspan896"
-               y="0"
-               x="0 26.365 43.115002 60.544998 86.910004 106.465 117.77 142.64999 168.92 195.19 206.66499 232.935 259.29999 278.85501">otros	equipos.</tspan></text>
-</g></g></g><g
-       id="g898"><g
-         clip-path="url(#clipPath902)"
-         id="g900"><path
-           id="path906"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 261.5328,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z" /><path
-           id="path908"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 399.2256,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z" /><path
-           id="path910"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 536.9183,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z" /><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g912"><path
-             id="path914"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,2782 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g916"><path
-             id="path918"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,2295 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g920"><path
-             id="path922"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,1808 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g924"><path
-             id="path926"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,1321 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g928"><path
-             id="path930"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,833.9999 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g932"><path
-             id="path934"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,347 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g936"><path
-             id="path938"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 181,3271 181,345" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g940"><path
-             id="path942"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 530.9999,3267 0,-2922" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)"
-           id="g944"><path
-             id="path958"
-             style="fill:none;stroke:url(#pattern946);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 1216,3268 0,-2922" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)"
-           id="g960"><path
-             id="path974"
-             style="fill:none;stroke:url(#pattern962);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 1899,3268 0,-2922" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)"
-           id="g976"><path
-             id="path990"
-             style="fill:none;stroke:url(#pattern978);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 2582,3268 0,-2922" /></g><path
-           id="path992"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 125.0496,768.3584 414.288,0 0,2.4192 -414.288,0 0,-2.4192 z" /><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.18726)"
-           id="g994"><path
-             id="path996"
-             style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 183,3269 349.9999,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g998"><path
-             id="path1012"
-             style="fill:none;stroke:url(#pattern1000);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 532.9999,2780 2581,2780" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g1014"><path
-             id="path1028"
-             style="fill:none;stroke:url(#pattern1016);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 532.9999,2293 2581,2293" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g1030"><path
-             id="path1044"
-             style="fill:none;stroke:url(#pattern1032);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 532.9999,1806 2581,1806" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g1046"><path
-             id="path1060"
-             style="fill:none;stroke:url(#pattern1048);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 532.9999,1319 2581,1319" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g1062"><path
-             id="path1076"
-             style="fill:none;stroke:url(#pattern1064);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 532.9999,831.9999 2048.0001,0" /></g><g
-           transform="matrix(0.2016,0,0,0.2016,18,41.08646)"
-           id="g1078"><path
-             id="path1092"
-             style="fill:none;stroke:url(#pattern1080);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 532.9999,345 2581,345" /></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="svg2" width="620" height="825" viewBox="0 0 620 825" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs6">
+    <pattern id="pattern946" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g948"/>
+      <g id="g950">
+        <path id="path952" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path954" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path956" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern962" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g964"/>
+      <g id="g966">
+        <path id="path968" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path970" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path972" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern978" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g980"/>
+      <g id="g982">
+        <path id="path984" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path986" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path988" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1000" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1002"/>
+      <g id="g1004">
+        <path id="path1006" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1008" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1010" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1016" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1018"/>
+      <g id="g1020">
+        <path id="path1022" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1024" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1026" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1032" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1034"/>
+      <g id="g1036">
+        <path id="path1038" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1040" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1042" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1048" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1050"/>
+      <g id="g1052">
+        <path id="path1054" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1056" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1058" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1064" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1066"/>
+      <g id="g1068">
+        <path id="path1070" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1072" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1074" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+    <pattern id="pattern1080" height="8" width="8" y="0" x="0" patternUnits="userSpaceOnUse" patternTransform="matrix(4.9603175,0,0,4.9603175,-89.285714,-204.30188)">
+      <g id="g1082"/>
+      <g id="g1084">
+        <path id="path1086" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 8,0 8,8 0,8 0,0 Z"/>
+        <path id="path1088" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:0" d="m 0,7.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+        <path id="path1090" style="fill:none;stroke:#4f6228;stroke-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:1,1,1,1,1,1,1,1;stroke-dashoffset:7" d="m 0,6.5 8,0 m -8,-2 8,0 m -8,-2 8,0 m -8,-2 8,0"/>
+      </g>
+    </pattern>
+  </defs>
+  <g transform="matrix(1.25, 0, 0, -1.25, -59.603062, 962.708374)" id="g10">
+    <g id="g12"/>
+    <g id="g14">
+      <g clip-path="url(#clipPath18)" id="g16">
+        <path id="path22" style="fill:#4f6228;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 125.0496,700.016 413.28,0 0,69.55199 -413.28,0 0,-69.55199 z"/>
+        <path id="path24" style="fill:#4f6228;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 54.4896,110.9408 70.7616,0 0,589.2767 -70.7616,0 0,-589.2767 z"/>
+      </g>
+    </g>
+    <g id="g26">
+      <g clip-path="url(#clipPath30)" id="g28">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g34">
+          <text id="text36" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 75px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,249,3416)"><tspan id="tspan38" y="0" x="0">Puntos</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g40">
+      <g clip-path="url(#clipPath44)" id="g42">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g48">
+          <text id="text50" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(31, 183, 20); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,578,3565)"><tspan id="tspan52" y="0" x="0">Pensamiento	computacional</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g54">
+          <text id="text56" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,633.0518,3502)"><tspan id="tspan58" y="0" x="0">Análisis	de	Necesidades</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g60">
+          <text id="text62" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,682.9229,3439)"><tspan id="tspan64" y="0" x="0">Diseño	de	solución</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g66">
+          <text id="text68" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,630.209,3376)"><tspan id="tspan70" y="0" x="0">Desarrollo	del	prototipo</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g72">
+      <g clip-path="url(#clipPath76)" id="g74">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g80">
+          <text id="text82" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(31, 183, 20); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1349,3565)"><tspan id="tspan84" y="0" x="0">Motivación	al	logro:</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g86">
+          <text id="text88" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1438.637,3502)"><tspan id="tspan90" y="0" x="0">	Autonomía</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g92">
+          <text id="text94" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1441.562,3439)"><tspan id="tspan96" y="0" x="0">Creatividad</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g98">
+          <text id="text100" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1411.556,3376)"><tspan id="tspan102" y="0" x="0">Espíritu	crítico</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g104">
+      <g clip-path="url(#clipPath108)" id="g106">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g112">
+          <text id="text114" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(31, 183, 20); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1973,3565)"><tspan id="tspan116" y="0" x="0">Aprendizaje	colaborativo:</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g118">
+          <text id="text120" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2049.996,3502)"><tspan id="tspan122" y="0" x="0">	Trabajo	en	equipo</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g124">
+          <text id="text126" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1968.184,3439)"><tspan id="tspan128" y="0" x="0">Conocimento	Colaborativo</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g130">
+          <text id="text132" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2075.92,3376)"><tspan id="tspan134" y="0" x="0">Enprendimiento</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g136">
+      <g clip-path="url(#clipPath140)" id="g138">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g144">
+          <text id="text146" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,2921)"><tspan id="tspan148" y="0" x="0">0</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g150">
+      <g clip-path="url(#clipPath154)" id="g152">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g158">
+          <text id="text160" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,660,3135)"><tspan id="tspan162" y="0" x="0">Deficiente	análisis	de	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g164">
+          <text id="text166" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,580.5273,3072)"><tspan id="tspan168" y="0" x="0">necesidades,	no	se	entiende.</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g170">
+          <text id="text172" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,602.6963,3009)"><tspan id="tspan174" y="0" x="0">Diseño	de	algoritmo,	no	se	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g176">
+          <text id="text178" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,776.5049,2946)"><tspan id="tspan180" y="0" x="0">entiende.</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g182">
+          <text id="text184" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,621.0957,2883)"><tspan id="tspan186" y="0" x="0">El	prototipo	no	funciona.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g188">
+      <g clip-path="url(#clipPath192)" id="g190">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g196">
+          <text id="text198" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1247,3072)"><tspan id="tspan200" y="0" x="0">Baja	motivación	al	logro,	no	se	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g202">
+          <text id="text204" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1243.348,3009)"><tspan id="tspan206" y="0" x="0">esfuerza,	no	intenta	solucionar	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g208">
+          <text id="text210" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1428.288,2946)"><tspan id="tspan212" y="0" x="0">el	problema.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g214">
+      <g clip-path="url(#clipPath218)" id="g216">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g222">
+          <text id="text224" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1928,3135)"><tspan id="tspan226" y="0" x="0">No	documenta	los	trabajos,	no	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g228">
+          <text id="text230" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1915.742,3072)"><tspan id="tspan232" y="0" x="0">los	sube	a	la	nube,	no	comparte	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g234">
+          <text id="text236" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1998.141,3009)"><tspan id="tspan238" y="0" x="0">conocimiento,	le	cuesta	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g240">
+          <text id="text242" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1959.866,2946)"><tspan id="tspan244" y="0" x="0">colaborar	con	su	par	y	en	el	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g246">
+          <text id="text248" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2190.765,2883)"><tspan id="tspan250" y="0" x="0">aula.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g252">
+      <g clip-path="url(#clipPath256)" id="g254">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g260">
+          <text id="text262" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,2434)"><tspan id="tspan264" y="0" x="0">1</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g266">
+      <g clip-path="url(#clipPath270)" id="g268">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g274">
+          <text id="text276" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,636,2648)"><tspan id="tspan278" y="0" x="0">Análisis	de	necesidades	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g280">
+          <text id="text282" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,781.8652,2585)"><tspan id="tspan284" y="0" x="0">correcto.</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g286">
+          <text id="text288" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,609.2998,2522)"><tspan id="tspan290" y="0" x="0">Diseño	de	algoritmo	no	se	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g292">
+          <text id="text294" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,776.6328,2459)"><tspan id="tspan296" y="0" x="0">entiende.</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g298">
+          <text id="text300" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,645.2236,2396)"><tspan id="tspan302" y="0" x="0">Prototipo	no	funciona.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g304">
+      <g clip-path="url(#clipPath308)" id="g306">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g312">
+          <text id="text314" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1250,2585)"><tspan id="tspan316" y="0" x="0">Motivación	al	logro	adecuada,	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g318">
+          <text id="text320" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1297.097,2522)"><tspan id="tspan322" y="0" x="0">pero	escasa	autonomía	al	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g324">
+          <text id="text326" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1342.053,2459)"><tspan id="tspan328" y="0" x="0">proponer	soluciones.	</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g330">
+      <g clip-path="url(#clipPath334)" id="g332">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g338">
+          <text id="text340" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1914,2680)"><tspan id="tspan342" y="0" x="0">Documenta	los	trabajos	pero	de	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g344">
+          <text id="text346" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1940.573,2617)"><tspan id="tspan348" y="0" x="0">forma	incompleta	o	con	poco	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g350">
+          <text id="text352" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1914.85,2554)"><tspan id="tspan354" y="0" x="0">detalle.	No	se	puede	utilizar	por	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g356">
+          <text id="text358" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2038.25,2491)"><tspan id="tspan360" y="0" x="0">otro	para	replicar	el	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g362">
+          <text id="text364" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1926.386,2428)"><tspan id="tspan366" y="0" x="0">conocimiento.	Colabora	con	su	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g368">
+          <text id="text370" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2073.74,2365)"><tspan id="tspan372" y="0" x="0">par	en	lo	básico.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g374">
+      <g clip-path="url(#clipPath378)" id="g376">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g382">
+          <text id="text384" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,1947)"><tspan id="tspan386" y="0" x="0">2</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g388">
+      <g clip-path="url(#clipPath392)" id="g390">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g396">
+          <text id="text398" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,545,2067)"><tspan id="tspan400" y="0" x="0">Análisis	y	Diseño	correctos,	pero	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g402">
+          <text id="text404" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,564.6289,2004)"><tspan id="tspan406" y="0" x="0">prototipo	no	llega	a	funcionar.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g408">
+      <g clip-path="url(#clipPath412)" id="g410">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g416">
+          <text id="text418" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1269,2161)"><tspan id="tspan420" y="0" x="0">Buena	motivación	al	logro,	y	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g422">
+          <text id="text424" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1332.109,2098)"><tspan id="tspan426" y="0" x="0">autonomía	al	plantear	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g428">
+          <text id="text430" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1239.755,2035)"><tspan id="tspan432" y="0" x="0">soluciones,	pero	espíritu	crítico	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g434">
+          <text id="text436" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1277.629,1972)"><tspan id="tspan438" y="0" x="0">debe	mejorar,	la	soluciones	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g440">
+          <text id="text442" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1353.356,1909)"><tspan id="tspan444" y="0" x="0">deben	ser	prácticas.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g446">
+      <g clip-path="url(#clipPath450)" id="g448">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g454">
+          <text id="text456" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1954,2224)"><tspan id="tspan458" y="0" x="0">Documenta	los	trabajos	y	se	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g460">
+          <text id="text462" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2001.545,2161)"><tspan id="tspan464" y="0" x="0">entienden,	pero	le	falta	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g466">
+          <text id="text468" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1973.851,2098)"><tspan id="tspan470" y="0" x="0">estructura	para	mejorar	la	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g472">
+          <text id="text474" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1927.479,2035)"><tspan id="tspan476" y="0" x="0">compresión	por	otro.	Colabora	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g478">
+          <text id="text480" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1974.467,1972)"><tspan id="tspan482" y="0" x="0">con	su	par,		pero	le	cuesta	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g484">
+          <text id="text486" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1908.167,1909)"><tspan id="tspan488" y="0" x="0">aportar	en	los	espacios	comunes	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g490">
+          <text id="text492" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2028.996,1846)"><tspan id="tspan494" y="0" x="0">con	el	resto	del	aula.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g496">
+      <g clip-path="url(#clipPath500)" id="g498">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g504">
+          <text id="text506" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,1460)"><tspan id="tspan508" y="0" x="0">3</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g510">
+      <g clip-path="url(#clipPath514)" id="g512">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g518">
+          <text id="text520" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,574,1643)"><tspan id="tspan522" y="0" x="0">Análisis	y	Diseño	correctos,	el	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g524">
+          <text id="text526" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,544.0352,1580)"><tspan id="tspan528" y="0" x="0">prototipo	llega	a	funcionar,	pero	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g530">
+          <text id="text532" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,579.7148,1517)"><tspan id="tspan534" y="0" x="0">funcionalidad	no	es	correcta,	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g536">
+          <text id="text538" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,721.0078,1454)"><tspan id="tspan540" y="0" x="0">faltan	pruebas.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g542">
+      <g clip-path="url(#clipPath546)" id="g544">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g550">
+          <text id="text552" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1286,1674)"><tspan id="tspan554" y="0" x="0">Buena	motivación	al	logro,	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g556">
+          <text id="text558" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1331.174,1611)"><tspan id="tspan560" y="0" x="0">autonomía	al	plantear	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g562">
+          <text id="text564" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1281.819,1548)"><tspan id="tspan566" y="0" x="0">soluciones	y	espíritu	crítico	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g568">
+          <text id="text570" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1229.903,1485)"><tspan id="tspan572" y="0" x="0">práctico,	pero	tiene	que	ampliar	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g574">
+          <text id="text576" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1246.527,1422)"><tspan id="tspan578" y="0" x="0">la	creatividad	de	la	soluciones.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g580">
+      <g clip-path="url(#clipPath584)" id="g582">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g588">
+          <text id="text590" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1909,1706)"><tspan id="tspan592" y="0" x="0">Documentación	de	trabajos	bien	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g594">
+          <text id="text596" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1971.071,1643)"><tspan id="tspan598" y="0" x="0">estructurada	y	entendible.	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g600">
+          <text id="text602" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1922.29,1580)"><tspan id="tspan604" y="0" x="0">Buena	colaboración	con	su	par.	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g606">
+          <text id="text608" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1935.458,1517)"><tspan id="tspan610" y="0" x="0">Hace	alguna	aportación	en	los	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g612">
+          <text id="text614" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1931.064,1454)"><tspan id="tspan616" y="0" x="0">espacios	comunes	con	el	resto	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g618">
+          <text id="text620" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2154.312,1391)"><tspan id="tspan622" y="0" x="0">del	aula.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g624">
+      <g clip-path="url(#clipPath628)" id="g626">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g632">
+          <text id="text634" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,973)"><tspan id="tspan636" y="0" x="0">4</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g638">
+      <g clip-path="url(#clipPath642)" id="g640">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g646">
+          <text id="text648" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,574,1156)"><tspan id="tspan650" y="0" x="0">Análisis	y	Diseño	correctos,	el	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g652">
+          <text id="text654" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,669.0352,1093)"><tspan id="tspan656" y="0" x="0">prototipo	entrega	la		</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g658">
+          <text id="text660" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,568.4082,1030)"><tspan id="tspan662" y="0" x="0">funcionalidad	pero	el	montaje	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g664">
+          <text id="text666" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,573.4795,967)"><tspan id="tspan668" y="0" x="0">físico	puede	producir	errores.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g670">
+      <g clip-path="url(#clipPath674)" id="g672">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g678">
+          <text id="text680" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1228,1187)"><tspan id="tspan682" y="0" x="0">Motivación,	Autonomía,	Espíritu	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g684">
+          <text id="text686" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1252.944,1124)"><tspan id="tspan688" y="0" x="0">Crítico	y	Creatividad	correctas	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g690">
+          <text id="text692" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1297.427,1061)"><tspan id="tspan694" y="0" x="0">pero,	dentro	de	lo	común	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g696">
+          <text id="text698" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1268.311,998)"><tspan id="tspan700" y="0" x="0">presentado	por	del	resto	del	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g702">
+          <text id="text704" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1507.739,935)"><tspan id="tspan706" y="0" x="0">aula.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g708">
+      <g clip-path="url(#clipPath712)" id="g710">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g716">
+          <text id="text718" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1909,1250)"><tspan id="tspan720" y="0" x="0">Documentación	de	trabajos	bien	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g722">
+          <text id="text724" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1971.071,1187)"><tspan id="tspan726" y="0" x="0">estructurada	y	entendible.	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g728">
+          <text id="text730" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1922.29,1124)"><tspan id="tspan732" y="0" x="0">Buena	colaboración	con	su	par.	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g734">
+          <text id="text736" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1921.458,1061)"><tspan id="tspan738" y="0" x="0">Hace	aportaciones		con	el	resto	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g740">
+          <text id="text742" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1942.92,998)"><tspan id="tspan744" y="0" x="0">del	aula,	pero	debe	mejora	la	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g746">
+          <text id="text748" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1934.682,935)"><tspan id="tspan750" y="0" x="0">ayuda	a	otros	equipos	cuando	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g752">
+          <text id="text754" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2169.044,872)"><tspan id="tspan756" y="0" x="0">puede.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g758">
+      <g clip-path="url(#clipPath762)" id="g760">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g766">
+          <text id="text768" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; font-size: 300px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(255, 255, 255); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,281,486)"><tspan id="tspan770" y="0" x="0">5</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g772">
+      <g clip-path="url(#clipPath776)" id="g774">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g780">
+          <text id="text782" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,600,700)"><tspan id="tspan784" y="0" x="0">Análisis	y	diseño	correctos,	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g786">
+          <text id="text788" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,668.8867,637)"><tspan id="tspan790" y="0" x="0">prototipo	entrega	la	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g792">
+          <text id="text794" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,544.9561,574)"><tspan id="tspan796" y="0" x="0">funcionalidad	y	el	montaje	se	ha	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g798">
+          <text id="text800" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,555.9736,511)"><tspan id="tspan802" y="0" x="0">hecho	con	calidad	y	atención	al	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g804">
+          <text id="text806" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,797.1895,448)"><tspan id="tspan808" y="0" x="0">detalle.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g810">
+      <g clip-path="url(#clipPath814)" id="g812">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g818">
+          <text id="text820" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1228,700)"><tspan id="tspan822" y="0" x="0">Motivación,	Autonomía,	espíritu	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g824">
+          <text id="text826" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1246.408,637)"><tspan id="tspan828" y="0" x="0">Crítico	y	Creatividad	correctas,	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g830">
+          <text id="text832" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1275.366,574)"><tspan id="tspan834" y="0" x="0">además	son	diferentes	a	las	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g836">
+          <text id="text838" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1255.194,511)"><tspan id="tspan840" y="0" x="0">presentadas	por	el	resto	de	la	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g842">
+          <text id="text844" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1293.746,448)"><tspan id="tspan846" y="0" x="0">clase,	mucha	originalidad.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g848">
+      <g clip-path="url(#clipPath852)" id="g850">
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g856">
+          <text id="text858" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1909,763)"><tspan id="tspan860" y="0" x="0">Documentación	de	trabajos	bien	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g862">
+          <text id="text864" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1971.071,700)"><tspan id="tspan866" y="0" x="0">estructurada	y	entendible.	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g868">
+          <text id="text870" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1934.29,637)"><tspan id="tspan872" y="0" x="0">Excelente	colaboración	con	su	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g874">
+          <text id="text876" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1933.654,574)"><tspan id="tspan878" y="0" x="0">par.	Hace	aportaciones		con	el	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g880">
+          <text id="text882" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1945.409,511)"><tspan id="tspan884" y="0" x="0">resto	del	aula,	cuando	puede	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g886">
+          <text id="text888" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,1956.483,448)"><tspan id="tspan890" y="0" x="0">busca	activamente	ayudar	a	</tspan></text>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g892">
+          <text id="text894" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 50px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,2093.902,385)"><tspan id="tspan896" y="0" x="0">otros	equipos.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="g898">
+      <g clip-path="url(#clipPath902)" id="g900">
+        <path id="path906" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 261.5328,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z"/>
+        <path id="path908" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 399.2256,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z"/>
+        <path id="path910" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 536.9183,700.016 2.4192,0 0,68.34239 -2.4192,0 0,-68.34239 z"/>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g912">
+          <path id="path914" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,2782 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g916">
+          <path id="path918" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,2295 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g920">
+          <path id="path922" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,1808 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g924">
+          <path id="path926" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,1321 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g928">
+          <path id="path930" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,833.9999 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g932">
+          <path id="path934" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,347 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g936">
+          <path id="path938" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 181,3271 181,345"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g940">
+          <path id="path942" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 530.9999,3267 0,-2922"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)" id="g944">
+          <path id="path958" style="fill:none;stroke:url(#pattern946);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 1216,3268 0,-2922"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)" id="g960">
+          <path id="path974" style="fill:none;stroke:url(#pattern962);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 1899,3268 0,-2922"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18.1008,41.18726)" id="g976">
+          <path id="path990" style="fill:none;stroke:url(#pattern978);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 2582,3268 0,-2922"/>
+        </g>
+        <path id="path992" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 125.0496,768.3584 414.288,0 0,2.4192 -414.288,0 0,-2.4192 z"/>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.18726)" id="g994">
+          <path id="path996" style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 183,3269 349.9999,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g998">
+          <path id="path1012" style="fill:none;stroke:url(#pattern1000);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 532.9999,2780 2581,2780"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g1014">
+          <path id="path1028" style="fill:none;stroke:url(#pattern1016);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 532.9999,2293 2581,2293"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g1030">
+          <path id="path1044" style="fill:none;stroke:url(#pattern1032);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 532.9999,1806 2581,1806"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g1046">
+          <path id="path1060" style="fill:none;stroke:url(#pattern1048);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 532.9999,1319 2581,1319"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g1062">
+          <path id="path1076" style="fill:none;stroke:url(#pattern1064);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 532.9999,831.9999 2048.0001,0"/>
+        </g>
+        <g transform="matrix(0.2016,0,0,0.2016,18,41.08646)" id="g1078">
+          <path id="path1092" style="fill:none;stroke:url(#pattern1080);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 532.9999,345 2581,345"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
