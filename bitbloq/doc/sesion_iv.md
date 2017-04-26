@@ -34,8 +34,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Actividad </a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversal</a> |
 	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
 	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
@@ -75,7 +75,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 - Componente LDR.
 - Componente Pulsador.
 - Componente Sensor IR.
-- Puntero Láser (2 ó 4).
+- Componente Diodo Láser Rojo.
 - Pizarra y proyector.
 
 <h2>
@@ -95,7 +95,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 - Desarrollo de programa con bloques
 - Construcción del prototipo
 - Prueba del prototipo
-- Documentación y compartir el prototipo.
+- Documentar y compartir el prototipo.
 - Documentación de Mejoras y otras aplicaciones del prototipo
 - Auto valoración del proyecto por el alumno
 
@@ -105,7 +105,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
+        </span> Contenidos y Actividades de aprendizaje
     </div>
 </h2>
 
@@ -142,18 +142,23 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 <div style="text-align: center" ><a  href=""><img src="http://i.imgur.com/q4sutpe.jpg"/></a></div>
 
 
-- Se expone el enunciado de forma simple: "**Queremos un prototipo que sea capaz de activar la detección de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido**".
+- Se expone el enunciado de forma simple: "**Queremos un prototipo que sea capaz de activar un sensor para detectar de luz láser roja y que al interrumpirse la detección de luz láser, salte una alarma visual y sonora. Al desactivar el detector se notificará el número de interrupciones de luz, que se han producido**".
 
 <div class="success">
 En este proyecto el alumno previsiblemente encontrará varias dificultades de orden técnico: 
 
 - Relativa a la acumular el dato de las alarmas producidas para posteriormente presentarlo.
-- Relativa al momento en el que se detecta la pulsación del botón, si se hace when_press dará más problemas que si se hace when_release, por ejemplo al desactivar la alarma, si usan el método when_press la alarma podría volver a activarse si la pulsación no es rápida.
-- Relativa a conseguir la entonación, cadencia y repetición para producir un sonido de alarma con el buzzer.
-- Relativa a la correcta incidencia del laser en la LDR.
-- Relativa al ajuste del umbral de señal de Luz que debe medir el circuito LDR, pues debe tener en cuenta las condiciones de Luz ambiental máxima.
-- Relativa al funcionamiento del LDR, más intensidad luz, menos resistencia = menos voltaje.
+- Relativa al momento en el que se detecta la pulsación del botón, si se hace when_pressed dará más problemas que si se hace when_released, por ejemplo al desactivar la alarma, si usan el método when_pressed la alarma podría volver a activarse si la pulsación no es rápida.
+- Relativa a conseguir la entonación, cadencia y repetición para producir un sonido de alarma con el Zumbador (buzzer).
+- Relativa a la correcta incidencia del láser en la LDR.
+- Relativa al ajuste del umbral de señal de Luz que debe medir el circuito LDR, pues debe tener en cuenta las condiciones de Luz ambiental máxima del aula.
+- Relativa al funcionamiento del LDR, más intensidad luz, menos resistencia = menos voltaje. Si el componente es BQ esto no será un problema.
 
+</div>
+
+<div class="danger">
+
+En el caso de que exista un alumno - grupo con desempeño excelente, incrementar la complejidad de su prototipo añadiendo alguna de las características expuestas en el apartado **Reto**.
 </div>
 
 <h2>
@@ -169,19 +174,19 @@ En este proyecto el alumno previsiblemente encontrará varias dificultades de or
 
 - Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden hacer.
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/1eea74e5/bitbloq/doc/impossible_mission.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/23a6ff7b/impossible_mission.svg" alt=""></div><br>
 
-- Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
+- Se comienza el desarrollo en Bitbloq : modelando el prototipo y programando los bloques.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/AMGULBe.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/AMGULBe.png"/></a></div><br>
 
 - Se realizan las conexiones del prototipo y se realizan las pruebas.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/L0aVnyz.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/L0aVnyz.png"/></a></div><br>
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/tGdiiz7.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/tGdiiz7.png"/></a></div><br>
 
 - Se comparte públicamente el proyecto con la comunidad del usuarios de BitBloq. 
 
@@ -236,7 +241,37 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+El desempeño del alumno en esta sesión, se evaluará a su termino (donde se evaluará también la sesión anterior III); por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
+<br>
+A continuación se exponen los enlaces que llevan a las dos valoraciones de desempeño del alumno:
+
+
+<br><br>
+<div class="fontseparator"></div>
+<div id="test_sesion_iii_iv" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_ii_test.html">Test sesiones I y II</a>
+</div>
+<div class="fontseparator"></div>
+<div id="test_rubrica"  class="fontexternallink2">
+<a style="color:#ffffff" href="index.html#rubrica">Rubrica Evaluación</a>
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Sensores Analógicos y Digitales
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Objetivos Competenciales
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+
+
+<br><br><br><br><br>
 
 <br>
 <br>
@@ -258,162 +293,262 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 </div>
 </div>
 <details>
-	<style>
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        line-height: 15px;
+        color:#729e29;
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 

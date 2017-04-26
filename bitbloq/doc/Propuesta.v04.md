@@ -226,6 +226,8 @@ Algunos de los conocimientos que servirán de apoyo son:
   - Programación por bloques, variables, puerto serie, aleatoriedad, concatenación de texto
   - Control de eventos
   - Actuadores PWM
+- Música:
+  - Partituras
 
 Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
 
@@ -240,6 +242,7 @@ Los recursos listados a continuación serán revisados con los responsables del 
 - Wifi configurado en los portátiles con conexión a Internet
 - Cuentas de acceso por alumno pre-configuradas en Bitbloq
 - 20 Kits de robótica Arduino. Se recomienda [BQ Zum Box](https://www.bq.com/en/zum-kit) o similar.
+- 1 diodo de láser rojo por grupo.
 
 <h3 id="eleccion-arduino"><div class="fonth3tittle">Sobre la elección de Arduino</div></h3>
 
@@ -505,7 +508,7 @@ Planificación **Sesiones V y VI** </div></h4>
 
 <div style="left:8%; position: relative; width:90%;">
 
-Los enlaces presentados a continuación mostrarán al docente, el programa de actividad a seguir para cada una de las 6 sesiones, la estructura de programa en cada sesión es similar y consta de las siguientes partes:
+Los enlaces presentados a continuación contienen el programa de **Contenidos y actividades de aprendizaje** que el docente utilizará como guía para impartir la materia y conducir los ejercicios del alumno, así como para orientar al aula en las actividades comunes. Cada una de las 6 sesiones tiene una estructura de programa similar y consta de las siguientes partes:
 
 - **Introducción :** Exponer al aula el objetivo general de la sesión.
 - **Recursos necesarios :** Medios y/o recursos que se necesitan para impartir el contenido.

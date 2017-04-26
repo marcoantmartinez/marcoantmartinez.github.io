@@ -111,7 +111,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 				* Bloques de comando : componentes, variables, código, matemáticas, texto, control y lógica 
 			- Programación Avanzada Software con **Código**
 		- Prototipado : Verificación , Carga , Publicación
-- **Entender cómo funciona la salida serie de Arduino.**
+- **Entender cómo funciona la salida de datos en serie de Arduino.**
 	* Conexión por USB y Bluetooth
 	* Menú de proyecto : Ver \ Mostrar Consola Serial Monitor :
 		- Selección de : ruta de comunicación con Placa Arduino, velocidad transmisión.
@@ -122,7 +122,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	* Realización primer programa simple en apartado **Setup*, enviando una secuencia de textos con y sin salto de línea, por el puerto serie.
 	* Programa simple recepción serie de datos desde PC, textos y números.
 - **Entender el bloque de control Esperar.**
-	* Bloque Esperar en Básicos
+	* Bloque Esperar en Básicos : mili-segundos. Velocidad del procesador Arduino.
 	* Bloque Esperar en Avanzados
 - **Ser capa de utilizar el bloque de espera.**
 	* Realización programa simple en apartado **Loop**, enviando una secuencia de textos con y sin salto de línea, por el puerto serie, con secuencias de espera intercaladas.
@@ -137,13 +137,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	* Realización programa simple en apartado **Loop**, enviando una secuencia de **números naturales de 0 a 10** por el puerto serie, con secuencias de espera intercaladas.
 	* Realización programa simple en apartado **Loop**, enviando una secuencia de **números primos de 0 a 100** por el puerto serie, sin secuencias de espera intercaladas.
 - **Entender que son y cómo funcionan los bloques de control.**
-	* Bloque de control **Sí** y **de lo contrario**
+	* Bloque de control **Sí** y **de lo contrario** : comparación de valores
 	* Bloque de control **Mientras**
 	* Bloque de control **Contar con**
 	* Bloque de control en Avanzados **Interrumpir el bucle**
+	* Bloques de Lógica Booleana. True y False (1 y 0)
 - **Ser capaces de utilizar los bloques de control de forma autónoma.**
 	* ==Avance necesario:== pin Digital, pin Analógico, +5 Vcc, GND, Amperios
-	* Programar y construir prototipo parpadeo del componente **actuador** LED
+	* Programar y construir prototipo parpadeo del componente **actuador** LED. 
 	* Programar y construir prototipo Encendido LED tras pulsar componente **sensor** Pulsador (botón).
 - **Entender como funciona el bloque de temporizador de Arduino.**
 	* Bloque de control **Obtener tiempo de ejecución**
@@ -195,8 +196,11 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	* Presentación del curso : contenido sesiones, programación por pares ... etc.
 	* Presentación de sistema de evaluación : acentuar objetivos competenciales.
 	* Asegurar que **todo** el aula tiene **todos** los recursos necesarios.
+
 1. Alumnos - grupos Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
-2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
+
+2. Los alumnos - grupos, siguen las explicaciones e instrucciones del profesor, que utiliza como guía el programa de contenidos y ejercicios contenidos en el apartado "Contenidos y Actividades de Aprendizaje" de esta sesión.
+
 3. Resolver las dudas de los alumnos según vayan apareciendo.
 
 
@@ -212,6 +216,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 Pedimos a los alumnos reflexionar sobre:
+- ¿ Cuanta corriente consume un LED ? ¿ Cuanta corriente puede entregar Arduino por un pin digital ? ¿ Puedo conectar una bombilla convencional a un pin digital Arduino ? ¿ Por qué ?
+- ¿ Qué es un Relé ?¿ Donde se conecta un LED se puede conectar un Relé ?
 - Imaginar que otras cosas se podrían hacer con un botón.
 - Imaginar que otros sensores se podrían utilizar.
 - Imaginar que otras cosas se podrían hacer con un Led.

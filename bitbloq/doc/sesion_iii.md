@@ -98,53 +98,54 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h2>
 
-- Entender la diferencia entre analógico y digital. Incidir en los aspectos de la precisión y la resolución. Qué es un ADC de 10 bit.
+- **Entender la diferencia entre analógico y digital.** Incidir en los aspectos de la precisión y la resolución. Qué es un ADC de 10 bit.
 
 <div style="text-align: center" ><img style="width:60%" src="http://i.imgur.com/W7mcydS.jpg"/></div><br>
 
-- Ser capaz de distinguir diferentes componentes analógicos de los digitales.
+- **Ser capaz de distinguir diferentes componentes analógicos de los digitales.**
 
 <div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/iGjIObe.png"/></div><br>
 
-- Entender el funcionamiento de un pin analógico y digital en Arduino.
+- **Entender el funcionamiento de un pin analógico y digital en Arduino.**
 
 <div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/zEq4vZm.png"/></div>
 <div style="text-align: center" ><img style="width:55%" src="http://i.imgur.com/VPNCLgO.png"/></div><br>
 
-- Entender la resolución y la operación matemática de mapeo.
+- **Entender la resolución y la operación matemática de mapeo.**
 
 <div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/DDCN8Nr.png"/></div><br>
 
-- Entender el funcionamiento del componente potenciómetro.
+- **Entender el funcionamiento del componente potenciómetro.** Resistencia eléctrica y Ley de Ohm.
 
+<div style="text-align: center" ><img style="width:35%" src="http://i.imgur.com/hgGXxVQ.jpg"/><img style="height: 270px" src="http://i.imgur.com/kgAQqE1.png"/><img style="width:33%" src="http://i.imgur.com/Jw1Nqfr.png"/></div>
 <div style="text-align: center" ><img style="width:50%; height: 325px" src="http://i.imgur.com/YVBaGaB.jpg"/><img style="height: 325px" src="http://i.imgur.com/kGVXejO.gif"/></div><br>
 
-- Ser capaz de programar con el componente potenciómetro. Realización de un programa simple que encienda un LED dado un determinado grado de giro del potenciómetro.
+- **Ser capaz de programar con el componente potenciómetro.** Realización de un programa simple que encienda un LED dado un determinado grado de giro del potenciómetro.
 
 <div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/Q7EQ35I.png"/></div>
 
-- Entender el funcionamiento del componente LDR. Que la variación de la resistencia eléctrica de una LDR a la luz depende de la composición química del semiconductor que la forma, dar ejemplos.
+- **Entender el funcionamiento del componente LDR.** Que la variación de la resistencia eléctrica de una LDR a la luz depende de la composición química del semiconductor que la forma, dar ejemplos.
 
 <div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/O8tAsqg.png"/></div>
 <div style="text-align: center" ><img style="width: 50%" src="http://i.imgur.com/4tu7z8C.png"/><img style=" width: 50%" src="http://i.imgur.com/dHwZotf.jpg"/></div><br>
 
-- Ser capaz de programar con el componente LDR. Realización de un programa simple que encienda un LED cuando se obscurezca la LDR.
+- **Ser capaz de programar con el componente LDR.** Realización de un programa simple que encienda un LED cuando se obscurezca la LDR.
 
 <div style="text-align: center" ><img style="width:80%" src="http://i.imgur.com/UBmj3XP.png"/></div><br>
 
-- Entender el funcionamiento del componente Pulsador. Entender la electrónica subyacente Pull-Up y Pull-Down del componente electrónico pulsador. Entender los niveles lógicos 0 y 1. Entender el efecto de Rebote.
+- **Entender el funcionamiento del componente Pulsador.** Entender la electrónica subyacente Pull-Up y Pull-Down del componente electrónico pulsador. Entender los niveles lógicos 0 y 1. Entender el efecto de Rebote.
 
 <div style="text-align: center" ><img style="height: 325px" src="http://i.imgur.com/3Y6SHSi.png"/><img style=" height: 325px" src="http://i.imgur.com/RaPV8q9.png"/></div><br>
 
-- Ser capaz de programar when_pressed y when_released con el Pulsador. Que es una pulsación completa. Qué puede llegar a pasar si se mantiene pulsador presionado en el bucle principal de proceso (apartado **Loop**).
+- **Ser capaz de programar when_pressed y when_released con el Pulsador.** Que es una pulsación completa. Qué puede llegar a pasar si se mantiene pulsador presionado en el bucle principal de proceso (apartado **Loop**).
 
 <div style="text-align: center" ><img style="width:90%" src="http://i.imgur.com/jshkSjk.png"/></div><br>
 
-- Entender el funcionamiento del componente Sensor IR. Emisor IR, receptor IR y ajuste de umbral.
+- **Entender el funcionamiento del componente Sensor IR.** Emisor IR, receptor IR y ajuste de umbral.
 
 <div style="text-align: center" ><img style="width: 30%" src="http://i.imgur.com/1U5a2lC.png"/><img style=" width: 70%" src="http://i.imgur.com/x2Pm3I0.png"/></div><br>
 
-- Ser capaz de programar el componente Sensor IR. Realización de un programa simple que encienda un LED cuando se le aproxime un objeto blanco y/o cuando se le aproxime un objeto negro.
+- **Ser capaz de programar el componente Sensor IR.** Realización de un programa simple que encienda un LED cuando se le aproxime un objeto blanco y/o cuando se le aproxime un objeto negro.
 
 <div style="text-align: center" ><img style=" width: 80%" src="http://i.imgur.com/sCdroml.png"/></div><br>
 
@@ -193,7 +194,9 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
-2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
+
+2. Los alumnos - grupos, siguen las explicaciones e instrucciones del profesor, que utiliza como guía el programa de contenidos y ejercicios contenidos en el apartado "Contenidos y Actividades de Aprendizaje" de esta sesión.
+
 3. Resolver las dudas de los alumnos según vayan apareciendo.
 
 

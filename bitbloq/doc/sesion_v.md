@@ -25,7 +25,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
@@ -34,8 +34,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Actividad</a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversal</a> |
 	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
 	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
@@ -50,8 +50,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h1>
 
 
-<br>En esta lección los estudiantes aprenderán como funcionan los componentes de sensores digitales y analógicos de Arduino; así como a ser creativos con sus posibles usos, también cómo traducir los valores digitales a analógicos y viceversa.</br> 
-<br>Finalmente serán capaces de construir el proyecto **Comprobador de pilas**.</br>
+<br>En esta lección los estudiantes aprenderán como funcionan los componentes electrónicos actuadores de Arduino; así como a ser creativos con sus posibles usos, también que sistemas se utilizan para traducir las señales de los pines digitales de salida, a sonido, luz, movimiento ... etc.</br> 
+<br>Finalmente serán capaces de construir el proyecto **Comprobador de pilas** que también puede ser empleado como Voltímetro.</br>
 
 
 
@@ -70,10 +70,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - Componente Servomotor.
 - Componente Servomotor continuo.
 - Componente LED RGB.
-- Componente Buzzer.
-- Video Señal PWM de Arduino.
-- Vídeo Señal Media de PWM.
-- Video Ruleta de colores.
+- Componente Zumbador (Buzzer).
 - Pizarra y proyector.
 
 
@@ -100,25 +97,138 @@ others  : Bitbloq is a project provided for free by BQ (c)
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
+        </span>  Contenidos y Actividades de aprendizaje
     </div>
 </h2>
 
-- Entender que es un actuador.
-- Ser capaz de distinguir los distintos actuadores.
-- Entender la corriente alterna, continua y conmutada.
-- Entender la señal PWM y sus aplicaciones.
-- Entender el modelo de color RGB y cómo lo percibe el ojo.
-- Entender el sonido y cómo se reproduce digitalmente.
-- Entender el funcionamiento del componente RELÉ.
-- Ser capaz de programar aplicaciones para un RELÉ.
-- Entender el funcionamiento del componente servo continuo.
-- Entender el funcionamiento del componente servomotor.
-- Ser capaz de programar el posicionamiento de un servomotor.
-- Entender el funcionamiento del componente LED RGB.
-- Ser capaz de programar colores diferentes con el LED RGB.
-- Entender el funcionamiento del componente Buzzer.
-- Ser capaz de programar melodías con el componente Buzzer.
+- **Entender que es un "actuador"** en el amplio sentido de la palabra. Recalcar que Arduino sólo conecta actuadores a los pines digitales de salida. Indagar sobre artefactos cotidianos capaces de llevar a cabo interacciones físicas (iluminar, sonar, mover ... etc). ==Las señales eléctricas se convierten en luz, sonido, movimiento ... (otros tipos de energía) mediante los "actuadores"==
+
+- **Ser capaz de distinguir distintos "actuadores".** ¿ Todos los "actuadores" pueden ser conectados comandados por Arduino ? ¿ Qué se necesita para que un actuador se pueda conectar a Arduino ?
+
+<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/ZHRWdfS.png"/><img style="width:50%" src="http://i.imgur.com/8Y1TCPg.png"/></div><br>
+
+- **Entender la corriente alterna, continua y cuadrada** . 
+
+<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/bMS3aPJ.png"/><img style="width:50%" src="http://i.imgur.com/0QMnhfJ.gif"/></div>
+<br>
+
+- **Entender la señal PWM y sus aplicaciones.** La modulación de ancho de pulso se emplea para los servomotores de giro continuo y giro seleccionable.
+
+<div style="text-align: center" ><img style="width:89%" src="http://i.imgur.com/9GiDnS5.png"/></div><br>
+<div style="text-align: center" ><img style="width:89%;" src="http://i.imgur.com/QTmEH8R.jpg"/></div><br>
+
+- **Entender el modelo de color RGB y cómo lo percibe el ojo.** Sensibilidad del ojo humano al color y la luz. Células Cono (~x6M) y Bastón (~x100M) de la retina (120ªx60ª=570 Megapixel). Creación del color por síntesis aditiva. Replicamos la naturaleza en las cámaras y pantallas.
+
+<div style="text-align: center" ><img style="width: 350px; height: 350px" src="http://i.imgur.com/X3YxuVg.png"/><img style="width: 350px; height: 350px" src="http://i.imgur.com/QqF1nrW.jpg"/></div>
+<div style="text-align: center" ><img style="width: 70%" src="http://i.imgur.com/sAyxvwy.jpg"/><img style="height: 145px" src="http://i.imgur.com/AbChmEL.jpg"/></div><br>
+
+
+
+- **Entender el sonido y cómo se reproduce digitalmente.** Cómo funciona el oído humano. Series de Fourier o suma de señales para componer otra. Composición del sonido analógico. Efecto piezoeléctrico. Respuesta de un Zumbador a las distintas frecuencias.
+
+<div style="text-align: center" ><img style="width:89%; height: 300px" src="http://i.imgur.com/6jqZRtO.png"/></div>
+<div style="text-align: center" ><img style="width:89%; height: 300px" src="http://i.imgur.com/PrNb8kj.png"/></div>
+<div style="text-align: center" ><img style="width:89%; height: 300px" src="http://i.imgur.com/2jNRIYX.png"/></div><br>
+
+- **Entender el funcionamiento del componente RELÉ.** ¿ Qué es un Opto-Acoplador ? ¿ Cuándo utilizar la salida de pin digital Arduino y cuando un Relé ?
+
+<div style="text-align: center" ><img style="width:70%" src="http://i.imgur.com/JebxOHl.png"/></div>
+<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/yuvg4Rf.png"/><img style="width:50%" src="http://i.imgur.com/AzKUzek.png"/></div><br>
+
+- **Ser capaz de programar aplicaciones para un componente electrónico RELÉ.** Hemos visto que debido al opto-acoplador es igual que un diodo LED.
+
+- **Entender el funcionamiento del componente servo continuo.** ¿ Por qué introducimos un bloque de espera entre las ordenes de giro ?
+
+<div style="text-align: center" ><img style="width:35%" src="http://i.imgur.com/gJ7d8lu.png"/><img style="width:65%" src="http://i.imgur.com/5dlTISV.png"/></div><br>
+
+- **Entender el funcionamiento del componente servomotor.**
+
+<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/ZHL0Pod.png"/><img style="width:50%" src="http://i.imgur.com/SQrPMz2.png"/></div><br>
+
+- **Ser capaz de programar el posicionamiento de un servomotor.** Realizar un sencillo programa que a través del puerto serie de la Computadora se de la orden a Arduino de poner el brazo del servo en un ángulo determinado.
+
+<div style="text-align: center" ><img style="" src="http://i.imgur.com/oba1azs.png"/></div><br>
+
+- **Entender el funcionamiento del componente LED RGB.** Un LED RGB en realidad son 3 LEDs en la misma cápsula y se logra hacer la síntesis aditiva seleccionando a cuantos se encienden simultáneamente y por cuanto tiempo.
+
+<div style="text-align: center" ><img style="width:65%" src="http://i.imgur.com/8S8qvGJ.png"/><img style="width:35%" src="http://i.imgur.com/8Y1TCPg.png"/></div><br>
+
+- **Ser capaz de programar colores diferentes con el LED RGB.** Realizar un sencillo programa que sea capaz de cambiar el color del LED RGB de Rojo a Verde a Azul, cuando un potenciómetro pase por las posiciones derecha, centro e izquierda respectivamente.
+
+
+<div style="text-align: center" ><img style="" src="http://i.imgur.com/btjqcXY.png"/></div><br>
+
+- **Entender el funcionamiento del componente Zumbador (Buzzer).**
+
+<div style="text-align: center" ><img style="width:25%" src="http://i.imgur.com/ZHRWdfS.png"/><img style="width:75%" src="http://i.imgur.com/9lTIosb.png"/></div><br>
+
+- Ser capaz de programar melodías con el componente Zumbador (Buzzer). Vamos a programar la partitura de la música [**Frère Jacques**](https://soundcloud.com/sonoma-entertainment/frere-jacques-mr-ray-the), sus notas musicales son :
+
+
+		Frère Jacques Notes:
+
+		C D E C C D E C
+		E F G E F G
+		G A G F E C G A G F E C
+		C G C C G C
+
+	Esta vez escribiremos el código en desarrollo tradicional utilizando la pestaña "Código" e introduciendo el siguiente "código escrito en Processing" :
+
+	```arduino
+
+	int sound = 9;
+
+	void setup(){
+	  pinMode(sound,OUTPUT);
+	}
+
+	void loop(){
+
+	 tone(sound,261,500);//c 
+	 delay(500);
+	 noTone(sound);
+	 tone(sound, 294,500);//d
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,329,500);//e
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,261,500);//c
+	 delay(500);
+	 tone(sound,261,500);//c 
+	 delay(500);
+	 noTone(sound);
+	 tone(sound, 294,500);//d
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,329,500);//e
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,261,500);//c
+	 delay(550);
+	 noTone(sound);
+	 tone(sound,329,500);//e
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,349,500);//f
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,392,500);//g
+	 delay(550);
+	 noTone(sound);
+	 tone(sound,329,500);//e
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,349,500);//f
+	 delay(500);
+	 noTone(sound);
+	 tone(sound,392,500);//g
+	 delay(900);
+
+	}
+	```
+
+	... ahora sólo queda completarlo, copiando y pegando lo que falta ... la nota que falta **a = 440**
 
 <h2>
     <div id="aplicaciones-transversales" class="fonth2tittle">
@@ -130,10 +240,12 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 - Tecnologías de Información - Programación, actuadores PWM, mapeo de valores.
+
 - Física - Corriente alterna, continua, conmutada, Luz y sonido.
 - Matemáticas - Cálculo de área, área media, Regla de 3 (operación mapeo), Suma de señales.
 - Biología - Oído y Ojo humano.
 - Dibujo Técnico - Simbología técnica de los circuitos implicados.
+- Música - Partituras
 
 
 <h2>
@@ -146,8 +258,16 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 - Pedir a los alumnos que piensen usos diarios de la electricidad.
-- Con esa lista de usos, construir una lista paralela de actuadores que se vean implicados.
-- Exponer fotografías de actuadores y preguntar por cual creen que es su uso.
+
+- Con esa lista de usos, construir una lista paralela de actuadores que se vean implicados, clasificándola en el medio físico sobre el que actúan.
+
+- Exponer fotografías de actuadores y preguntar por cual creen que es su uso. ¿ Cuántas aciertan ?
+
+<div style="text-align: center" ><img style="height: 250px" src="http://i.imgur.com/BWsGDfZ.png"/><img style="width:33%" src="http://i.imgur.com/OJLsLYD.png"/><img style="width:33%" src="http://i.imgur.com/HizxEAU.png"/></div>
+<div style="text-align: center" ><img style="width:33%" src="http://i.imgur.com/oX2CfBx.png"/><img style="width:33%" src="http://i.imgur.com/ruvAMk8.png"/><img style="width:33%" src="http://i.imgur.com/ja2V0V4.png"/></div>
+<div style="text-align: center" ><img style="width:40%" src="http://i.imgur.com/UhSO9UC.png"/><img style="width:33%" src="http://i.imgur.com/g2MzOj1.png"/><img style="height: 250px" src="http://i.imgur.com/XD21WER.png"/></div>
+
+
 
 
 <h2>
@@ -160,7 +280,9 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </h2>
 
 1. Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq
-2. Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.
+
+2. Los alumnos - grupos, siguen las explicaciones e instrucciones del profesor, que utiliza como guía el programa de contenidos y ejercicios contenidos en el apartado "Contenidos y Actividades de Aprendizaje" de esta sesión.
+
 3. Resolver las dudas de los alumnos según vayan apareciendo.
 
 
@@ -182,8 +304,10 @@ others  : Bitbloq is a project provided for free by BQ (c)
 - ¿Es sencillo o complicado hacer lo que imaginan?
 
 **Conclusión**:
->- Las señales eléctricas se convierten en luz, sonido, movimiento ... (otros tipos de energía) mediante los actuadores.
+>- Las señales eléctricas se convierten en luz, sonido, movimiento ... (otros tipos de energía) mediante los "actuadores".
+
 >- Se pueden utilizar muchos actuadores.
+
 >- Arduino de serie sólo puede utilizar actuadores en los pines digitales.
 
 
@@ -196,10 +320,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h2>
 
-<br>Desarrollo del proyecto **Comprobador de pilas AAA y AA**</br>
-><br>¿ Qué tendríamos que hacer si queremos comprobar pilas de 9V ?</br>
->¿ Qué otros usos se le pueden dar a este circuito ?
-><br></br>
+<br>Avance próxima sesión, desarrollo del prototipo - proyecto **Comprobador de pilas AAA y AA**</br><br>
+
 
 
 
@@ -212,7 +334,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h2>
 
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+El desempeño del alumno en esta jornada, se evaluará al termino de la próxima sesión **(VI)**; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
 
 <br>
 <br>

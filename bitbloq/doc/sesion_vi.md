@@ -25,7 +25,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
@@ -34,8 +34,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
-	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
-	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversales</a> |
+	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Actividad</a> |
+	<a href="#aplicaciones-transversales"><i class="fa fa-check-square-o"></i> Transversal</a> |
 	<a href="#inicio"><i class="fa fa-check-square-o"></i> Inicio</a> |
 	<a href="#desarrollo"><i class="fa fa-check-square-o"></i> Desarrollo</a> |
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
@@ -102,7 +102,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-crosshairs fa-stack-1x colortools" ></i>
-        </span> Objetivos de aprendizaje
+        </span> Contenidos y Actividades de aprendizaje
     </div>
 </h2>
 
@@ -139,7 +139,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 
 <div style="text-align: center" ><img width="100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/4ab6af1c/bitbloq/doc/gauge.svg" alt=""></div>
 
-- Se expone el enunciado de forma simple: "**Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA**".
+- Se expone el enunciado de forma simple: "**Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA mediante su voltaje**".
 
 <div class="warning">
 
@@ -149,7 +149,11 @@ En este proyecto el alumno previsiblemente encontrará varias dificultades de or
 - Relativa a mapear el servo, añadiendo además el giro en sentido contrario a las agujas del reloj.
 - Relativa a aparición de corriente estática que se propaga a la entrada analógica separando la aguja de 0 v en reposo, este hecho le hará consciente de que las simulaciones son aproximaciones a la solución real, y por eso siempre al final es importante probar en real.
 - La cuarta el ensamblado de la aguja indicadora en 0, debido a que engranaje del servo no es ajustable en 0.
+</div>
 
+<div class="danger">
+
+En el caso de que exista un alumno - grupo con desempeño excelente, incrementar la complejidad de su prototipo añadiendo alguna de las características expuestas en el apartado **Reto**.
 </div>
 
 <h2>
@@ -213,14 +217,14 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 <br>Ampliando funcionalidad del prototipo **Comprobador Baterías AAA y AA**</br>
-
->- ¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ?
->- ¿ Qué tendríamos que hacer para medir corriente alterna del enchufe ?
+>- ¿ Qué tendríamos que hacer si queremos medir mejor la capacidad real de la batería ? Medirla simulando que esta suministrando energía a un equipo, esto se logra con una resistencia que simule la carga.
+>- ¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ? Calcular resistencias en serie para repartir el voltaje.
+>- ¿ Qué tendríamos que hacer para medir corriente alterna del enchufe de casa ? Utilizar un sensor por inducción, nunca directamente (pasa lo mismo que se explico con el uso del Relé cuando hay necesidad de controlar algo conectado a 220v AC)
 <br></br>
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">
-        <span class="fa-stack fa-lg">
+        <span class="fa-stack fa-lg">	
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
             <i class="fa fa-check-square-o fa-stack-1x colortools" ></i>
         </span>  Evaluación
