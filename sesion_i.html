@@ -114,7 +114,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </li>
 </ul>
 </li>
-<li><strong>Entender cómo funciona la salida serie de Arduino.</strong>
+<li><strong>Entender cómo funciona la salida de datos en serie de Arduino.</strong>
 <ul>
 <li>Conexión por USB y Bluetooth</li>
 <li>Menú de proyecto : Ver \ Mostrar Consola Serial Monitor :
@@ -135,7 +135,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </li>
 <li><strong>Entender el bloque de control Esperar.</strong>
 <ul>
-<li>Bloque Esperar en Básicos</li>
+<li>Bloque Esperar en Básicos : mili-segundos. Velocidad del procesador Arduino.</li>
 <li>Bloque Esperar en Avanzados</li>
 </ul>
 </li>
@@ -162,16 +162,17 @@ others  : Bitbloq is a project provided for free by BQ (c)
 </li>
 <li><strong>Entender que son y cómo funcionan los bloques de control.</strong>
 <ul>
-<li>Bloque de control <strong>Sí</strong> y <strong>de lo contrario</strong></li>
+<li>Bloque de control <strong>Sí</strong> y <strong>de lo contrario</strong> : comparación de valores</li>
 <li>Bloque de control <strong>Mientras</strong></li>
 <li>Bloque de control <strong>Contar con</strong></li>
 <li>Bloque de control en Avanzados <strong>Interrumpir el bucle</strong></li>
+<li>Bloques de Lógica Booleana. True y False (1 y 0)</li>
 </ul>
 </li>
 <li><strong>Ser capaces de utilizar los bloques de control de forma autónoma.</strong>
 <ul>
 <li><mark>Avance necesario:</mark> pin Digital, pin Analógico, +5 Vcc, GND, Amperios</li>
-<li>Programar y construir prototipo parpadeo del componente <strong>actuador</strong> LED</li>
+<li>Programar y construir prototipo parpadeo del componente <strong>actuador</strong> LED.</li>
 <li>Programar y construir prototipo Encendido LED tras pulsar componente <strong>sensor</strong> Pulsador (botón).</li>
 </ul>
 </li>
@@ -189,7 +190,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Aplicaciones Transversales
     </div>
 </h2>
-<ul data-source-line="163">
+<ul data-source-line="164">
 <li>Tecnologías de Información - Programación, algorítmica, bloques control, variables, puerto serie, aleatoriedad, concatenación de texto.</li>
 <li>Física - Tiempo de reacción y medida (mili segundos), Sensores y Actuadores, Electrónica de diodo y pulsador, ley de Ohm, Resistencia, Voltaje e Intensidad.</li>
 <li>Matemáticas - Algoritmos. Cálculo de Tiempo de reacción. Números primos y aleatorios.</li>
@@ -202,7 +203,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Inicio
     </div>
 </h2>
-<ul data-source-line="177">
+<ul data-source-line="178">
 <li><strong>¿ Es necesaria una Computadora para hacer algoritmos ?</strong> (escuchar respuestas) Recalcar que existen observando la naturaleza, en el ADN y comportamiento de las especies y se consolida en el ser humano cuando este quiere repetir un resultado (p.e. hacer fuego, observación, repetición, prueba y error, transmisión de conocimiento), antes era aprender pasos con boca a boca, con la escritura simples listas ... etc hasta llegar a nuestros días.</li>
 <li><strong>Pedir a los alumnos que piensen en algoritmos cotidianos</strong>, darles un ejemplo simple (p.ej. la rutina diaria desde que se levantan, hasta llegan al cole dos alumnos distintos), hacerles ver que aunque no pensamos en ellos, están presentes en todas las actividades diarias de todos nosotros.</li>
 <li><strong>Pizarra en grupo : Tomar dos algoritmos uno muy sencillo y otro complicado</strong> (p.e escribir letra A en un papel con lápiz y con impresora**, dividir la clase en dos grupos, hacerles salir a la pizarra y pedirles que desarrollen los pasos en 2 minutos máximo.</li>
@@ -218,17 +219,24 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Desarrollo
     </div>
 </h2>
-<ol start="0" data-source-line="194">
-<li>Introducción al curso
+<ol start="0" data-source-line="195">
+<li>
+<p>Introducción al curso</p>
 <ul>
 <li>Presentación del curso : contenido sesiones, programación por pares ... etc.</li>
 <li>Presentación de sistema de evaluación : acentuar objetivos competenciales.</li>
 <li>Asegurar que <strong>todo</strong> el aula tiene <strong>todos</strong> los recursos necesarios.</li>
 </ul>
 </li>
-<li>Alumnos - grupos Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq</li>
-<li>Los alumnos - grupos, siguen las actividades de esta sección guiados paso a paso por el profesor.</li>
-<li>Resolver las dudas de los alumnos según vayan apareciendo.</li>
+<li>
+<p>Alumnos - grupos Arrancar el navegador Google Chrome e iniciar la sesión del BitBloq</p>
+</li>
+<li>
+<p>Los alumnos - grupos, siguen las explicaciones e instrucciones del profesor, que utiliza como guía el programa de contenidos y ejercicios contenidos en el apartado "Contenidos y Actividades de Aprendizaje" de esta sesión.</p>
+</li>
+<li>
+<p>Resolver las dudas de los alumnos según vayan apareciendo.</p>
+</li>
 </ol>
 <h2>
     <div id="puesta-en-comun" class="fonth2tittle">
@@ -238,16 +246,18 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Puesta en Común
     </div>
 </h2>
-<p data-source-line="214">Pedimos a los alumnos reflexionar sobre:</p>
-<ul data-source-line="215">
+<p data-source-line="218">Pedimos a los alumnos reflexionar sobre:</p>
+<ul data-source-line="219">
+<li>¿ Cuanta corriente consume un LED ? ¿ Cuanta corriente puede entregar Arduino por un pin digital ? ¿ Puedo conectar una bombilla convencional a un pin digital Arduino ? ¿ Por qué ?</li>
+<li>¿ Qué es un Relé ?¿ Donde se conecta un LED se puede conectar un Relé ?</li>
 <li>Imaginar que otras cosas se podrían hacer con un botón.</li>
 <li>Imaginar que otros sensores se podrían utilizar.</li>
 <li>Imaginar que otras cosas se podrían hacer con un Led.</li>
 <li>Imaginar que otros actuadores se podrían utilizar.</li>
 <li>Es sencillo o complicado hacer lo que imaginan.</li>
 </ul>
-<p data-source-line="221"><strong>Conclusión</strong>:</p>
-<blockquote data-source-line="222">
+<p data-source-line="227"><strong>Conclusión</strong>:</p>
+<blockquote data-source-line="228">
 <ul>
 <li>Los algoritmos son sencillos si los dividimos en partes pequeñas.</li>
 <li>Los algoritmos divididos deben ser muy precisos haciendo cosas pequeñas.</li>
@@ -263,7 +273,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Reto
     </div>
 </h2>
-<ul data-source-line="237">
+<ul data-source-line="243">
 <li>Avance próxima sesión Desarrollo del prototipo - juego <strong>Quién pulsa el botón más rápido</strong></li>
 </ul>
 <h2>
@@ -274,7 +284,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
         </span>  Evaluación
     </div>
 </h2>
-<p data-source-line="250">El desempeño del alumno en esta sesión, se evaluará al termino de la próxima sesión <strong>(II)</strong>; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.</p>
+<p data-source-line="256">El desempeño del alumno en esta jornada, se evaluará al termino de la próxima sesión <strong>(II)</strong>; por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.</p>
 <br>
 <br>
 <hr>

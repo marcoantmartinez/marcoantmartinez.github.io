@@ -242,7 +242,7 @@ Pedimos a los alumnos reflexionar sobre:
 </h2>
 
 El desempeño del alumno en esta sesión, se evaluará a su termino (donde se evaluará también la sesión anterior III); por una parte con un test de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la rubrica de evaluación para valorar los objetivos competenciales, según el criterio del profesor.
-<br>
+<br><br>
 A continuación se exponen los enlaces que llevan a las dos valoraciones de desempeño del alumno:
 
 

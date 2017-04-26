@@ -73,6 +73,9 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
 - Placa Arduino UNO (o superior) con alimentación y conector USB (por alumno o grupo)
 - Componente Servomotor.
 - Componente Potenciómetro.
+- Pilas AAA / AA una por grupo.
+- Plantilla de la escala de 0 a 2 voltios impresa, una por grupo.
+- Cinta adhesiva de doble cara para fijar aguja.
 - Pizarra y proyector.
 
 <h2>
@@ -137,7 +140,7 @@ Al termino del proyecto el alumno **documentará y compartirá** su trabajo en l
     </div>
 </h2>
 
-<div style="text-align: center" ><img width="100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/4ab6af1c/bitbloq/doc/gauge.svg" alt=""></div>
+<div style="text-align: center" ><img width="100%" src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/2e2665c5/gauge.svg" alt=""></div>
 
 - Se expone el enunciado de forma simple: "**Utilizando la plantilla de 0 a 2 voltios expuesta arriba, construir un prototipo que permita medir la capacidad de baterías de tipo AAA y AA mediante su voltaje**".
 
@@ -147,14 +150,14 @@ En este proyecto el alumno previsiblemente encontrará varias dificultades de or
 - Relativo a comenzar el prototipo con un potenciómetro para simular una pila, que utilizará en la prueba final.
 - Relativa a adecuar el valor de entrada analógico máximo a medir a 2 voltios.
 - Relativa a mapear el servo, añadiendo además el giro en sentido contrario a las agujas del reloj.
-- Relativa a aparición de corriente estática que se propaga a la entrada analógica separando la aguja de 0 v en reposo, este hecho le hará consciente de que las simulaciones son aproximaciones a la solución real, y por eso siempre al final es importante probar en real.
-- La cuarta el ensamblado de la aguja indicadora en 0, debido a que engranaje del servo no es ajustable en 0.
+- Relativa a aparición de corriente estática - inducción que se propaga a la entrada analógica separando la aguja de 0 voltios en reposo, este hecho le hará consciente de que las simulaciones son aproximaciones a la solución real, y por eso siempre al final es importante probar en real.
+- El ensamblado de la aguja indicadora en 0, debido a que engranaje del servo no es ajustable en 0 exactamente.
 </div>
 
 <div class="danger">
 
 En el caso de que exista un alumno - grupo con desempeño excelente, incrementar la complejidad de su prototipo añadiendo alguna de las características expuestas en el apartado **Reto**.
-</div>
+</div><br>
 
 <h2>
     <div id="desarrollo" class="fonth2tittle">
@@ -169,19 +172,24 @@ En el caso de que exista un alumno - grupo con desempeño excelente, incrementar
 
 - Se promueve el diseño del diagrama de flujo : Tras un tiempo de reflexión se pone en común en la pizarra. Es importante que tengan claro que el diseño es mejorable y que si quieren lo pueden hacer.
 
-<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/01f64756/bitbloq/doc/battery_text.svg" alt=""></div>
+<div style="text-align: center" ><img src="https://cdn.rawgit.com/marcoantmartinez/marcoantmartinez.github.io/2e2665c5/battery_text.svg" alt=""></div><br>
 
 - Se comienza el desarrollo en bitbloq : modelando el prototipo y programando los bloques.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/fCQQwpi.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/fCQQwpi.png"/></a></div><br>
 
 - Se realizan las conexiones del prototipo y se realizan las pruebas.
 
-<div style="text-align: center; width:100%" ><a href=""><img src="http://i.imgur.com/ycmSdSC.png"/></a></div>
+<div style="text-align: center; width:100%" ><a href=""><img src="http://i.imgur.com/ycmSdSC.png"/></a></div><br>
+
+- Personalización de prototipo con la plantilla de escala:
+
+<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/495G55J.jpg"/></div><br>
+
 
 - Se procede a la documentación detallada del proyecto en Bitbloq en el apartado del información.
 
-<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/tGdiiz7.png"/></a></div>
+<div style="text-align: center" ><a href=""><img src="http://i.imgur.com/tGdiiz7.png"/></a></div><br>
 
 - Se comparte públicamente el proyecto con la comunidad del usuarios de BitBloq. 
 
@@ -203,7 +211,9 @@ Pedimos a los alumnos reflexionar sobre:
 
 **Conclusión**:
 >- Las señales eléctricas se convierten en luz, sonido, movimiento ... (otros tipos de energía) mediante los actuadores.
+
 >- Se pueden utilizar muchos actuadores.
+
 >- Arduino de serie sólo puede utilizar actuadores en los pines digitales.
 
 
@@ -218,9 +228,17 @@ Pedimos a los alumnos reflexionar sobre:
 
 <br>Ampliando funcionalidad del prototipo **Comprobador Baterías AAA y AA**</br>
 >- ¿ Qué tendríamos que hacer si queremos medir mejor la capacidad real de la batería ? Medirla simulando que esta suministrando energía a un equipo, esto se logra con una resistencia que simule la carga.
+
 >- ¿ Qué tendríamos que hacer para medir baterías de coche 12 voltios ? ¿ y de camión 24 voltios ? Calcular resistencias en serie para repartir el voltaje.
+
 >- ¿ Qué tendríamos que hacer para medir corriente alterna del enchufe de casa ? Utilizar un sensor por inducción, nunca directamente (pasa lo mismo que se explico con el uso del Relé cuando hay necesidad de controlar algo conectado a 220v AC)
 <br></br>
+
+
+
+
+
+
 
 <h2>
     <div id="evaluacion" class="fonth2tittle">
@@ -231,7 +249,42 @@ Pedimos a los alumnos reflexionar sobre:
     </div>
 </h2>
 
-Al termino de la sesión se evaluará con un test de 10 preguntas la asimilación de conocimientos de cada alumno.
+El desempeño del alumno en esta sesión, se evaluará a su termino (incluye también la evaluación de la sesión anterior V); por una parte con un **test de comprensión** de 10 preguntas para valorar asimilación de conocimientos de cada alumno y por otra parte con la **rubrica de evaluación** para valorar los objetivos competenciales, según el criterio del profesor.
+<br><br>
+A continuación se exponen los enlaces que llevan a las dos valoraciones de desempeño del alumno:
+
+
+<br><br>
+<div class="fontseparator"></div>
+<div id="test_sesion_vi" class="fontexternallink2">
+<a style="color:#ffffff" href="sesion_vi_test.html">Test sesiones V y I</a>
+</div>
+<div class="fontseparator"></div>
+<div id="test_rubrica"  class="fontexternallink2">
+<a style="color:#ffffff" href="index.html#rubrica">Rubrica Evaluación</a>
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Actuadores
+</div>
+<div class="fontseparator"></div>
+<div class="fontexternallinkcomment">
+Objetivos Competenciales
+</div>
+
+<div style="float:left; width:100%;"></div>
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
 
 <br>
 <br>
@@ -253,162 +306,262 @@ Al termino de la sesión se evaluará con un test de 10 preguntas la asimilació
 </div>
 </div>
 <details>
-	<style>
-		.bannerheader{
-			width:100%; 
-			margin: 0 auto;
-			display: table; 
-			min-width: 900px; 
-			max-width: 900px; 
-			background-color:#ffffff; 
-			border:10px solid #96c93e;
-		}
-		.bannerfooter{
-			width:100%;
-			background:#ffffff; 
-			padding: 5%;
-			position:relative; 
-			top:0;  
-			left:0; 
-			background-image: url("http://i.imgur.com/EnY10RD.png"); 
-			background-repeat: no-repeat ;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover; 
-        /*background-size:100% auto; */
-			background-position: bottom;
-		}
-		.linksheader{
-			padding:10px;
-			text-align:center; 
-			font-size:14px; 
-			color:#729e29
-		}
-		.fontnotes{
-			width:80%;
-            border-radius: 15px;
-			margin-left:5%; 
-			margin-right:auto;
-			border-radius: auto;
-			text-align:left;
-			background-color:#ffffff;
-			padding: 5px;
-			font-family: 'Roboto Slab', serif; 
-			font-size: 18px; 
-			font-weight: 700; 
-			letter-spacing: 0px
-		}
-		.fontbody{
-			width: 100%; 
-			overflow: auto; 
-			background-color: #ffffff; 
-			position: absolute; 
-			top: 0px; 
-			left: 0px; 
-			font-size: 20px; 
-			font-family: 'Roboto Light', sans-serif ; 
-			font-weight: lighter; 
-			letter-spacing: 0px;
-			line-height: 25px;
-			margin: 0 0; 
-		}
-		.fonth1tittle{
-			position:absolute;
-			left:0%;
-			top:-6px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, #96c93e, #96c93e 100%);
-			line-height:0px;
-			color:#ffffff;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:0px solid blue;
-		}
-		.fonth1subtittle{
-			position:relative;
-			left:0px;
-			top:0px;
-			width:100%; 
-			border-radius: 0px;
-			padding:0px;
-			background: linear-gradient(to right, white, white 100%);
-			line-height:0px;
-			color: #5e8421;
-			font-family:'Roboto Slab', serif;
-			font-size:36px; 
-			font-weight:700;
-			text-align: center;
-			border:30px solid white;
-		}
-		.fonth2tittle{
-			position:relative;
-			left:-5%;
-			width: 75%;
-			border-radius: 15px;
-			padding:0px; 
-			background-color: #96c93e;
-			line-height:0;
-			color:#ffffff; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-		}
-		.fonth3tittle{
-			position:relative;
-			left:5%;
-			width: 75%;
-			border-radius: 0px;
-			padding:20px; 
-			background-color: #ffffff;
-			line-height:0;
-			color:#5e8421; 
-			font-family:'Roboto Slab', serif;
-			font-size:23px; 
-			font-weight:700;
-			border-bottom:1.5px solid #96c93e;
-		}
-		.fontheader{
-			width:50%;
-			margin: 0 auto;
-			position: absolute;
-			left: 25%; 
-			top:5px; 
-			border:0px solid #000000;
-			text-align: center; 
-			color:#476419;
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.fontfooter{
-			width:52%;
-			margin: 0 auto;
-			text-align: center; 
-			color: #729e29; 
-			font-family: Roboto, serif; 
-			font-size: 13px; 
-			font-weight: 300; 
-			letter-spacing: 0px
-		}
-		.colortools{
-			color:#5e8421;
-		}
-		.colornotes{
-			color:#ff8000;
-		}
-		.fontlittle{
-            font-family:'Roboto Slab', sans-serif;
-            font-size:18px; 
-            font-weight:300;
-            letter-spacing: 0px;
-            line-height: 20px;
-		}
-	</style>
+<style>
+    .fontexternallinkcomment{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        padding:10px; 
+        background-color: rgba(255, 255, 255, .5);
+        text-align: center;
+        line-height:0;
+        color:#000000; 
+        font-family:'Roboto Slab', serif;
+        font-size:18px; 
+        font-weight:300;
+    }
+    .fontexternallink2{
+        float:left;
+        width: 300px;
+        border-radius: 1px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #d66c00;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+    .fontseparator{
+        float:left;
+        width: 25px;
+        border-radius: 0px;
+        border-style: solid;
+        padding:30px; 
+        background-color: #ffffff;
+        text-align: center;
+        line-height:0;
+        color:#ffffff; 
+        font-family:'Roboto Slab', serif;
+        font-size:23px; 
+        font-weight:700;
+    }
+	.bannerheader{
+		width:100%; 
+		margin: 0 auto;
+		display: table; 
+		min-width: 900px; 
+		max-width: 900px; 
+		background-color:#ffffff; 
+		border:10px solid #96c93e;
+	}
+	.bannerfooter{
+		width:100%;
+		background:#ffffff; 
+		padding: 5%;
+		position:relative; 
+		top:0;  
+		left:0; 
+		background-image: url("http://i.imgur.com/EnY10RD.png"); 
+		background-repeat: no-repeat ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+    /*background-size:100% auto; */
+		background-position: bottom;
+	}
+	.linksheader{
+		padding:10px;
+		text-align:center; 
+		font-size:14px; 
+		color:#729e29
+	}
+    .linksTOC{
+        font-size:14px; 
+        line-height: 15px;
+        color:#729e29;
+    }
+	.fontnotes{
+		width:80%;
+        border-radius: 15px;
+		margin-left:5%; 
+		margin-right:auto;
+		border-radius: auto;
+		text-align:left;
+		background-color:#ffffff;
+		padding: 5px;
+        padding-left: 25px;
+		font-family: 'Roboto Slab', serif; 
+		font-size: 18px; 
+		font-weight: 700; 
+		letter-spacing: 0px
+	}
+	.fontbody{
+		width: 100%; 
+		overflow: auto; 
+		background-color: #ffffff; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		font-size: 20px; 
+		font-family: 'Roboto Light', sans-serif ; 
+		font-weight: lighter; 
+		letter-spacing: 0px;
+		line-height: 25px;
+		margin: 0 0; 
+	}
+	.fonth1tittle{
+		position:absolute;
+		left:0%;
+		top:-6px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, #96c93e, #96c93e 100%);
+		line-height:0px;
+		color:#ffffff;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:0px solid blue;
+	}
+	.fonth1subtittle{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%; 
+		border-radius: 0px;
+		padding:0px;
+		background: linear-gradient(to right, white, white 100%);
+		line-height:0px;
+		color: #5e8421;
+		font-family:'Roboto Slab', serif;
+		font-size:36px; 
+		font-weight:700;
+		text-align: center;
+		border:30px solid white;
+	}
+	.fonth2tittle{
+		position:relative;
+		left:-5%;
+		width: 75%;
+		border-radius: 15px;
+		padding:0px; 
+		background-color: #96c93e;
+		line-height:0;
+		color:#ffffff; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+	}
+	.fonth3tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		border-radius: 0px;
+		padding:20px; 
+		background-color: #ffffff;
+		line-height:0;
+		color:#5e8421; 
+		font-family:'Roboto Slab', serif;
+		font-size:23px; 
+		font-weight:700;
+		border-bottom:1.5px solid #96c93e;
+	}
+	.fonth4tittle{
+		position:relative;
+		left:5%;
+		width: 75%;
+		padding:20px; 
+		line-height:0;
+		color:#000000; 
+		font-family:'Roboto Slab', serif;
+		font-size:20px; 
+		font-weight:500;
+	}
+	.fontheader{
+		width:50%;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%; 
+		top:5px; 
+		border:0px solid #000000;
+		text-align: center; 
+		color:#476419;
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.fontfooter{
+		width:52%;
+		margin: 0 auto;
+		text-align: center; 
+		color: #729e29; 
+		font-family: Roboto, serif; 
+		font-size: 13px; 
+		font-weight: 300; 
+		letter-spacing: 0px
+	}
+	.colortools{
+		color:#5e8421;
+	}
+	.colornotes{
+		color:#ff8000;
+	}
+	.fontlittle{
+        font-family:'Roboto Slab', sans-serif;
+        font-size:18px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 20px;
+	}
+    .fonttest{
+        border-radius: 23px;
+        padding:20px;
+        background-color: rgba(225, 225, 225, .5);
+        font-family:'Roboto Slab', sans-serif;
+        font-size:23px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontdefinition{
+        border-radius: 23px;
+        padding:20px;
+        background-color: #ffffff;
+        color: green;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:23px; 
+        font-weight:300;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .fontexternallink{
+        width:25%;
+        margin-right:1%;
+        margin-left:auto;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        padding:20px;
+        background-color: #00f900;
+        color: red;
+        text-align: center;
+        font-family:'Roboto Slab', sans-serif;
+        font-style: italic;
+        font-size:20px; 
+        font-weight:700;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }                
+</style>
 </details>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type='text/css'>
 <!-- <link href="https://github.com/marcoantmartinez/marcoantmartinez.github.io/blob/master/bitbloq/html/mystyles.css" rel="stylesheet" type="text/css" media="screen"/> 

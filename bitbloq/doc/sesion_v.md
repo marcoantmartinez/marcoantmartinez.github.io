@@ -107,7 +107,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/ZHRWdfS.png"/><img style="width:50%" src="http://i.imgur.com/8Y1TCPg.png"/></div><br>
 
-- **Entender la corriente alterna, continua y cuadrada** . 
+- **Entender la corriente alterna, continua y cuadrada** . AC / DC / +Vcc / Gnd - masa - tierra - 0v / +5 Vcc 
 
 <div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/bMS3aPJ.png"/><img style="width:50%" src="http://i.imgur.com/0QMnhfJ.gif"/></div>
 <br>
@@ -149,7 +149,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/oba1azs.png"/></div><br>
 
-- **Entender el funcionamiento del componente LED RGB.** Un LED RGB en realidad son 3 LEDs en la misma cápsula y se logra hacer la síntesis aditiva seleccionando a cuantos se encienden simultáneamente y por cuanto tiempo.
+- **Entender el funcionamiento del componente LED RGB.** Un LED RGB en realidad son 3 LEDs en la misma cápsula y se logra hacer la síntesis aditiva seleccionando a cuantos se encienden simultáneamente y por cuanto tiempo. ¿ Que hacemos para que brille menos ? Área media de la señal cuadrada.
 
 <div style="text-align: center" ><img style="width:65%" src="http://i.imgur.com/8S8qvGJ.png"/><img style="width:35%" src="http://i.imgur.com/8Y1TCPg.png"/></div><br>
 
