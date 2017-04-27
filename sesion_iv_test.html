@@ -20,11 +20,12 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
 </h1>
+<!-- 
 <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
@@ -35,7 +36,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
 	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
-</div>
+</div> -->
 <h1>
     <div class="fonth1subtittle">
 <span> Sesiones III y IV - Test de Comprensión</span> 
@@ -63,14 +64,14 @@ others  : Bitbloq is a project provided for free by BQ (c)
 <p data-source-line="73">El componente electrónico LDR puede utilizarse para medir la cantidad de LUZ visible que incide sobre el:</p>
 <div style="text-align: center"><img style="width:50%" src="http://i.imgur.com/WIEJ8pZ.png"><img style="width:50%; height: 325px" src="http://i.imgur.com/4tu7z8C.png"></div>
 <div style="font-weight:300;">
-Sabemos que según incida más o menos luz el componente LDR del kit BQ retornará más o menos voltaje en su salida. Diga cual de las siguientes respuestas es la más acertada: 
+Sabemos que según incida más o menos luz, el componente LDR del kit BQ retornará más o menos voltaje en su salida. Diga cual de las siguientes respuestas es la más acertada: 
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
 		<input type="radio" name="gender" value="male"> a. - A más luz más voltaje de salida tendremos en el componente BQ<br>
 		<input type="radio" name="gender" value="female"> b. - A más luz menos voltaje de salida tendremos en el componente BQ <br>
-		<input type="radio" name="gender" value="other"> c. - A obscuridad total el voltaje de salida será el máximo en el componente BQ
+		<input type="radio" name="gender" value="other"> c. - El componente BQ LDR entrega el máximo voltaje a una cantidad de Luz visible determinada, como muestra la figura. 
 	</form>
 </div>
 <br>
@@ -80,14 +81,14 @@ Sabemos que según incida más o menos luz el componente LDR del kit BQ retornar
 <p data-source-line="94">El componente botón puede ser utilizado para iniciar una secuencia de acciones en nuestro prototipo. Observa cuidadosamente el siguiente programa:</p>
 <div style="text-align: center"><img style="width:70%" src="http://i.imgur.com/jshkSjk.png"><img style="width:30%" src="http://i.imgur.com/3Y6SHSi.png"></div>
 <div style="font-weight:300;">
-Hemos visto que existen dos métodos básicos para iniciar la acción "when_press" y "when_release". Cuál de las siguientes afirmaciones referentes al programa mostrado es correcta:
+Hemos visto que existen dos métodos básicos para iniciar la acción "when_pressed" y "when_released". Cuál de las siguientes afirmaciones referentes al programa mostrado es correcta:
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
-		<input type="radio" name="gender" value="male"> a. -  El programa utiliza el método "when_press" para encender el LED.<br>
+		<input type="radio" name="gender" value="male"> a. -  El programa utiliza el método "when_pressed" para encender el LED.<br>
 		<input type="radio" name="gender" value="female"> b. - El programa no encenderá el LED, pues el botón no puede ser "true" y "false" a la vez<br>
-		<input type="radio" name="gender" value="other"> c. - El programa utiliza el método "when_release" para encender el LED
+		<input type="radio" name="gender" value="other"> c. - El programa utiliza el método "when_released" para encender el LED
 	</form>
 </div>
 <br>
@@ -97,7 +98,7 @@ Hemos visto que existen dos métodos básicos para iniciar la acción "when_pres
 <p data-source-line="115">El componente electrónico detector de Infrarrojos (IR) tiene por misión detectar el color obscuro o claro de un objeto muy próximo.</p>
 <div style="text-align: center"><img style="width:30%" src="http://i.imgur.com/1U5a2lC.png"><img style="width:30%" src="http://i.imgur.com/G10FvKx.png"><img style="height: 200px" src="http://i.imgur.com/XDPBPTp.png"></div>
 <div style="font-weight:300;">
-Aunque existen mucho modelos comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un detector de IR: (multiselección)
+Aunque existen mucho modelos, estos comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un detector de IR: (multiselección)
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
@@ -124,7 +125,7 @@ Aunque existen mucho modelos y formas, comparten muchas características, indica
 		<input type="checkbox" name="vehicle" value="Bike"> a.- Puede variar la resistencia al paso de la corriente eléctrica.<br>
 		<input type="checkbox" name="vehicle" value="Bike"> b.- Es un componente que se puede conectar tanto a los pines digitales como al pines analógicos de Arduino para obtener su funcionalidad.<br>
 		<input type="checkbox" name="vehicle" value="Bike"> c.- Necesita un accionamiento mecánico para conseguir la variación de resistencia y de voltaje de salida<br>
-		<input type="checkbox" name="vehicle" value="Bike"> d.- El potenciómetro aumenta la potencia y por tanto la corriente que pueden entregar Arduino a los pines digitales ( de 40mA hasta 1 Amperio máximo )<br>
+		<input type="checkbox" name="vehicle" value="Bike"> d.- El potenciómetro como su nombre indica, aumenta la potencia y por tanto la corriente que pueden entregar Arduino a los pines digitales ( de 40mA hasta 1 Amperio máximo )<br>
 	</form>
 </div>
 <br>
