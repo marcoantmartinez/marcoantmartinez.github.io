@@ -129,7 +129,6 @@
     </mask>
   </defs>
   <g id="g12" transform="matrix(1.25, 0, 0, -1.25, 0, 675)"/>
-  <path id="path22" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 0 675 L 900 675 L 900 0 L 0 0 L 0 675 Z"/>
   <path id="path24" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 16.976 425.179 L 839.524 425.179 L 839.524 380.424 L 16.976 380.424 L 16.976 425.179 Z"/>
   <path id="path26" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 16.976 335.668 L 839.524 335.668 L 839.524 290.912 L 16.976 290.912 L 16.976 335.668 Z"/>
   <path id="path28" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 16.976 246.156 L 839.524 246.156 L 839.524 201.401 L 16.976 201.401 L 16.976 246.156 Z"/>
