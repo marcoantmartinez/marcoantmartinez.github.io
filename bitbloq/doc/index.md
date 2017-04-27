@@ -382,7 +382,7 @@ Esta son algunas de las ventajas que facilitan el aprendizaje y el seguimiento d
 
 En base a los objetivos de aprendizaje citados anteriormente, se han desarrollado los contenidos específicos y las actividades dispuestas en una plan de trabajo, dividiéndolo en **6 sesiones** de **2 horas** cada una (12 horas en total).
 
-**Al comienzar** la Sesión I se realizará una presentación de los objetivos y alcance de los contenidos del curso a los alumnos.
+**Al comenzar** la Sesión I se realizará una presentación de los objetivos y alcance de los contenidos del curso a los alumnos.
 
 Se alternará una sesión de **Teoría y Asimilación** de contenidos, incluyendo "Prácticas Sencillas" para asentar dichos contenidos, con otra de **Realización de un Proyecto Práctico**, en el que el alumno demostrará que ha asimilado los conceptos teóricos y su autonomía al saber aplicarlos a un contexto real, que le exige la construcción de un **prototipo funcional**.
 
@@ -647,7 +647,7 @@ Ambas puntuaciones se sumarán para dar una percepción de aprovechamiento del c
 
 <div style="left:8%; position: relative; width:90%;">
 
-Los **Test'S de Comprensión** además de servir para evaluar el conocimiento del alumno, incorporan una componente de repaso de la lección, incluyendo repasos del contenido, mediante introducciones en las preguntas.<br><br>
+Los **Test'S de Comprensión** además de servir para evaluar el conocimiento del alumno, incorporan una componente de repaso de la lección, incluyendo resúmenes del contenido impartido, que sirven de introducción las preguntas.<br><br>
 
 Una copia del test se pondrá a disposición de cada alumno (colgada en HTML en la web, o impresas en color y buena calidad, junto con hoja que tiene la tabla donde deberá responder. En dicha hoja de respuesta el alumno se identificará con nombre, apellidos, curso, grupo, ... etc. Los Tests serán devueltos al profesor, para ser reutilizados en más sesiones junto con las respuestas del alumno.<br><br>
 
@@ -703,11 +703,11 @@ Actuadores
 
 
 
-<h3   id="rubrica"><div class="fonth3tittle">Rubrica de Evaluación</div></h3>
+<h3   id="rubrica"><div class="fonth3tittle">Rúbrica de Evaluación</div></h3>
 
 <div style="left:8%; position: relative; width:90%;">
 
-La rubrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los **objetivos competenciales**. En la primera sesión y como parte de la **Presentación del Curso**, el alumno recibirá esta información, para que sepa con claridad lo que se espera de él.<br><br>
+La rúbrica de evaluación será la herramienta utilizada para evaluar objetivamente el desempeño del alumno en los **objetivos competenciales**. En la primera sesión y como parte de la **Presentación del Curso**, el alumno recibirá esta información, para que sepa con claridad lo que se espera de él.<br><br>
 Al termino de cada uno de los 3 bloques-proyectos, el profesor evaluará a cada alumno en las competencias descritas, registrando la nota en el expediente del alumno para el curso.<br><br>
 </div>
 
