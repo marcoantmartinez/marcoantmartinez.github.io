@@ -58,7 +58,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
   * [Finalidad](#finalidad)
 - **[Contextualización](#contexto)**
   * [Organización del Aula](#organizacion)
-  * [Conocimiento Previo del Alumno](#conocimiento)
+  * [Conocimientos Transversales](#conocimiento)
   * [Recursos Necesarios](#recursos)
   * [Sobre la elección de Arduino](#eleccion-arduino)
   * [Sobre la elección de la programación con bloques](#eleccion-bloques)
@@ -194,9 +194,12 @@ Cada alumno tendrá su propio Kit Arduino, al que ensamblará los circuitos elec
 
 En el supuesto de que existan alumnos de distintos niveles ESO (p.ej. 1º, 2º y 3º) se procurará crear parejas homogéneas (un alumno de nivel ESO superior al otro) para facilitar la asimilación de contenidos.
 
-<h3 id="conocimiento" ><div class="fonth3tittle">Conocimiento Previo del Alumno</div></h3>
+<h3 id="conocimiento" ><div class="fonth3tittle">Conocimientos Transversales</div></h3>
 
-Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
+Está propuesta didáctica está orientada a alumnos que tengan conocimientos de **1º-2º ESO** idealmente, (aunque también es fácil adaptar los contenidos para alumnos de 3º y 4º ESO, ampliando el alcance de los proyectos). 
+
+En este curso, se considera muy importante que el alumno asimile a alto nivel, los principios que son la base de funcionamiento de la tecnología, por eso y con valor añadido, se explicará cual es la base de funcionamiento de los componentes electrónicos usados en los contenidos y actividades prácticas.
+
 Algunos de los conocimientos que servirán de apoyo son:
 
 - Matemáticas : 
@@ -229,7 +232,7 @@ Algunos de los conocimientos que servirán de apoyo son:
 - Música:
   - Partituras
 
-Durante el curso se utilizarán estos conocimientos como base, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
+Estos serán los principales conocimientos de materias transversales utilizados como lanzadera, para introducir al alumno los conceptos relacionados con la algorítmica, y cómo funcionan actuadores y sensores.
 
 <h3 id="recursos" ><div class="fonth3tittle">Recursos necesarios</div></h3>
 

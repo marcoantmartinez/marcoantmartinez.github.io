@@ -143,7 +143,8 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	* Bloque de control en Avanzados **Interrumpir el bucle**
 	* Bloques de Lógica Booleana. True y False (1 y 0)
 - **Ser capaces de utilizar los bloques de control de forma autónoma.**
-	* ==Avance necesario:== pin Digital, pin Analógico, +5 Vcc, GND, Amperios
+	* ==Avance tema necesario:== pin Digital, pin Analógico, +5 Vcc, GND, Amperios
+	* ==Avance tema necesario:== Componente LED ¿qué es?¿Cómo se usa?¿Donde se usa?
 	* Programar y construir prototipo parpadeo del componente **actuador** LED. 
 	* Programar y construir prototipo Encendido LED tras pulsar componente **sensor** Pulsador (botón).
 - **Entender como funciona el bloque de temporizador de Arduino.**
@@ -217,7 +218,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 Pedimos a los alumnos reflexionar sobre:
 - ¿ Cuanta corriente consume un LED ? ¿ Cuanta corriente puede entregar Arduino por un pin digital ? ¿ Puedo conectar una bombilla convencional a un pin digital Arduino ? ¿ Por qué ?
-- ¿ Qué es un Relé ?¿ Donde se conecta un LED se puede conectar un Relé ?
+- ==Avance tema necesario == ¿ Qué es un Relé ?¿ Donde se conecta un LED se puede conectar un Relé ?
 - Imaginar que otras cosas se podrían hacer con un botón.
 - Imaginar que otros sensores se podrían utilizar.
 - Imaginar que otras cosas se podrían hacer con un Led.

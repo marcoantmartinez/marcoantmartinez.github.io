@@ -162,7 +162,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 
 <div style="text-align: center" ><img style="width:25%" src="http://i.imgur.com/ZHRWdfS.png"/><img style="width:75%" src="http://i.imgur.com/9lTIosb.png"/></div><br>
 
-- Ser capaz de programar melodías con el componente Zumbador (Buzzer). Vamos a programar la partitura de la música [**Frère Jacques**](https://soundcloud.com/sonoma-entertainment/frere-jacques-mr-ray-the), sus notas musicales son :
+- **Ser capaz de programar melodías con el componente Zumbador (Buzzer).** Vamos a programar la partitura de la música [**Frère Jacques**](https://soundcloud.com/sonoma-entertainment/frere-jacques-mr-ray-the), sus notas musicales son :
 
 
 		Frère Jacques Notes:

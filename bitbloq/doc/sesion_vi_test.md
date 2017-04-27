@@ -25,13 +25,13 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
 </h1>
 
-<div class="linksheader">
+<!-- <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
 	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
@@ -41,11 +41,11 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#puesta-en-comun"><i class="fa fa-check-square-o"></i> En común</a> |
 	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
-</div>
+</div> -->
 
 <h1>
     <div class="fonth1subtittle">
-<span> Sesión VI - Test de Comprensión</span> 
+<span> Sesiones V y VI - Test de Comprensión</span> 
     </div>
     <div class="fonth1subtittle">
     <span> Actuadores </span> 
@@ -61,7 +61,7 @@ A continuación se presentan algunas preguntas para comprobar la comprensión de
 >- Se dispone de 15 min para realizar el test.
 >- Puedes saltar las preguntas y volver a ellas más tarde si lo deseas.
 >- Se dispone de un único intento para realizar este test.
->- Cada pregunta acertada otorgará un punto. 
+>- Cada pregunta acertada otorgará 1 punto. 
 >- Si no contestas la pregunta o eliges la respuesta incorrecta, sumarás 0 puntos.
 </div>
 
@@ -91,7 +91,7 @@ Diga cual de las siguientes respuestas es la más acertada:
 <div class="fonttest">
 
 ## **Pregunta 2**
-La composición del colores en un LED RGB se realiza mediante síntesis aditiva, modulando la corriente que pasa por 3 diodos LED, uno que emite luz de color Rojo, otro de color Verde y otro de color Azul:
+La composición de colores en un LED RGB se realiza mediante síntesis aditiva, modulando la corriente que pasa por 3 diodos LED, uno que emite luz de color Rojo, otro de color Verde y otro de color Azul:
 
 <div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/QqF1nrW.jpg"/><img style="width:50%" src="http://i.imgur.com/8Y1TCPg.png"/></div>
 <div style="font-weight:300;">
@@ -112,16 +112,17 @@ Pero cuál es el motivo de que sean esos tres colores los elegidos para formar l
 <div class="fonttest">
 
 ## **Pregunta 3**
-La composición producción de sonido en el componente electrónico Buzzer se basa en el efecto piezoeléctrico:
+La composición producción de sonido en el componente electrónico Zumbador (Buzzer) se basa en el efecto piezoeléctrico:
 
 <div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/VMXf3vi.png"/><img style="width:50%" src="http://i.imgur.com/ZHRWdfS.png"/></div>
 <div style="font-weight:300;">
+
 Cuál de las siguientes definiciones del efecto **piezoeléctrico** se ajusta más a la realidad.
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
-		<input type="radio" name="gender" value="male"> a. -  Es un efecto que se produce al tocar una Pieza Eléctrica que resuena.<br>
+		<input type="radio" name="gender" value="male"> a. -  Es un efecto que se produce al tocar una pieza-eléctrica que resuena.<br>
 		<input type="radio" name="gender" value="female"> b. - Es un efecto que se produce en ciertos materiales que convierten la tensión ó compresión mecánica en electricidad y viceversa <br>
 		<input type="radio" name="gender" value="other"> c. - Es un efecto llamado también ley de Ohm.
 	</form>
@@ -134,17 +135,17 @@ Cuál de las siguientes definiciones del efecto **piezoeléctrico** se ajusta m�
 
 ## **Pregunta 4**
 ***
-El componente electrónico Relé se usa para abrir y cerrar un interruptor mandando una señal eléctrica de comando:
+El componente electrónico Relé de un Kit, se usa para abrir y cerrar un interruptor mandando una señal eléctrica de comando:
 
 <div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/yuvg4Rf.png"/><img style="width:50%" src="http://i.imgur.com/AzKUzek.png"/></div>
 <div style="font-weight:300;">
-Cuando construimos un prototipo con Arduino es recomendable usar Relés, para manipular dispositivos cuya corriente eléctrica sea de 220v alterna, o dispositivos de corriente continua que excede el voltaje o la corriente que es capaz de suministrar un pin digital de la placa Arduino . ¿ Verdadero o Falso ?
+Cuando construimos un prototipo con Arduino es recomendable usar Relés, para manipular dispositivos cuya corriente eléctrica sea de 220v alterna, o dispositivos de corriente continua que excede con creces el voltaje o la corriente que es capaz de suministrar un pin digital de la placa Arduino . ¿ Verdadero o Falso ?
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
 		<input type="radio" name="gender" value="male"> a. -  Falso, Arduino puede manipular bombillas de 220v con sólo  conectar un extremo al pin digital y otro a un contacto del enchufe.<br>
-		<input type="radio" name="gender" value="female"> b. - Verdadero, Arduino puede controlar componentes electrónicos actuadores que consuman poca corriente (40mA máx), como por ejemplo un relé.<br>
+		<input type="radio" name="gender" value="female"> b. - Verdadero, Arduino puede controlar componentes electrónicos actuadores de +5Vcc y que consuman poca corriente (40mA máx), como por ejemplo un componente electrónico relé de Kit.<br>
 	</form>
 </div>
 
@@ -186,7 +187,7 @@ Hemos utilizado la operación matemática "Mapear" para convertir valores de las
 
 <div style="font-weight:300;">
 En ella se lee :<br>
-<p style="text-align: center">angulo" = Mapear ( "votaje_entrada" de [0 - 500] a [180 - 0])</p><br>
+<p style="text-align: center">"angulo" = Mapear ( "votaje_entrada" de [0 - 500] a [180 - 0])</p><br>
 Indica cual será el valor del la variable "angulo" si el "voltaje_entrada" tiene por valor 250 ( equivale a 1.22 voltios en de Voltaje de entrada )
 </div>
 </div><br>
@@ -213,7 +214,7 @@ Hemos utilizado bloques de control en Bitbloq para que los servos actúen, ahora
 <div style="font-weight:300;">
 En ella se lee :<br>
 <p style="text-align: center">Girar "servo" en sentido "horario"</p><br>
-Indica cual será el ángulo que alcanzará el servo cuando lo observemos funcionar.
+Indica cual será el ángulo (en grados) que alcanzará el servo cuando lo observemos funcionar.
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
@@ -236,9 +237,7 @@ Hemos utilizado bloques para que los servos giren, ahora observa con cuidado el 
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/j5ioBb9.png"/></div>
 
 <div style="font-weight:300;">
-En el se lee :<br>
-<p style="text-align: center">Girar "servo" en sentido "horario"</p><br>
-Indica cual será el ángulo que alcanzará el servo cuando lo observemos funcionar.
+Indica cual será el ángulo que alcanzará el servo (en grados) cuando lo observemos funcionar.
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
@@ -269,7 +268,6 @@ Cuál será la descripción que mejor define su funcionalidad (selecciona una re
 		<input type="radio" name="gender" value="female"> a. - Continuamente, enciende y apaga cada uno de los LEDs secuencialmente a intervalos de 2 segundos, el botón no sirve para nada.<br>
 		<input type="radio" name="gender" value="female"> b. - Ningún LED se encenderá, pues el botón no cumplirá nunca la condición de estar presionado y no presionado.<br>
 		<input type="radio" name="gender" value="male"> c. -  Cada vez que completemos una pulsación de botón, se iniciará una única secuencia que simula un semáforo, permaneciendo cada led encendido sólo 2 segundos. <br>
-		<input type="radio" name="gender" value="female"> d. - Todos los LED estarán apagados continuamente.<br>		
 	</form>
 </div>
 
@@ -280,12 +278,12 @@ Cuál será la descripción que mejor define su funcionalidad (selecciona una re
 
 ## **Pregunta 10**
 <div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/5sQ8Hjh.jpg"/></div>
-Un alumno ha realizado un prototipo, para detectar intrusos en su habitación, funciona cuando se abre la puerta de su habitación, la puerta acciona un mecanismo que pulsa un botón y hace saltar una alarma sonora a través de un Buzzer. Mira cuidadosamente el código de comandos construido con Bitbloq:
-
+Un alumno ha realizado un prototipo, para detectar intrusos en su habitación, funciona cuando se abre la puerta de su habitación, la puerta acciona un mecanismo que mantiene presionado el componente electrónico pulsador; mientras la puerta este abierta y hace saltar una alarma sonora a través de un componente electrónico Zumbador (Buzzer). Mira cuidadosamente el código de comandos construido con Bitbloq:
+<br><br>
 <div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/7FxM9rw.png"/></div>
 
 <div style="font-weight:300;">
-Cuando conecta el prototipo y empieza a hacer las pruebas, abre la puerta y ve que no suena la alarma. Has visto el  código, ahora indica en que línea de bloques, crees que está el error:
+Cuando el alumno conecta el prototipo y empieza a hacer las pruebas, abre la puerta y ve que no suena la alarma. Has visto el  código, ahora indica en que línea de bloques, crees que está el error:
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">

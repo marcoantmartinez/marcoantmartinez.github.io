@@ -25,13 +25,13 @@ others  : Bitbloq is a project provided for free by BQ (c)
     <div class="fonth1tittle">
         <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x fa-inverse" ></i>
-            <i class="fa fa-sitemap fa-stack-1x colortools"></i>
+            <i class="fa fa-microchip fa-stack-1x colortools"></i>
         </span> 
         Programación y Robótica con Arduino
     </div>
 </h1>
 
-<div class="linksheader">
+<!-- <div class="linksheader">
 	<a href="#recursos-necesarios"><i class="fa fa-check-square-o"></i> Recursos</a> |
 	<a href="#resumen-de-leccion"><i class="fa fa-check-square-o"></i> Resumen</a> |
 	<a href="#objetivos-de-aprendizaje"><i class="fa fa-check-square-o"></i> Objetivos</a> |
@@ -42,7 +42,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
 	<a href="#reto"><i class="fa fa-check-square-o"></i> Reto</a> |
 	<a href="#evaluacion"><i class="fa fa-check-square-o"></i> Evaluación</a>
 </div>
-
+ -->
 <h1>
     <div class="fonth1subtittle">
 <span> Sesiones I y II - Test de Comprensión</span> 
@@ -52,7 +52,7 @@ others  : Bitbloq is a project provided for free by BQ (c)
     </div>
 </h1>
 
-A continuación se presentan algunas preguntas para comprobar la comprensión de la lección **"Sensores Analógicos y Digitales"**.
+A continuación se presentan algunas preguntas para comprobar la comprensión de la lección **"Bloques de Control"**.
 
 <div class="warning">
 
@@ -72,10 +72,10 @@ A continuación se presentan algunas preguntas para comprobar la comprensión de
 ## **Pregunta 1**
 Hemos visto el concepto de Algoritmo y cómo se aplica a la programación con Arduino.
 
-<div style="text-align: center" ><img style="width:50%" src="http://i.imgur.com/WIEJ8pZ.png"/><img style="width:50%; height: 325px" src="http://i.imgur.com/4tu7z8C.png"/></div>
+<div style="text-align: center" ><img style="width:100%" src="http://i.imgur.com/U2DnLCp.png"/></div>
 <div style="font-weight:300;">
-En la definición formal de algoritmo que se presenta a continuación, rellena los huevos que faltan con la palabra oportuna:
-</div>
+En la definición formal de algoritmo que se presenta a continuación, rellena los huecos que faltan con la palabra que mejor encaje:
+</div><br>
 <div class="fontdefinition">
 
 Un algoritmo es un conjunto de ==**[A] &#160; &#160; &#160;**== bien definidas, ordenadas, conectadas y finitas que permiten llevar a cabo una ==**[B] &#160; &#160; &#160;**== determinada. Se puede representar un algoritmo empleando un diagrama de ==**[C] &#160; &#160; &#160;**== . Arduino procesa algoritmos escritos en código fuente o en ==**[D] &#160; &#160; &#160;**==  del Bitbloq.
@@ -114,7 +114,7 @@ Un algoritmo es un conjunto de ==**[A] &#160; &#160; &#160;**== bien definidas, 
 <div class="fonttest">
 
 ## **Pregunta 2**
-Arduino a través de su Puerto Serie puede recibir y enviar datos, de y hacia otros dispositivos, respectivamente. Revisa cuidadosamente el siguiente programa que envía datos por el puerto serie.
+Arduino a través de su Puerto Serie puede recibir y enviar datos, de y hacia otros dispositivos respectivamente. Revisa cuidadosamente el siguiente programa que envía datos por el puerto serie.
 
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/roMSrKb.png"/></div>
 <div style="font-weight:300;">
@@ -165,7 +165,7 @@ Uno de los circuitos más sencillos que se puede hacer con Arduino es encender y
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/jLLRD7i.png"/></div>
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/sAyxvwy.jpg"/></div>
 <div style="font-weight:300;">
-Aunque existen mucho modelos y formas, comparten muchas características, indica cuales de las características mencionadas abajo son típicas de un Diodo LED: 
+Aunque existen mucho modelos y formas, comparten muchas características, indica todas las características de las mencionadas abajo que crees que son típicas de un Diodo LED: 
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
@@ -183,7 +183,7 @@ Aunque existen mucho modelos y formas, comparten muchas características, indica
 <div class="fonttest">
 
 ## **Pregunta 5**
-Arduino es capaz de medir intervalos de tiempo que suceden durante la secuencia de instrucciones. Revisa cuidadosamente el código que exponemos a continuación que aprovecha está capacidad de Arduino.
+Arduino es capaz de medir intervalos de tiempo, que suceden entre secuencias de instrucciones. Revisa cuidadosamente el código que exponemos a continuación que aprovecha está capacidad de Arduino.
 
 <div style="text-align: center" ><img style="" src="http://i.imgur.com/klARPaF.png"/></div>
 <div style="font-weight:300;">
@@ -204,20 +204,21 @@ Una vez analizado el código, queremos saber que les sucede los valores de las v
 <div class="fonttest">
 
 ## **Pregunta 6**
-Arduino dispone de una instrucción para generar números aleatorios, mira cuidadosamente el código que hemos realizado con el bloque [Aleatorio entre] de Bitbloq (random en código nativo)
+Arduino dispone de una instrucción para detener el programa un tiempo, durante ese tiempo Arduino está en reposo, mira cuidadosamente el código que hemos realizado con el bloque [Esperar] de Bitbloq 
 
 <div style="text-align: center" ><img  src="http://i.imgur.com/XST7Tx6.png"/></div>
 
 <div style="font-weight:300;">
-Ahora arrancamos el programa y queremos saber aproximadamente tardará el LED en encenderse desde que Arduino detecta que hemos pulsado el botón. (elige una respuesta)
+
+Ahora arrancamos el programa en **Setup** y queremos saber aproximadamente cuanto permanecerá el LED encendido (elige una respuesta)
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
 	<form action="">
 		<input type="radio" name="gender" value="female"> a. - Entre 30 y 60 segundos <br>
 		<input type="radio" name="gender" value="female"> b. - Más de 30 segundos<br>
-		<input type="radio" name="gender" value="male"> c. -  Menos de 60 segundos<br>
-		<input type="radio" name="gender" value="female"> d. - Inmediatamente <br>		
+		<input type="radio" name="gender" value="male"> c. -  Unos 3 segundos<br>
+		<input type="radio" name="gender" value="female"> d. - Inmediatamente, Arduino es muy rápido, por su reloj. <br>		
 	</form>
 </div>
 
@@ -228,7 +229,7 @@ Ahora arrancamos el programa y queremos saber aproximadamente tardará el LED en
 <div class="fonttest">
 
 ## **Pregunta 7**
-Estamos probando el bloque de control [mientras] (while en codigo nativo) de Bitbloq.
+Estamos probando el bloque de control [mientras] con un programa escrito en **Loop** (while en código nativo) de Bitbloq.
 
 <div style="text-align: center" ><img style="width:30%" src="http://i.imgur.com/z4wiLDv.png"/><img style="width:70%" src="http://i.imgur.com/nq34yLS.png"/></div>
 
@@ -257,7 +258,7 @@ Revisa con cuidado el siguiente código:
 
 <div style="font-weight:300;">
 
-Indica cual de las siguientes salidas de texto, se vera en el puerto cuando termine el programa.
+Indica cual de las siguientes salidas de texto, se vera en el puerto serie cuando termine el programa.
 </div>
 </div><br>
 <div style="margin-left:5%; line-height: 40px;">
@@ -305,7 +306,7 @@ Un alumno ha realizado un prototipo que ayuda a su padre en el taller añadiendo
 
 <div style="font-weight:300;">
 
-El prototipo tiene conectado un **Relé** que abre y corta la corriente de una **potente sierra eléctrica**. Su padre le ha pedido que cuando pulse el **boton_On** la sierra **se ponga en marcha**, y que cuando pulse el **boton_Off** la sierra **se apague** y que permanezca **apagada 2 minutos**, y que durante esos dos minutos si pulsamos el **boton_On** este no haga nada. <br><br>
+El prototipo tiene conectado un **Relé** que abre y corta la corriente de una **potente sierra eléctrica de 220v AC**. Su padre le ha pedido que cuando pulse el **boton_On** (A) la sierra **se ponga en marcha**, y que cuando pulse el **boton_Off** (B) la sierra **se apague** y que permanezca **apagada 2 minutos**, y que durante esos dos minutos si pulsamos el **boton_On** (A) este no haga nada. <br><br>
 ¿ Cumple el prototipo con las especificaciones del padre ? (elige una respuesta)
 </div>
 </div><br>
