@@ -127,6 +127,7 @@
     <mask id="mask966" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse">
       <image id="image968" preserveAspectRatio="none" height="1" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABNCAAAAADGYrZsAAAAAXNCSVQI5gpbmQAAAyVJREFUWIXtmN12qzoMhEc/QM77v2zBluZcGBNIE0j2beOsZjWk+jqSjBZj4K8sefPas8XrSNkuvoZye38Ayq+Psr6udLXXkScPH0RE5BpHkCRBHnB+gImIqKjoKY8ASSaTTOzl7WgCEVVVU1URORFHkJmZGQmCwjti+01EVM3NzM5xKywiakTmLttNm0BEzd0H94bD87YSIJIRUYsVrZK5qfMdzMx9HIdh8E57KS4zay1etKBStmTv2lTNh3GaxvEdGqPWsswqAJA4ahMRMRum6TZNK+3l9iVAZkYpborWXzRxO202jOPtv2kaB1eVix2SGe6mAJnc+uBdmpr5MN1ut3F0U7miMdNNhcyMTOaxbiLqwzhN0zQOZqewjlMRMNs2gYD7uqmZj+M4DoPbaQsACECICJi11qGq7HsqAlH1wYd1e1wPJaEKmMNY3M0iD10QETNzdzdVvR4hACRVPdzdWi5CQLdMVW1lvQeDiKqZu61TAp0mkHbH63k3D7gt5J6MYh2361cX9X/O2/5/z3QdkyI4nUUPuHvUgda/wifaOg7oYZ22VusjVsMBr7V9uo7Z6Os//If1pX1pX9qX9qV9aX+cxrY+jT+GdRrXt89wZPvpYdph7I/qfJ/ILq3HbNrIbCbxM1jmDgZtVwEmMzLfLx0JNleZj3UjmREREcl8C9hZ0UwlD86IzW/WCF2f/c+evojVa9VaG65d93sBopQyVNP1IfNUYIuotZZSamxOy7s0jahlcRMBTeQcBoIZUcqyLKU+aAPAbDAVkGny2lD2U4KsdZnnRjt6QAKZURcTARlmF3amNa3M88/PvJSIvkc2f8qsogowY3CTU1zz9bUsP/O8lBrbtup1A1KqAGDU95x4lLLM87yUyIdMAZAJaeXrtFc8oiVal2VZW4qDNlCYqCCzDu5qp8cr614vtZRad9J22oBETYZXu3KVJBkZNfrW/XW60qpBZlQ10TdOfiIj4zgndjECiKioNr95QSMzc3/e8EA7OsGL+3Q32HZ3zTFGVuN0aXjbzH1g/b59pDOvFp8N/idh7xvBX5PhZejVSeMfX/8DXt9fZg3x/foAAAAASUVORK5CYII="/>
     </mask>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=ABeeZee:400,400italic);</style>
   </defs>
   <g id="g12" transform="matrix(1.25, 0, 0, -1.25, 0, 675)"/>
   <path id="path24" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 16.976 425.179 L 839.524 425.179 L 839.524 380.424 L 16.976 380.424 L 16.976 425.179 Z"/>
@@ -134,7 +135,7 @@
   <path id="path28" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 16.976 246.156 L 839.524 246.156 L 839.524 201.401 L 16.976 201.401 L 16.976 246.156 Z"/>
   <path id="path30" style="fill:#eff3e4;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 17.41 156.645 L 839.958 156.645 L 839.958 111.889 L 17.41 111.889 L 17.41 156.645 Z"/>
   <g transform="matrix(1.25, 0, 0, -1.25, 16.975788, 45.334625)" id="g32">
-    <text id="text34" transform="matrix(1,0,0,-1,0,-18)" style="fill: rgb(93, 130, 40); font-family: Calibri; font-size: 19.2px; font-weight: bold; white-space: pre;">Curso	Programación	y	Robótica	con	Arduino	</text>
+    <text id="text34" transform="matrix(1,0,0,-1,0,-18)" style="fill: rgb(93, 130, 40); font-family: ABeeZee; font-size: 19.2px; font-weight: bold; white-space: pre;">Curso :	Programación	y	Robótica	con	Arduino	</text>
   </g>
   <g transform="matrix(11.454545, 0, 0, -419.727234, 267.954498, 503.590881)" id="g38">
     <image id="image44" mask="url(#mask40)" transform="matrix(1,0,0,-1,0,1)" preserveAspectRatio="none" height="1" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAQCCAYAAAC/nphsAAAABHNCSVQICAgIfAhkiAAAAahJREFUeJztzTERAAAIBKDX/p21hecABagkk0N9mQmFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUfggXdKwJA/AH42YAAAAASUVORK5CYII="/>
@@ -556,19 +557,15 @@
       </g>
     </g>
   </g>
-  <g id="g924" transform="matrix(1.25, 0, 0, -1.25, 0, 675)">
-    <g clip-path="url(#clipPath928)" id="g926">
-      <path id="path932" style="fill:#6ea323;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 426.7676,417.4497 c 0,1.374 1.1139,2.4878 2.4878,2.4878 l 9.9507,0 c 1.374,0 2.4878,-1.1138 2.4878,-2.4878 l 0,-10.0203 c 0,-1.374 -1.1138,-2.4878 -2.4878,-2.4878 l -9.9507,0 c -1.3739,0 -2.4878,1.1138 -2.4878,2.4878 l 0,10.0203 z"/>
-      <g transform="matrix(7.874014e-5,0,0,-7.874014e-5,426.7676,419.9375)" id="g934">
-        <path id="path936" style="fill:none;stroke:#ffffff;stroke-width:38100;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M -0.1491355,31595.02 C -0.1491355,14145.69 14145.5,0.04223627 31594.83,0.04223627 l 126374.07,0 c 17449.3,0 31595,14145.64776373 31595,31594.97776373 l 0,127258.88 c 0,17449.8 -14145.7,31595 -31595,31595 l -126374.07,0 C 14145.5,190448.9 -0.1491355,176303.7 -0.1491355,158853.9 l 0,-127258.88 z"/>
-      </g>
-      <g transform="translate(449.865,419.1391)" id="g938">
-        <text id="text940" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 11px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(93, 149, 27); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,0,-11)"><tspan id="tspan942" y="0" x="0">Sesión	de	Teoría	+	Prác2cas	Sencillas</tspan></text>
-      </g>
-      <g transform="translate(449.865,419.1391)" id="g944">
-        <text id="text946" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 11px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(110, 163, 35); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,164.2534,-11)"><tspan id="tspan948" y="0" x="0">	</tspan></text>
-      </g>
-    </g>
+  <path id="path932" style="fill:#6ea323;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 533.46 153.188 C 533.46 151.47 534.852 150.078 536.569 150.078 L 549.008 150.078 C 550.725 150.078 552.117 151.47 552.117 153.188 L 552.117 165.713 C 552.117 167.431 550.725 168.823 549.008 168.823 L 536.569 168.823 C 534.852 168.823 533.46 167.431 533.46 165.713 L 533.46 153.188 Z"/>
+  <g transform="matrix(0.000098, 0, 0, 0.000098, 533.459534, 150.078125)" id="g934">
+    <path id="path936" style="fill:none;stroke:#ffffff;stroke-width:38100;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M -0.1491355,31595.02 C -0.1491355,14145.69 14145.5,0.04223627 31594.83,0.04223627 l 126374.07,0 c 17449.3,0 31595,14145.64776373 31595,31594.97776373 l 0,127258.88 c 0,17449.8 -14145.7,31595 -31595,31595 l -126374.07,0 C 14145.5,190448.9 -0.1491355,176303.7 -0.1491355,158853.9 l 0,-127258.88 z"/>
+  </g>
+  <g transform="matrix(1.25, 0, 0, -1.25, 562.331238, 151.076126)" id="g938">
+    <text id="text940" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 11px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(93, 149, 27); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,0,-11)"><tspan id="tspan942" y="0" x="0">Sesión	de	Teoría	y	Prácticas	Sencillas</tspan></text>
+  </g>
+  <g transform="matrix(1.25, 0, 0, -1.25, 562.331238, 151.076126)" id="g944">
+    <text id="text946" style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: 11px; font-family: Calibri; writing-mode: lr-tb; fill: rgb(110, 163, 35); fill-opacity: 1; fill-rule: nonzero; stroke: none; white-space: pre;" transform="matrix(1,0,0,-1,164.2534,-11)"><tspan id="tspan948" y="0" x="0">	</tspan></text>
   </g>
   <g id="g950" transform="matrix(1.25, 0, 0, -1.25, 0, 675)">
     <g clip-path="url(#clipPath954)" id="g952">
